@@ -1,0 +1,11 @@
+{
+    "query":"hello world",
+    "type":1,
+    "limit": 25000,
+    "pagesize": 250,
+    "filters":{
+        "filters":[
+            {"filter":3, "value":[1, 2, 4, 16, 32, 64, 128, 256, 512], "invert":false}
+        ]
+    }
+}

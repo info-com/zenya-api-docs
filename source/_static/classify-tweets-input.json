@@ -1,0 +1,16 @@
+{
+    "tweets":[
+        {
+	    "text":"This is my first status update on Twitter ever!",
+	    "entities":{}
+        },
+        {
+	    "text":"Check out new #ChicagoHotels in the loop",
+	    "entities":{
+	        "hashtags":[{"text":"ChicagoHotels","indices":[14,27]}]
+	    }
+        }
+    ],
+    "sentiment":true
+}
+

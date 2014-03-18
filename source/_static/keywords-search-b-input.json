@@ -1,0 +1,15 @@
+{
+    "query":{
+        "ac0fb32ea52f2c1228592ad6598c2cc2":false,
+        "eee9032c21b71047f1f3252565bfaf58":true
+    },
+    "type":0,
+    "limit": 25000,
+    "pagesize": 20,
+    "filters":{
+        "filters":[
+            {"filter":3, "value":[1, 2, 4, 16, 32, 64, 128, 256, 512], "invert":false}
+        ]
+    }
+}
+
