@@ -27,7 +27,7 @@ Parameters
     :widths: 25, 20, 100
     
     "tweets (*required*)", "array", "A list of tweet objects."
-    "sentiment (*optional*)", "boolean", "Include sentiment analysis for each tweet."
+..    "sentiment (*optional*)", "boolean", "Include sentiment analysis for each tweet."
 
 Tweet objects are the same as those returned from the Twitter API.  For example:
 
@@ -111,11 +111,8 @@ Parameters
     :widths: 25, 20, 100
     
     "result_id (*required*)", "string", "A result_id string obtained as a result in the response from the ``POST``."
-    "sentiment (*optional*)", "boolean", "Perform sentiment analysis on the provided tweets."
 
-The sentiment score that is returned (if the sentiment flag is turned on) is an integer between 
-``0`` and ``10``.  A value of ``0`` indicates severe negative sentiment.  A value of ``5`` indicates
-neutrality, and a value of ``10`` indicates extremely positive sentiment.
+.. The sentiment score that is returned (if the sentiment flag is turned on) is an integer between  ``0`` and ``10``.  A value of ``0`` indicates severe negative sentiment.  A value of ``5`` indicates neutrality, and a value of ``10`` indicates extremely positive sentiment.
 
 Example Request
 ^^^^^^^^^^^^^^^
@@ -153,8 +150,7 @@ GET Response
 				"keyword": "twitter",
 				"score": 1
 			    }
-			],
-			"sentiment": 5
+			]
 		    },
 		    {
 			"scored_categories": [
@@ -184,8 +180,7 @@ GET Response
 				"keyword": "# chicago hotel",
 				"score": 1
 			    }
-			],
-			"sentiment": 7
+			]
 		    }
 		],
 		"categories": {
