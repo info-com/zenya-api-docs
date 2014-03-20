@@ -15,6 +15,8 @@ The response from the POST call should include a 201 HTTP Status-Code (:rfc:`261
 well as a "result_uri" pointing to the result set. If the result set is not yet completed, the 
 GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).
 
+*There is a limit of 1,000 keywords per call.*
+
 Resource URL
 ^^^^^^^^^^^^
 :api_url:`classify/keywords`
@@ -27,7 +29,7 @@ Parameters
     :stub-columns: 1
     :widths: 25, 20, 100
     
-    "keywords (*required*)", "array", "A list of keyword strings to process."
+    "keywords (*required*)", "array", "A list of keyword strings to process (no more than 1,000)."
 
 Example Request
 ^^^^^^^^^^^^^^^

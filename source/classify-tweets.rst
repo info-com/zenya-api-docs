@@ -10,9 +10,12 @@ POST classify/tweets
 Classify a list of tweets and return scored categories and keywords. This call creates a new result
 resource that will be available for either 2 days or until being successfully consumed in a GET
 call.
+
 The response from the POST call should include a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`)
 as well as a "result_uri" pointing to the result set. If the result set is not yet completed, 
 the GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).
+
+*There is a limit of 1,000 tweets per call.*
 
 Resource URL
 ^^^^^^^^^^^^
@@ -26,7 +29,7 @@ Parameters
     :stub-columns: 1
     :widths: 25, 20, 100
     
-    "tweets (*required*)", "array", "A list of tweet objects."
+    "tweets (*required*)", "array", "A list of tweet objects (no more than 1,000)."
 ..    "sentiment (*optional*)", "boolean", "Include sentiment analysis for each tweet."
 
 Tweet objects are the same as those returned from the Twitter API.  For example:
