@@ -62,8 +62,9 @@ Intent Flags
     
     "1","Purchase","Keywords related to ""buying"" ideas"
     "2","Comparison","Keyword containing comparison ideas"
-    "3","Negative","Keyword containing negative terminologies"
-    "4","Question","Keywords expressing questions"
+    "4","Negative","Keyword containing negative terminologies"
+    "8","Question","Keywords expressing questions"
+    "16","Coupons","Keywords related to ""coupon"" and ""deal"" ideas
 
 Operators
 ---------
