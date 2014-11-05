@@ -55,11 +55,11 @@ POST Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "classify": {
 		"type": "keywords",
 		"result_id": "fec8af0a4482fe1c72a114e15dc1affbed3a59bc5a4a39887cc052921b1a3739",
-		"result_uri": "https://api.zenya.com/v2/classify/keywords/fec8af0a4482fe1c72a114e15dc1affbed3a59bc5a4a39887cc052921b1a3739",
+		"result_uri": "https://api.econtext.com/v2/classify/keywords/fec8af0a4482fe1c72a114e15dc1affbed3a59bc5a4a39887cc052921b1a3739",
 		"status": "working"
 	    },
 	    "signature": {
@@ -80,7 +80,7 @@ be removed.
 
 The result set includes "mappings" which is a list of category id keys that correspond to the
 "categories" dictionary. The mappings are in the same order as the keyword list submitted in the
-POST call. A ``null`` value in the id indicates that the keyword is currently unmapped to the Zenya
+POST call. A ``null`` value in the id indicates that the keyword is currently unmapped to the eContext
 Taxonomy.
 
 Resource URL
@@ -114,7 +114,7 @@ GET Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "classify": {
 		"title": "Microsoft Stores offer $100 Xbox One discount if you trade in a PS3",
 		"scored_categories": [
