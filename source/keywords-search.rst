@@ -7,7 +7,7 @@ Keyword Search
 POST keywords/search
 ---------------------------
 
-Execute a search of the Zenya Keyword Dataset and retrieve matching keywords. Returns a result_id to the GET keywords/search/:result_id call. This call creates a new result resource that will be available for either 2 days or until consumption.
+Execute a search of the eContext Keyword Dataset and retrieve matching keywords. Returns a result_id to the GET keywords/search/:result_id call. This call creates a new result resource that will be available for either 2 days or until consumption.
 
 This function accepts two distinct types of queries:
 
@@ -58,7 +58,7 @@ POST Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "keywords": {
 		"count": 4086,
 		"pagesize": 250,
@@ -98,7 +98,7 @@ POST Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "keywords": {
 		"count": 25000,
 		"pagesize": 20,
@@ -118,7 +118,7 @@ GET keywords/search/:result_id
 ------------------------------
 
 Return keywords from the specified search. Each keyword contains a category_id that maps to a
-Category in the associated "categories" dictionary. A ``null`` value in the ``category_id`` indicates that the keyword is currently unmapped to the Zenya Taxonomy.
+Category in the associated "categories" dictionary. A ``null`` value in the ``category_id`` indicates that the keyword is currently unmapped to the eContext Taxonomy.
 
 Resource URL
 ^^^^^^^^^^^^
@@ -152,7 +152,7 @@ GET Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "keywords": {
 		"cursor": {
 		    "pages": 1250,
