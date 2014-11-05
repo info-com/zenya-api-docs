@@ -1,7 +1,7 @@
 Introduction
 ============
 
-The eContext API exposes the functionality of the eContext platform to developers via a RESTful API. The general purpose is to provide access to the eContext Taxonomy structure, to allow for real-time mapping of data to the Taxonomy, and to allow for keyword retrieval from the eContext dataset utilizing rich searching and filtering capabilities.
+The eContext API exposes the functionality of the eContext platform to developers via a RESTful API. The general purpose is to provide access to the eContext Taxonomy structure, to allow for real-time mapping of data to the taxonomy, and to allow for keyword retrieval from the eContext dataset utilizing rich searching and filtering capabilities.
 
 Input Format
 ------------
