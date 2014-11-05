@@ -124,11 +124,6 @@ GET Response
                             "Sports",
                             "Team Sports",
                             "Football",
-                            "Football Leagues & Teams",
-                            "Professional Football Leagues & Teams",
-                            "National Football League",
-                            "National Football Conference",
-                            "National Football Conference - North Division",
                             "Chicago Bears"
                         ]
                     },
@@ -139,7 +134,6 @@ GET Response
                             "Travel",
                             "Sightseeing Tours & Tourist Attractions",
                             "Tourist Attractions",
-                            "Arts & Culture Attractions",
                             "Museums"
                         ]
                     }
