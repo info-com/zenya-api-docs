@@ -114,7 +114,7 @@ GET Response
 .. code-block:: json
     
     {
-        "zenya": {
+        "econtext": {
             "classify": {
                 "categories": {
                     "2feb560c79517929c435dcfdb299d281": {
