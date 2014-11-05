@@ -52,11 +52,11 @@ POST Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "classify": {
 		"type": "text",
 		"result_id": "7c9587da07731a185369271b773cf9d3449084b1c19edabf0ea5999953168a25",
-		"result_uri": "https://api.zenya.com/v2/classify/text/7c9587da07731a185369271b773cf9d3449084b1c19edabf0ea5999953168a25",
+		"result_uri": "https://api.econtext.com/v2/classify/text/7c9587da07731a185369271b773cf9d3449084b1c19edabf0ea5999953168a25",
 		"status": "working"
 	    },
 	    "signature": {
@@ -76,7 +76,7 @@ ready shortly at which point this call will return the appropriate 200 HTTP Stat
 (:rfc:`2616#section-10.2.1`). After consumption, this resource will be removed.
 
 The result set includes "scored_categories" and "scored_keywords" as well as a "categories" 
-dictionary. The "scored_keywords" object contains a list of high-value phrases that Zenya 
+dictionary. The "scored_keywords" object contains a list of high-value phrases that eContext 
 was able to pull out of the submitted text as well as associated scores for each. The "scored_categories" object contains a list of "category_id" and "score" objects where the 
 "category_id" corresponds to an item in the "categories" dictionary. Higher values indicate 
 a higher score.
@@ -112,7 +112,7 @@ GET Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "classify": {
 		"scored_categories": [
 		    {
@@ -127,11 +127,11 @@ GET Response
 		"scored_keywords": [
 		    {
 			"score": 3,
-			"keyword": "zenya work"
+			"keyword": "econtext work"
 		    },
 		    {
 			"score": 1,
-			"keyword": "the masses"
+			"keyword": "agencies"
 		    },
 		    {
 			"score": 1,
@@ -141,12 +141,12 @@ GET Response
 		"categories": {
 		    "0f975d5154f6063b19e22b27c5695e72": {
 			"id": "0f975d5154f6063b19e22b27c5695e72",
-			"name": "Zenya",
+			"name": "eContext",
 			"path": [
 			    "Business & Industrial",
 			    "Advertising & Marketing",
 			    "Advertising & Marketing Services",
-			    "Zenya"
+			    "eContext"
 			]
 		    },
 		    "f45ab8cfa17af54271d0d3b417fa55b6": {
