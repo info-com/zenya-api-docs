@@ -7,7 +7,7 @@ User
 GET user/attributes
 ---------------------------
 
-Return Zenya user information including tier depth visibility and user roles.
+Return eContext user information including tier depth visibility and user roles.
 
 Resource URL
 ^^^^^^^^^^^^
@@ -29,7 +29,7 @@ GET Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "user": {
 		"attributes": {
 		    "username": "31bc9229f61ebfa4782036bda7bd6acb",
@@ -70,7 +70,7 @@ GET Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "user": {
 		"usage": {
 		    "currency_spent": 1.31,
