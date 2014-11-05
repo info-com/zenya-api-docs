@@ -114,279 +114,46 @@ GET Response
 .. code-block:: json
     
     {
-	"econtext": {
-	    "classify": {
-		"title": "Microsoft Stores offer $100 Xbox One discount if you trade in a PS3",
-		"scored_categories": [
-		    {
-			"category_id": "69426ba5f3037acc424187e29a26391d",
-			"score": 58
-		    },
-		    {
-			"category_id": "93dadcfdf6f5e16904c5390975df4509",
-			"score": 34
-		    },
-		    {
-			"category_id": "2513798803bdfb6216a33be0251c200f",
-			"score": 34
-		    },
-		    {
-			"category_id": "2e2a08cf1ae055f11496a2585a254beb",
-			"score": 28
-		    },
-		    {
-			"category_id": "9fc965e17d7fa1eddac9938062c71b2d",
-			"score": 28
-		    },
-		    {
-			"category_id": "46e2413b704c67d817ce601f4a9e675d",
-			"score": 8
-		    },
-		    {
-			"category_id": "e318c16a62207da2f9545ff033f63e4e",
-			"score": 6
-		    },
-		    {
-			"category_id": "d79362632d5f0a8886128aa4729359a0",
-			"score": 4
-		    },
-		    {
-			"category_id": "c6ca93d64aa02a41ca440a3987ddfb27",
-			"score": 2
-		    },
-		    {
-			"category_id": "56410b3fd387574f8da8d2d674089c35",
-			"score": 2
-		    }
-		],
-		"scored_keywords": [
-		    {
-			"keyword": "a ps3",
-			"score": 28
-		    },
-		    {
-			"keyword": "you trade",
-			"score": 28
-		    },
-		    {
-			"keyword": "xbox one discount",
-			"score": 24
-		    },
-		    {
-			"keyword": "microsoft stores offer",
-			"score": 24
-		    },
-		    {
-			"keyword": "the ps4",
-			"score": 6
-		    },
-		    {
-			"keyword": "microsoft",
-			"score": 6
-		    },
-		    {
-			"keyword": "the xbox one",
-			"score": 6
-		    },
-		    {
-			"keyword": "order",
-			"score": 6
-		    },
-		    {
-			"keyword": "terms",
-			"score": 4
-		    },
-		    {
-			"keyword": "xbox 360 e",
-			"score": 4
-		    },
-		    {
-			"keyword": "little",
-			"score": 4
-		    },
-		    {
-			"keyword": "microsoft stores",
-			"score": 4
-		    },
-		    {
-			"keyword": "course",
-			"score": 4
-		    },
-		    {
-			"keyword": "the price difference",
-			"score": 4
-		    },
-		    {
-			"keyword": "xbox 360 s",
-			"score": 4
-		    },
-		    {
-			"keyword": "march 2",
-			"score": 4
-		    },
-		    {
-			"keyword": "store credit",
-			"score": 4
-		    },
-		    {
-			"keyword": "a number",
-			"score": 4
-		    },
-		    {
-			"keyword": "one advantage",
-			"score": 4
-		    },
-		    {
-			"keyword": "conditions",
-			"score": 4
-		    },
-		    {
-			"keyword": "the same time",
-			"score": 2
-		    },
-		    {
-			"keyword": "the console",
-			"score": 2
-		    },
-		    {
-			"keyword": "every console",
-			"score": 2
-		    },
-		    {
-			"keyword": "a big loss",
-			"score": 2
-		    },
-		    {
-			"keyword": "the price",
-			"score": 2
-		    },
-		    {
-			"keyword": "you an xbox one",
-			"score": 2
-		    },
-		    {
-			"keyword": "an xbox one",
-			"score": 2
-		    },
-		    {
-			"keyword": "your old machine",
-			"score": 2
-		    },
-		    {
-			"keyword": "its original accessories",
-			"score": 2
-		    },
-		    {
-			"keyword": "the power supply",
-			"score": 2
-		    },
-		    {
-			"keyword": "a way",
-			"score": 2
-		    }
-		],
-		"categories": {
-		    "93dadcfdf6f5e16904c5390975df4509": {
-			"id": "93dadcfdf6f5e16904c5390975df4509",
-			"name": "Microsoft",
-			"path": [
-			    "Computers & Electronics",
-			    "Computers & Electronics Brands [List]",
-			    "Microsoft"
-			]
-		    },
-		    "2e2a08cf1ae055f11496a2585a254beb": {
-			"id": "2e2a08cf1ae055f11496a2585a254beb",
-			"name": "Microsoft Stores",
-			"path": [
-			    "Computers & Electronics",
-			    "General Electronics",
-			    "General Electronics Retailers [List]",
-			    "Microsoft Stores"
-			]
-		    },
-		    "e318c16a62207da2f9545ff033f63e4e": {
-			"id": "e318c16a62207da2f9545ff033f63e4e",
-			"name": "PlayStation 4 Game Systems",
-			"path": [
-			    "Computers & Electronics",
-			    "Video Game Electronics",
-			    "Video Game Electronics Products",
-			    "PlayStation 4 Game Systems"
-			]
-		    },
-		    "46e2413b704c67d817ce601f4a9e675d": {
-			"id": "46e2413b704c67d817ce601f4a9e675d",
-			"name": "Xbox 360 Game Systems",
-			"path": [
-			    "Computers & Electronics",
-			    "Video Game Electronics",
-			    "Video Game Electronics Products",
-			    "Xbox 360 Game Systems"
-			]
-		    },
-		    "d79362632d5f0a8886128aa4729359a0": {
-			"id": "d79362632d5f0a8886128aa4729359a0",
-			"name": "Credit & Lending",
-			"path": [
-			    "Finance",
-			    "Credit & Lending"
-			]
-		    },
-		    "c6ca93d64aa02a41ca440a3987ddfb27": {
-			"id": "c6ca93d64aa02a41ca440a3987ddfb27",
-			"name": "Accessories",
-			"path": [
-			    "Apparel",
-			    "Accessories"
-			]
-		    },
-		    "2513798803bdfb6216a33be0251c200f": {
-			"id": "2513798803bdfb6216a33be0251c200f",
-			"name": "Xbox One Game Systems",
-			"path": [
-			    "Computers & Electronics",
-			    "Video Game Electronics",
-			    "Video Game Electronics Products",
-			    "Xbox One Game Systems"
-			]
-		    },
-		    "9fc965e17d7fa1eddac9938062c71b2d": {
-			"id": "9fc965e17d7fa1eddac9938062c71b2d",
-			"name": "PlayStation 3 Game Systems",
-			"path": [
-			    "Computers & Electronics",
-			    "Video Game Electronics",
-			    "Video Game Electronics Products",
-			    "PlayStation 3 Game Systems"
-			]
-		    },
-		    "69426ba5f3037acc424187e29a26391d": {
-			"id": "69426ba5f3037acc424187e29a26391d",
-			"name": "Original Xbox Game Systems",
-			"path": [
-			    "Computers & Electronics",
-			    "Video Game Electronics",
-			    "Video Game Electronics Products",
-			    "Original Xbox Game Systems"
-			]
-		    },
-		    "56410b3fd387574f8da8d2d674089c35": {
-			"id": "56410b3fd387574f8da8d2d674089c35",
-			"name": "Power Supplies",
-			"path": [
-			    "Computers & Electronics",
-			    "General Electronics",
-			    "General Electronics Products",
-			    "Power Supplies"
-			]
-		    }
-		}
-	    },
-	    "signature": {
-		"resource": "GET /classify/:type/:result_id",
-		"status": "200 OK - successful",
-		"client_ip": "127.0.0.1"
-	    }
-	}
+        "zenya": {
+            "classify": {
+                "categories": {
+                    "2feb560c79517929c435dcfdb299d281": {
+                        "id": "2feb560c79517929c435dcfdb299d281",
+                        "name": "Chicago Bears",
+                        "path": [
+                            "Sports",
+                            "Team Sports",
+                            "Football",
+                            "Football Leagues & Teams",
+                            "Professional Football Leagues & Teams",
+                            "National Football League",
+                            "National Football Conference",
+                            "National Football Conference - North Division",
+                            "Chicago Bears"
+                        ]
+                    },
+                    "319f702352ebab8f89f1576fff712525": {
+                        "id": "319f702352ebab8f89f1576fff712525",
+                        "name": "Museums",
+                        "path": [
+                            "Travel",
+                            "Sightseeing Tours & Tourist Attractions",
+                            "Tourist Attractions",
+                            "Arts & Culture Attractions",
+                            "Museums"
+                        ]
+                    }
+                },
+                "mappings": [
+                    null,
+                    "2feb560c79517929c435dcfdb299d281",
+                    "319f702352ebab8f89f1576fff712525"
+                ]
+            },
+            "signature": {
+                "client_ip": "209.41.117.158",
+                "resource": "GET /classify/:type/:result_id",
+                "status": "200 OK - successful"
+            }
+        }
     }
