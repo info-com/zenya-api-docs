@@ -7,7 +7,7 @@ Categories
 GET categories/map/:keyword
 ---------------------------
 
-Use the Zenya Taxonomy to map your keyword to a best match Category.
+Use the eContext Taxonomy to map your keyword to a best match Category.
 
 Resource URL
 ^^^^^^^^^^^^
@@ -44,7 +44,7 @@ GET Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "categories": [
 		{
 		    "id": "218f5840b5c92395b3654a92035016fd",
@@ -68,8 +68,8 @@ GET Response
 GET categories/search/:keyword
 ------------------------------
 
-Sometimes you might want to use a density search against the Zenya Keyword Dataset to 
-provide possible Category matches rather than simply mapping against the Zenya Taxonomy.
+Sometimes you might want to use a density search against the eContext Keyword Dataset to 
+provide possible Category matches rather than simply mapping against the eContext Taxonomy.
 This method of matching uses a set of over 500,000,000 categorized keywords to identify
 probable category matches for the particular keyword you are interested in.
 
@@ -85,7 +85,7 @@ Parameters
     :stub-columns: 1
     :widths: 25, 20, 100
     
-    "keyword (*required*)", "string", "The keyword to match against the Zenya Keyword Dataset for possible categorization. This value should be URL encoded.
+    "keyword (*required*)", "string", "The keyword to match against the eContext Keyword Dataset for possible categorization. This value should be URL encoded.
       
       Example Value: ``chicago+hotels``."
     "limit (*optional*)", "integer", "The number of category objects to return in the result set. The max number of categories is ``10`` and the default is ``5``.
@@ -108,7 +108,7 @@ GET Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "categories": [
 		{
 		    "id": "218f5840b5c92395b3654a92035016fd",
