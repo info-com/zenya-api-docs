@@ -71,11 +71,11 @@ POST Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "classify": {
 		"type": "tweets",
 		"result_id": "3a0c09171d596d0b2b5cdea8e2c064334de1285130a1fe7a9fa1a113d731de4b",
-		"result_uri": "https://api.zenya.com/v2/classify/tweets/3a0c09171d596d0b2b5cdea8e2c064334de1285130a1fe7a9fa1a113d731de4b",
+		"result_uri": "https://api.econtext.com/v2/classify/tweets/3a0c09171d596d0b2b5cdea8e2c064334de1285130a1fe7a9fa1a113d731de4b",
 		"status": "working"
 	    },
 	    "signature": {
@@ -95,7 +95,7 @@ should be ready shortly at which point this call will return the appropriate 200
 Status-Code (:rfc:`2616#section-10.2.1`). After consumption, this resource will be removed.
 
 The result set includes "scored_categories" and "scored_keywords" as well as a "categories"
-dictionary. The "scored_keywords" object contains a list of high-value phrases that Zenya
+dictionary. The "scored_keywords" object contains a list of high-value phrases that eContext
 was able to pull out of the submitted text as well as associated scores for each. The "scored_categories" object contains a list of "category_id" and "score" objects where the 
 "category_id" corresponds to an item in the "categories" dictionary. Higher values indicate 
 a higher score.
@@ -134,7 +134,7 @@ GET Response
 .. code-block:: json
     
     {
-	"zenya": {
+	"econtext": {
 	    "classify": {
 		"tweets": [
 		    {
