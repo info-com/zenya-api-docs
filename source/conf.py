@@ -228,7 +228,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'eContextAPI', u'eContext API Documentation',
-   u'Jonathan Spalink', 'eContextAPI', 'One line description of project.',
+   u'Jonathan Spalink', 'eContextAPI', 'The eContext API exposes the functionality of the eContext platform to the world.',
    'Miscellaneous'),
 ]
 
