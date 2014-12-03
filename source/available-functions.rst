@@ -11,6 +11,7 @@ Classify single keywords into the Zenya Taxonomy.
     :stub-columns: 1
     :widths: 10, 30, 100
     
+    "GET","categories/tiers","Retrieve top tier Categories from the Zenya Taxonomy."
     "GET","categories/map/:keyword","Retrieve a best map Category from the provided keyword."
     "GET","categories/search/:keyword","Retrieve Categories based on a density search of the Zenya Dataset."
 
