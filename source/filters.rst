@@ -6,7 +6,7 @@ Keyword Search Filters
 .. contents:: Contents
     :local:
 
-There are several filters that may be applied to a number of Zenya API calls. Each filter should be
+There are several filters that may be applied to a number of eContext API calls. Each filter should be
 represented as an object with at least two attributes.
 
 :filter: An *integer* value that specifies the filter to apply.

@@ -4,7 +4,7 @@ List of Available Functions
 Categories
 ----------
 
-Classify single keywords into the Zenya Taxonomy.
+Classify single keywords into the eContext Taxonomy.
 
 .. csv-table::
     :header: "Method","Resource","Description"
@@ -13,12 +13,12 @@ Classify single keywords into the Zenya Taxonomy.
     
     "GET","categories/tiers","Retrieve top tier Categories from the Zenya Taxonomy."
     "GET","categories/map/:keyword","Retrieve a best map Category from the provided keyword."
-    "GET","categories/search/:keyword","Retrieve Categories based on a density search of the Zenya Dataset."
+    "GET","categories/search/:keyword","Retrieve Categories based on a density search of the eContext Dataset."
 
 Content Classification (beta)
 -----------------------------
 
-Classify groups of keywords, HTML, or Tweets into the Zenya Taxonomy.
+Classify groups of keywords, HTML, or Tweets into the eContext Taxonomy.
 
 .. csv-table::
     :header: "Method","Resource","Description"

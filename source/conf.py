@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Zenya API'
+project = u'eContext API'
 copyright = u'2014, Jonathan Spalink'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ZenyaAPIdoc'
+htmlhelp_basename = 'eContextAPIdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,7 +183,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'ZenyaAPI.tex', u'Zenya API Documentation',
+  ('index', 'eContextAPI.tex', u'eContext API Documentation',
    u'Jonathan Spalink', 'manual'),
 ]
 
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'zenyaapi', u'Zenya API Documentation',
+    ('index', 'econtextapi', u'eContext API Documentation',
      [u'Jonathan Spalink'], 1)
 ]
 
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'ZenyaAPI', u'Zenya API Documentation',
-   u'Jonathan Spalink', 'ZenyaAPI', 'One line description of project.',
+  ('index', 'eContextAPI', u'eContext API Documentation',
+   u'Jonathan Spalink', 'eContextAPI', 'The eContext API exposes the functionality of the eContext platform to the world.',
    'Miscellaneous'),
 ]
 
@@ -241,4 +241,4 @@ texinfo_documents = [
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #texinfo_show_urls = 'footnote'
 
-extlinks = {'api_url':('https://api.zenya.com/v2/%s', None)}
+extlinks = {'api_url':('https://api.econtext.com/v2/%s', None)}

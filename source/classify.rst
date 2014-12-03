@@ -1,7 +1,7 @@
 Content Classification
 ======================
 
-The Zenya API provides classification services for several different types of content.
+The eContext API provides classification services for several different types of content.
 
 .. toctree::
     :maxdepth: 1
