@@ -52,6 +52,8 @@ Keyword Flags
     "512","Brands (beta)","Keyword contains content referring to a known brand"
     "1024","Location (beta)","Keyword contains content referring to a known location"
 
+.. _intent-flags:
+
 Intent Flags
 ------------
 
