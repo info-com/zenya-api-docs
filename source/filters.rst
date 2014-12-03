@@ -52,8 +52,6 @@ Keyword Flags
     "512","Brands (beta)","Keyword contains content referring to a known brand"
     "1024","Location (beta)","Keyword contains content referring to a known location"
 
-.. _intent-flags:
-
 Intent Flags
 ------------
 
@@ -66,7 +64,7 @@ Intent Flags
     "2","Comparison","Keyword containing comparison ideas"
     "4","Negative","Keyword containing negative terminologies"
     "8","Question","Keywords expressing questions"
-    "16","Coupons","Keywords related to ""coupon"" and ""deal"" ideas
+    "16","Coupons","Keywords related to ""coupon"" and ""deal"" ideas"
 
 Operators
 ---------
