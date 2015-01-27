@@ -381,7 +381,7 @@ GET Response
             "signature": {
                 "resource": "GET \/classify\/:type\/:result_id",
                 "status": "200 OK - successful",
-                "client_ip": "209.41.117.158"
+                "client_ip": "127.0.0.1"
             }
         }
     }
