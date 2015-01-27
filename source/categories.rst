@@ -247,7 +247,8 @@ GET categories/search/:keyword
 Sometimes you might want to use a density search against the eContext Keyword Dataset to 
 provide possible Category matches rather than simply mapping against the eContext Taxonomy.
 This method of matching uses a set of over 500,000,000 categorized keywords to identify
-probable category matches for the particular keyword you are interested in.
+probable category matches for the particular keyword you are interested in, and includes a
+confidence score for each category.
 
 Resource URL
 ^^^^^^^^^^^^
@@ -295,7 +296,8 @@ GET Response
 			"Travel Accommodations",
 			"Hotels & Motels",
 			"Hotels in Chicago, Illinois"
-		    ]
+		    ],
+		    "confidence": 0.87564669363183
 		},
 		{
 		    "id": "c915f112a5632b280c894e262828c981",
@@ -305,6 +307,7 @@ GET Response
 			"Travel Accommodations",
 			"Hotels & Motels"
 		    ]
+		    "confidence": 0.03306368168564
 		},
 		{
 		    "id": "ccae5eac4fd6066ca54b80e2d7538904",
@@ -315,26 +318,7 @@ GET Response
 			"Hotels & Motels",
 			"Hotel Discounts"
 		    ]
-		},
-		{
-		    "id": "279ea6977fd894d2c4f34954dce6c75c",
-		    "name": "Budget Hotels in Chicago, Illinois",
-		    "path": [
-			"Travel",
-			"Travel Accommodations",
-			"Hotels & Motels",
-			"Budget Hotels in Chicago, Illinois"
-		    ]
-		},
-		{
-		    "id": "fa7f7c965a104216596faa0d9a6d72fd",
-		    "name": "Hotel Suites in Chicago, Illinois",
-		    "path": [
-			"Travel",
-			"Travel Accommodations",
-			"Hotels & Motels",
-			"Hotel Suites in Chicago, Illinois"
-		    ]
+		    "confidence": 0.02067068008654
 		}
 	    ],
 	    "signature": {
