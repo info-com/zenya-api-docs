@@ -242,3 +242,4 @@ texinfo_documents = [
 #texinfo_show_urls = 'footnote'
 
 extlinks = {'api_url':('https://api.econtext.com/v2/%s', None)}
+
