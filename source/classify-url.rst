@@ -108,7 +108,7 @@ GET Request
 .. parsed-literal::
     
     curl -X GET -u username:password \\
-    :api_url:`classify/url/6cea12b177b8d2005fc2ae5ecf3261075c1301c5204a902112f81344e0ad7200`
+    :api_url:`classify/url/1476f360a941cf711170493c103e23d373426273df9b79a54faeba81139e9d54`
 
 GET Response
 """"""""""""
@@ -1142,9 +1142,9 @@ GET Response
                 }
             },
             "signature": {
-                "resource": "GET \/classify\/:type\/:result_id",
+                "resource": "GET /classify/:type/:result_id",
                 "status": "200 OK - successful",
-                "client_ip": "54.243.176.220"
+                "client_ip": "127.0.0.1"
             }
         }
     }
