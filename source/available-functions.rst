@@ -18,7 +18,7 @@ Classify single keywords into the eContext Taxonomy.
 Content Classification (beta)
 -----------------------------
 
-Classify groups of keywords, HTML, or Tweets into the eContext Taxonomy.
+Classify groups of keywords, HTML, or Social Data into the eContext Taxonomy.
 
 .. csv-table::
     :header: "Method","Resource","Description"
@@ -33,6 +33,8 @@ Classify groups of keywords, HTML, or Tweets into the eContext Taxonomy.
     "GET","classify/text/:result_id","Retrieve a classified dataset."
     "POST","classify/tweets","Submit a list of tweets for classification."
     "GET","classify/tweets/:result_id","Retrieve a classified dataset."
+    "POST","classify/social","Submit a list of social data for classification."
+    "GET","classify/social/:result_id","Retrieve a classified dataset."
     "POST","classify/url","Submit a url to be retrieved and classified."
     "GET","classify/url/:result_id","Retrieve a classified dataset."
 
