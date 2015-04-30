@@ -15,7 +15,7 @@ Classify single keywords into the eContext Taxonomy.
     "GET","categories/map/:keyword","Retrieve a best map Category from the provided keyword."
     "GET","categories/search/:keyword","Retrieve Categories based on a density search of the eContext Dataset."
 
-Content Classification (beta)
+Content Classification
 -----------------------------
 
 Classify groups of keywords, HTML, or Social Data into the eContext Taxonomy.
