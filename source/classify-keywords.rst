@@ -111,43 +111,5 @@ GET Request
 GET Response
 """"""""""""
 
-.. code-block:: json
-    
-    {
-        "econtext": {
-            "classify": {
-                "categories": {
-                    "2feb560c79517929c435dcfdb299d281": {
-                        "id": "2feb560c79517929c435dcfdb299d281",
-                        "name": "Chicago Bears",
-                        "path": [
-                            "Sports",
-                            "Team Sports",
-                            "Football",
-                            "Chicago Bears"
-                        ]
-                    },
-                    "319f702352ebab8f89f1576fff712525": {
-                        "id": "319f702352ebab8f89f1576fff712525",
-                        "name": "Museums",
-                        "path": [
-                            "Travel",
-                            "Sightseeing Tours & Tourist Attractions",
-                            "Tourist Attractions",
-                            "Museums"
-                        ]
-                    }
-                },
-                "mappings": [
-                    null,
-                    "2feb560c79517929c435dcfdb299d281",
-                    "319f702352ebab8f89f1576fff712525"
-                ]
-            },
-            "signature": {
-                "client_ip": "127.0.0.1",
-                "resource": "GET /classify/:type/:result_id",
-                "status": "200 OK - successful"
-            }
-        }
-    }
+.. literalinclude:: _static/classify-keywords-output.json
+   :language: json

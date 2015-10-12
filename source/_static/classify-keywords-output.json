@@ -1,0 +1,100 @@
+{
+  "econtext": {
+    "classify": {
+      "mappings": [
+        "f807a71b4e0687cdaeb24afaaa725781",
+        "85edc49558d9373a4a5bcfc6eb0bac90",
+        "ab4a592bf3b0724f7955734270df0044"
+      ],
+      "categories": {
+        "f807a71b4e0687cdaeb24afaaa725781": {
+          "id": "f807a71b4e0687cdaeb24afaaa725781",
+          "name": "Chicago Cubs",
+          "path": [
+            "Sports",
+            "Team Sports",
+            "Baseball & Softball",
+            "Baseball & Softball Leagues & Teams",
+            "Baseball Leagues & Teams",
+            "Major League Baseball",
+            "National League",
+            "National League Central",
+            "Chicago Cubs"
+          ],
+          "idpath": [
+            "b00fac5f30dc8dbb660c8d08fe66f487",
+            "97e2d582fd4e9fe6c9ca51128222e55f",
+            "c7ba1574765e1e52284f7c741eda8cb2",
+            "0e549b37faa378d09c7eb2933c58d5d0",
+            "eb4500849649483fe92110c60fa23305",
+            "1e230ea842e7351f0b56386a9c91580c",
+            "395270339c7febd83b22fa70c92d0461",
+            "67f178964c2e14f125cb6677ab3f7fe7",
+            "f807a71b4e0687cdaeb24afaaa725781"
+          ],
+          "stats": {
+            "social_idf": 21442.307007786,
+            "social_df": 0.0000375149
+          }
+        },
+        "85edc49558d9373a4a5bcfc6eb0bac90": {
+          "id": "85edc49558d9373a4a5bcfc6eb0bac90",
+          "name": "Chicago Bears",
+          "path": [
+            "Sports",
+            "Team Sports",
+            "Football",
+            "Football Leagues & Teams",
+            "Professional Football Leagues & Teams",
+            "NFL",
+            "National Football Conference",
+            "National Football Conference - North Division",
+            "Chicago Bears"
+          ],
+          "idpath": [
+            "b00fac5f30dc8dbb660c8d08fe66f487",
+            "97e2d582fd4e9fe6c9ca51128222e55f",
+            "1d86d6fea65150be10232959abc02574",
+            "9398300d477069715ad4682b293fb087",
+            "04455c6d36d1056a7be0b231e861c0c5",
+            "f3fafece413cb4e87975d12457ddb9a1",
+            "4f2d7f778d65a60d35cc53fff475e84f",
+            "7680bb6c2b3e6babe7bfcc7c44fd752b",
+            "85edc49558d9373a4a5bcfc6eb0bac90"
+          ],
+          "stats": {
+            "social_idf": 16646.488773748,
+            "social_df": 0.0000483229
+          }
+        },
+        "ab4a592bf3b0724f7955734270df0044": {
+          "id": "ab4a592bf3b0724f7955734270df0044",
+          "name": "Museums",
+          "path": [
+            "Travel",
+            "Sightseeing Tours & Tourist Attractions",
+            "Tourist Attractions",
+            "Arts & Culture Attractions",
+            "Museums"
+          ],
+          "idpath": [
+            "71d23bae99aff67ee839c60c0c8ba179",
+            "464464e0888a968cc968fa732e173502",
+            "38d7f7961dc84f1c28b49c9c0f7864c6",
+            "37a81c7685508c8ea16cafeebc81eab3",
+            "ab4a592bf3b0724f7955734270df0044"
+          ],
+          "stats": {
+            "social_idf": 6473.0134318335,
+            "social_df": 0.0001242708
+          }
+        }
+      }
+    },
+    "signature": {
+      "resource": "GET /classify/:type/:result_id",
+      "status": "200 OK - successful",
+      "client_ip": "127.0.0.1"
+    }
+  }
+}

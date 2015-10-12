@@ -11,6 +11,7 @@ eContext API documentation
     
     introduction
     authentication
+    objects
     available-functions
     categories
     classify

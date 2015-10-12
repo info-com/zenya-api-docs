@@ -10,5 +10,4 @@ The eContext API provides classification services for several different types of
     classify-keywords
     classify-social
     classify-text
-    classify-tweets
     classify-url

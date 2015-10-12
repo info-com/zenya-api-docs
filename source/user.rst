@@ -48,7 +48,7 @@ GET Response
 GET user/usage
 --------------
 
-Return API credit usage for the current billing cycle.  The data returned by this call is not "live" but updated daily.
+Return API usage for the current billing cycle.
 
 Resource URL
 ^^^^^^^^^^^^
@@ -67,22 +67,5 @@ GET Request
 GET Response
 """"""""""""
 
-.. code-block:: json
-    
-    {
-	"econtext": {
-	    "user": {
-		"usage": {
-		    "currency_spent": 1.31,
-		    "credits_used": 5224,
-		    "date_start": "2014-03-12",
-		    "date_end": "2014-04-12"
-		}
-	    },
-	    "signature": {
-		"resource": "GET /categories/map/:keyword",
-		"status": "200 OK - successful",
-		"client_ip": "127.0.0.1"
-	    }
-	}
-    }
+.. literalinclude:: _static/user-usage.json
+   :language: json

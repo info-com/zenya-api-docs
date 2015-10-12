@@ -1,0 +1,87 @@
+{
+  "econtext": {
+    "classify": {
+      "scored_categories": [
+        {
+          "category_id": "69b3097c31e1afeda8b52873b5739b6f",
+          "score": 0.6
+        },
+        {
+          "category_id": "4a5b8ef0e9d0bda79de35a6e52b0dd4f",
+          "score": 0.4
+        }
+      ],
+      "scored_keywords": [
+        {
+          "keyword": "well does econtext work",
+          "score": 0.6
+        },
+        {
+          "keyword": "market intelligence for brands and agencies",
+          "score": 0.2
+        },
+        {
+          "keyword": "innovative sem social display and market intelligence",
+          "score": 0.2
+        }
+      ],
+      "categories": {
+        "69b3097c31e1afeda8b52873b5739b6f": {
+          "id": "69b3097c31e1afeda8b52873b5739b6f",
+          "name": "eContext",
+          "path": [
+            "Business & Industrial",
+            "Advertising & Marketing",
+            "Advertising & Marketing Services",
+            "Internet Advertising & Marketing",
+            "Internet Advertising & Marketing Tools",
+            "eContext"
+          ],
+          "idpath": [
+            "246045a85ad09438156569ba21b02f5e",
+            "b3f2f7a629f2d467e62506f43bbac6a8",
+            "0ac9fd31e88f8c9817c8fdcdf7a44452",
+            "06272ebbc94366aafba8b543a4265f61",
+            "dbdfde0084809a3187acba657a974964",
+            "69b3097c31e1afeda8b52873b5739b6f"
+          ],
+          "stats": {
+            "social_idf": 19276634,
+            "social_df": 0.00000
+          }
+        },
+        "4a5b8ef0e9d0bda79de35a6e52b0dd4f": {
+          "id": "4a5b8ef0e9d0bda79de35a6e52b0dd4f",
+          "name": "Business Intelligence Services",
+          "path": [
+            "Business & Industrial",
+            "General Business & Industrial",
+            "General Business & Industrial Services",
+            "General Business Services",
+            "Business Operations, Management, & Support Services",
+            "Business Operations & Management",
+            "Business Intelligence Services"
+          ],
+          "idpath": [
+            "246045a85ad09438156569ba21b02f5e",
+            "1df4b9b5502bedb4a6f27153704e6f04",
+            "774323fee882e4d9e1cf64511a660fb5",
+            "e6c41c92885de7cde5da1b63d6121a81",
+            "d28d13ec857f1cf440b165346e61b7e1",
+            "d817aa49bb89d119bd70b52db0e8729f",
+            "4a5b8ef0e9d0bda79de35a6e52b0dd4f"
+          ],
+          "stats": {
+            "social_idf": 73856.835249042,
+            "social_df": 0.0000108914
+          }
+        }
+      }
+    },
+    "signature": {
+      "resource": "GET /classify/:type/:result_id",
+      "status": "200 OK - successful",
+      "client_ip": "127.0.0.1"
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "econtext": {
+    "keywords": {
+      "cursor": {
+        "pages": 1250,
+        "current": 1,
+        "next": 2
+      },
+      "keywords": [
+        {
+          "keyword": "breaking bad",
+          "volume": 1680000,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking-bad",
+          "volume": 412500,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad season 6",
+          "volume": 82500,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad cast",
+          "volume": 67875,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad season 5",
+          "volume": 37125,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad recap",
+          "volume": 24825,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad wiki",
+          "volume": 24825,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad alternate ending",
+          "volume": 20325,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad episodes",
+          "volume": 20325,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad season 1",
+          "volume": 20325,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad season 5 episode 9",
+          "volume": 20325,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad action figures",
+          "volume": 16650,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad review",
+          "volume": 16650,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad season 2",
+          "volume": 16650,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad season 5 episode 13",
+          "volume": 16650,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad season 5 episode 14",
+          "volume": 16650,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "how many seasons of breaking bad",
+          "volume": 16650,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad complete series",
+          "volume": 13575,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad merchandise",
+          "volume": 13575,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        },
+        {
+          "keyword": "breaking bad poster",
+          "volume": 13575,
+          "category_id": "ac0fb32ea52f2c1228592ad6598c2cc2"
+        }
+      ],
+      "categories": {
+        "ac0fb32ea52f2c1228592ad6598c2cc2": {
+          "id": "ac0fb32ea52f2c1228592ad6598c2cc2",
+          "name": "Breaking Bad",
+          "path": [
+            "Arts & Entertainment",
+            "Movies & Television",
+            "Movie & TV Products",
+            "TV",
+            "Drama TV Shows",
+            "Breaking Bad"
+          ],
+          "idpath": [
+            "0cc9e1516aaa38d4802a2ee5314ac4ab",
+            "06b7167107de9cff93e6738da9c044c4",
+            "8e4e953b861d4597cb5fae3b7de67ce5",
+            "b3728edb10af57dfbd941132f0c932ae",
+            "153fd544b9063cfdbe86aaf1b04882b4",
+            "ac0fb32ea52f2c1228592ad6598c2cc2"
+          ],
+          "stats": {
+            "social_df": 0.0000381826,
+            "social_idf": 21067.359562841
+          }
+        }
+      }
+    },
+    "signature": {
+      "resource": "GET /keywords/search/:search_id",
+      "status": "200 OK - successful",
+      "client_ip": "127.0.0.1"
+    }
+  }
+}

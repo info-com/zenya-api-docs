@@ -11,14 +11,14 @@ Classify single keywords into the eContext Taxonomy.
     :stub-columns: 1
     :widths: 10, 30, 100
     
-    "GET","categories/tiers","Retrieve top tier Categories from the Zenya Taxonomy."
+    "GET","categories/tiers","Retrieve top tier Categories from the eContext Taxonomy."
     "GET","categories/map/:keyword","Retrieve a best map Category from the provided keyword."
     "GET","categories/search/:keyword","Retrieve Categories based on a density search of the eContext Dataset."
 
-Content Classification (beta)
------------------------------
+Content Classification
+----------------------
 
-Classify groups of keywords, HTML, or Tweets into the eContext Taxonomy.
+Classify groups of keywords, HTML, or Social Content into the eContext Taxonomy.
 
 .. csv-table::
     :header: "Method","Resource","Description"
@@ -29,10 +29,10 @@ Classify groups of keywords, HTML, or Tweets into the eContext Taxonomy.
     "GET","classify/html/:result_id","Retrieve a classified dataset."
     "POST","classify/keywords","Submit a list of keywords for classification."
     "GET","classify/keywords/:result_id","Retrieve a classified dataset."
+    "POST","classify/social","Submit a list of social posts for classification."
+    "GET","classify/social/:result_id","Retrieve a classified dataset."
     "POST","classify/text","Submit plain text for classification."
     "GET","classify/text/:result_id","Retrieve a classified dataset."
-    "POST","classify/tweets","Submit a list of tweets for classification."
-    "GET","classify/tweets/:result_id","Retrieve a classified dataset."
     "POST","classify/url","Submit a url to be retrieved and classified."
     "GET","classify/url/:result_id","Retrieve a classified dataset."
 
@@ -59,7 +59,7 @@ Retrieve basic user and billing cycle information.
     :stub-columns: 1
     :widths: 10, 30, 100
     
-    "POST","user/attributes","Return basic information about the current user."
+    "GET","user/attributes","Return basic information about the current user."
     "GET","user/usage","Retrieve the usage information for the current billing cycle."
 
 
