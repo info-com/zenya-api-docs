@@ -40,7 +40,7 @@ abstract concept.
       ],
       "stats": {
         "social_idf": 21067.359562841,
-        "social_df": 0.0000381826
+        "social_relevance": 0.0000381826
       }
     }
 
@@ -49,36 +49,21 @@ abstract concept.
     :stub-columns: 1
     :widths: 25, 100
     
-    "id", "A unique identifier for this Category"
+    "id", "A unique identifier for this Category. Please note that ids are encoded to each account, and the ids shown in these examples will not be the same as those received from the service"
     "name", "The name of this Category"
     "path", "The path for this Category in the eContext Taxonomy"
     "idpath", "The path for this Category using ids"
     "stats", "Useful statistics associated with this Category"
-    "stats.social_idf", "The Inverse Document Frequency of this Category.  See below for more details."
-    "stats.social_df", "The percentage of conversations in Social over the past month that address this specific Category"
-
-
-stats.social_df
-^^^^^^^^^^^^^^^
-
-This statistic provides information about the relevance of a particular category
-in Social over the past month and is calculated as follows:
-
-.. math::
-    {df}(t, D) = \frac{|\{d \in D: t \in d\}|}{N}
-
-Where:
-
-* :math:`N` = Total number of documents in the corpus
-* :math:`|\{d \in D: t \in d\}|` = number of documents where the Category `t` appears
+    "stats.social_idf", "The Inverse Document Frequency of this Category.  See below for more details"
+    "stats.social_relevance", "The percentage of conversations found in eContext's Social Media feeds over the past month that address this specific Category. This statistic only applies to the single category object, and does not aggregate or sum categories deeper in its hierarchical path"
 
 
 stats.social_idf
 ^^^^^^^^^^^^^^^^
 
 This statistic provides partial data for computing TF-IDF for categories in the
-Social space.  Social IDF is calculated from conversations compiled from
-Social Data over the past month.  The provided number is calculated as follows:
+Social space.  Social IDF is calculated from conversations compiled from eContext's feeds
+of Social Media data over the past month.  The provided number is calculated as follows:
 
 .. math::
     {idf}(t, D) =  \log \frac{N}{|\{d \in D: t \in d\}|}
@@ -90,3 +75,18 @@ Where:
 
 Please note that in this context, a term is a Category, not a lexeme, but can be
 useful for removing Category noise from your results.
+
+
+stats.social_relevance
+^^^^^^^^^^^^^^^^^^^^^^
+
+This statistic provides information about the relevance of a particular category
+in in eContext's Social Media feeds over the past month and is calculated as follows:
+
+.. math::
+    {relevance}(t, D) = \frac{|\{d \in D: t \in d\}|}{C}
+
+Where:
+
+* :math:`C` = Sum of all categories found in each document the corpus
+* :math:`|\{d \in D: t \in d\}|` = number of documents where the Category `t` appears

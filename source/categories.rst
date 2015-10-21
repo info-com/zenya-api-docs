@@ -44,7 +44,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 296563.6,
-              "social_df": 0.0000027124
+              "social_relevance": 0.0000027124
             }
           },
           {
@@ -58,7 +58,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 15787.579033579,
-              "social_df": 0.0000509518
+              "social_relevance": 0.0000509518
             }
           },
           {
@@ -72,7 +72,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 2143.2770736046,
-              "social_df": 0.0003753161
+              "social_relevance": 0.0003753161
             }
           },
           {
@@ -86,7 +86,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 913.3248365394,
-              "social_df": 0.0008807451
+              "social_relevance": 0.0008807451
             }
           },
           {
@@ -100,7 +100,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 17636.444647759,
-              "social_df": 0.0000456105
+              "social_relevance": 0.0000456105
             }
           },
           {
@@ -114,7 +114,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 505.1528825996,
-              "social_df": 0.0015924017
+              "social_relevance": 0.0015924017
             }
           },
           {
@@ -128,7 +128,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 5407.1904628331,
-              "social_df": 0.000148766
+              "social_relevance": 0.000148766
             }
           },
           {
@@ -142,7 +142,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 1640.1458351059,
-              "social_df": 0.0004904481
+              "social_relevance": 0.0004904481
             }
           },
           {
@@ -156,7 +156,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 2338.8296529969,
-              "social_df": 0.0003439354
+              "social_relevance": 0.0003439354
             }
           },
           {
@@ -170,7 +170,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 2772.4196749605,
-              "social_df": 0.0002901459
+              "social_relevance": 0.0002901459
             }
           },
           {
@@ -184,7 +184,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 1167.0077491222,
-              "social_df": 0.0006892896
+              "social_relevance": 0.0006892896
             }
           },
           {
@@ -198,7 +198,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 563.5454013916,
-              "social_df": 0.0014274029
+              "social_relevance": 0.0014274029
             }
           },
           {
@@ -212,7 +212,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 8730.3596014493,
-              "social_df": 0.000092139
+              "social_relevance": 0.000092139
             }
           },
           {
@@ -226,7 +226,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 10614.886563877,
-              "social_df": 0.000075781
+              "social_relevance": 0.000075781
             }
           },
           {
@@ -240,7 +240,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 917934.95238095,
-              "social_df": 0.000001
+              "social_relevance": 0.000001
             }
           },
           {
@@ -254,7 +254,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 2320.5289514867,
-              "social_df": 0.0003466478
+              "social_relevance": 0.0003466478
             }
           },
           {
@@ -268,7 +268,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 2780.8185227928,
-              "social_df": 0.0002892696
+              "social_relevance": 0.0002892696
             }
           },
           {
@@ -282,7 +282,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 154213.072,
-              "social_df": 0.0000052162
+              "social_relevance": 0.0000052162
             }
           },
           {
@@ -296,7 +296,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 2770.825643237,
-              "social_df": 0.0002903129
+              "social_relevance": 0.0002903129
             }
           },
           {
@@ -310,7 +310,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 481915.85,
-              "social_df": 0.0000016692
+              "social_relevance": 0.0000016692
             }
           },
           {
@@ -324,7 +324,7 @@ GET Response
             ],
             "stats": {
               "social_idf": null,
-              "social_df": null
+              "social_relevance": null
             }
           },
           {
@@ -338,7 +338,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 976.9719730374,
-              "social_df": 0.0008233668
+              "social_relevance": 0.0008233668
             }
           },
           {
@@ -352,7 +352,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 777.0329732344,
-              "social_df": 0.001035228
+              "social_relevance": 0.001035228
             }
           },
           {
@@ -366,7 +366,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 3559.8585410896,
-              "social_df": 0.0002259658
+              "social_relevance": 0.0002259658
             }
           },
           {
@@ -380,7 +380,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 4606.1252090801,
-              "social_df": 0.0001746384
+              "social_relevance": 0.0001746384
             }
           }
         ],
@@ -399,7 +399,7 @@ GET Response
 GET categories/map/:keyword
 ---------------------------
 
-Use the eContext Taxonomy to map your keyword to a best match Category.
+Use the eContext Taxonomy to return a single best matching Category for the keyword submitted.
 
 Resource URL
 ^^^^^^^^^^^^
@@ -417,9 +417,12 @@ Parameters
     "keyword (*required*)", "string", "The keyword to provide a best match Category for.  This should be URL encoded.
       
       Example Value: ``chicago+hotels``."
-    "use_density (*optional*)", "boolean", "Optional fall back on density match; the same as is used in the ``categories/search`` function.  Defaults to *0*.
+    "use_density (*optional*)", "boolean", "Optional fall back on matching against pre-classified eContext keywords. Uses the same methodology as the ``categories/search`` function, returning the highest confidence answer, only.  Defaults to *0*.
       
       Example Value: ``1``"
+    "branches (*optional*)","string","An array of category/tier ids used to limit classification results.
+      
+      Example Value: ``922b44e4080760bcd7f30f0a676d3dfd``"
 
 Example Request
 ^^^^^^^^^^^^^^^
@@ -429,7 +432,7 @@ GET Request
 
 .. parsed-literal::
     
-    curl -X GET -u username:password :api_url:`categories/map/breaking+bad`
+    curl -X GET -u username:password :api_url:`categories/map/breaking+bad+tshirt?branches[]=922b44e4080760bcd7f30f0a676d3dfd`
 
 GET Response
 """"""""""""
@@ -440,34 +443,34 @@ GET Response
       "econtext": {
         "categories": [
           {
-            "id": "ac0fb32ea52f2c1228592ad6598c2cc2",
-            "name": "Breaking Bad",
+            "id": "99d39893587ca299b70c4e9cd725c383",
+            "name": "T-Shirts",
             "path": [
-              "Arts & Entertainment",
-              "Movies & Television",
-              "Movie & TV Products",
-              "TV",
-              "Drama TV Shows",
-              "Breaking Bad"
+              "Apparel",
+              "Clothing",
+              "Shirts & Tops",
+              "Shirts & Tops [No Demographic Specified]",
+              "Casual Shirts & Tops",
+              "T-Shirts"
             ],
             "idpath": [
-              "0cc9e1516aaa38d4802a2ee5314ac4ab",
-              "06b7167107de9cff93e6738da9c044c4",
-              "8e4e953b861d4597cb5fae3b7de67ce5",
-              "b3728edb10af57dfbd941132f0c932ae",
-              "153fd544b9063cfdbe86aaf1b04882b4",
-              "ac0fb32ea52f2c1228592ad6598c2cc2"
+              "922b44e4080760bcd7f30f0a676d3dfd",
+              "3f58d0f311043889059146c7dc765bd3",
+              "8f0ea90fa739b596619a75cbfd50ba47",
+              "0dac4f87992e3197f964a30aa670dd76",
+              "13d1828fbb80571690be3ef2c7971a7b",
+              "99d39893587ca299b70c4e9cd725c383"
             ],
             "stats": {
-              "social_idf": 21067.359562841,
-              "social_df": 0.0000381826
+              "social_relevance": 0.0005984496,
+              "social_idf": 1349.3014255217
             }
           }
         ],
         "signature": {
           "resource": "GET /categories/map/:keyword",
           "status": "200 OK - successful",
-          "client_ip": "127.0.0.1"
+          "client_ip": "54.243.176.220"
         }
       }
     }
@@ -483,11 +486,10 @@ GET Response
 GET categories/search/:keyword
 ------------------------------
 
-Sometimes you might want to use a density search against the eContext Keyword Dataset to 
-provide possible Category matches rather than simply mapping against the eContext Taxonomy.
-This method of matching uses a set of over 500,000,000 categorized keywords to identify
-probable category matches for the particular keyword you are interested in, and includes a
-confidence score for each category.
+Sometimes you might want to retrieve a set of possible Categories from the provided keyword rather than 
+mapping against the rules of the eContext Taxonomy. This method of matching uses a set of over 
+600,000,000 pre-classified keywords to identify probable Category matches for the particular keyword 
+you are interested in, and includes a confidence score for each category.
 
 Resource URL
 ^^^^^^^^^^^^
@@ -505,7 +507,7 @@ Parameters
     "keyword (*required*)", "string", "The keyword to match against the eContext Keyword Dataset for possible categorization. This value should be URL encoded.
       
       Example Value: ``chicago+hotels``."
-    "limit (*optional*)", "integer", "The number of category objects to return in the result set. The max number of categories is ``10`` and the default is ``5``.
+    "limit (*optional*)", "integer", "The number of Category objects to return in the result set. The max number of Categories is ``10`` and the default is ``5``.
       
       Example Value: ``3``"
 
@@ -550,7 +552,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 713949.40740741,
-              "social_df": 0.0000011267
+              "social_relevance": 0.0000011267
             },
             "confidence": 0.87356944379033
           },
@@ -569,7 +571,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 1752.8993361826,
-              "social_df": 0.0004589005
+              "social_relevance": 0.0004589005
             },
             "confidence": 0.032166909998587
           },
@@ -598,7 +600,7 @@ GET Response
             ],
             "stats": {
               "social_idf": 92232.698564593,
-              "social_df": 0.0000087215
+              "social_relevance": 0.0000087215
             },
             "confidence": 0.020746008571563
           }

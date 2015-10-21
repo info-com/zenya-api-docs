@@ -34,7 +34,7 @@
           ],
           "stats": {
             "social_idf": 21442.307007786,
-            "social_df": 0.0000375149
+            "social_relevance": 0.0000375149
           }
         },
         "85edc49558d9373a4a5bcfc6eb0bac90": {
@@ -64,7 +64,7 @@
           ],
           "stats": {
             "social_idf": 16646.488773748,
-            "social_df": 0.0000483229
+            "social_relevance": 0.0000483229
           }
         },
         "ab4a592bf3b0724f7955734270df0044": {
@@ -86,7 +86,7 @@
           ],
           "stats": {
             "social_idf": 6473.0134318335,
-            "social_df": 0.0001242708
+            "social_relevance": 0.0001242708
           }
         }
       }

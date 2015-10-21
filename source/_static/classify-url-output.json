@@ -657,7 +657,7 @@
             "79d9fd400d535d842ecfd204f26eb2ea"
           ],
           "stats": {
-            "social_df": 0.0000167753,
+            "social_relevance": 0.0000167753,
             "social_idf": 47951.825870647
           }
         },
@@ -675,7 +675,7 @@
             "77a3481d233302e81217929fe450843d"
           ],
           "stats": {
-            "social_df": 0.000000,
+            "social_relevance": 0.000000,
             "social_idf": 1927663.4
           }
         },
@@ -697,7 +697,7 @@
             "e00f7d575910c368f8a54a5c1c7ed1a1"
           ],
           "stats": {
-            "social_df": 0.00000,
+            "social_relevance": 0.00000,
             "social_idf": 19276634
           }
         },
@@ -719,7 +719,7 @@
             "8690217fab1c6de8935cf0e7e2c20ed0"
           ],
           "stats": {
-            "social_df": 0.0000065515,
+            "social_relevance": 0.0000065515,
             "social_idf": 122781.10828025
           }
         },
@@ -733,7 +733,7 @@
             "e205ca26092d0fdb0b7a49354a3fe318"
           ],
           "stats": {
-            "social_df": 0.0006892896,
+            "social_relevance": 0.0006892896,
             "social_idf": 1167.0077491222
           }
         },
@@ -759,7 +759,7 @@
             "f38ecc41df86e08204af72fd8d622bbe"
           ],
           "stats": {
-            "social_df": 0.0000084711,
+            "social_relevance": 0.0000084711,
             "social_idf": 94958.78817734
           }
         },
@@ -781,7 +781,7 @@
             "81844d0f06c3a89a3348a70deccf6226"
           ],
           "stats": {
-            "social_df": 0.0000527045,
+            "social_relevance": 0.0000527045,
             "social_idf": 15262.576405384
           }
         },
@@ -807,7 +807,7 @@
             "e79592e6fb4614aac2755ecccf5b9872"
           ],
           "stats": {
-            "social_df": 0.000010641,
+            "social_relevance": 0.000010641,
             "social_idf": 75594.643137255
           }
         },
@@ -827,7 +827,7 @@
             "e4486a0b1d80a51c7b9f98fac35d2a56"
           ],
           "stats": {
-            "social_df": 0.000001,
+            "social_relevance": 0.000001,
             "social_idf": 1285108.9333333
           }
         },
@@ -847,7 +847,7 @@
             "3e4c3e9c65251d46a7b1358372e5a74c"
           ],
           "stats": {
-            "social_df": 0.0000303792,
+            "social_relevance": 0.0000303792,
             "social_idf": 26478.892857143
           }
         },
@@ -873,7 +873,7 @@
             "47877091b472bf13a439e7848dd9b7b0"
           ],
           "stats": {
-            "social_df": 0.0000329247,
+            "social_relevance": 0.0000329247,
             "social_idf": 24431.728770596
           }
         },
@@ -897,7 +897,7 @@
             "d8ee1ec3d4b0cf125f0ece030b26bd17"
           ],
           "stats": {
-            "social_df": 0.0000319649,
+            "social_relevance": 0.0000319649,
             "social_idf": 25165.318537859
           }
         },
@@ -917,7 +917,7 @@
             "e22fa2bab4d6b098e7170dceac93a457"
           ],
           "stats": {
-            "social_df": 0.00000,
+            "social_relevance": 0.00000,
             "social_idf": 19276634
           }
         },
@@ -943,7 +943,7 @@
             "c5d21b668576d5b822f7bb8ea78a4d4b"
           ],
           "stats": {
-            "social_df": 0.0000033384,
+            "social_relevance": 0.0000033384,
             "social_idf": 240957.925
           }
         },
@@ -969,7 +969,7 @@
             "ac4c132355cd792e18ee053a8cd7aa05"
           ],
           "stats": {
-            "social_df": 0.000004006,
+            "social_relevance": 0.000004006,
             "social_idf": 200798.27083333
           }
         },
@@ -985,7 +985,7 @@
             "867374be435024b71138cfa11b4502ed"
           ],
           "stats": {
-            "social_df": 0.0001707575,
+            "social_relevance": 0.0001707575,
             "social_idf": 4710.8098729228
           }
         },
@@ -1011,7 +1011,7 @@
             "3ff658d97a9e8604e2887cc66573afcf"
           ],
           "stats": {
-            "social_df": 0.0000029211,
+            "social_relevance": 0.0000029211,
             "social_idf": 275380.48571429
           }
         },
@@ -1031,7 +1031,7 @@
             "10bda45087cd6c10242cb2859547fd2a"
           ],
           "stats": {
-            "social_df": 0.0000032549,
+            "social_relevance": 0.0000032549,
             "social_idf": 247136.33333333
           }
         },
@@ -1053,7 +1053,7 @@
             "6c29f3f880aeb773dcc76a3c7e47fbb7"
           ],
           "stats": {
-            "social_df": 0.0002222936,
+            "social_relevance": 0.0002222936,
             "social_idf": 3618.6660409236
           }
         },
@@ -1083,7 +1083,7 @@
             "4146f305695dd4850278599a65b1ef15"
           ],
           "stats": {
-            "social_df": 0.000000,
+            "social_relevance": 0.000000,
             "social_idf": 1927663.4
           }
         },
@@ -1101,7 +1101,7 @@
             "585b4307159026421eddc0b6351c5d17"
           ],
           "stats": {
-            "social_df": 0.0000228678,
+            "social_relevance": 0.0000228678,
             "social_idf": 35176.339416058
           }
         },
@@ -1123,7 +1123,7 @@
             "6a57037544e3ba0f35f202300743c0d7"
           ],
           "stats": {
-            "social_df": 0.0000082207,
+            "social_relevance": 0.0000082207,
             "social_idf": 97850.934010152
           }
         },
@@ -1149,7 +1149,7 @@
             "0040785c2fd3592e05c53b519084a7a7"
           ],
           "stats": {
-            "social_df": 0.0000018361,
+            "social_relevance": 0.0000018361,
             "social_idf": 438105.31818182
           }
         },
@@ -1175,7 +1175,7 @@
             "6192081db922207bbc6bb1f7bb057cfd"
           ],
           "stats": {
-            "social_df": 0.0001964213,
+            "social_relevance": 0.0001964213,
             "social_idf": 4095.312088379
           }
         },
@@ -1189,7 +1189,7 @@
             "9449388ba0686b2b73d88f6801ae43d3"
           ],
           "stats": {
-            "social_df": 0.0003466478,
+            "social_relevance": 0.0003466478,
             "social_idf": 2320.5289514867
           }
         },
@@ -1213,7 +1213,7 @@
             "c251f640cde099a82173d0ac1222396e"
           ],
           "stats": {
-            "social_df": 0.0001269832,
+            "social_relevance": 0.0001269832,
             "social_idf": 6334.7466316135
           }
         },
@@ -1229,7 +1229,7 @@
             "db18c49951fd93ad18c31c79da670890"
           ],
           "stats": {
-            "social_df": 0.0000132283,
+            "social_relevance": 0.0000132283,
             "social_idf": 60809.570977918
           }
         },
@@ -1247,7 +1247,7 @@
             "85361835043862d9724a8f47419848fb"
           ],
           "stats": {
-            "social_df": 0.0000989409,
+            "social_relevance": 0.0000989409,
             "social_idf": 8130.1703922396
           }
         },
@@ -1275,7 +1275,7 @@
             "9fe86f6a0df219b981d37cca456dc746"
           ],
           "stats": {
-            "social_df": 0.0000011684,
+            "social_relevance": 0.0000011684,
             "social_idf": 688451.21428571
           }
         },
@@ -1291,7 +1291,7 @@
             "82d36d41376197e3106ca447fb77fa46"
           ],
           "stats": {
-            "social_df": 0.0001369983,
+            "social_relevance": 0.0001369983,
             "social_idf": 5871.6521474261
           }
         },
@@ -1313,7 +1313,7 @@
             "3ef57f09c41404f52993170d1b0368e0"
           ],
           "stats": {
-            "social_df": 0.0000249543,
+            "social_relevance": 0.0000249543,
             "social_idf": 32235.173913044
           }
         },
@@ -1339,7 +1339,7 @@
             "b619927fea5c277604ccae28fa5074cb"
           ],
           "stats": {
-            "social_df": 0.00000,
+            "social_relevance": 0.00000,
             "social_idf": 1752421.2727273
           }
         },
@@ -1363,7 +1363,7 @@
             "41e02e1c8875510abb2da7df3c03ac30"
           ],
           "stats": {
-            "social_df": 0.0000242032,
+            "social_relevance": 0.0000242032,
             "social_idf": 33235.575862069
           }
         },
@@ -1385,7 +1385,7 @@
             "85d593bcd2bcf6bdbaa6883bfb742c5e"
           ],
           "stats": {
-            "social_df": 0.0000037557,
+            "social_relevance": 0.0000037557,
             "social_idf": 214184.82222222
           }
         },
@@ -1407,7 +1407,7 @@
             "39eff0b584baaa45bd783fe6d27bbfde"
           ],
           "stats": {
-            "social_df": 0.0000189035,
+            "social_relevance": 0.0000189035,
             "social_idf": 42553.27593819
           }
         },
@@ -1425,7 +1425,7 @@
             "44d3141b6d401c12e4cbcfc6209462d0"
           ],
           "stats": {
-            "social_df": 0.0000396014,
+            "social_relevance": 0.0000396014,
             "social_idf": 20312.575342466
           }
         },
@@ -1447,7 +1447,7 @@
             "8851bea6b197428fc7952de667c99b33"
           ],
           "stats": {
-            "social_df": 0.0000102655,
+            "social_relevance": 0.0000102655,
             "social_idf": 78360.300813008
           }
         },
@@ -1471,7 +1471,7 @@
             "c793b32b72c9c073c81784e522b09473"
           ],
           "stats": {
-            "social_df": 0.0001771839,
+            "social_relevance": 0.0001771839,
             "social_idf": 4539.9514837494
           }
         },
@@ -1491,7 +1491,7 @@
             "8493b51d3bdf4d7a03f2af3d2cd3827b"
           ],
           "stats": {
-            "social_df": 0.0000434822,
+            "social_relevance": 0.0000434822,
             "social_idf": 18499.648752399
           }
         },
@@ -1509,7 +1509,7 @@
             "4065978b1bd20f32a4f071256db5ad1e"
           ],
           "stats": {
-            "social_df": 0.0000090971,
+            "social_relevance": 0.0000090971,
             "social_idf": 88424.926605505
           }
         },
@@ -1533,7 +1533,7 @@
             "263026a06c52220e181757961910ef0b"
           ],
           "stats": {
-            "social_df": 0.0000648478,
+            "social_relevance": 0.0000648478,
             "social_idf": 12404.526383526
           }
         },
@@ -1557,7 +1557,7 @@
             "a9c9a687c3941dddaec272279f4a8ce5"
           ],
           "stats": {
-            "social_df": 0.000000,
+            "social_relevance": 0.000000,
             "social_idf": 3212772.3333333
           }
         },
@@ -1587,7 +1587,7 @@
             "47d5a9a76a588c23e13b81677d87f3d3"
           ],
           "stats": {
-            "social_df": 0.0000015857,
+            "social_relevance": 0.0000015857,
             "social_idf": 507279.84210526
           }
         },
@@ -1609,7 +1609,7 @@
             "bfd6728db8fc21920ed5d67b4d3fe357"
           ],
           "stats": {
-            "social_df": null,
+            "social_relevance": null,
             "social_idf": null
           }
         },
@@ -1633,7 +1633,7 @@
             "cc4c524f4dc3178ae4abf8c834e6cd6c"
           ],
           "stats": {
-            "social_df": 0.000001,
+            "social_relevance": 0.000001,
             "social_idf": 838114.52173913
           }
         },
@@ -1651,7 +1651,7 @@
             "f17dd1cacd7d3d5d7451ffc225b53bd1"
           ],
           "stats": {
-            "social_df": 0.0000577538,
+            "social_relevance": 0.0000577538,
             "social_idf": 13928.203757225
           }
         },
@@ -1669,7 +1669,7 @@
             "c6613a8cb864ba310ac4946eb492a463"
           ],
           "stats": {
-            "social_df": 0.0002313907,
+            "social_relevance": 0.0002313907,
             "social_idf": 3476.3992786294
           }
         },
@@ -1691,7 +1691,7 @@
             "7769ffd0a4d8e9e366ffd303c2102a98"
           ],
           "stats": {
-            "social_df": 0.0000106828,
+            "social_relevance": 0.0000106828,
             "social_idf": 75299.3515625
           }
         },
@@ -1711,7 +1711,7 @@
             "3b9d4ac5c270fb90e2f499a55ae61dc8"
           ],
           "stats": {
-            "social_df": 0.0000180272,
+            "social_relevance": 0.0000180272,
             "social_idf": 44621.837962963
           }
         },
@@ -1729,7 +1729,7 @@
             "a72aab07447c22bcb19d275be7af2fad"
           ],
           "stats": {
-            "social_df": 0.0013656848,
+            "social_relevance": 0.0013656848,
             "social_idf": 589.0131695542
           }
         },
@@ -1745,7 +1745,7 @@
             "172c3894976e39c4e621859d664894f6"
           ],
           "stats": {
-            "social_df": 0.0003605855,
+            "social_relevance": 0.0003605855,
             "social_idf": 2230.8336998033
           }
         },
@@ -1767,7 +1767,7 @@
             "4b0e9b9e8c92c5c463053f0d7ddc73a2"
           ],
           "stats": {
-            "social_df": 0.000000,
+            "social_relevance": 0.000000,
             "social_idf": 4819158.5
           }
         },
@@ -1787,7 +1787,7 @@
             "4a5073054bf6bc245f61d18a8e5bd8f2"
           ],
           "stats": {
-            "social_df": 0.0008487802,
+            "social_relevance": 0.0008487802,
             "social_idf": 947.7204523107
           }
         },
@@ -1813,7 +1813,7 @@
             "00db07736eca0e343884591d40de6913"
           ],
           "stats": {
-            "social_df": null,
+            "social_relevance": null,
             "social_idf": null
           }
         },
@@ -1835,7 +1835,7 @@
             "31270916e27c55da94dc4e69b9754b48"
           ],
           "stats": {
-            "social_df": 0.0000345521,
+            "social_relevance": 0.0000345521,
             "social_idf": 23280.958937198
           }
         },
@@ -1857,7 +1857,7 @@
             "0eafa38983b297b7d161996a8d105bfe"
           ],
           "stats": {
-            "social_df": 0.0002242132,
+            "social_relevance": 0.0002242132,
             "social_idf": 3587.6854643588
           }
         },
@@ -1885,7 +1885,7 @@
             "bc0c1e0f6b99cb65ef7c97834dba67db"
           ],
           "stats": {
-            "social_df": 0.0000132283,
+            "social_relevance": 0.0000132283,
             "social_idf": 60809.570977918
           }
         },
@@ -1905,7 +1905,7 @@
             "36530c83f05f28e97ff5afc817ae500c"
           ],
           "stats": {
-            "social_df": 0.0000254968,
+            "social_relevance": 0.0000254968,
             "social_idf": 31549.319148936
           }
         }

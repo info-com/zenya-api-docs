@@ -47,7 +47,7 @@
           ],
           "stats": {
             "social_idf": 19276634,
-            "social_df": 0.00000
+            "social_relevance": 0.00000
           }
         },
         "4a5b8ef0e9d0bda79de35a6e52b0dd4f": {
@@ -73,7 +73,7 @@
           ],
           "stats": {
             "social_idf": 73856.835249042,
-            "social_df": 0.0000108914
+            "social_relevance": 0.0000108914
           }
         }
       }

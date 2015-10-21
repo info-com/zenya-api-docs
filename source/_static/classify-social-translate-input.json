@@ -1,0 +1,21 @@
+{
+    "social": [
+        "UIP critica la inhabilitación de diputados opositores en #Venezuela",
+        "Temor al cambio en #Argentina impulsa al partido gobernante",
+        "La hija de Isabel Pantoja no quiere ‘oír hablar’ de su madre biológica",
+        "Patricia positiva: ‘Yo vencí al cáncer’ @EMarti6",
+        "Biden matiza su historia sobre operación que acabó con Osama Bin Laden @JoeBiden",
+        "Vaticano desmiente que el papa Francisco tenga un tumor benigno en el cerebro @Pontifex_es",
+        "Kim Jong-un inaugura su proyecto urbano más ambicioso en Pyongyang",
+        "Scioli, peronista pragmático y tenaz, acaricia presidencia #Argentina @danielscioli",
+        "#Cuba abierta a ‘todo tipo de negocios’ con petroleras de EEUU",
+        "Proyectan complejo urbanístico de $1,000 millones en el Río de #Miami"
+    ],
+    "translate": {
+        "provider":"microsoft",
+        "credential":{
+            "client_id":"CLIENT_ID_FROM_AZURE",
+            "client_secret":"CLIENT_SECRET_FROM_AZURE"
+        }
+    }
+}

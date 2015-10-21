@@ -12,13 +12,13 @@ Classify single keywords into the eContext Taxonomy.
     :widths: 10, 30, 100
     
     "GET","categories/tiers","Retrieve top tier Categories from the eContext Taxonomy."
-    "GET","categories/map/:keyword","Retrieve a best map Category from the provided keyword."
-    "GET","categories/search/:keyword","Retrieve Categories based on a density search of the eContext Dataset."
+    "GET","categories/map/:keyword","Retrieve a best map Category from the provided keyword based on the eContext knowledge set."
+    "GET","categories/search/:keyword","Retrieve a set of possible Categories from the provided keyword based on comparing the keyword with pre-classified keywords in the eContext Dataset."
 
 Content Classification
 ----------------------
 
-Classify groups of keywords, HTML, or Social Content into the eContext Taxonomy.
+Classify groups of keywords, HTML, or Social Media Content into the eContext Taxonomy.
 
 .. csv-table::
     :header: "Method","Resource","Description"

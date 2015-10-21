@@ -12,6 +12,7 @@ eContext API documentation
     introduction
     authentication
     objects
+    translation
     available-functions
     categories
     classify
@@ -29,4 +30,4 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`search`
-
+* :doc:`changelog`

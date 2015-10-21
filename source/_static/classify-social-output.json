@@ -233,7 +233,7 @@
           ],
           "stats": {
             "social_idf": 1606386.1666667,
-            "social_df": 0.000001
+            "social_relevance": 0.000001
           }
         },
         "52d90c930eaf27779289164752c62991": {
@@ -259,7 +259,7 @@
           ],
           "stats": {
             "social_idf": 209528.63043478,
-            "social_df": 0.0000038391
+            "social_relevance": 0.0000038391
           }
         },
         "a815610c4d2a7ec354611138c4ba1bf1": {
@@ -283,7 +283,7 @@
           ],
           "stats": {
             "social_idf": 2462.2089666624,
-            "social_df": 0.0003267011
+            "social_relevance": 0.0003267011
           }
         },
         "f7eddf58819869ff51e0d83b6eba4e59": {
@@ -303,7 +303,7 @@
           ],
           "stats": {
             "social_idf": 137.4810752213,
-            "social_df": 0.0058510332
+            "social_relevance": 0.0058510332
           }
         },
         "7fe320165aad65c827b76b9f4c2d7094": {
@@ -331,7 +331,7 @@
           ],
           "stats": {
             "social_idf": 301197.40625,
-            "social_df": 0.0000026707
+            "social_relevance": 0.0000026707
           }
         },
         "88f79e445b6b4e42f94bb7e090cf71f8": {
@@ -351,7 +351,7 @@
           ],
           "stats": {
             "social_idf": 21347.324473976,
-            "social_df": 0.0000376818
+            "social_relevance": 0.0000376818
           }
         },
         "45b0ed5d51754f3eb1f632e3b33a5f68": {
@@ -371,7 +371,7 @@
           ],
           "stats": {
             "social_idf": 519.0821305472,
-            "social_df": 0.0015496706
+            "social_relevance": 0.0015496706
           }
         },
         "09ab79d1d3d6e83451bcc9433d951690": {
@@ -397,7 +397,7 @@
           ],
           "stats": {
             "social_idf": 166177.87931034,
-            "social_df": 0.0000048406
+            "social_relevance": 0.0000048406
           }
         },
         "a53786f68b8c83aad21fc879b39a3142": {
@@ -421,7 +421,7 @@
           ],
           "stats": {
             "social_idf": 38630.529058116,
-            "social_df": 0.0000208231
+            "social_relevance": 0.0000208231
           }
         },
         "3fac02c7c184884c532e96a1c7f15f3a": {
@@ -445,7 +445,7 @@
           ],
           "stats": {
             "social_idf": 350484.25454545,
-            "social_df": 0.0000022951
+            "social_relevance": 0.0000022951
           }
         },
         "70c85dde424ed666fa044d410b941b48": {
@@ -473,7 +473,7 @@
           ],
           "stats": {
             "social_idf": 66242.728522337,
-            "social_df": 0.0000121433
+            "social_relevance": 0.0000121433
           }
         },
         "e3bf891483dbc6cc7b59b7f7afe20a79": {
@@ -499,7 +499,7 @@
           ],
           "stats": {
             "social_idf": 103637.8172043,
-            "social_df": 0.0000077617
+            "social_relevance": 0.0000077617
           }
         },
         "e6c24ce48720b481f29e2232f439effa": {
@@ -519,7 +519,7 @@
           ],
           "stats": {
             "social_idf": 283479.91176471,
-            "social_df": 0.0000028376
+            "social_relevance": 0.0000028376
           }
         },
         "db9b57251e0bc41db948ab75272a9392": {
@@ -545,7 +545,7 @@
           ],
           "stats": {
             "social_idf": 24777.164524422,
-            "social_df": 0.0000324656
+            "social_relevance": 0.0000324656
           }
         },
         "0f1e32b2be9761d9ba1b8dc81830a45b": {
@@ -573,7 +573,7 @@
           ],
           "stats": {
             "social_idf": 244008.02531646,
-            "social_df": 0.0000032966
+            "social_relevance": 0.0000032966
           }
         },
         "80d606580d6ea800a4ba9d3123a11f1c": {
@@ -601,7 +601,7 @@
           ],
           "stats": {
             "social_idf": null,
-            "social_df": null
+            "social_relevance": null
           }
         }
       }
