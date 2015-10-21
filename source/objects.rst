@@ -88,5 +88,5 @@ in in eContext's Social Media feeds over the past month and is calculated as fol
 
 Where:
 
-* :math:`C` = Sum of all categories found in each document the corpus
 * :math:`|\{d \in D: t \in d\}|` = number of documents where the Category `t` appears
+* :math:`C` = Sum of all categories found in each document the corpus
