@@ -1,0 +1,15 @@
+{
+    "social": [
+        "5 libros para entender los regímenes militares de América Latina",
+        "5 discos para llevarse a una isla desierta: ¿cuál te llevarías tú?",
+        "¿Vale la pena pagar miles de dólares por unos altavoces de música de alta tecnología?",
+        "Cómo evitar que Facebook publique malos recuerdos en tu muro",
+        "Los 'drones' inflables con los que las potencias protegerán sus portaaviones",
+        "Cómo es el recién creado Microlattice, el metal 'más liviano' del mundo",
+        "5 grandes detectives de la literatura latinoamericana"
+    ],
+    "translate": {
+        "provider":"google",
+        "credential":"API_BROWSER_KEY_FROM_GOOGLE_DEVELOPER_CONSOLE"
+    }
+}
