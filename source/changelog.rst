@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Version 1.0.18
+--------------
+
+*   Added an eContext Plugin to Google Translate API
+*   Added a check to avoid tranlsation of content if it is determined to be in English
+
 Version 1.0.17
 -------------
 
