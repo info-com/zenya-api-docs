@@ -15,6 +15,11 @@ The response from the POST call should include a 201 HTTP Status-Code (:rfc:`261
 as well as a "result_uri" pointing to the result set. If the result set is not yet completed, 
 the GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).
 
+An optional ``async`` parameter can be used to create a blocking call 
+when set to ``false``.  In this case, the results from the POST will be the same
+as the results that would have been retrieved from the GET on a completed result
+set.
+
 *There is a limit of 1,000 posts per call.*
 
 Resource URL
@@ -30,6 +35,7 @@ Parameters
     :widths: 25, 20, 100
     
     "social (*required*)", "array", "A list (no more than 1,000 items) of strings."
+    "async (*optional*)", "boolean", "Optionally run a blocking call and retrieve results immediately (defaults to *true*)"
 
 Example Request
 ^^^^^^^^^^^^^^^
