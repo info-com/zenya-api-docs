@@ -205,4 +205,7 @@ category maps to the IAB "Home & Garden" and "Babies & Toddlers" categories, and
 the eContext "Chicago Bears" category maps to the IAB "Sports" and "Football"
 categories.
 
+Please note that the overlay object will not appear for categories/map or 
+categories/search calls.
+
 .. _Overlay Team: overlayteam@econtext.com
