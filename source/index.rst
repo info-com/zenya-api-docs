@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 eContext API documentation
-=======================
+==========================
 
 .. toctree::
     :maxdepth: 2
@@ -19,6 +19,7 @@ eContext API documentation
     keywords-search
     user
     filters
+    changelog
 
 Notes
 -----

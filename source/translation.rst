@@ -8,7 +8,7 @@ with your eContext API request, and non-English content can be processed the
 same as English content.
 
 Adding Translation Parameters To A Call
---------------------------------------
+---------------------------------------
 
 In general, requesting translation is as simple as including a translate parameter
 with your API call.  Here is an example using :doc:`/classify/social <classify-social>`:

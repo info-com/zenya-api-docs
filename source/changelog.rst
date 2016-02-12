@@ -1,6 +1,16 @@
 Changelog
 =========
 
+Version 1.0.21
+--------------
+*   Added client taxonomy overlay capabilities
+*   Added `IAB Taxonomy`_ overlay as an available client addon
+
+Version 1.0.20
+--------------
+*   Improved performance of demo limits for new accounts
+*   Internal improvements in dataset migration and publication including
+
 Version 1.0.19
 --------------
 
@@ -24,3 +34,5 @@ Version 1.0.17
     using a bring-your-own translation service - currently only Microsoft Translator API
 *   Added general Category statistics including Social IDF (Inverse Document Frequency) and Social Relevance
 *   Deprecated /classify/twitter - these calls should be handled by /classify/social
+
+.. _`IAB Taxonomy`: http://www.iab.com/guidelines/iab-quality-assurance-guidelines-qag-taxonomy/

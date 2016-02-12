@@ -90,3 +90,119 @@ Where:
 
 * :math:`|\{d \in D: t \in d\}|` = number of documents where the Category `t` appears
 * :math:`C` = Sum of all categories found in each document the corpus
+
+Overlay
+-------
+
+An overlay object provides a map from the eContext taxonomy to a client's own
+taxonomy, and/or a standard taxonomy overlay, for example, to the IAB taxonomy.
+Overlays are only available to select clients at this time.  Please contact
+our `Overlay Team`_ for access to standard taxonomy overlays or for 
+information about onboarding your own taxonomy overlay.
+
+In general, the overlay object itself will contain a dictionary of eContext
+category ids that correspond to the categories dictionary, and then matching
+categories inside each subscribed taxonomy overlay.
+
+For example, if a user is subscribed to the IAB taxonomy overlay, the output for
+the following `classify/keywords` call might look like this:
+
+.. code-block:: bash
+
+    curl -X POST -H "Authorization: Basic __AUTHENTICATION__" -H "Content-Type: application/json" -d '{
+        "async":false,
+        "keywords":[
+          "baby strollers",
+          "chicago bears"
+        ]
+    }' "https://api.econtext.com/v2/classify/keywords"
+
+.. code-block:: json
+    
+    {
+      "econtext": {
+        "classify": {
+          "mappings": [
+            "33ffa2f8cae5b84455321ab2575441fe",
+            "85edc49558d9373a4a5bcfc6eb0bac90"
+          ],
+          "categories": {
+            "33ffa2f8cae5b84455321ab2575441fe": {
+              "id": "33ffa2f8cae5b84455321ab2575441fe",
+              "name": "Strollers",
+              "path": [
+                "Home & Garden",
+                "Baby Needs",
+                "Baby Products",
+                "Baby Travel Products",
+                "Baby Strollers & Carriages",
+                "Strollers"
+              ],
+              "idpath": [
+                "0b1cfd1a5102a974a372e9bc3cfffb35",
+                "5eae0deb470fb00144d9a73160dc81f4",
+                "e142965050c94732a5044303907523f6",
+                "20b3458f5d86613bd46b967a6832bce5",
+                "83b0847bd055decd09c623c6c451014e",
+                "33ffa2f8cae5b84455321ab2575441fe"
+              ],
+              "stats": {
+                "social_relevance": 0.0000051475,
+                "social_idf": 12.093251130124
+              }
+            },
+            "85edc49558d9373a4a5bcfc6eb0bac90": {
+              "id": "85edc49558d9373a4a5bcfc6eb0bac90",
+              "name": "Chicago Bears",
+              "path": [
+                "Sports",
+                "Team Sports",
+                "Football",
+                "Football Leagues & Teams",
+                "Professional Football Leagues & Teams",
+                "Chicago Bears"
+              ],
+              "idpath": [
+                "b00fac5f30dc8dbb660c8d08fe66f487",
+                "97e2d582fd4e9fe6c9ca51128222e55f",
+                "1d86d6fea65150be10232959abc02574",
+                "9398300d477069715ad4682b293fb087",
+                "04455c6d36d1056a7be0b231e861c0c5",
+                "85edc49558d9373a4a5bcfc6eb0bac90"
+              ],
+              "stats": {
+                "social_relevance": 0.0000068986,
+                "social_idf": 11.800450216514
+              }
+            }
+          },
+          "overlay": {
+            "33ffa2f8cae5b84455321ab2575441fe": {
+              "2015iab": [
+                "Home & Garden",
+                "Babies & Toddlers"
+              ]
+            },
+            "85edc49558d9373a4a5bcfc6eb0bac90": {
+              "2015iab": [
+                "Sports",
+                "Football"
+              ]
+            }
+          }
+        },
+        "signature": {
+          "resource": "POST /classify/:type/:result_id",
+          "status": "200 OK - successful",
+          "client_ip": "127.0.0.1"
+        }
+      }
+    }
+
+In this case, we're returning categories from the eContext 2015 IAB Taxonomy 
+Overlay that maps from eContext categories to the IAB.  The eContext "Strollers"
+category maps to the IAB "Home & Garden" and "Babies & Toddlers" categories, and
+the eContext "Chicago Bears" category maps to the IAB "Sports" and "Football"
+categories.
+
+.. _Overlay Team: overlayteam@econtext.com
