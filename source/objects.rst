@@ -118,7 +118,7 @@ the following `classify/keywords` call might look like this:
     }' "https://api.econtext.com/v2/classify/keywords"
 
 .. code-block:: json
-    
+
     {
       "econtext": {
         "classify": {
@@ -147,8 +147,8 @@ the following `classify/keywords` call might look like this:
                 "33ffa2f8cae5b84455321ab2575441fe"
               ],
               "stats": {
-                "social_relevance": 0.0000051475,
-                "social_idf": 12.093251130124
+                "social_relevance": 0.0000055254,
+                "social_idf": 12.019372309892
               }
             },
             "85edc49558d9373a4a5bcfc6eb0bac90": {
@@ -160,6 +160,9 @@ the following `classify/keywords` call might look like this:
                 "Football",
                 "Football Leagues & Teams",
                 "Professional Football Leagues & Teams",
+                "NFL",
+                "National Football Conference",
+                "National Football Conference - North Division",
                 "Chicago Bears"
               ],
               "idpath": [
@@ -168,25 +171,38 @@ the following `classify/keywords` call might look like this:
                 "1d86d6fea65150be10232959abc02574",
                 "9398300d477069715ad4682b293fb087",
                 "04455c6d36d1056a7be0b231e861c0c5",
+                "f3fafece413cb4e87975d12457ddb9a1",
+                "4f2d7f778d65a60d35cc53fff475e84f",
+                "7680bb6c2b3e6babe7bfcc7c44fd752b",
                 "85edc49558d9373a4a5bcfc6eb0bac90"
               ],
               "stats": {
-                "social_relevance": 0.0000068986,
-                "social_idf": 11.800450216514
+                "social_relevance": 0.0000065315,
+                "social_idf": 11.852088630462
               }
             }
           },
           "overlay": {
             "33ffa2f8cae5b84455321ab2575441fe": {
-              "2015iab": [
-                "Home & Garden",
-                "Babies & Toddlers"
+              "iab2016": [
+                [
+                  "Home & Garden"
+                ],
+                [
+                  "Family & Parenting",
+                  "Babies & Toddlers"
+                ]
               ]
             },
             "85edc49558d9373a4a5bcfc6eb0bac90": {
-              "2015iab": [
-                "Sports",
-                "Football"
+              "iab2016": [
+                [
+                  "Sports"
+                ],
+                [
+                  "Sports",
+                  "Football"
+                ]
               ]
             }
           }

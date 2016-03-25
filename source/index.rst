@@ -10,6 +10,7 @@ eContext API documentation
     :maxdepth: 2
     
     introduction
+    bestpractices
     authentication
     objects
     translation

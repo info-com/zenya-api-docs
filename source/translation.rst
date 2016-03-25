@@ -5,7 +5,8 @@ If the content you want to classify is in a language other than English, eContex
 can use your existing translation service to perform translation prior to
 classification.  Include the credentials for your translation API service
 with your eContext API request, and non-English content can be processed the
-same as English content.
+same as English content.  You may also use eContext's own translation service to
+process a smaller number of languages, detailed below.
 
 Adding Translation Parameters To A Call
 ---------------------------------------
@@ -18,8 +19,9 @@ with your API call.  Here is an example using :doc:`/classify/social <classify-s
 
 If making a bulk post of content through the :doc:`/classify/social <classify-social>` 
 or :doc:`/classify/keywords <classify-keywords>` calls, we recommend that all posted content
-is in the same source language, particularly if using the Microsoft Translator plugin. 
-If you expect that the content may contain a mixture of source languages, include only one post per call.
+is in the same source language if you are using the Microsoft Translator plugin. 
+If you expect that the content may contain a mixture of source languages, include
+only one post per call.  Google and eContext do allow you to mix your input content.
 
 The 3rd party services eContext connects through to provide translation services 
 generally charge their users by characters processed.  eContext will return the
@@ -32,7 +34,8 @@ incoming content and will make a best effort to not pass English content into a 
 service.
 
 If a translation plugin is specified, the return object from eContext will 
-include a summary of the translation activity.  For example:
+include a summary of the translation activity as well as the translated content
+retrieved from those services.  For example:
 
 .. literalinclude:: _static/classify-social-translate-output.json
     :language: json
@@ -49,6 +52,22 @@ Calls that Accept Translation Parameters
     classify-social
     classify-text
     classify-url
+
+eContext Translation Service
+----------------------------------------
+
+eContext's inhouse translation service provides fast machine translation for the
+following languages:
+    
+    * Spanish
+    * French
+    * Portuguese
+    * Italian
+    * Dutch
+    * German
+
+Please contact your sales representative at eContext for more information on
+signing up for eContext Translation Services.
 
 Available 3rd Party Translation Services
 ----------------------------------------

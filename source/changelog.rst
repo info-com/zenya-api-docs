@@ -1,6 +1,20 @@
 Changelog
 =========
 
+Version 1.0.24
+--------------
+*   New eContext translation service provides fast translation for incoming content.  Supports Spanish, French, Portuguese, Italian, Dutch, German content.
+*   Translated content is now passed through to your classification results.
+
+Version 1.0.23
+--------------
+*   Added the Twitter Interest Taxonomy overlay as an avialable client addon
+*   Changed format of overlays to be more descriptive - each taxonomy map now returns as a list with Tier 1 and Tier 2, when available
+
+Version 1.0.22
+--------------
+*   Internal improvements
+
 Version 1.0.21
 --------------
 *   Added client taxonomy overlay capabilities

@@ -3,6 +3,15 @@
     "translate": {
         "source_language": "es",
         "provider": "microsoft",
-        "translated_chars": 475
+        "translated_chars": 475,
+        "translation": [
+          "5 books for understanding the military regimes of Latin America",
+          "5 discs to take to a desert island: what you would you?",
+          "Is it worth paying thousands of dollars for high-tech music speakers?",
+          "How to avoid Facebook to post bad memories on your wall",
+          "Inflatable 'drones' powers to protect their aircraft carrier",
+          "How is the newly created Microlattice, the metal 'lighter' world",
+          "5 great detectives of Latin American literature"
+        ]
     }
 }
