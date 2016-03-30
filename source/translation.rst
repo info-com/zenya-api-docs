@@ -96,7 +96,12 @@ To sign up for a Micosoft Translator API Account, follow these steps:
     b. Click the "Register" button
     c. Register your new application, taking note of your "Client ID" and "Client secret"
 
-You may now use these credentials to perform translation in the eContext API.
+You may now use these credentials to perform translation in the eContext API. 
+An example of the POST body that would pass content through to the Microsoft
+Translator API for translation before processing in eContext:
+
+.. literalinclude:: _static/classify-social-translate-input-ms.json
+    :language: json
 
 eContext plugin to Google Translate API
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

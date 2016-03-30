@@ -9,7 +9,10 @@
         "5 grandes detectives de la literatura latinoamericana"
     ],
     "translate": {
-        "provider":"econtext",
-        "credential":null
+        "provider":"microsoft",
+        "credential":{
+            "client_id":"CLIENT_ID_FROM_AZURE",
+            "client_secret":"CLIENT_SECRET_FROM_AZURE"
+        }
     }
 }

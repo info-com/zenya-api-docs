@@ -1,8 +1,16 @@
 {
     ...
     "translate": {
-        "source_language": "es",
-        "provider": "microsoft",
+        "source_language": [
+            "es",
+            "es",
+            "es",
+            "es",
+            "es",
+            "es",
+            "es"
+        ],
+        "provider": "econtext",
         "translated_chars": 475,
         "translation": [
           "5 books for understanding the military regimes of Latin America",
