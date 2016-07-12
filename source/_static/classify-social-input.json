@@ -1,4 +1,6 @@
 {
+    "entities":true,
+    "flags":true,
     "social":[
         "HAPPY PI DAY 3.141592653589793238462643383279502884197169399375...",
         "Happy birthday, MIT! The Institute was founded April 10, 1861 by William Barton Rogers. #tbt",
@@ -10,6 +12,7 @@
         "Seen at the Student Center this afternoon: Tetris hash browns!",
         "Researchers at @eapsMIT say a large earthquake may occur 5 miles from Istanbul",
         "MIT's robotic cheetah can now run and jump untethered",
-        "Spacesuit from @MITAeroAstro shrink-wraps to astronauts' bodies"
+        "Spacesuit from @MITAeroAstro shrink-wraps to astronauts' bodies",
+        "This social post should be flagged for fireworks and gambling references"
     ]
 }

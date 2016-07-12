@@ -32,7 +32,8 @@ GET Response
 	"econtext": {
 	    "user": {
 		"attributes": {
-		    "username": "31bc9229f61ebfa4782036bda7bd6acb",
+            "account_id": "BJHba7T1c7JmUrMOAwDIp",
+		    "username": "31bc9229f61ebfa4782036bda",
 		    "group": "regular",
 		    "tier_depth": 4
 		}

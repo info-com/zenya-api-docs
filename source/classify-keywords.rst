@@ -9,7 +9,8 @@ POST classify/keywords
 
 Classify a list of keywords and return mappings and associated Categories. This call creates a
 new result resource that will be available for either 2 days or until being successfully consumed in
-a GET call.
+a GET call.  A "keyword" is loosely defined as a short phrase composed of 10 or fewer words.  If a blocking call is requested (
+``"async":false``), the result resource is returned immediately and not saved.
 
 The response from the POST call should include a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`) as
 well as a "result_uri" pointing to the result set. If the result set is not yet completed, the 
@@ -18,7 +19,8 @@ GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).
 An optional ``async`` parameter can be used to create a blocking call 
 when set to ``false``.  In this case, the results from the POST will be the same
 as the results that would have been retrieved from the GET on a completed result
-set.
+set and the server will return a 200 HTTP Status-Code 
+(:rfc:`2616#section-10.2.1`).
 
 *There is a limit of 1,000 keywords per call.*
 
@@ -35,7 +37,8 @@ Parameters
     :widths: 25, 20, 100
     
     "keywords (*required*)", "array", "A list of keyword strings to process (no more than 1,000)."
-    "async (*optional*)", "boolean", "Optionally run a blocking call and retrieve results immediately (defaults to *true*)"
+    "async (*optional*)", "boolean", "Run a non-blocking call and retrieve a result set later (defaults to ``true``).  When set to ``false``, block, and return results immediately upon completion"
+    "flags (*optional*)", "boolean", "Provide :ref:`keyword-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
 
 Example Request
 ^^^^^^^^^^^^^^^
@@ -79,15 +82,24 @@ POST Response
 GET classify/keywords/:result_id
 --------------------------------
 
-Retreive the keyword classification result set. If the result set is not yet complete, this call will
-return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`). The result set should be ready shortly at which point this call will
-return the appropriate 200 HTTP Status-Code (:rfc:`2616#section-10.2.1`). After successful consumption, this resource will
+Retreive the keyword classification result set. If the result set is not yet 
+complete, this call will return a 202 HTTP Status-Code 
+(:rfc:`2616#section-10.2.3`). The result set should be ready shortly at which 
+point this call will return the appropriate 200 HTTP Status-Code 
+(:rfc:`2616#section-10.2.1`). After successful consumption, this resource will 
 be removed.
 
-The result set includes "mappings" which is a list of category id keys that correspond to the
-"categories" dictionary. The mappings are in the same order as the keyword list submitted in the
-POST call. A ``null`` value in the id indicates that the keyword is currently unmapped to the eContext
-Taxonomy.
+The result set includes a ``results`` key which provides a list of category id
+keys and associated data including :ref:`keyword-flags`, if requested and found.
+The results in this set are in the same order as the keyword list submitted in
+the POST call.
+
+The result set includes a legacy key ``mappings`` which is a list of category id
+keys that correspond to the ``categories`` dictionary. The mappings are in the 
+same order as the keyword list submitted in the POST call. A ``null`` value in 
+the id indicates that the keyword is currently unmapped to the eContext
+Taxonomy.  Please note that the ``mappings`` key is being deprecated and will
+disappear in a future release.
 
 Resource URL
 ^^^^^^^^^^^^

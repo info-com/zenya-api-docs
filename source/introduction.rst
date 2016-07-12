@@ -18,11 +18,9 @@ Contact our `Overlay Team`_ for more information.
 Input Format
 ------------
 
-The input format to the eContext API is specified using the HTTP Content-Type header  (:rfc:`2616#section-14.17`).
-A Content-Type of ``application/x-www-form-urlencoded`` may also be accepted although 
-``multipart/form-data`` is currently not accepted. All examples in this documentation 
-assume that **POST** data is in JSON format and that a header 
-``Content-type: application/json`` is sent.
+The input format to the eContext API is specified using the HTTP Content-Type 
+header  (:rfc:`2616#section-14.17`). A Content-Type of ``application/json`` is 
+preferred, and there is no guarantee that other Content-Types will be honored.
 
 Output Format
 -------------
@@ -33,8 +31,6 @@ output format, all examples in this documentation are displayed using JSON.
 
 The following output formats are currently supported:
 
-* application/xml (:rfc:`3023`)
 * application/json (:rfc:`4627`)
-* text/html (:rfc:`2854`)
 
 .. _Overlay Team: overlayteam@econtext.com

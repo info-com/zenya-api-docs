@@ -1,10 +1,17 @@
 Changelog
 =========
 
+Version 1.1.0 - 2016-07-11
+--------------------------
+*   Added fallback NLP Entity extraction options in cases where the eContext Taxonomy does not provide coverage
+*   Added keyword flagging to identify keywords that may be sensitive to particular audiences
+*   Added social content flagging to identify social media posts that may be sensitive to particular audiences
+*   Changed classify/url to return a 403 Status Code if a requested URL is blocked by that domains robots.txt
+
 Version 1.0.24
 --------------
-*   New eContext translation service provides fast translation for incoming content.  Supports Spanish, French, Portuguese, Italian, Dutch, German content.
-*   Translated content is now passed through to your classification results.
+*   New eContext translation service provides fast translation for incoming content.  Supports Spanish, French, Portuguese, Italian, Dutch, German content
+*   Translated content is now passed through to your classification results
 
 Version 1.0.23
 --------------

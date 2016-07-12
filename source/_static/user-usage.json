@@ -1,47 +1,29 @@
 {
   "econtext": {
     "user": {
-      "end_date": "2015-10-31",
-      "start_date": "2015-10-01",
-      "total_usage": 3959,
+      "end_date": "2016-07-31",
+      "start_date": "2016-07-01",
+      "total_usage": 495,
       "usage": {
-        "2015-10-01": {
-          "api.classify.keywords": 2,
-          "api.classify.url": 3,
-          "api.categories.map": 5,
-          "api.categories.search": 3,
-          "api.classify.html": 5,
-          "api.classify.text": 1,
-          "api.keywords.search": 10,
-          "api.keywords.search.results": 1500,
-          "api.classify.social": 17,
-        },
-        "2015-10-02": {
-          "api.keywords.search": 8,
-          "api.classify.social": 21,
-          "api.classify.url": 6,
-          "api.keywords.search.results": 1130,
-          "api.classify.keywords": 2,
-          "api.classify.text": 1,
-          "api.categories.search": 21,
-          "api.classify.html": 1,
-          "api.categories.map": 2
-        },
-        "2015-10-07": {
-          "api.classify.url": 4
-        },
-        "2015-10-08": {
-          "api.classify.keywords": 29,
-          "api.classify.social": 15
-        },
-        "2015-10-09": {
-          "api.classify.social": 1011,
-          "api.classify.text": 1,
-          "api.classify.keywords": 157,
-          "api.classify.html": 1,
-          "api.categories.search": 1,
-          "api.categories.map": 1,
-          "api.classify.url": 1
+        "2li2l3ij21lijzzea23ijadf2": {
+          "2016-07-05": {
+            "api.classify.social": 45,
+            "api.categories.map": 16
+          },
+          "2016-07-06": {
+            "api.classify.social": 306,
+            "api.classify.url": 9
+          },
+          "2016-07-07": {
+            "api.classify.url": 21,
+            "api.classify.social": 50,
+            "api.categories.search": 1
+          },
+          "2016-07-08": {
+            "api.classify.social": 43,
+            "api.classify.keywords": 3,
+            "api.classify.url": 1
+          }
         }
       }
     },

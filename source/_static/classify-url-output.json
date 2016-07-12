@@ -4,723 +4,127 @@
       "title": "Parks - topics.",
       "scored_categories": [
         {
-          "score": 0.1953488372093,
-          "category_id": "79d9fd400d535d842ecfd204f26eb2ea"
+          "category_id": "79d9fd400d535d842ecfd204f26eb2ea",
+          "score": 0.38011695906433
         },
         {
-          "score": 0.12558139534884,
-          "category_id": "77a3481d233302e81217929fe450843d"
+          "category_id": "b58c6463b2f9a7ceae794e295c186f13",
+          "score": 0.23976608187135
         },
         {
-          "score": 0.055813953488372,
-          "category_id": "e00f7d575910c368f8a54a5c1c7ed1a1"
+          "category_id": "8690217fab1c6de8935cf0e7e2c20ed0",
+          "score": 0.08187134502924
         },
         {
-          "score": 0.041860465116279,
-          "category_id": "8690217fab1c6de8935cf0e7e2c20ed0"
+          "category_id": "e205ca26092d0fdb0b7a49354a3fe318",
+          "score": 0.058479532163743
         },
         {
-          "score": 0.027906976744186,
-          "category_id": "e205ca26092d0fdb0b7a49354a3fe318"
+          "category_id": "e00f7d575910c368f8a54a5c1c7ed1a1",
+          "score": 0.052631578947368
         },
         {
-          "score": 0.027906976744186,
-          "category_id": "f38ecc41df86e08204af72fd8d622bbe"
+          "category_id": "f38ecc41df86e08204af72fd8d622bbe",
+          "score": 0.046783625730994
         },
         {
-          "score": 0.023255813953488,
-          "category_id": "81844d0f06c3a89a3348a70deccf6226"
+          "category_id": "867374be435024b71138cfa11b4502ed",
+          "score": 0.035087719298246
         },
         {
-          "score": 0.018604651162791,
-          "category_id": "e79592e6fb4614aac2755ecccf5b9872"
+          "category_id": "e79592e6fb4614aac2755ecccf5b9872",
+          "score": 0.035087719298246
         },
         {
-          "score": 0.018604651162791,
-          "category_id": "e4486a0b1d80a51c7b9f98fac35d2a56"
+          "category_id": "c251f640cde099a82173d0ac1222396e",
+          "score": 0.035087719298246
         },
         {
-          "score": 0.018604651162791,
-          "category_id": "3e4c3e9c65251d46a7b1358372e5a74c"
-        },
-        {
-          "score": 0.018604651162791,
-          "category_id": "47877091b472bf13a439e7848dd9b7b0"
-        },
-        {
-          "score": 0.013953488372093,
-          "category_id": "d8ee1ec3d4b0cf125f0ece030b26bd17"
-        },
-        {
-          "score": 0.013953488372093,
-          "category_id": "e22fa2bab4d6b098e7170dceac93a457"
-        },
-        {
-          "score": 0.013953488372093,
-          "category_id": "c5d21b668576d5b822f7bb8ea78a4d4b"
-        },
-        {
-          "score": 0.013953488372093,
-          "category_id": "ac4c132355cd792e18ee053a8cd7aa05"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "867374be435024b71138cfa11b4502ed"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "3ff658d97a9e8604e2887cc66573afcf"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "10bda45087cd6c10242cb2859547fd2a"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "6c29f3f880aeb773dcc76a3c7e47fbb7"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "4146f305695dd4850278599a65b1ef15"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "585b4307159026421eddc0b6351c5d17"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "6a57037544e3ba0f35f202300743c0d7"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "0040785c2fd3592e05c53b519084a7a7"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "6192081db922207bbc6bb1f7bb057cfd"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "9449388ba0686b2b73d88f6801ae43d3"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "c251f640cde099a82173d0ac1222396e"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "db18c49951fd93ad18c31c79da670890"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "85361835043862d9724a8f47419848fb"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "9fe86f6a0df219b981d37cca456dc746"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "82d36d41376197e3106ca447fb77fa46"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "3ef57f09c41404f52993170d1b0368e0"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "b619927fea5c277604ccae28fa5074cb"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "41e02e1c8875510abb2da7df3c03ac30"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "85d593bcd2bcf6bdbaa6883bfb742c5e"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "39eff0b584baaa45bd783fe6d27bbfde"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "44d3141b6d401c12e4cbcfc6209462d0"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "8851bea6b197428fc7952de667c99b33"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "c793b32b72c9c073c81784e522b09473"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "8493b51d3bdf4d7a03f2af3d2cd3827b"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "4065978b1bd20f32a4f071256db5ad1e"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "263026a06c52220e181757961910ef0b"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "a9c9a687c3941dddaec272279f4a8ce5"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "47d5a9a76a588c23e13b81677d87f3d3"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "bfd6728db8fc21920ed5d67b4d3fe357"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "cc4c524f4dc3178ae4abf8c834e6cd6c"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "f17dd1cacd7d3d5d7451ffc225b53bd1"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "c6613a8cb864ba310ac4946eb492a463"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "7769ffd0a4d8e9e366ffd303c2102a98"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "3b9d4ac5c270fb90e2f499a55ae61dc8"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "a72aab07447c22bcb19d275be7af2fad"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "172c3894976e39c4e621859d664894f6"
-        },
-        {
-          "score": 0.0093023255813953,
-          "category_id": "4b0e9b9e8c92c5c463053f0d7ddc73a2"
-        },
-        {
-          "score": 0.0046511627906977,
-          "category_id": "4a5073054bf6bc245f61d18a8e5bd8f2"
-        },
-        {
-          "score": 0.0046511627906977,
-          "category_id": "00db07736eca0e343884591d40de6913"
-        },
-        {
-          "score": 0.0046511627906977,
-          "category_id": "31270916e27c55da94dc4e69b9754b48"
-        },
-        {
-          "score": 0.0046511627906977,
-          "category_id": "0eafa38983b297b7d161996a8d105bfe"
-        },
-        {
-          "score": 0.0046511627906977,
-          "category_id": "bc0c1e0f6b99cb65ef7c97834dba67db"
-        },
-        {
-          "score": 0.0046511627906977,
-          "category_id": "36530c83f05f28e97ff5afc817ae500c"
+          "category_id": "47877091b472bf13a439e7848dd9b7b0",
+          "score": 0.035087719298246
         }
       ],
       "scored_keywords": [
         {
-          "keyword": "parks - topics",
-          "score": 0.015544041450777
+          "score": 0.0077519379844961,
+          "keyword": "Parks topics"
         },
         {
-          "keyword": "parks",
-          "score": 0.012953367875648
+          "score": 0.0064599483204134,
+          "keyword": "Management Education Programs"
         },
         {
-          "keyword": "About city park district management",
-          "score": 0.012953367875648
+          "score": 0.0064599483204134,
+          "keyword": "About City Park"
         },
         {
-          "keyword": "About state park agencies",
-          "score": 0.012953367875648
+          "score": 0.0064599483204134,
+          "keyword": "About State Park"
         },
         {
-          "keyword": "parks management education programs",
-          "score": 0.012953367875648
+          "score": 0.0064599483204134,
+          "keyword": "State Park Agencies"
         },
         {
-          "keyword": "search the web",
-          "score": 0.012953367875648
+          "score": 0.0064599483204134,
+          "keyword": "About Local Parks"
         },
         {
-          "keyword": "About state parks",
-          "score": 0.012953367875648
+          "score": 0.0064599483204134,
+          "keyword": "Search the Web"
         },
         {
-          "keyword": "related articles",
-          "score": 0.012953367875648
+          "score": 0.0064599483204134,
+          "keyword": "City Park District Management"
         },
         {
-          "keyword": "About local parks and recreation departments",
-          "score": 0.012953367875648
+          "score": 0.0064599483204134,
+          "keyword": "Parks Management Education"
         },
         {
-          "keyword": "the california department of parks",
-          "score": 0.0077720207253886
-        },
-        {
-          "keyword": "marinas",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "local services ogals administers grant programs that provide",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "shutterstock 2010",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "california state parks general plans division provides development",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the largest park district in the u.s. it can",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "parks and recreation department services",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "california office of grants and local services ogals administers",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Approving the sale of alcoholic beverages",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "and administer their state park systems",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the director of natural resources the chicago park district s green department",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "a park can be",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "california contains many of the nation",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the national association of state park directors naspd",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "maintained at the state or a local level",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the agencies within california",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the planning and development of facilities",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Working with the city s legal department",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "a grassy area with a playground or more",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "and managing department personnel while maintaining",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "managed by local levels of government",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "golf courses",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Supervising the maintenance of local park areas recreation facilities",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the state of california office",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "of california s public park and recreation lands",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "ecotourism",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "a parks and recreation department director",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "serve as a prime example of state park management infrastructure",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "local and state agencies for parks",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "a park is managed",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the director of human resources the director of",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the guidance of the director of state parks",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "oversight of construction management park services and the planning",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "development and management resources for individual state parks",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "inventory monitoring and assessment programs that evaluate",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "forest and range plants and trees knowledge",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "are cut parks and recreation departments",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "community and commercial recreation management",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Approving general plans for individual parks",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "recreation management programs for aspiring park management professionals",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "along with recreation ecology and land use planning",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "conducts internal audits that assess waste",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Recruiting training and managing",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "communications comptroller director of the facility management department the director of",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "campsites",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "parks and recreation related projects",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "or by a municipal county or parish authority",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "local agencies manage parks and park districts",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the director of capital construction the director of",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "How do state and local agencies",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "increasing fundraising resources for the parks",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "while maintaining a working relationship with the city human resources department",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "parks and recreation natural resources division provide inventory monitoring",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the director of the department",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "be as simple as a grassy area",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the department of audits conducts internal audits",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "grant writing and other methods",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "additional state parks and new park programs and activities",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Because the state of california",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "state parks are parks",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "managing the parks and recreation department budget",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "park law enforcement including wilderness first-responder training",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the parks and recreation department",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "community recreation Programming such",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "activities within the state park system",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "several colleges and universities",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "serve as a prime example of a large-scale city park management infrastructure",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the chief operating officer provides assistance",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "trails",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "state park directors naspd helps state park government agencies effectively manage and",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "assistance to the general manager and manages",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "or appointed position",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "wilderness first-responder training and natural resource protection",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the chief financial officer makes financial decisions",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Swimming pools",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "ski slopes",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Establishing general policies for the guidance",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Providing orientation for new board members",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "parks and recreation include",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "the management and development of california",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "include hiking trails and stables",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "is usually an elected or appointed",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Finding private and public funding sources",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "Determining if hunting in certain park areas",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "technical support and research for the management",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "waste and management",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "alcoholic beverages in state park jurisdiction areas",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "of the nation s state parks its state government can",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "park city park state park",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "administered by a state agency or by",
-          "score": 0.0051813471502591
-        },
-        {
-          "keyword": "universities offer parks and recreation management programs",
-          "score": 0.0051813471502591
+          "score": 0.0064599483204134,
+          "keyword": "Local Parks and Recreation Departments"
         }
       ],
       "categories": {
-        "79d9fd400d535d842ecfd204f26eb2ea": {
-          "id": "79d9fd400d535d842ecfd204f26eb2ea",
-          "name": "State & Regional Parks",
-          "path": [
-            "Travel",
-            "Sightseeing Tours & Tourist Attractions",
-            "Tourist Attractions",
-            "Ecological & Outdoor Tourist Attractions",
-            "State & Regional Parks"
-          ],
-          "idpath": [
-            "71d23bae99aff67ee839c60c0c8ba179",
-            "464464e0888a968cc968fa732e173502",
-            "38d7f7961dc84f1c28b49c9c0f7864c6",
-            "41d20c52f770c1f19afb516622707542",
-            "79d9fd400d535d842ecfd204f26eb2ea"
-          ],
-          "stats": {
-            "social_relevance": 0.0000167753,
-            "social_idf": 47951.825870647
-          }
-        },
-        "77a3481d233302e81217929fe450843d": {
-          "id": "77a3481d233302e81217929fe450843d",
-          "name": "Parks & Natural Resources Agencies",
-          "path": [
-            "Government",
-            "Government [No Location Specified]",
-            "Parks & Natural Resources Agencies"
-          ],
-          "idpath": [
-            "e205ca26092d0fdb0b7a49354a3fe318",
-            "24aaabbafb32ca94a5d558c4331b20ee",
-            "77a3481d233302e81217929fe450843d"
-          ],
-          "stats": {
-            "social_relevance": 0.000000,
-            "social_idf": 1927663.4
-          }
-        },
-        "e00f7d575910c368f8a54a5c1c7ed1a1": {
-          "id": "e00f7d575910c368f8a54a5c1c7ed1a1",
-          "name": "Recreation Management Services",
+        "867374be435024b71138cfa11b4502ed": {
+          "id": "867374be435024b71138cfa11b4502ed",
+          "name": "Construction",
           "path": [
             "Business & Industrial",
-            "Sports & Entertainment Industry",
-            "Sports & Entertainment Industry Services",
-            "Park & Recreation Services",
-            "Recreation Management Services"
+            "Construction"
           ],
           "idpath": [
             "246045a85ad09438156569ba21b02f5e",
-            "d42c70f60417a538497907324b0e90d8",
-            "7c43e69f428778d8cdf54c6be7a23433",
-            "e22fa2bab4d6b098e7170dceac93a457",
-            "e00f7d575910c368f8a54a5c1c7ed1a1"
+            "867374be435024b71138cfa11b4502ed"
           ],
           "stats": {
-            "social_relevance": 0.00000,
-            "social_idf": 19276634
+            "social_relevance": 0.000167156,
+            "social_idf": 8.4567337281769
           }
         },
-        "8690217fab1c6de8935cf0e7e2c20ed0": {
-          "id": "8690217fab1c6de8935cf0e7e2c20ed0",
-          "name": "City Parks",
+        "b58c6463b2f9a7ceae794e295c186f13": {
+          "id": "b58c6463b2f9a7ceae794e295c186f13",
+          "name": "Parks and Recreation",
           "path": [
-            "Travel",
-            "Sightseeing Tours & Tourist Attractions",
-            "Tourist Attractions",
-            "Ecological & Outdoor Tourist Attractions",
-            "City Parks"
+            "Arts & Entertainment",
+            "Movies & Television",
+            "Movie & TV Products",
+            "TV",
+            "Comedy TV Shows",
+            "Parks and Recreation"
           ],
           "idpath": [
-            "71d23bae99aff67ee839c60c0c8ba179",
-            "464464e0888a968cc968fa732e173502",
-            "38d7f7961dc84f1c28b49c9c0f7864c6",
-            "41d20c52f770c1f19afb516622707542",
-            "8690217fab1c6de8935cf0e7e2c20ed0"
+            "0cc9e1516aaa38d4802a2ee5314ac4ab",
+            "06b7167107de9cff93e6738da9c044c4",
+            "8e4e953b861d4597cb5fae3b7de67ce5",
+            "b3728edb10af57dfbd941132f0c932ae",
+            "8883e97b05dbce9b6c5a5be49d1f3a33",
+            "b58c6463b2f9a7ceae794e295c186f13"
           ],
           "stats": {
-            "social_relevance": 0.0000065515,
-            "social_idf": 122781.10828025
+            "social_relevance": 0.0000055662,
+            "social_idf": 11.858948403925
           }
         },
         "e205ca26092d0fdb0b7a49354a3fe318": {
@@ -733,56 +137,8 @@
             "e205ca26092d0fdb0b7a49354a3fe318"
           ],
           "stats": {
-            "social_relevance": 0.0006892896,
-            "social_idf": 1167.0077491222
-          }
-        },
-        "f38ecc41df86e08204af72fd8d622bbe": {
-          "id": "f38ecc41df86e08204af72fd8d622bbe",
-          "name": "Education & Reference Software",
-          "path": [
-            "Computers & Electronics",
-            "Computers",
-            "Computer Products",
-            "Computer Software",
-            "Apps",
-            "Application Software",
-            "Education & Reference Software"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "961ed1628d0c0aeca238f0f46d802fb0",
-            "0efe3cc7fb29ec6b8b912b10ff1dc404",
-            "b3e03e0f41b89f7614e56c67ed5fcbbe",
-            "358109a9bf7b205353d30f624412547d",
-            "aba12a8acbca9a35f2fa2a47ad73b95c",
-            "f38ecc41df86e08204af72fd8d622bbe"
-          ],
-          "stats": {
-            "social_relevance": 0.0000084711,
-            "social_idf": 94958.78817734
-          }
-        },
-        "81844d0f06c3a89a3348a70deccf6226": {
-          "id": "81844d0f06c3a89a3348a70deccf6226",
-          "name": "Search Engines & Web Portals",
-          "path": [
-            "Computers & Electronics",
-            "Telecommunications",
-            "Internet",
-            "Websites & Online Content",
-            "Search Engines & Web Portals"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "32d2e2823a3b43e5c07d112c547247e2",
-            "999f4a57dfa866fb307855de356453f1",
-            "4a5073054bf6bc245f61d18a8e5bd8f2",
-            "81844d0f06c3a89a3348a70deccf6226"
-          ],
-          "stats": {
-            "social_relevance": 0.0000527045,
-            "social_idf": 15262.576405384
+            "social_relevance": 0.0007616773,
+            "social_idf": 6.9401382752086
           }
         },
         "e79592e6fb4614aac2755ecccf5b9872": {
@@ -807,48 +163,8 @@
             "e79592e6fb4614aac2755ecccf5b9872"
           ],
           "stats": {
-            "social_relevance": 0.000010641,
-            "social_idf": 75594.643137255
-          }
-        },
-        "e4486a0b1d80a51c7b9f98fac35d2a56": {
-          "id": "e4486a0b1d80a51c7b9f98fac35d2a56",
-          "name": "US State & Local Government",
-          "path": [
-            "Government",
-            "Governments of North America",
-            "Government of the US",
-            "US State & Local Government"
-          ],
-          "idpath": [
-            "e205ca26092d0fdb0b7a49354a3fe318",
-            "c0cac171676f8b5f77c3fce54f60a732",
-            "46dc17b789f532a51318f01bc6f6aeb3",
-            "e4486a0b1d80a51c7b9f98fac35d2a56"
-          ],
-          "stats": {
-            "social_relevance": 0.000001,
-            "social_idf": 1285108.9333333
-          }
-        },
-        "3e4c3e9c65251d46a7b1358372e5a74c": {
-          "id": "3e4c3e9c65251d46a7b1358372e5a74c",
-          "name": "Computer Technical Support",
-          "path": [
-            "Computers & Electronics",
-            "Computers",
-            "Computer Services",
-            "Computer Technical Support"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "961ed1628d0c0aeca238f0f46d802fb0",
-            "3f0815cddecb25d8be7dbe3c4a0e0e15",
-            "3e4c3e9c65251d46a7b1358372e5a74c"
-          ],
-          "stats": {
-            "social_relevance": 0.0000303792,
-            "social_idf": 26478.892857143
+            "social_relevance": 0.0000071808,
+            "social_idf": 11.604247012203
           }
         },
         "47877091b472bf13a439e7848dd9b7b0": {
@@ -873,324 +189,100 @@
             "47877091b472bf13a439e7848dd9b7b0"
           ],
           "stats": {
-            "social_relevance": 0.0000329247,
-            "social_idf": 24431.728770596
+            "social_relevance": 0.0000258765,
+            "social_idf": 10.322327459416
           }
         },
-        "d8ee1ec3d4b0cf125f0ece030b26bd17": {
-          "id": "d8ee1ec3d4b0cf125f0ece030b26bd17",
-          "name": "Central Park",
+        "e00f7d575910c368f8a54a5c1c7ed1a1": {
+          "id": "e00f7d575910c368f8a54a5c1c7ed1a1",
+          "name": "Recreation Management Services",
+          "path": [
+            "Business & Industrial",
+            "Sports & Entertainment Industry",
+            "Sports & Entertainment Industry Services",
+            "Park & Recreation Services",
+            "Recreation Management Services"
+          ],
+          "idpath": [
+            "246045a85ad09438156569ba21b02f5e",
+            "d42c70f60417a538497907324b0e90d8",
+            "7c43e69f428778d8cdf54c6be7a23433",
+            "e22fa2bab4d6b098e7170dceac93a457",
+            "e00f7d575910c368f8a54a5c1c7ed1a1"
+          ],
+          "stats": {
+            "social_relevance": 0.000000,
+            "social_idf": 15.635533438458
+          }
+        },
+        "f38ecc41df86e08204af72fd8d622bbe": {
+          "id": "f38ecc41df86e08204af72fd8d622bbe",
+          "name": "Education & Reference Software",
+          "path": [
+            "Computers & Electronics",
+            "Computers",
+            "Computer Products",
+            "Computer Software",
+            "Apps",
+            "Application Software",
+            "Education & Reference Software"
+          ],
+          "idpath": [
+            "f2300bfd81612ac3e8e5c154334057c5",
+            "961ed1628d0c0aeca238f0f46d802fb0",
+            "0efe3cc7fb29ec6b8b912b10ff1dc404",
+            "b3e03e0f41b89f7614e56c67ed5fcbbe",
+            "358109a9bf7b205353d30f624412547d",
+            "aba12a8acbca9a35f2fa2a47ad73b95c",
+            "f38ecc41df86e08204af72fd8d622bbe"
+          ],
+          "stats": {
+            "social_relevance": 0.0000072658,
+            "social_idf": 11.592482170623
+          }
+        },
+        "8690217fab1c6de8935cf0e7e2c20ed0": {
+          "id": "8690217fab1c6de8935cf0e7e2c20ed0",
+          "name": "City Parks",
           "path": [
             "Travel",
             "Sightseeing Tours & Tourist Attractions",
             "Tourist Attractions",
             "Ecological & Outdoor Tourist Attractions",
-            "City Parks",
-            "Central Park"
+            "City Parks"
           ],
           "idpath": [
             "71d23bae99aff67ee839c60c0c8ba179",
             "464464e0888a968cc968fa732e173502",
             "38d7f7961dc84f1c28b49c9c0f7864c6",
             "41d20c52f770c1f19afb516622707542",
-            "8690217fab1c6de8935cf0e7e2c20ed0",
-            "d8ee1ec3d4b0cf125f0ece030b26bd17"
+            "8690217fab1c6de8935cf0e7e2c20ed0"
           ],
           "stats": {
-            "social_relevance": 0.0000319649,
-            "social_idf": 25165.318537859
+            "social_relevance": 0.000006416,
+            "social_idf": 11.716865890311
           }
         },
-        "e22fa2bab4d6b098e7170dceac93a457": {
-          "id": "e22fa2bab4d6b098e7170dceac93a457",
-          "name": "Park & Recreation Services",
-          "path": [
-            "Business & Industrial",
-            "Sports & Entertainment Industry",
-            "Sports & Entertainment Industry Services",
-            "Park & Recreation Services"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "d42c70f60417a538497907324b0e90d8",
-            "7c43e69f428778d8cdf54c6be7a23433",
-            "e22fa2bab4d6b098e7170dceac93a457"
-          ],
-          "stats": {
-            "social_relevance": 0.00000,
-            "social_idf": 19276634
-          }
-        },
-        "c5d21b668576d5b822f7bb8ea78a4d4b": {
-          "id": "c5d21b668576d5b822f7bb8ea78a4d4b",
-          "name": "Business Management Information",
-          "path": [
-            "Business & Industrial",
-            "General Business & Industrial",
-            "General Business & Industrial Services",
-            "General Business Services",
-            "Business Operations, Management, & Support Services",
-            "Business Operations & Management",
-            "Business Management Information"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "1df4b9b5502bedb4a6f27153704e6f04",
-            "774323fee882e4d9e1cf64511a660fb5",
-            "e6c41c92885de7cde5da1b63d6121a81",
-            "d28d13ec857f1cf440b165346e61b7e1",
-            "d817aa49bb89d119bd70b52db0e8729f",
-            "c5d21b668576d5b822f7bb8ea78a4d4b"
-          ],
-          "stats": {
-            "social_relevance": 0.0000033384,
-            "social_idf": 240957.925
-          }
-        },
-        "ac4c132355cd792e18ee053a8cd7aa05": {
-          "id": "ac4c132355cd792e18ee053a8cd7aa05",
-          "name": "District Manager Jobs",
-          "path": [
-            "Jobs & Education",
-            "Jobs",
-            "Executive & Management Careers",
-            "Executive & Management Job Listings",
-            "Management Jobs",
-            "Business Management Careers",
-            "District Manager Jobs"
-          ],
-          "idpath": [
-            "be42e02a03e419e7d31db6b54ef84913",
-            "cad577763a646853b98289e05f30b31f",
-            "25084c2129582314e2208ea29442995e",
-            "6e56dbadaaa037a8e6ab5ca606e67d53",
-            "d621b697ebdd67a61d9c6a49570527c7",
-            "533b3a69ec052cf51fdef3f5046404ce",
-            "ac4c132355cd792e18ee053a8cd7aa05"
-          ],
-          "stats": {
-            "social_relevance": 0.000004006,
-            "social_idf": 200798.27083333
-          }
-        },
-        "867374be435024b71138cfa11b4502ed": {
-          "id": "867374be435024b71138cfa11b4502ed",
-          "name": "Construction",
-          "path": [
-            "Business & Industrial",
-            "Construction"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "867374be435024b71138cfa11b4502ed"
-          ],
-          "stats": {
-            "social_relevance": 0.0001707575,
-            "social_idf": 4710.8098729228
-          }
-        },
-        "3ff658d97a9e8604e2887cc66573afcf": {
-          "id": "3ff658d97a9e8604e2887cc66573afcf",
-          "name": "Shutterstock",
-          "path": [
-            "Arts & Entertainment",
-            "Art & Architecture",
-            "Photographic & Digital Arts",
-            "Photography",
-            "Photography Products",
-            "Stock Photography",
-            "Shutterstock"
-          ],
-          "idpath": [
-            "0cc9e1516aaa38d4802a2ee5314ac4ab",
-            "3d79e976ed126c05eb3755a8a68cf259",
-            "f5c67941e5c5a6560fd482481e127f67",
-            "1655c9e3f933444a2588335d2004a3d7",
-            "9d94b2fdda856d2bd4428514bbcdf1f3",
-            "3a70146fb1b7db7d54f9b83ea0d473b5",
-            "3ff658d97a9e8604e2887cc66573afcf"
-          ],
-          "stats": {
-            "social_relevance": 0.0000029211,
-            "social_idf": 275380.48571429
-          }
-        },
-        "10bda45087cd6c10242cb2859547fd2a": {
-          "id": "10bda45087cd6c10242cb2859547fd2a",
-          "name": "Building Maintenance Services",
-          "path": [
-            "Business & Industrial",
-            "Hospitality Industry",
-            "Hospitality Services",
-            "Building Maintenance Services"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "1b1675077c0cd582251197ec563fe9c5",
-            "7c8adba69808eca84a5481f8f5ced425",
-            "10bda45087cd6c10242cb2859547fd2a"
-          ],
-          "stats": {
-            "social_relevance": 0.0000032549,
-            "social_idf": 247136.33333333
-          }
-        },
-        "6c29f3f880aeb773dcc76a3c7e47fbb7": {
-          "id": "6c29f3f880aeb773dcc76a3c7e47fbb7",
-          "name": "Fundraising Services",
-          "path": [
-            "People & Society",
-            "Social Groups & Issues",
-            "Social Issues & Advocacy",
-            "Charity & Philanthropy",
-            "Fundraising Services"
-          ],
-          "idpath": [
-            "bcfb236bcfc3b0f4f03a3cfeed7253a7",
-            "f18f5005eed8c8de85104daff7932b19",
-            "89b3f496e985758bc8cb0ca25a2a6fc4",
-            "3c0e276cee65073d745fcc2ee0771854",
-            "6c29f3f880aeb773dcc76a3c7e47fbb7"
-          ],
-          "stats": {
-            "social_relevance": 0.0002222936,
-            "social_idf": 3618.6660409236
-          }
-        },
-        "4146f305695dd4850278599a65b1ef15": {
-          "id": "4146f305695dd4850278599a65b1ef15",
-          "name": "Cash Management",
-          "path": [
-            "Sciences & Humanities",
-            "Science",
-            "Mathematics & Computer Sciences",
-            "Mathematics",
-            "Branches of Mathematics",
-            "Applied Mathematics",
-            "Business Mathematics",
-            "Basic Accounting",
-            "Cash Management"
-          ],
-          "idpath": [
-            "97a2cc1e4f6df353e6eab12cfe9782ef",
-            "b8076df03ebed4e8cca77182afa4f7eb",
-            "5af4c101aba2324875be64b416e2da9b",
-            "43a1f3b9d2de50b8abf341eaff07ad20",
-            "116c0c1d6edcabc96ea4d6e4f4ee3587",
-            "4d1686244e4d7f33df9b598a526847cb",
-            "24c7f7113dc8ef3d2e51ada7113a7637",
-            "a04557c314f75d3652bcf5abd4d58628",
-            "4146f305695dd4850278599a65b1ef15"
-          ],
-          "stats": {
-            "social_relevance": 0.000000,
-            "social_idf": 1927663.4
-          }
-        },
-        "585b4307159026421eddc0b6351c5d17": {
-          "id": "585b4307159026421eddc0b6351c5d17",
-          "name": "Campgrounds",
+        "79d9fd400d535d842ecfd204f26eb2ea": {
+          "id": "79d9fd400d535d842ecfd204f26eb2ea",
+          "name": "State & Regional Parks",
           "path": [
             "Travel",
-            "Travel Accommodations",
-            "Campgrounds"
+            "Sightseeing Tours & Tourist Attractions",
+            "Tourist Attractions",
+            "Ecological & Outdoor Tourist Attractions",
+            "State & Regional Parks"
           ],
           "idpath": [
             "71d23bae99aff67ee839c60c0c8ba179",
-            "c41e1ed41cebef0eb241fd192c0e604e",
-            "585b4307159026421eddc0b6351c5d17"
+            "464464e0888a968cc968fa732e173502",
+            "38d7f7961dc84f1c28b49c9c0f7864c6",
+            "41d20c52f770c1f19afb516622707542",
+            "79d9fd400d535d842ecfd204f26eb2ea"
           ],
           "stats": {
-            "social_relevance": 0.0000228678,
-            "social_idf": 35176.339416058
-          }
-        },
-        "6a57037544e3ba0f35f202300743c0d7": {
-          "id": "6a57037544e3ba0f35f202300743c0d7",
-          "name": "Police Training Programs",
-          "path": [
-            "Jobs & Education",
-            "Jobs",
-            "Law Enforcement & Public Safety Careers",
-            "Law Enforcement & Public Safety Professional Organizations",
-            "Police Training Programs"
-          ],
-          "idpath": [
-            "be42e02a03e419e7d31db6b54ef84913",
-            "cad577763a646853b98289e05f30b31f",
-            "f23893351ca16001fe2bb3435e272710",
-            "34645687c0b8ad800d86d35a2ab2332b",
-            "6a57037544e3ba0f35f202300743c0d7"
-          ],
-          "stats": {
-            "social_relevance": 0.0000082207,
-            "social_idf": 97850.934010152
-          }
-        },
-        "0040785c2fd3592e05c53b519084a7a7": {
-          "id": "0040785c2fd3592e05c53b519084a7a7",
-          "name": "Facilities Management",
-          "path": [
-            "Business & Industrial",
-            "General Business & Industrial",
-            "General Business & Industrial Services",
-            "General Business Services",
-            "Business Operations, Management, & Support Services",
-            "Business Operations & Management",
-            "Facilities Management"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "1df4b9b5502bedb4a6f27153704e6f04",
-            "774323fee882e4d9e1cf64511a660fb5",
-            "e6c41c92885de7cde5da1b63d6121a81",
-            "d28d13ec857f1cf440b165346e61b7e1",
-            "d817aa49bb89d119bd70b52db0e8729f",
-            "0040785c2fd3592e05c53b519084a7a7"
-          ],
-          "stats": {
-            "social_relevance": 0.0000018361,
-            "social_idf": 438105.31818182
-          }
-        },
-        "6192081db922207bbc6bb1f7bb057cfd": {
-          "id": "6192081db922207bbc6bb1f7bb057cfd",
-          "name": "Trees",
-          "path": [
-            "Home & Garden",
-            "Lawn & Garden",
-            "Lawn & Garden Products",
-            "Gardening Supplies",
-            "Gardening Supplies [No Garden Type Specified]",
-            "Trees & Shrubs",
-            "Trees"
-          ],
-          "idpath": [
-            "0b1cfd1a5102a974a372e9bc3cfffb35",
-            "1f3a0d779e9d05826be64107f5fa8f38",
-            "efc50050388f1ffcbea36490d376c604",
-            "4cebb958bbc0a26cc4d985a5164f21db",
-            "ade02b775be2bcf988f7020a5bf18018",
-            "bd607f2c6c74fb20a623641bf7dda7c4",
-            "6192081db922207bbc6bb1f7bb057cfd"
-          ],
-          "stats": {
-            "social_relevance": 0.0001964213,
-            "social_idf": 4095.312088379
-          }
-        },
-        "9449388ba0686b2b73d88f6801ae43d3": {
-          "id": "9449388ba0686b2b73d88f6801ae43d3",
-          "name": "Law & Legal",
-          "path": [
-            "Law & Legal"
-          ],
-          "idpath": [
-            "9449388ba0686b2b73d88f6801ae43d3"
-          ],
-          "stats": {
-            "social_relevance": 0.0003466478,
-            "social_idf": 2320.5289514867
+            "social_relevance": 0.0000227747,
+            "social_idf": 10.450011566055
           }
         },
         "c251f640cde099a82173d0ac1222396e": {
@@ -1213,703 +305,13 @@
             "c251f640cde099a82173d0ac1222396e"
           ],
           "stats": {
-            "social_relevance": 0.0001269832,
-            "social_idf": 6334.7466316135
-          }
-        },
-        "db18c49951fd93ad18c31c79da670890": {
-          "id": "db18c49951fd93ad18c31c79da670890",
-          "name": "Outdoor Sports",
-          "path": [
-            "Sports",
-            "Outdoor Sports"
-          ],
-          "idpath": [
-            "b00fac5f30dc8dbb660c8d08fe66f487",
-            "db18c49951fd93ad18c31c79da670890"
-          ],
-          "stats": {
-            "social_relevance": 0.0000132283,
-            "social_idf": 60809.570977918
-          }
-        },
-        "85361835043862d9724a8f47419848fb": {
-          "id": "85361835043862d9724a8f47419848fb",
-          "name": "Hunting",
-          "path": [
-            "Sports",
-            "Outdoor Sports",
-            "Hunting"
-          ],
-          "idpath": [
-            "b00fac5f30dc8dbb660c8d08fe66f487",
-            "db18c49951fd93ad18c31c79da670890",
-            "85361835043862d9724a8f47419848fb"
-          ],
-          "stats": {
-            "social_relevance": 0.0000989409,
-            "social_idf": 8130.1703922396
-          }
-        },
-        "9fe86f6a0df219b981d37cca456dc746": {
-          "id": "9fe86f6a0df219b981d37cca456dc746",
-          "name": "Grant Services",
-          "path": [
-            "People & Society",
-            "Social Groups & Issues",
-            "Social Issues & Advocacy",
-            "Charity & Philanthropy",
-            "Fundraising Services",
-            "Fundraising Services [No Cause Specified]",
-            "Grantmaking Services",
-            "Grant Services"
-          ],
-          "idpath": [
-            "bcfb236bcfc3b0f4f03a3cfeed7253a7",
-            "f18f5005eed8c8de85104daff7932b19",
-            "89b3f496e985758bc8cb0ca25a2a6fc4",
-            "3c0e276cee65073d745fcc2ee0771854",
-            "6c29f3f880aeb773dcc76a3c7e47fbb7",
-            "ad31f940c0a6f0fa9ee3816a4fef40d6",
-            "98270c3684bbd5b7b2bb4f7fd506ea08",
-            "9fe86f6a0df219b981d37cca456dc746"
-          ],
-          "stats": {
-            "social_relevance": 0.0000011684,
-            "social_idf": 688451.21428571
-          }
-        },
-        "82d36d41376197e3106ca447fb77fa46": {
-          "id": "82d36d41376197e3106ca447fb77fa46",
-          "name": "Holidays & Special Events",
-          "path": [
-            "People & Society",
-            "Holidays & Special Events"
-          ],
-          "idpath": [
-            "bcfb236bcfc3b0f4f03a3cfeed7253a7",
-            "82d36d41376197e3106ca447fb77fa46"
-          ],
-          "stats": {
-            "social_relevance": 0.0001369983,
-            "social_idf": 5871.6521474261
-          }
-        },
-        "3ef57f09c41404f52993170d1b0368e0": {
-          "id": "3ef57f09c41404f52993170d1b0368e0",
-          "name": "Golf Courses",
-          "path": [
-            "Sports",
-            "Individual Sports",
-            "Golf",
-            "Golfing Facilities & Stores",
-            "Golf Courses"
-          ],
-          "idpath": [
-            "b00fac5f30dc8dbb660c8d08fe66f487",
-            "c8502902087ec37a826539bca4d31989",
-            "2501fc52837390da1af2969746380129",
-            "e8ebc319c5e53e58792615c56dd4350d",
-            "3ef57f09c41404f52993170d1b0368e0"
-          ],
-          "stats": {
-            "social_relevance": 0.0000249543,
-            "social_idf": 32235.173913044
-          }
-        },
-        "b619927fea5c277604ccae28fa5074cb": {
-          "id": "b619927fea5c277604ccae28fa5074cb",
-          "name": "Cabin & Cottage Real Estate",
-          "path": [
-            "Real Estate",
-            "Residential Real Estate",
-            "Housing",
-            "Houses",
-            "Single-Family Houses [No Bedrooms Specified]",
-            "Single-Family Houses [No Cost Specified]",
-            "Cabin & Cottage Real Estate"
-          ],
-          "idpath": [
-            "1a25b3de350ce8b90adf2488940ac282",
-            "b599bd9a4b749abf813ca34950028773",
-            "1a59e6d784cbba4d2b7f6ec9401d0688",
-            "7d2b69919f0365f3154522623f9ada5e",
-            "84842d0726e4437136d537b34ec5bb99",
-            "8f1c7b161fe20ef49388187ff8e692c0",
-            "b619927fea5c277604ccae28fa5074cb"
-          ],
-          "stats": {
-            "social_relevance": 0.00000,
-            "social_idf": 1752421.2727273
-          }
-        },
-        "41e02e1c8875510abb2da7df3c03ac30": {
-          "id": "41e02e1c8875510abb2da7df3c03ac30",
-          "name": "Lodges",
-          "path": [
-            "Travel",
-            "Travel Accommodations",
-            "Vacation Rentals",
-            "Vacation Rentals [No Location Specified]",
-            "Lodge Vacation Rentals",
-            "Lodges"
-          ],
-          "idpath": [
-            "71d23bae99aff67ee839c60c0c8ba179",
-            "c41e1ed41cebef0eb241fd192c0e604e",
-            "c3aa8682ae7d75becd116f17d4e855bf",
-            "348aee5bbd3570a839bdf5de127cd4e2",
-            "3ae2324290c28f7ca46bc4a4448c1353",
-            "41e02e1c8875510abb2da7df3c03ac30"
-          ],
-          "stats": {
-            "social_relevance": 0.0000242032,
-            "social_idf": 33235.575862069
-          }
-        },
-        "85d593bcd2bcf6bdbaa6883bfb742c5e": {
-          "id": "85d593bcd2bcf6bdbaa6883bfb742c5e",
-          "name": "Emergency Preparedness",
-          "path": [
-            "People & Society",
-            "Social Groups & Issues",
-            "Social Issues & Advocacy",
-            "Safety Topics & Disaster Relief",
-            "Emergency Preparedness"
-          ],
-          "idpath": [
-            "bcfb236bcfc3b0f4f03a3cfeed7253a7",
-            "f18f5005eed8c8de85104daff7932b19",
-            "89b3f496e985758bc8cb0ca25a2a6fc4",
-            "d0e5b31b97a512502f131927c6beb88d",
-            "85d593bcd2bcf6bdbaa6883bfb742c5e"
-          ],
-          "stats": {
-            "social_relevance": 0.0000037557,
-            "social_idf": 214184.82222222
-          }
-        },
-        "39eff0b584baaa45bd783fe6d27bbfde": {
-          "id": "39eff0b584baaa45bd783fe6d27bbfde",
-          "name": "Swimming Pools",
-          "path": [
-            "Home & Garden",
-            "Home Spa & Recreation",
-            "Home Spa & Recreation Products",
-            "Swimming Pools & Hot Tubs",
-            "Swimming Pools"
-          ],
-          "idpath": [
-            "0b1cfd1a5102a974a372e9bc3cfffb35",
-            "b407bf5828b0e7797083bdfd7e4d88cc",
-            "bf5b92bb3c8e31d313e2f303d4fe1ffe",
-            "16bac8c80e61beaea77ec9a23fd805ea",
-            "39eff0b584baaa45bd783fe6d27bbfde"
-          ],
-          "stats": {
-            "social_relevance": 0.0000189035,
-            "social_idf": 42553.27593819
-          }
-        },
-        "44d3141b6d401c12e4cbcfc6209462d0": {
-          "id": "44d3141b6d401c12e4cbcfc6209462d0",
-          "name": "Skiing",
-          "path": [
-            "Sports",
-            "Winter Sports",
-            "Skiing"
-          ],
-          "idpath": [
-            "b00fac5f30dc8dbb660c8d08fe66f487",
-            "573acbe84326bd46598b1226bef6c589",
-            "44d3141b6d401c12e4cbcfc6209462d0"
-          ],
-          "stats": {
-            "social_relevance": 0.0000396014,
-            "social_idf": 20312.575342466
-          }
-        },
-        "8851bea6b197428fc7952de667c99b33": {
-          "id": "8851bea6b197428fc7952de667c99b33",
-          "name": "Hiking Trails",
-          "path": [
-            "Sports",
-            "Outdoor Sports",
-            "Hiking & Camping",
-            "Hiking & Camping Facilities & Stores",
-            "Hiking Trails"
-          ],
-          "idpath": [
-            "b00fac5f30dc8dbb660c8d08fe66f487",
-            "db18c49951fd93ad18c31c79da670890",
-            "39f3afe2c64d4358604d541d15153495",
-            "501392f1b30e937e8bd8d841d48c60e4",
-            "8851bea6b197428fc7952de667c99b33"
-          ],
-          "stats": {
-            "social_relevance": 0.0000102655,
-            "social_idf": 78360.300813008
-          }
-        },
-        "c793b32b72c9c073c81784e522b09473": {
-          "id": "c793b32b72c9c073c81784e522b09473",
-          "name": "Recruiters",
-          "path": [
-            "Jobs & Education",
-            "Jobs",
-            "Jobs [No Industry Specified]",
-            "General Job Services",
-            "Employment Services",
-            "Recruiters"
-          ],
-          "idpath": [
-            "be42e02a03e419e7d31db6b54ef84913",
-            "cad577763a646853b98289e05f30b31f",
-            "e2798996e6b7326fddd8d979c6640c3f",
-            "bef6c518363e13cae200469bf19ddba2",
-            "fa05b133c2c639aaff5737cf7d7ac8cb",
-            "c793b32b72c9c073c81784e522b09473"
-          ],
-          "stats": {
-            "social_relevance": 0.0001771839,
-            "social_idf": 4539.9514837494
-          }
-        },
-        "8493b51d3bdf4d7a03f2af3d2cd3827b": {
-          "id": "8493b51d3bdf4d7a03f2af3d2cd3827b",
-          "name": "Playgrounds",
-          "path": [
-            "Games & Toys",
-            "General Games & Toys Facilities",
-            "Game Playing Facilities",
-            "Playgrounds"
-          ],
-          "idpath": [
-            "132a2327ee287cd11be6d6fd6fb2f276",
-            "99ae88da571894cd0a5bc1269d16111e",
-            "772a893d11502ebbd63c86f9b22cfaa7",
-            "8493b51d3bdf4d7a03f2af3d2cd3827b"
-          ],
-          "stats": {
-            "social_relevance": 0.0000434822,
-            "social_idf": 18499.648752399
-          }
-        },
-        "4065978b1bd20f32a4f071256db5ad1e": {
-          "id": "4065978b1bd20f32a4f071256db5ad1e",
-          "name": "Ecotourism & Nature Vacations",
-          "path": [
-            "Travel",
-            "Specialty Vacations",
-            "Ecotourism & Nature Vacations"
-          ],
-          "idpath": [
-            "71d23bae99aff67ee839c60c0c8ba179",
-            "58fd27f1a7545b3ca4882028375304ea",
-            "4065978b1bd20f32a4f071256db5ad1e"
-          ],
-          "stats": {
-            "social_relevance": 0.0000090971,
-            "social_idf": 88424.926605505
-          }
-        },
-        "263026a06c52220e181757961910ef0b": {
-          "id": "263026a06c52220e181757961910ef0b",
-          "name": "Nonprofit Corporations",
-          "path": [
-            "Law & Legal",
-            "Corporate & Business Law",
-            "Corporate Law",
-            "Corporate Law Services",
-            "Corporate Law Information",
-            "Nonprofit Corporations"
-          ],
-          "idpath": [
-            "9449388ba0686b2b73d88f6801ae43d3",
-            "146da180005114792cf26f9a522338c3",
-            "f6943c638bd1fc195bb123d055f7ec0c",
-            "201908d11a0fcfcbccc562349b82b9e5",
-            "a8efd36e6a743038f9a6b65eee26228d",
-            "263026a06c52220e181757961910ef0b"
-          ],
-          "stats": {
-            "social_relevance": 0.0000648478,
-            "social_idf": 12404.526383526
-          }
-        },
-        "a9c9a687c3941dddaec272279f4a8ce5": {
-          "id": "a9c9a687c3941dddaec272279f4a8ce5",
-          "name": "Beverage Sales Information",
-          "path": [
-            "Business & Industrial",
-            "Hospitality Industry",
-            "Hospitality Services",
-            "Food & Beverage Industry Services",
-            "Food & Beverage Industry Information",
-            "Beverage Sales Information"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "1b1675077c0cd582251197ec563fe9c5",
-            "7c8adba69808eca84a5481f8f5ced425",
-            "6ea8eaf0c6f5be9fa6a8672cedb3537e",
-            "66ce6817ef3cca73c4cfdd0ed7da963e",
-            "a9c9a687c3941dddaec272279f4a8ce5"
-          ],
-          "stats": {
-            "social_relevance": 0.000000,
-            "social_idf": 3212772.3333333
-          }
-        },
-        "47d5a9a76a588c23e13b81677d87f3d3": {
-          "id": "47d5a9a76a588c23e13b81677d87f3d3",
-          "name": "Business Auditing Services",
-          "path": [
-            "Business & Industrial",
-            "General Business & Industrial",
-            "General Business & Industrial Services",
-            "General Business Services",
-            "Business Operations, Management, & Support Services",
-            "Business Operations & Management",
-            "Strategic Management",
-            "Strategic Planning",
-            "Business Auditing Services"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "1df4b9b5502bedb4a6f27153704e6f04",
-            "774323fee882e4d9e1cf64511a660fb5",
-            "e6c41c92885de7cde5da1b63d6121a81",
-            "d28d13ec857f1cf440b165346e61b7e1",
-            "d817aa49bb89d119bd70b52db0e8729f",
-            "2e7f28cf1700193744a9cc3a45afac67",
-            "255157ea7054a8f126ec131179c6886e",
-            "47d5a9a76a588c23e13b81677d87f3d3"
-          ],
-          "stats": {
-            "social_relevance": 0.0000015857,
-            "social_idf": 507279.84210526
-          }
-        },
-        "bfd6728db8fc21920ed5d67b4d3fe357": {
-          "id": "bfd6728db8fc21920ed5d67b4d3fe357",
-          "name": "Urban & Regional Planning Facilities",
-          "path": [
-            "Arts & Entertainment",
-            "Art & Architecture",
-            "Architecture & Urban Planning",
-            "Urban Planning",
-            "Urban & Regional Planning Facilities"
-          ],
-          "idpath": [
-            "0cc9e1516aaa38d4802a2ee5314ac4ab",
-            "3d79e976ed126c05eb3755a8a68cf259",
-            "a0fe9c342aeb0adbab6613484d103f95",
-            "112b6f9ed901cbec9330096b2cb19412",
-            "bfd6728db8fc21920ed5d67b4d3fe357"
-          ],
-          "stats": {
-            "social_relevance": null,
-            "social_idf": null
-          }
-        },
-        "cc4c524f4dc3178ae4abf8c834e6cd6c": {
-          "id": "cc4c524f4dc3178ae4abf8c834e6cd6c",
-          "name": "Commercial Construction Management Services",
-          "path": [
-            "Business & Industrial",
-            "Construction",
-            "Commercial & Industrial Construction Services",
-            "Commercial Building Construction Services",
-            "Commercial Construction Design & Implementation Services",
-            "Commercial Construction Management Services"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "867374be435024b71138cfa11b4502ed",
-            "396235ef46a3807b269569823ba681da",
-            "1df28fe4ba60420cf50011ee02d5675d",
-            "6e38c93cd93e68c9e9f66b5f2369544c",
-            "cc4c524f4dc3178ae4abf8c834e6cd6c"
-          ],
-          "stats": {
-            "social_relevance": 0.000001,
-            "social_idf": 838114.52173913
-          }
-        },
-        "f17dd1cacd7d3d5d7451ffc225b53bd1": {
-          "id": "f17dd1cacd7d3d5d7451ffc225b53bd1",
-          "name": "Grants",
-          "path": [
-            "Finance",
-            "Financial Assistance",
-            "Grants"
-          ],
-          "idpath": [
-            "27e0bc27298feede36140f281e0dee16",
-            "2009253121466bc0e7348df21144d3b7",
-            "f17dd1cacd7d3d5d7451ffc225b53bd1"
-          ],
-          "stats": {
-            "social_relevance": 0.0000577538,
-            "social_idf": 13928.203757225
-          }
-        },
-        "c6613a8cb864ba310ac4946eb492a463": {
-          "id": "c6613a8cb864ba310ac4946eb492a463",
-          "name": "Alcohol",
-          "path": [
-            "Food & Drink",
-            "Drinks",
-            "Alcohol"
-          ],
-          "idpath": [
-            "10fedce50b97f7006e71901bcdacc0fc",
-            "9b576a465c9358da2811e65e1f43e076",
-            "c6613a8cb864ba310ac4946eb492a463"
-          ],
-          "stats": {
-            "social_relevance": 0.0002313907,
-            "social_idf": 3476.3992786294
-          }
-        },
-        "7769ffd0a4d8e9e366ffd303c2102a98": {
-          "id": "7769ffd0a4d8e9e366ffd303c2102a98",
-          "name": "Government Agencies",
-          "path": [
-            "Government",
-            "Government [No Location Specified]",
-            "Governmental Structures",
-            "Governments [No Level Specified]",
-            "Government Agencies"
-          ],
-          "idpath": [
-            "e205ca26092d0fdb0b7a49354a3fe318",
-            "24aaabbafb32ca94a5d558c4331b20ee",
-            "70b4deb5fe5d7377167defd340b379ad",
-            "10e35b5b5770662ffc825eb6f9075e38",
-            "7769ffd0a4d8e9e366ffd303c2102a98"
-          ],
-          "stats": {
-            "social_relevance": 0.0000106828,
-            "social_idf": 75299.3515625
-          }
-        },
-        "3b9d4ac5c270fb90e2f499a55ae61dc8": {
-          "id": "3b9d4ac5c270fb90e2f499a55ae61dc8",
-          "name": "Waste Management Services",
-          "path": [
-            "Business & Industrial",
-            "Environmental Services Industry",
-            "Environmental Services",
-            "Waste Management Services"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "b31e80b73f5eae6dccf897c936dcb617",
-            "4bfeba06279050b1b3004011fba6ce2f",
-            "3b9d4ac5c270fb90e2f499a55ae61dc8"
-          ],
-          "stats": {
-            "social_relevance": 0.0000180272,
-            "social_idf": 44621.837962963
-          }
-        },
-        "a72aab07447c22bcb19d275be7af2fad": {
-          "id": "a72aab07447c22bcb19d275be7af2fad",
-          "name": "Undergraduate Education",
-          "path": [
-            "Jobs & Education",
-            "Education",
-            "Undergraduate Education"
-          ],
-          "idpath": [
-            "be42e02a03e419e7d31db6b54ef84913",
-            "2e20880e103efbf6fef2a48335ea4a4b",
-            "a72aab07447c22bcb19d275be7af2fad"
-          ],
-          "stats": {
-            "social_relevance": 0.0013656848,
-            "social_idf": 589.0131695542
-          }
-        },
-        "172c3894976e39c4e621859d664894f6": {
-          "id": "172c3894976e39c4e621859d664894f6",
-          "name": "Accounting & Taxes",
-          "path": [
-            "Finance",
-            "Accounting & Taxes"
-          ],
-          "idpath": [
-            "27e0bc27298feede36140f281e0dee16",
-            "172c3894976e39c4e621859d664894f6"
-          ],
-          "stats": {
-            "social_relevance": 0.0003605855,
-            "social_idf": 2230.8336998033
-          }
-        },
-        "4b0e9b9e8c92c5c463053f0d7ddc73a2": {
-          "id": "4b0e9b9e8c92c5c463053f0d7ddc73a2",
-          "name": "Urban & Regional Planning Services",
-          "path": [
-            "Arts & Entertainment",
-            "Art & Architecture",
-            "Architecture & Urban Planning",
-            "Urban Planning",
-            "Urban & Regional Planning Services"
-          ],
-          "idpath": [
-            "0cc9e1516aaa38d4802a2ee5314ac4ab",
-            "3d79e976ed126c05eb3755a8a68cf259",
-            "a0fe9c342aeb0adbab6613484d103f95",
-            "112b6f9ed901cbec9330096b2cb19412",
-            "4b0e9b9e8c92c5c463053f0d7ddc73a2"
-          ],
-          "stats": {
-            "social_relevance": 0.000000,
-            "social_idf": 4819158.5
-          }
-        },
-        "4a5073054bf6bc245f61d18a8e5bd8f2": {
-          "id": "4a5073054bf6bc245f61d18a8e5bd8f2",
-          "name": "Websites & Online Content",
-          "path": [
-            "Computers & Electronics",
-            "Telecommunications",
-            "Internet",
-            "Websites & Online Content"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "32d2e2823a3b43e5c07d112c547247e2",
-            "999f4a57dfa866fb307855de356453f1",
-            "4a5073054bf6bc245f61d18a8e5bd8f2"
-          ],
-          "stats": {
-            "social_relevance": 0.0008487802,
-            "social_idf": 947.7204523107
-          }
-        },
-        "00db07736eca0e343884591d40de6913": {
-          "id": "00db07736eca0e343884591d40de6913",
-          "name": "Frederick Law Olmsted",
-          "path": [
-            "Arts & Entertainment",
-            "Art & Architecture",
-            "Architecture & Urban Planning",
-            "Architecture",
-            "Architectural Reference",
-            "Famous Architects",
-            "Frederick Law Olmsted"
-          ],
-          "idpath": [
-            "0cc9e1516aaa38d4802a2ee5314ac4ab",
-            "3d79e976ed126c05eb3755a8a68cf259",
-            "a0fe9c342aeb0adbab6613484d103f95",
-            "2d35062b53f7819077620274941dc051",
-            "f1edafcf9a845ccf896f843cd7b1286e",
-            "c112ca021d175fee13c1ed5c572487f1",
-            "00db07736eca0e343884591d40de6913"
-          ],
-          "stats": {
-            "social_relevance": null,
-            "social_idf": null
-          }
-        },
-        "31270916e27c55da94dc4e69b9754b48": {
-          "id": "31270916e27c55da94dc4e69b9754b48",
-          "name": "National Parks",
-          "path": [
-            "Travel",
-            "Sightseeing Tours & Tourist Attractions",
-            "Tourist Attractions",
-            "Ecological & Outdoor Tourist Attractions",
-            "National Parks"
-          ],
-          "idpath": [
-            "71d23bae99aff67ee839c60c0c8ba179",
-            "464464e0888a968cc968fa732e173502",
-            "38d7f7961dc84f1c28b49c9c0f7864c6",
-            "41d20c52f770c1f19afb516622707542",
-            "31270916e27c55da94dc4e69b9754b48"
-          ],
-          "stats": {
-            "social_relevance": 0.0000345521,
-            "social_idf": 23280.958937198
-          }
-        },
-        "0eafa38983b297b7d161996a8d105bfe": {
-          "id": "0eafa38983b297b7d161996a8d105bfe",
-          "name": "Nonprofit & Charitable Organizations",
-          "path": [
-            "People & Society",
-            "Social Groups & Issues",
-            "Social Issues & Advocacy",
-            "Charity & Philanthropy",
-            "Nonprofit & Charitable Organizations"
-          ],
-          "idpath": [
-            "bcfb236bcfc3b0f4f03a3cfeed7253a7",
-            "f18f5005eed8c8de85104daff7932b19",
-            "89b3f496e985758bc8cb0ca25a2a6fc4",
-            "3c0e276cee65073d745fcc2ee0771854",
-            "0eafa38983b297b7d161996a8d105bfe"
-          ],
-          "stats": {
-            "social_relevance": 0.0002242132,
-            "social_idf": 3587.6854643588
-          }
-        },
-        "bc0c1e0f6b99cb65ef7c97834dba67db": {
-          "id": "bc0c1e0f6b99cb65ef7c97834dba67db",
-          "name": "State Governors",
-          "path": [
-            "Government",
-            "Governments of North America",
-            "Government of the US",
-            "US State & Local Government",
-            "US State & Local Government Offices",
-            "State Government Offices",
-            "Office of the Governor",
-            "State Governors"
-          ],
-          "idpath": [
-            "e205ca26092d0fdb0b7a49354a3fe318",
-            "c0cac171676f8b5f77c3fce54f60a732",
-            "46dc17b789f532a51318f01bc6f6aeb3",
-            "e4486a0b1d80a51c7b9f98fac35d2a56",
-            "765545d0a20f45806503393a42339f50",
-            "ce0dd76f67e24bf9ae3c6fc5299eaab6",
-            "928fe363ee674e396ae6d54fa8a366eb",
-            "bc0c1e0f6b99cb65ef7c97834dba67db"
-          ],
-          "stats": {
-            "social_relevance": 0.0000132283,
-            "social_idf": 60809.570977918
-          }
-        },
-        "36530c83f05f28e97ff5afc817ae500c": {
-          "id": "36530c83f05f28e97ff5afc817ae500c",
-          "name": "Job Certifications",
-          "path": [
-            "Jobs & Education",
-            "Jobs",
-            "Jobs [No Industry Specified]",
-            "Job Certifications"
-          ],
-          "idpath": [
-            "be42e02a03e419e7d31db6b54ef84913",
-            "cad577763a646853b98289e05f30b31f",
-            "e2798996e6b7326fddd8d979c6640c3f",
-            "36530c83f05f28e97ff5afc817ae500c"
-          ],
-          "stats": {
-            "social_relevance": 0.0000254968,
-            "social_idf": 31549.319148936
+            "social_relevance": 0.0001420019,
+            "social_idf": 8.6198210179706
           }
         }
-      }
+      },
+      "entities": [],
+      "overlay": []
     },
     "signature": {
       "resource": "GET /classify/:type/:result_id",

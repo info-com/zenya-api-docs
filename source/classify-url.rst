@@ -7,28 +7,32 @@ Classify URL
 POST classify/url
 ------------------
 
-Classify the submitted URL and return scored categories and keywords. This call creates a new
-result resource that will be available for either 2 days or until being successfully consumed in a
-GET call.
+Classify the submitted URL and return scored categories and keywords. This call 
+creates a new result resource that will be available for either 2 days or until 
+being successfully consumed in a GET call.  If a blocking call is requested (
+``"async":false``), the result resource is returned immediately and not saved.
 
-The Classify URL call honors the robots.txt file from the site of the specified URL.  In the case
-that the specified URL is blocked by robots.txt_, a 400 error will be returned to the user with an
-error message indicating same.
+The Classify URL call honors the robots.txt file from the site of the specified 
+URL.  In the case that the specified URL is blocked by robots.txt_, a 403 error 
+will be returned to the user with an error message indicating same.
 
 The Classify URL call also requires that the URL being examined must adhere to a
 content-type and content-length standard.  The ``Content-type`` header for the
 URL must be one of the following: ``text/plain``, ``text/html``, ``text/xhtml``,
-``application/xhtml+xml``, ``text/xml``, ``application/xml``.  The ``Content-length``
-header must present a value less than or equal to 256000 bytes.
+``application/xhtml+xml``, ``text/xml``, ``application/xml``.  The 
+``Content-length`` header must present a value less than or equal to 256000 
+bytes.
 
-The response from the POST call should include a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`)
-as well as a "result_uri" pointing to the result set. If the result set is not yet completed, 
-the GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).
+The response from the POST call should include a 201 HTTP Status-Code 
+(:rfc:`2616#section-10.2.2`) as well as a "result_uri" pointing to the result 
+set. If the result set is not yet completed,  the GET call will return a 202 
+HTTP Status-Code (:rfc:`2616#section-10.2.3`).
 
 An optional ``async`` parameter can be used to create a blocking call 
 when set to ``false``.  In this case, the results from the POST will be the same
 as the results that would have been retrieved from the GET on a completed result
-set.
+set and the server will return a 200 HTTP Status-Code 
+(:rfc:`2616#section-10.2.1`).
 
 Resource URL
 ^^^^^^^^^^^^
@@ -43,7 +47,8 @@ Parameters
     :widths: 25, 20, 100
     
     "url (*required*)", "string", "URL to be retrieved and classified."
-    "async (*optional*)", "boolean", "Optionally run a blocking call and retrieve results immediately (defaults to *true*)"
+    "async (*optional*)", "boolean", "Run a non-blocking call and retrieve a result set later (defaults to ``true``).  When set to ``false``, block, and return results immediately upon completion"
+    "entities (*optional*)", "boolean", "Provide fall-back NLP Entity extraction to provide extra entities that eContext may not return from its taxonomy (defaults to ``false``)"
 
 Example Request
 ^^^^^^^^^^^^^^^

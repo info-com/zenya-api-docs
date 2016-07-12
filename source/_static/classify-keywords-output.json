@@ -1,42 +1,26 @@
 {
   "econtext": {
     "classify": {
+      "results": [
+        {
+          "flags": [],
+          "category_id": "f807a71b4e0687cdaeb24afaaa725781"
+        },
+        {
+          "flags": [],
+          "category_id": "85edc49558d9373a4a5bcfc6eb0bac90"
+        },
+        {
+          "flags": [],
+          "category_id": "ab4a592bf3b0724f7955734270df0044"
+        }
+      ],
       "mappings": [
         "f807a71b4e0687cdaeb24afaaa725781",
         "85edc49558d9373a4a5bcfc6eb0bac90",
         "ab4a592bf3b0724f7955734270df0044"
       ],
       "categories": {
-        "f807a71b4e0687cdaeb24afaaa725781": {
-          "id": "f807a71b4e0687cdaeb24afaaa725781",
-          "name": "Chicago Cubs",
-          "path": [
-            "Sports",
-            "Team Sports",
-            "Baseball & Softball",
-            "Baseball & Softball Leagues & Teams",
-            "Baseball Leagues & Teams",
-            "Major League Baseball",
-            "National League",
-            "National League Central",
-            "Chicago Cubs"
-          ],
-          "idpath": [
-            "b00fac5f30dc8dbb660c8d08fe66f487",
-            "97e2d582fd4e9fe6c9ca51128222e55f",
-            "c7ba1574765e1e52284f7c741eda8cb2",
-            "0e549b37faa378d09c7eb2933c58d5d0",
-            "eb4500849649483fe92110c60fa23305",
-            "1e230ea842e7351f0b56386a9c91580c",
-            "395270339c7febd83b22fa70c92d0461",
-            "67f178964c2e14f125cb6677ab3f7fe7",
-            "f807a71b4e0687cdaeb24afaaa725781"
-          ],
-          "stats": {
-            "social_idf": 21442.307007786,
-            "social_relevance": 0.0000375149
-          }
-        },
         "85edc49558d9373a4a5bcfc6eb0bac90": {
           "id": "85edc49558d9373a4a5bcfc6eb0bac90",
           "name": "Chicago Bears",
@@ -63,8 +47,8 @@
             "85edc49558d9373a4a5bcfc6eb0bac90"
           ],
           "stats": {
-            "social_idf": 16646.488773748,
-            "social_relevance": 0.0000483229
+            "social_relevance": 0.0000145741,
+            "social_idf": 10.89641527996
           }
         },
         "ab4a592bf3b0724f7955734270df0044": {
@@ -85,11 +69,42 @@
             "ab4a592bf3b0724f7955734270df0044"
           ],
           "stats": {
-            "social_idf": 6473.0134318335,
-            "social_relevance": 0.0001242708
+            "social_relevance": 0.0001311244,
+            "social_idf": 8.6995146942028
+          }
+        },
+        "f807a71b4e0687cdaeb24afaaa725781": {
+          "id": "f807a71b4e0687cdaeb24afaaa725781",
+          "name": "Chicago Cubs",
+          "path": [
+            "Sports",
+            "Team Sports",
+            "Baseball & Softball",
+            "Baseball & Softball Leagues & Teams",
+            "Baseball Leagues & Teams",
+            "MLB",
+            "National League",
+            "National League Central",
+            "Chicago Cubs"
+          ],
+          "idpath": [
+            "b00fac5f30dc8dbb660c8d08fe66f487",
+            "97e2d582fd4e9fe6c9ca51128222e55f",
+            "c7ba1574765e1e52284f7c741eda8cb2",
+            "0e549b37faa378d09c7eb2933c58d5d0",
+            "eb4500849649483fe92110c60fa23305",
+            "1e230ea842e7351f0b56386a9c91580c",
+            "395270339c7febd83b22fa70c92d0461",
+            "67f178964c2e14f125cb6677ab3f7fe7",
+            "f807a71b4e0687cdaeb24afaaa725781"
+          ],
+          "stats": {
+            "social_relevance": 0.0000496709,
+            "social_idf": 9.6702417656539
           }
         }
-      }
+      },
+      "overlay": []
     },
     "signature": {
       "resource": "GET /classify/:type/:result_id",
