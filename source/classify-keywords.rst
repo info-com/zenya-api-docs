@@ -38,7 +38,7 @@ Parameters
     
     "keywords (*required*)", "array", "A list of keyword strings to process (no more than 1,000)."
     "async (*optional*)", "boolean", "Run a non-blocking call and retrieve a result set later (defaults to ``true``).  When set to ``false``, block, and return results immediately upon completion"
-    "flags (*optional*)", "boolean", "Provide :ref:`keyword-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
+    "flags (*optional*)", "boolean", "Provide :ref:`objects-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
 
 Example Request
 ^^^^^^^^^^^^^^^
@@ -90,7 +90,7 @@ point this call will return the appropriate 200 HTTP Status-Code
 be removed.
 
 The result set includes a ``results`` key which provides a list of category id
-keys and associated data including :ref:`keyword-flags`, if requested and found.
+keys and associated data including :ref:`objects-flags`, if requested and found.
 The results in this set are in the same order as the keyword list submitted in
 the POST call.
 

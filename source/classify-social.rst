@@ -39,7 +39,7 @@ Parameters
     "social (*required*)", "array", "A list (no more than 1,000 items) of strings."
     "async (*optional*)", "boolean", "Run a non-blocking call and retrieve a result set later (defaults to ``true``).  When set to ``false``, block, and return results immediately upon completion"
     "entities (*optional*)", "boolean", "Provide fall-back NLP Entity extraction to provide extra entities that eContext may not return from its taxonomy (defaults to ``false``)"
-    "flags (*optional*)", "boolean", "Provide :ref:`keyword-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
+    "flags (*optional*)", "boolean", "Provide :ref:`objects-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
 
 Example Request
 ^^^^^^^^^^^^^^^

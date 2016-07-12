@@ -261,8 +261,10 @@ Available entities types:
     "LAW","Laws and legal documents"
     "LANGUAGE","Names of Languages"
 
-Flags
------
+.. _objects-flags:
+
+Object Flags
+------------
 
 There are many scenarios where you may want to be able to filter content on the
 fly.  Along with classification of content, eContext is able to quickly identify
@@ -279,7 +281,6 @@ in your request object:
     :stub-columns: 1
     :widths: 10, 30, 100
     
-    "1","Invalid","Keyword fails punctuation and composition standards"
     "2","General","Keyword fails general banned standards, including obscene language"
     "4","Adult","Keyword contains adult content"
     "8","Alcohol","Keyword contains content referring to alcohol"
@@ -288,8 +289,7 @@ in your request object:
     "64","Prescription Drugs","Keyword contains content referring to prescription drugs"
     "128","Tobacco and Cigarettes","Keyword contains content referring to smoking, tobacco, or cigarettes"
     "256","Weapons","Keyword contains content referring to weapons"
-    "512","Brands (beta)","Keyword contains content referring to a known brand"
-
+    "2048","Intent","Keyword contains either a purchase, comparison, question, or negative intent"
 
 
 .. _Overlay Team: overlayteam@econtext.com

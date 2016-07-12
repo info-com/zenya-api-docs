@@ -417,10 +417,7 @@ Parameters
     "keyword (*required*)", "string", "The keyword to provide a best match Category for.  This should be URL encoded.
       
       Example Value: ``chicago+hotels``."
-    "use_density (*optional*)", "boolean", "Optional fall back on matching against pre-classified eContext keywords. Uses the same methodology as the ``categories/search`` function, returning the highest confidence answer, only.  Defaults to *0*.
-      
-      Example Value: ``1``"
-    "branches (*optional*)","string","An array of category/tier ids used to limit classification results.
+    "branches (*optional*)","string","A comma-separated list of category/tier ids used to limit classification results.
       
       Example Value: ``922b44e4080760bcd7f30f0a676d3dfd``"
 
@@ -432,7 +429,7 @@ GET Request
 
 .. parsed-literal::
     
-    curl -X GET -u username:password :api_url:`categories/map/breaking+bad+tshirt?branches[]=922b44e4080760bcd7f30f0a676d3dfd`
+    curl -X GET -u username:password :api_url:`categories/map/breaking+bad+tshirt?branches=922b44e4080760bcd7f30f0a676d3dfd`
 
 GET Response
 """"""""""""
@@ -510,6 +507,10 @@ Parameters
     "limit (*optional*)", "integer", "The number of Category objects to return in the result set. The max number of Categories is ``10`` and the default is ``5``.
       
       Example Value: ``3``"
+    "branches (*optional*)","string","A comma-separated list of category/tier ids used to limit classification results.
+      
+      Example Value: ``922b44e4080760bcd7f30f0a676d3dfd``"
+
 
 Example Request
 ^^^^^^^^^^^^^^^
