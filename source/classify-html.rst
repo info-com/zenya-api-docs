@@ -7,19 +7,15 @@ Classify HTML
 POST classify/html
 ------------------
 
-Classify the submitted HTML and return scored categories and keywords. This call creates a new
-result resource that will be available for either 2 days or until being successfully consumed in a
-GET call.  If a blocking call is requested (``"async":false``), the result resource is returned immediately and not saved.
+Classify the submitted HTML and return scored categories and keywords.
 
-The response from the POST call should include a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`)
-as well as a "result_uri" pointing to the result set. If the result set is not yet completed, 
-the GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).
+In typical usage the ``async`` parameter should be set to ``false``.  The POST call will return a 200 HTTP
+Status-Code (:rfc:`2616#section-10.2.1`) as well as the classification for the input.
 
-An optional ``async`` parameter can be used to create a blocking call 
-when set to ``false``.  In this case, the results from the POST will be the same
-as the results that would have been retrieved from the GET on a completed result
-set and the server will return a 200 HTTP Status-Code 
-(:rfc:`2616#section-10.2.1`).
+If ``async`` is set to ``true``, the POST call will return a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`)
+as well as a ``result_uri`` pointing to the result set. If the result set is not yet completed,
+the GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).  The result set, once completed, will be
+available for retrieval for either 2 days or until it is successfully consumed, whichever comes first.
 
 
 Resource URL
@@ -35,7 +31,7 @@ Parameters
     :widths: 25, 20, 100
     
     "html (*required*)", "string", "HTML content to be classified."
-    "async (*optional*)", "boolean", "Run a non-blocking call and retrieve a result set later (defaults to ``true``).  When set to ``false``, block, and return results immediately upon completion"
+    "async (*required*)", "boolean", "Please set to ``false`` to retrieve results immediately.  If set to ``true``, do not wait for a result set."
     "entities (*optional*)", "boolean", "Provide fall-back NLP Entity extraction to provide extra entities that eContext may not return from its taxonomy (defaults to ``false``)"
 
 Example Request
@@ -55,10 +51,11 @@ The contents of :download:`classify-html-input.json <_static/classify-html-input
 .. code-block:: json
     
     {
-        "html":"<!DOCTYPE html><html><head><title>Microsoft Stores offer $100 Xbox One discount
+        "async": false,
+        "html": "<!DOCTYPE html><html><head><title>Microsoft Stores offer $100 Xbox One discount
         if you trade in a PS3</title></head><body><h1>Microsoft Stores offer $100 Xbox One discount
         if you trade in a PS3</h1><p>Currently there’s one advantage the PS4 has over the Xbox One
-        that Microsoft can do little about: the price difference.</p></body></html> Sure, they
+        that Microsoft can do little about: the price difference.</p><p>Sure, they
         could cut the price of the Xbox One by $100 and match the PS4 at $399, but then Microsoft
         would be making a big loss on every console sold. However, they have come up with a way to
         offer you an Xbox One for $399.</p><p>From now until March 2, Microsoft Stores will offer
@@ -73,65 +70,6 @@ The contents of :download:`classify-html-input.json <_static/classify-html-input
 POST Response
 """""""""""""
 
-.. code-block:: json
-    
-    {
-	"econtext": {
-	    "classify": {
-		"type": "html",
-		"result_id": "6cea12b177b8d2005fc2ae5ecf3261075c1301c5204a902112f81344e0ad7200",
-		"result_uri": "https://api.econtext.com/v2/classify/html/6cea12b177b8d2005fc2ae5ecf3261075c1301c5204a902112f81344e0ad7200",
-		"status": "working"
-	    },
-	    "signature": {
-		"resource": "POST /classify/:type/:result_id",
-		"status": "201 Created - successful",
-		"client_ip": "127.0.0.1"
-	    }
-	}
-    }
-
-GET classify/html/:result_id
-----------------------------
-
-Retrieve an HTML classification result set. If the result set is not yet complete, this 
-call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`). The result set should 
-be ready shortly at which point this call will return the appropriate 200 HTTP Status-Code
-(:rfc:`2616#section-10.2.1`). After consumption, this resource will be removed.
-
-
-The result set includes "scored_categories" and "scored_keywords" as well as a "categories"
-dictionary. The "scored_keywords" object contains a list of high-value phrases that eContext
-was able to pull out of the submitted text as well as associated scores for each. The "scored_categories" object contains a list of "category_id" and "score" objects where the "category_id"
-corresponds to an item in the "categories" dictionary. Higher values indicate a higher score.
-
-Resource URL
-^^^^^^^^^^^^
-:api_url:`classify/html/:result_id`
-
-Parameters
-^^^^^^^^^^
-
-.. csv-table::
-    :header: "Parameter","Type","Description"
-    :stub-columns: 1
-    :widths: 25, 20, 100
-    
-    "result_id (*required*)", "string", "A result_id string obtained as a result in the response from the ``POST``."
-
-Example Request
-^^^^^^^^^^^^^^^
-
-GET Request
-"""""""""""
-
-.. parsed-literal::
-    
-    curl -X GET -u username:password \\
-    :api_url:`classify/html/6cea12b177b8d2005fc2ae5ecf3261075c1301c5204a902112f81344e0ad7200`
-
-GET Response
-""""""""""""
-
 .. literalinclude:: _static/classify-html-output.json
    :language: json
+

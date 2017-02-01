@@ -7,20 +7,15 @@ Classify Keywords
 POST classify/keywords
 ----------------------
 
-Classify a list of keywords and return mappings and associated Categories. This call creates a
-new result resource that will be available for either 2 days or until being successfully consumed in
-a GET call.  A "keyword" is loosely defined as a short phrase composed of 10 or fewer words.  If a blocking call is requested (
-``"async":false``), the result resource is returned immediately and not saved.
+Classify a list of keywords and return mapped eContext categories.
 
-The response from the POST call should include a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`) as
-well as a "result_uri" pointing to the result set. If the result set is not yet completed, the 
-GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).
+In typical usage the ``async`` parameter should be set to ``false``.  The POST call will return a 200 HTTP
+Status-Code (:rfc:`2616#section-10.2.1`) as well as the classifications for the input.
 
-An optional ``async`` parameter can be used to create a blocking call 
-when set to ``false``.  In this case, the results from the POST will be the same
-as the results that would have been retrieved from the GET on a completed result
-set and the server will return a 200 HTTP Status-Code 
-(:rfc:`2616#section-10.2.1`).
+If ``async`` is set to ``true``, the POST call will return a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`)
+as well as a ``result_uri`` pointing to the result set. If the result set is not yet completed,
+the GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).  The result set, once completed, will be
+available for retrieval for either 2 days or until it is successfully consumed, whichever comes first.
 
 *There is a limit of 1,000 keywords per call.*
 
@@ -39,6 +34,7 @@ Parameters
     "keywords (*required*)", "array", "A list of keyword strings to process (no more than 1,000)."
     "async (*optional*)", "boolean", "Run a non-blocking call and retrieve a result set later (defaults to ``true``).  When set to ``false``, block, and return results immediately upon completion"
     "flags (*optional*)", "boolean", "Provide :ref:`objects-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
+    "branches (*optional*)", "array", "A list of eContext category ids to limit mapping to"
 
 Example Request
 ^^^^^^^^^^^^^^^

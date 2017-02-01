@@ -1,6 +1,32 @@
 Changelog
 =========
 
+Version 1.1.5 - 2017-02-02
+--------------------------
+*   Specify a ``dataset_timestamp`` parameter to freeze the eContext Taxonomy for long-running classification tasks
+*   Return more useful errors for invalid filters in ``keywords/search`` calls
+
+Version 1.1.4 - 2016-01-16
+--------------------------
+*   Added ``scored_keywords`` entries for items classified in ML Classification results
+*   Fixed bug where ``classify/url`` would fail if there was a new-line character in the input
+*   Significant expansion and updates to internal keyword models
+
+Version 1.1.3 - 2016-11-11
+--------------------------
+*   Better recognition of duplicate entity categories, particularly names in ML Classification results
+
+Version 1.1.2 - 2016-09-29
+--------------------------
+*   Added usage limits to assist users in keeping to API usage quotas
+*   Integrated entity categories into the main ``categories`` object in response objects
+
+Version 1.1.1 - 2016-08-16
+--------------------------
+*   Specify a ``branches`` parameter when classifying keywords to restrict to a particular vertical
+*   Specify a ``best_match`` parameter (defaults to ``true``) to classify/social, classify/html, classify/url, and classify/text calls which will force the engine to retain submatches instead of removing them from results
+*   Added the ability to create custom taxonomies that users may use for specific classification tasks
+
 Version 1.1.0 - 2016-07-11
 --------------------------
 *   Added fallback NLP Entity extraction options in cases where the eContext Taxonomy does not provide coverage
@@ -15,7 +41,7 @@ Version 1.0.24
 
 Version 1.0.23
 --------------
-*   Added the Twitter Interest Taxonomy overlay as an avialable client addon
+*   Added the Twitter Interest Taxonomy overlay as an available client add-on
 *   Changed format of overlays to be more descriptive - each taxonomy map now returns as a list with Tier 1 and Tier 2, when available
 
 Version 1.0.22
