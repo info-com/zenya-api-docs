@@ -1,0 +1,12 @@
+{
+  "econtext": {
+    "user": {
+      "dataset_id": "604962c585d0bbf9724d03110effbe64f6289bd04fa3d65da4b03dfc06d0ddf5"
+    },
+    "signature": {
+      "resource": "POST /user/taxonomy",
+      "status": "200 OK - successful",
+      "client_ip": "127.0.0.1"
+    }
+  }
+}

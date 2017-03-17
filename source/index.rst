@@ -19,6 +19,7 @@ eContext API documentation
     classify
     keywords-search
     user
+    custom-taxonomies
     filters
     changelog
 

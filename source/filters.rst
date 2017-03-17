@@ -102,10 +102,12 @@ of this filter, shown below, limits character length to between 20-30 characters
 Example
 """""""
 
-.. code-block:: json
+Filter for character count less than or equal to 30 and greater than or equal to 20.
+
+.. code-block:: javascript
     
-    {"filter":1, "value":30, "operator":3}, # less than or equal to 30
-    {"filter":1, "value":20, "operator":5} # greater than or equal to 20
+    {"filter":1, "value":30, "operator":3}, // less than or equal to 30
+    {"filter":1, "value":20, "operator":5}  // greater than or equal to 20
 
 .. _word_count:
 
@@ -121,10 +123,11 @@ shown below, limits word length to between 4-7 words.
 Example
 """""""
 
-.. code-block:: json
+.. code-block:: javascript
     
-    {"filter":2, "value":4, "operator":5}, # greater than or equal to 4
-    {"filter":2, "value":7, "operator":3}  # less than or equal to 7
+    {"filter":2, "value":4, "operator":5}, // greater than or equal to 4
+    {"filter":2, "value":7, "operator":3}  // less than or equal to 7
+
 
 .. _keyword_flags:
 
@@ -138,11 +141,13 @@ location).
 Example
 """""""
 
-.. code-block:: json
-    
-    {"filter":3, "value":[1, 2, 4, 16, 32, 64, 128, 256, 512]} # filter out all keywords flagged with 
-    the specified keyword flags, except for "alcohol" and "location", identified by flags 8 and 1024, 
-    respectively
+Filter out all keywords flagged with the specified keyword flags, except for "alcohol" and "location", identified by
+flags 8 and 1024, respectively
+
+.. code-block:: javascript
+
+    {"filter":3, "value":[1, 2, 4, 16, 32, 64, 128, 256, 512]}
+
 
 .. _search_volume:
 
@@ -161,10 +166,10 @@ of this filter, shown below, returns keywords with an estimated monthly search v
 Example
 """""""
 
-.. code-block:: json
+.. code-block:: javascript
     
-    {"filter":5, "value":100000, "operator":3}, # less than or equal to 100000
-    {"filter":5, "value":1000, "operator":5}    # greater than or equal to 1000
+    {"filter":5, "value":100000, "operator":3},  // less than or equal to 100000
+    {"filter":5, "value":1000, "operator":5}     // greater than or equal to 1000
 
 .. _intent_flags:
 
@@ -183,10 +188,10 @@ no intent flags would not be included.
 Example
 """""""
 
-.. code-block:: json
+.. code-block:: javascript
     
-    {"filter":6, "value":[1,2], "operator":11}, # require the purchase and comparison flags
-    {"filter":6, "value":[4], "invert":true}    # exclude the negative flag
+    {"filter":6, "value":[1,2], "operator":11},  // require the purchase and comparison flags
+    {"filter":6, "value":[4], "invert":true}     // exclude the negative flag
 
 .. _exclude_terms:
 
@@ -208,12 +213,11 @@ Example
 """""""
 
 The example filters out keywords containing the phrases "javascript", "c++", and "php" and also 
-filters out keywords containing the exact word "worlds".
+filters out keywords containing the exact word (unstemmed) "worlds".
 
-.. code-block:: json
+.. code-block:: javascript
     
-    {"filter":7, "value":["javascript", "c++", "php", "\"worlds\""]} # minus terms, including an 
-    explicit (unstemmed) minus term: "worlds"
+    {"filter":7, "value":["javascript", "c++", "php", "\"worlds\""]}
 
 .. _language_flags:
 
@@ -233,9 +237,9 @@ be available in the future.
 Example
 """""""
 
-.. code-block:: json
+.. code-block:: javascript
     
-    {"filter":8, "value":["spa"]} # Require Spanish
+    {"filter":8, "value":["spa"]}  // Require Spanish
 
 Example Requests
 ----------------

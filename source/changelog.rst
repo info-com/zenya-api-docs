@@ -1,12 +1,18 @@
 Changelog
 =========
 
+Version 1.1.6 - 2017-03-16
+--------------------------
+*   Several performance enhancements and bug fixes
+*   Changed error handling on ``classify/url`` to be a bit more robust
+*   Add client-controlled :ref:`custom-taxonomies` that can be used by the classification engine in lieu of the default eContext taxonomy
+
 Version 1.1.5 - 2017-02-02
 --------------------------
 *   Specify a ``dataset_timestamp`` parameter to freeze the eContext Taxonomy for long-running classification tasks
 *   Return more useful errors for invalid filters in ``keywords/search`` calls
 
-Version 1.1.4 - 2016-01-16
+Version 1.1.4 - 2017-01-16
 --------------------------
 *   Added ``scored_keywords`` entries for items classified in ML Classification results
 *   Fixed bug where ``classify/url`` would fail if there was a new-line character in the input

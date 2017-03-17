@@ -15,7 +15,7 @@ eContext reserves the right to throttle users sending through excessive calls.
 Asynchronous calls
 ^^^^^^^^^^^^^^^^^^
 
-When using an asynchronous call (the default for classify/*), a request is 
+When using an asynchronous call (the default for classify/\*), a request is
 submitted via the API and is queued in the eContext Classification Engine.  A
 result object is created immediately and returned to the user to check on
 progress, and, when completed, also contains the classification result.  In

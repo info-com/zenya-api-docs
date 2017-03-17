@@ -44,14 +44,11 @@ retrieved from those services.  For example:
 Calls that Accept Translation Parameters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. toctree::
-    :maxdepth: 1
-    
-    classify-html
-    classify-keywords
-    classify-social
-    classify-text
-    classify-url
+* :doc:`classify-html`
+* :doc:`classify-keywords`
+* :doc:`classify-social`
+* :doc:`classify-text`
+* :doc:`classify-url`
 
 eContext Translation Service
 ----------------------------------------

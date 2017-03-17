@@ -1,0 +1,1064 @@
+{
+  "econtext": {
+    "user": {
+      "taxonomy": {
+        "name": "Colors",
+        "nodes": [
+          {
+            "name": "Pink",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "Pink"
+            ],
+            "nodes": [
+              {
+                "name": "Light Pink",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Light Pink"
+                ]
+              },
+              {
+                "name": "Hot Pink",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Hot Pink"
+                ]
+              },
+              {
+                "name": "Deep Pink",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Deep Pink"
+                ]
+              },
+              {
+                "name": "Pale Violet Red",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Pale Violet Red"
+                ]
+              },
+              {
+                "name": "Medium Violet Red",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Medium Violet Red"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Red",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "Red"
+            ],
+            "nodes": [
+              {
+                "name": "Salmon",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Salmon"
+                ],
+                "nodes": [
+                  {
+                    "name": "Dark Salmon",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Salmon"
+                    ]
+                  },
+                  {
+                    "name": "Light Salmon",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Light Salmon"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Light Coral",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Light Coral"
+                ]
+              },
+              {
+                "name": "Indian Red",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Indian Red"
+                ]
+              },
+              {
+                "name": "Crimson",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Crimson"
+                ]
+              },
+              {
+                "name": "Fire Brick",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Fire Brick"
+                ]
+              },
+              {
+                "name": "Dark Red",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Dark Red"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Orange",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "Orange"
+            ],
+            "nodes": [
+              {
+                "name": "Orange Red",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Orange Red"
+                ]
+              },
+              {
+                "name": "Tomato",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Tomato"
+                ]
+              },
+              {
+                "name": "Coral",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Coral"
+                ]
+              },
+              {
+                "name": "Dark Orange",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Dark Orange"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Yellow",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "Yellow"
+            ],
+            "nodes": [
+              {
+                "name": "Light Yellow",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Light Yellow"
+                ]
+              },
+              {
+                "name": "Lemon Chiffon",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Lemon Chiffon"
+                ]
+              },
+              {
+                "name": "Light Goldenrod Yellow",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Light Goldenrod Yellow"
+                ]
+              },
+              {
+                "name": "Pale Goldenrod",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Pale Goldenrod"
+                ]
+              },
+              {
+                "name": "Papaya Whip",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Papaya Whip"
+                ]
+              },
+              {
+                "name": "Moccasin",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Moccasin"
+                ]
+              },
+              {
+                "name": "Peach Puff",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Peach Puff"
+                ]
+              },
+              {
+                "name": "Khaki",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Khaki"
+                ]
+              },
+              {
+                "name": "Dark Khaki",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Dark Khaki"
+                ]
+              },
+              {
+                "name": "Gold",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Gold"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Brown",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "Brown"
+            ],
+            "nodes": [
+              {
+                "name": "Cornsilk",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Cornsilk"
+                ]
+              },
+              {
+                "name": "Blanched Almond",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Blanched Almond"
+                ]
+              },
+              {
+                "name": "Bisque",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Bisque"
+                ]
+              },
+              {
+                "name": "Navajo White",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Navajo White"
+                ]
+              },
+              {
+                "name": "Wheat",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Wheat"
+                ]
+              },
+              {
+                "name": "Burly Wood",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Burly Wood"
+                ]
+              },
+              {
+                "name": "Tan",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Tan"
+                ]
+              },
+              {
+                "name": "Rosy Brown",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Rosy Brown"
+                ]
+              },
+              {
+                "name": "Sandy Brown",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Sandy Brown"
+                ]
+              },
+              {
+                "name": "Goldenrod",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Goldenrod"
+                ],
+                "nodes": [
+                  {
+                    "name": "Dark Goldenrod",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Goldenrod"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Peru",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Peru"
+                ]
+              },
+              {
+                "name": "Chocolate",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Chocolate"
+                ]
+              },
+              {
+                "name": "Saddle Brown",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Saddle Brown"
+                ]
+              },
+              {
+                "name": "Sienna",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Sienna"
+                ]
+              },
+              {
+                "name": "Maroon",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Maroon"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Green",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "Green"
+            ],
+            "nodes": [
+              {
+                "name": "Olive",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Olive"
+                ],
+                "nodes": [
+                  {
+                    "name": "Olive Drab",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Olive Drab"
+                    ]
+                  },
+                  {
+                    "name": "Dark Olive Green",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Olive Green"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Yellow Green",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Yellow Green"
+                ]
+              },
+              {
+                "name": "Green Yellow",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Green Yellow"
+                ]
+              },
+              {
+                "name": "Lime",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Lime"
+                ],
+                "nodes": [
+                  {
+                    "name": "Lime Green",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Lime Green"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lawn Green",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Lawn Green"
+                ]
+              },
+              {
+                "name": "Chartreuse",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Chartreuse"
+                ]
+              },
+              {
+                "name": "Spring Green",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Spring Green"
+                ],
+                "nodes": [
+                  {
+                    "name": "Medium Spring Green",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Medium Spring Green"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Light Green",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Light Green"
+                ]
+              },
+              {
+                "name": "Pale Green",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Pale Green"
+                ]
+              },
+              {
+                "name": "Sea Green",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Sea Green"
+                ],
+                "nodes": [
+                  {
+                    "name": "Medium Sea Green",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Medium Sea Green"
+                    ]
+                  },
+                  {
+                    "name": "Dark Sea Green",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Sea Green"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medium Aquamarine",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Medium Aquamarine"
+                ]
+              },
+              {
+                "name": "Forest Green",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Forest Green"
+                ]
+              },
+              {
+                "name": "Dark Green",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Dark Green"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cyan",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "Cyan"
+            ],
+            "nodes": [
+              {
+                "name": "Aqua",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Aqua"
+                ]
+              },
+              {
+                "name": "Light Cyan",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Light Cyan"
+                ]
+              },
+              {
+                "name": "Aquamarine",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Aquamarine"
+                ]
+              },
+              {
+                "name": "Turquoise",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Turquoise"
+                ],
+                "nodes": [
+                  {
+                    "name": "Pale Turquoise",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Pale Turquoise"
+                    ]
+                  },
+                  {
+                    "name": "Medium Turquoise",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Medium Turquoise"
+                    ]
+                  },
+                  {
+                    "name": "Dark Turquoise",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Turquoise"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Light Sea Green",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Light Sea Green"
+                ]
+              },
+              {
+                "name": "Cadet Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Cadet Blue"
+                ]
+              },
+              {
+                "name": "Dark Cyan",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Dark Cyan"
+                ]
+              },
+              {
+                "name": "Teal",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Teal"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Blue",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "Blue"
+            ],
+            "nodes": [
+              {
+                "name": "Powder Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Powder Blue"
+                ]
+              },
+              {
+                "name": "Light Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Light Blue"
+                ]
+              },
+              {
+                "name": "Sky Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Sky Blue"
+                ],
+                "nodes": [
+                  {
+                    "name": "Light Sky Blue",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Light Sky Blue"
+                    ]
+                  },
+                  {
+                    "name": "Deep Sky Blue",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Deep Sky Blue"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodger Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Dodger Blue"
+                ]
+              },
+              {
+                "name": "Cornflower Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Cornflower Blue"
+                ]
+              },
+              {
+                "name": "Steel Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Steel Blue"
+                ],
+                "nodes": [
+                  {
+                    "name": "Light Steel Blue",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Light Steel Blue"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Royal Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Royal Blue"
+                ]
+              },
+              {
+                "name": "Medium Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Medium Blue"
+                ]
+              },
+              {
+                "name": "Dark Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Dark Blue"
+                ]
+              },
+              {
+                "name": "Navy",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Navy"
+                ]
+              },
+              {
+                "name": "Midnight Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Midnight Blue"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Purple, violet, and magenta colors",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "purple",
+              "violet",
+              "magenta"
+            ],
+            "nodes": [
+              {
+                "name": "Lavender",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Lavender"
+                ]
+              },
+              {
+                "name": "Thistle",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Thistle"
+                ]
+              },
+              {
+                "name": "Plum",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Plum"
+                ]
+              },
+              {
+                "name": "Fuchsia",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Fuchsia"
+                ]
+              },
+              {
+                "name": "Orchid",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Orchid"
+                ],
+                "nodes": [
+                  {
+                    "name": "Medium Orchid",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Medium Orchid"
+                    ]
+                  },
+                  {
+                    "name": "Dark Orchid",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Orchid"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medium Purple",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Medium Purple"
+                ]
+              },
+              {
+                "name": "Violet",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Violet"
+                ],
+                "nodes": [
+                  {
+                    "name": "Blue Violet",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Blue Violet"
+                    ]
+                  },
+                  {
+                    "name": "Dark Violet",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Violet"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Magenta",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Magenta"
+                ],
+                "nodes": [
+                  {
+                    "name": "Dark Magenta",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Magenta"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Purple",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Purple"
+                ]
+              },
+              {
+                "name": "Indigo",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Indigo"
+                ]
+              },
+              {
+                "name": "Slate Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Slate Blue"
+                ],
+                "nodes": [
+                  {
+                    "name": "Dark Slate Blue",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Slate Blue"
+                    ]
+                  },
+                  {
+                    "name": "Medium Slate Blue",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Medium Slate Blue"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "White",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "White"
+            ],
+            "nodes": [
+              {
+                "name": "Snow",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Snow"
+                ]
+              },
+              {
+                "name": "Honeydew",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Honeydew"
+                ]
+              },
+              {
+                "name": "Mint Cream",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Mint Cream"
+                ]
+              },
+              {
+                "name": "Azure",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Azure"
+                ]
+              },
+              {
+                "name": "Alice Blue",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Alice Blue"
+                ]
+              },
+              {
+                "name": "Ghost White",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Ghost White"
+                ]
+              },
+              {
+                "name": "White Smoke",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "White Smoke"
+                ]
+              },
+              {
+                "name": "Seashell",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Seashell"
+                ]
+              },
+              {
+                "name": "Beige",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Beige"
+                ]
+              },
+              {
+                "name": "Old Lace",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Old Lace"
+                ]
+              },
+              {
+                "name": "Floral White",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Floral White"
+                ]
+              },
+              {
+                "name": "Ivory",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Ivory"
+                ]
+              },
+              {
+                "name": "Antique White",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Antique White"
+                ]
+              },
+              {
+                "name": "Linen",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Linen"
+                ]
+              },
+              {
+                "name": "Lavender Blush",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Lavender Blush"
+                ]
+              },
+              {
+                "name": "Misty Rose",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Misty Rose"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Gray and black colors",
+            "negative_vocab": [],
+            "positive_vocab": [
+              "grey",
+              "gray",
+              "black"
+            ],
+            "nodes": [
+              {
+                "name": "Gainsboro",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Gainsboro"
+                ]
+              },
+              {
+                "name": "Light Grey",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Light Grey"
+                ]
+              },
+              {
+                "name": "Silver",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Silver"
+                ]
+              },
+              {
+                "name": "Dark Gray",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Dark Gray"
+                ]
+              },
+              {
+                "name": "Gray",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Gray"
+                ]
+              },
+              {
+                "name": "Dim Gray",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Dim Gray"
+                ]
+              },
+              {
+                "name": "Slate Gray",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Slate Gray"
+                ],
+                "nodes": [
+                  {
+                    "name": "Light Slate Gray",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Light Slate Gray"
+                    ]
+                  },
+                  {
+                    "name": "Dark Slate Gray",
+                    "negative_vocab": [],
+                    "positive_vocab": [
+                      "Dark Slate Gray"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Black",
+                "negative_vocab": [],
+                "positive_vocab": [
+                  "Black"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "signature": {
+      "resource": "GET /user/taxonomy/:dataset_id",
+      "status": "200 OK - successful",
+      "client_ip": "127.0.0.1"
+    }
+  }
+}

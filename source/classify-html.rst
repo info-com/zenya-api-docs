@@ -33,6 +33,17 @@ Parameters
     "html (*required*)", "string", "HTML content to be classified."
     "async (*required*)", "boolean", "Please set to ``false`` to retrieve results immediately.  If set to ``true``, do not wait for a result set."
     "entities (*optional*)", "boolean", "Provide fall-back NLP Entity extraction to provide extra entities that eContext may not return from its taxonomy (defaults to ``false``)"
+    "taxonomy_timestamp (*optional*)", "integer", "Use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
+    "dataset_id (*optional*)", "string", "A :ref:`custom-taxonomies` id to use in lieu of the default eContext Taxonomy"
+
+Return
+^^^^^^
+
+The result set includes ``scored_categories`` and ``scored_keywords`` as well as a ``categories`` dictionary. The
+``scored_keywords`` object contains a list of high-value phrases that eContext was able to pull out of the submitted text
+as well as associated scores for each. The ``scored_categories`` object contains a list of ``category_id`` and ``score``
+objects where the ``category_id`` corresponds to an item in the ``categories`` dictionary. Higher values indicate a higher
+score.
 
 Example Request
 ^^^^^^^^^^^^^^^

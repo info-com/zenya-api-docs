@@ -61,5 +61,9 @@ Retrieve basic user and billing cycle information.
     
     "GET","user/attributes","Return basic information about the current user."
     "GET","user/usage","Retrieve the usage information for the current billing cycle."
+    "GET","user/taxonomies","Retrieve a list of public and privately available taxonomies."
+    "POST","user/taxonomy","Create a custom taxonomy for use in classification tasks."
+    "GET","user/taxonomy/:dataset_id","Retrieve a customized taxonomy."
+    "DELETE","user/taxonomy/:dataset_id","Delete a customized taxonomy."
 
 
