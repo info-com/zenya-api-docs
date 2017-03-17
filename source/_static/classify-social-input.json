@@ -1,4 +1,5 @@
 {
+    "async":false,
     "entities":true,
     "flags":true,
     "social":[
