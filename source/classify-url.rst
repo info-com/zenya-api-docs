@@ -40,7 +40,7 @@ Parameters
     :stub-columns: 1
     :widths: 25, 20, 100
     
-    "url (*required*)", "string", "URL to be retrieved and classified."
+    "url (*required*)", "string", "A fully qualified URL to be retrieved and classified."
     "async (*optional*)", "boolean", "Run a non-blocking call and retrieve a result set later (defaults to ``true``).  When set to ``false``, block, and return results immediately upon completion"
     "entities (*optional*)", "boolean", "Provide fall-back NLP Entity extraction to provide extra entities that eContext may not return from its taxonomy (defaults to ``false``)"
     "taxonomy_timestamp (*optional*)", "integer", "Use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
@@ -72,6 +72,7 @@ The contents of :download:`classify-url-input.json <_static/classify-url-input.j
 .. code-block:: json
     
     {
+        "async": false,
         "url":"http://topics.info.com/Parks_4679"
     }
 
