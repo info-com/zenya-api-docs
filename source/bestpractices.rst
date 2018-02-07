@@ -61,8 +61,8 @@ Users can select the method they wish to use with the ``classification_type`` pa
     :header: "Value", "Description"
     :stub-columns: 1
 
-    "0","Uses both methods; attempts the rule-based method first and, if no results, attempts the model-based method"
-    "1","Rule-based method, only (default)"
+    "0","Uses both methods; attempts the rule-based method first and, if no results, attempts the model-based method (default for classify/text, classify/html, classify/url, and classify/keywords"
+    "1","Rule-based method, only (default for classify/social)"
     "2","Mode-based method, only"
 
 .. code-block:: json
