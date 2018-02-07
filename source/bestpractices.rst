@@ -68,7 +68,7 @@ Users can select the method they wish to use with the ``classification_type`` pa
 .. code-block:: json
 
    {
-    "async":false,
+   "async":false,
    "classification_type":2,
    "social":[
          "han and luke"
