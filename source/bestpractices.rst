@@ -65,15 +65,15 @@ Users can select the method they wish to use with the ``classification_type`` pa
     "1","Rule-based method, only (default)"
     "2","Mode-based method, only"
 
-.. code-block:: javascript
+.. code-block:: json
 
-{
-  "async":false,
-  "classification_type":2,
-  "social":[
-        "han and luke"
-    ]
-}
+   {
+    "async":false,
+   "classification_type":2,
+   "social":[
+         "han and luke"
+     ]
+   }
 
 
 Fixing Classification Results to a Point in Time
