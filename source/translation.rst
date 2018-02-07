@@ -31,7 +31,7 @@ eContext provides rich language responses for the following languages:
     * Russian
     * Spanish
 
-API responses for content submitted in one of these languages will include scored_keywords in the original source language.
+API responses for content submitted in one of these languages will include ``scored_keywords`` in the original source language.
 
 eContext also supports content in the following languages:
 
