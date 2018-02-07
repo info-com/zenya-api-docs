@@ -1,48 +1,17 @@
-Translation in eContext
+Non-English Content in eContext
 =======================
 
-If the content you want to classify is in a language other than English, eContext
-can use your existing translation service to perform translation prior to
-classification.  Include the credentials for your translation API service
-with your eContext API request, and non-English content can be processed the
-same as English content.  You may also use eContext's own translation service to
-process a smaller number of languages, detailed below.
+eContext accepts content in selected non-english languages, as described in this section. When submitting content in one of these supported languages, no additional parameters or declarations are required.
 
-Adding Translation Parameters To A Call
----------------------------------------
+For functions that support multiple records per post, users may submit some records in one language and some records in another language and have each of language recognized individually. However, a mixture of languages in the same record may not be recognized correctly.
 
-In general, requesting translation is as simple as including a translate parameter
-with your API call.  Here is an example using :doc:`/classify/social <classify-social>`:
+eContext uses a variety of additional technology to support this capability, including machine translation, so latency will increase compared to processing content in English. Content in some non-english languages, including those with more diverse character sets or right-to-left script, may take longer to process than others.
 
-.. literalinclude:: _static/classify-social-translate-input.json
-    :language: json
-
-If making a bulk post of content through the :doc:`/classify/social <classify-social>` 
-or :doc:`/classify/keywords <classify-keywords>` calls, we recommend that all posted content
-is in the same source language if you are using the Microsoft Translator plugin. 
-If you expect that the content may contain a mixture of source languages, include
-only one post per call.  Google and eContext do allow you to mix your input content.
-
-The 3rd party services eContext connects through to provide translation services 
-generally charge their users by characters processed.  eContext will return the
-number of characters that were processed by the translation service to help you
-keep track of your usage.  However, since eContext passes through 
-your credentials, you are responsible for understanding your usage by querying 
-the service directly.  eContext is not responsible for charges that you incur by using a 
-translation plugin. eContext will attempt to identify the language of
-incoming content and will make a best effort to not pass English content into a translation
-service.
-
-If a translation plugin is specified, the return object from eContext will 
-include a summary of the translation activity as well as the translated content
-retrieved from those services.  For example:
-
-.. literalinclude:: _static/classify-social-translate-output.json
-    :language: json
+All eContext Category information is returned in English; however, certain other response objects may be in English or may be in the source language. See the list of supported languages for more details.
 
 
-Calls that Accept Translation Parameters
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Calls that Accept Non-English Content
+-------------------------------------
 
 * :doc:`classify-html`
 * :doc:`classify-keywords`
@@ -50,79 +19,31 @@ Calls that Accept Translation Parameters
 * :doc:`classify-text`
 * :doc:`classify-url`
 
-eContext Translation Service
-----------------------------------------
+Supported Languages
+-------------------
 
-eContext's inhouse translation service provides fast machine translation for the
-following languages:
-    
-    * Spanish
-    * French
+eContext provides rich language responses for the following languages:
+
+    * Arabic
+    * Chinese (Simplified & Traditional)
+    * Japanese
     * Portuguese
-    * Italian
-    * Dutch
+    * Russian
+    * Spanish
+
+API responses for content submitted in one of these languages will include scored_keywords in the original source language.
+
+eContext also supports content in the following languages:
+
+    * French
     * German
+    * Italian
 
-Please contact your sales representative at eContext for more information on
-signing up for eContext Translation Services.
+API responses for content submitted in one of these languages will be entirely in English.
 
-Available 3rd Party Translation Services
-----------------------------------------
+Additional Languages
+^^^^^^^^^^^^^^^^^^^^
 
-You are responsible for all costs associated with any 3rd Party Translation Service
-you request eContext to use on your behalf. eContext will not make any changes to your account.
+If you need to submit content in a language not included in the list of supported languages, please contact our `Client Services Team`_. eContext is always soliciting feedback on new languages to support, and can iterate quickly if your data demands it.
 
-eContext may add, alter or remove integration with 3rd Party Services at its
-discretion.
-
-eContext plugin to Microsoft Translator API
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-You can use your Microsoft Translator API account within eContext.  eContext will provide on-the-fly language
-identification and translation, allowing you to classify non-English source content.
-
-To sign up for a Micosoft Translator API Account, follow these steps:
-    
-#. Signup for a basic Microsoft Account at http://login.live.com
-#. Signup for a Microsoft Azure Account at https://datamarket.azure.com/home/
-#. Subscribe to the Microsoft Translator API
-    a. Go to https://datamarket.azure.com/dataset/bing/microsofttranslator
-    b. Add a subscription for the appropriate level
-#. From your Microsoft Azure Account "Developers" tab, register a new application
-    a. Go to https://datamarket.azure.com/developer/applications
-    b. Click the "Register" button
-    c. Register your new application, taking note of your "Client ID" and "Client secret"
-
-You may now use these credentials to perform translation in the eContext API. 
-An example of the POST body that would pass content through to the Microsoft
-Translator API for translation before processing in eContext:
-
-.. literalinclude:: _static/classify-social-translate-input-ms.json
-    :language: json
-
-eContext plugin to Google Translate API
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-You can use the Google Translate API Keys connected with your Google Developer Console account within eContext. 
-eContext will provide on-the-fly language identification and translation, allowing you to classify non-English
-source content.
-
-To connect to the Google Translate API, follow these steps from the Google
-Developer Console.
-
-#. Open the API Manager from the Google Developer Console menu.
-#. Search for the Translate API
-#. Enable the Translate API
-    a. If you do not have billing set up on your Google Developer Account, click on the "Quotas" tab of the Translate API and select "Enable Billing"
-#. Open the Credentials tab under the API Manager
-#. From the "Add credentials" menu, select "API Key"
-#. Create a new "Browser key"
-    a. GIve the key a name
-    b. Add "api.econtext.com" the list of domains to accept requests from.  This will ensure that your API key cannot be abused
-
-An example of the POST body that would pass content through to the Google 
-Translate API for translation before processing in eContext:
-
-.. literalinclude:: _static/classify-social-translate-input-b.json
-    :language: json
-
+.. _Client Services Team: hello@econtext.com

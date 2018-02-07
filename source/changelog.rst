@@ -9,7 +9,7 @@ Version 1.1.6 - 2017-03-16
 
 Version 1.1.5 - 2017-02-02
 --------------------------
-*   Specify a ``dataset_timestamp`` parameter to freeze the eContext Taxonomy for long-running classification tasks
+*   Specify a ``taxonomy_timestamp`` parameter to freeze the eContext Taxonomy for long-running classification tasks
 *   Return more useful errors for invalid filters in ``keywords/search`` calls
 
 Version 1.1.4 - 2017-01-16
@@ -83,7 +83,7 @@ Version 1.0.17
 --------------
 
 *   Added /categories/tiers to show all top-tier categories in the eContext Taxonomy
-*   Added ability to perform automatic content translation prior to classification 
+*   Added ability to perform automatic content translation prior to classification
     using a bring-your-own translation service - currently only Microsoft Translator API
 *   Added general Category statistics including Social IDF (Inverse Document Frequency) and Social Relevance
 *   Deprecated /classify/twitter - these calls should be handled by /classify/social

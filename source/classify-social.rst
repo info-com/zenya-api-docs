@@ -30,12 +30,13 @@ Parameters
     :header: "Parameter","Type","Description"
     :stub-columns: 1
     :widths: 25, 20, 100
-    
+
     "social (*required*)", "array", "A list (no more than 1,000 items) of strings."
-    "async (*optional*)", "boolean", "Run a non-blocking call and retrieve a result set later (defaults to ``true``).  When set to ``false``, block, and return results immediately upon completion"
-    "entities (*optional*)", "boolean", "Provide fall-back NLP Entity extraction to provide extra entities that eContext may not return from its taxonomy (defaults to ``false``)"
+    "async (*optional, but recommended*)", "boolean", "Set to ``false`` to run a blocking call and return results immediately upon completion. Set to ``true`` to run a non-blocking call and retrieve a result set later (defaults to ``true``)"
+    "classification_type (*optional*)", "integer", "Select the classification method: ``1`` for rule-based, ``2`` for model-based, or ``0`` for a rule-based with model-based as a fallback (defaults to ``1``)"
     "flags (*optional*)", "boolean", "Provide :ref:`objects-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
-    "taxonomy_timestamp (*optional*)", "integer", "Use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
+    "entities (*optional*)", "boolean", "Perform Named Entity Recognition (NER) on the content submitted (defaults to ``false``)"
+    "taxonomy_timestamp (*optional*)", "integer", "A Unix timestamp instructing the classifier to use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
     "dataset_id (*optional*)", "string", "A :ref:`custom-taxonomies` id to use in lieu of the default eContext Taxonomy"
 
 Return

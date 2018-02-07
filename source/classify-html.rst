@@ -29,11 +29,12 @@ Parameters
     :header: "Parameter","Type","Description"
     :stub-columns: 1
     :widths: 25, 20, 100
-    
+
     "html (*required*)", "string", "HTML content to be classified."
-    "async (*required*)", "boolean", "Please set to ``false`` to retrieve results immediately.  If set to ``true``, do not wait for a result set."
-    "entities (*optional*)", "boolean", "Provide fall-back NLP Entity extraction to provide extra entities that eContext may not return from its taxonomy (defaults to ``false``)"
-    "taxonomy_timestamp (*optional*)", "integer", "Use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
+    "async (*optional, but recommended*)", "boolean", "Set to ``false`` to run a blocking call and return results immediately upon completion. Set to ``true`` to run a non-blocking call and retrieve a result set later (defaults to ``true``)"
+    "classification_type (*optional*)", "integer", "Select the classification method: ``1`` for rule-based, ``2`` for model-based, or ``0`` for a rule-based with model-based as a fallback (defaults to ``1``)"
+    "entities (*optional*)", "boolean", "Perform Named Entity Recognition (NER) on the content submitted (defaults to ``false``)"
+    "taxonomy_timestamp (*optional*)", "integer", "A Unix timestamp instructing the classifier to use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
     "dataset_id (*optional*)", "string", "A :ref:`custom-taxonomies` id to use in lieu of the default eContext Taxonomy"
 
 Return
@@ -52,7 +53,7 @@ POST Request
 """"""""""""
 
 .. parsed-literal::
-    
+
     curl -X POST -u username:password --data-binary @classify-html-input.json \\
     --header "Content-type: application/json" \\
     :api_url:`classify/html`
@@ -60,7 +61,7 @@ POST Request
 The contents of :download:`classify-html-input.json <_static/classify-html-input.json>`:
 
 .. code-block:: json
-    
+
     {
         "async": false,
         "html": "<!DOCTYPE html><html><head><title>Microsoft Stores offer $100 Xbox One discount
@@ -83,4 +84,3 @@ POST Response
 
 .. literalinclude:: _static/classify-html-output.json
    :language: json
-

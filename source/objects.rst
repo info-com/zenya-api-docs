@@ -7,18 +7,14 @@ Objects
 Category
 --------
 
-A Category is the base classification object in the eContext platform.  A 
-typical Category will contain an id, name, and the path (and ids) in the
-eContext Taxonomy.
+A Category is the base classification object in the eContext platform.  A
+typical Category will contain an id, a name, a path where the Category resides in the eContext Taxonomy, and the ids of each element in that path.
 
-Each Category exists in exactly one location in the eContext Taxonomy and has 
-only one parent. Categories may move, periodically, in the eContext Taxonomy, 
-and their names and path values may change. A Category will always keep the same
-id. A Category may represent a thing, place, person, product, service, or an
-abstract concept.
+Each Category exists in exactly one location in the eContext Taxonomy and has
+only one parent. Categories may be altered over time, the content classified to them may differ, and their name, path, and idpath values may change. However, a Category will always keep the same id. A Category may represent a thing, place, person, product, service, or an abstract concept.
 
 .. code-block:: json
-    
+
     {
       "id": "ac0fb32ea52f2c1228592ad6598c2cc2",
       "name": "Breaking Bad",
@@ -48,14 +44,14 @@ abstract concept.
     :header: "Attribute","Description"
     :stub-columns: 1
     :widths: 25, 100
-    
+
     "id", "A unique identifier for this Category. Please note that ids are encoded to each account, and the ids shown in these examples will not be the same as those received from the service"
     "name", "The name of this Category"
     "path", "The path for this Category in the eContext Taxonomy"
     "idpath", "The path for this Category using ids"
     "stats", "Useful statistics associated with this Category"
     "stats.social_idf", "The Inverse Document Frequency of this Category.  See below for more details"
-    "stats.social_relevance", "The percentage of conversations found in eContext's Social Media feeds over the past month that address this specific Category. This statistic only applies to the single category object, and does not aggregate or sum categories deeper in its hierarchical path"
+    "stats.social_relevance", "The percentage of conversations found in eContext's Social Media feeds over the past month that address this specific Category. This statistic only applies to the single Category object, and does not aggregate or sum categories deeper in its hierarchical path"
 
 
 stats.social_idf
@@ -80,7 +76,7 @@ useful for removing Category noise from your results.
 stats.social_relevance
 ^^^^^^^^^^^^^^^^^^^^^^
 
-This statistic provides information about the relevance of a particular category
+This statistic provides information about the relevance of a particular Category
 in in eContext's Social Media feeds over the past month and is calculated as follows:
 
 .. math::
@@ -95,13 +91,12 @@ Overlay
 -------
 
 An overlay object provides a map from the eContext taxonomy to a client's own
-taxonomy, and/or a standard taxonomy overlay, for example, to the IAB taxonomy.
+taxonomy, and/or an industry standard taxonomy, like the IAB Content Taxonomy.
 Overlays are only available to select clients at this time.  Please contact
-our `Overlay Team`_ for access to standard taxonomy overlays or for 
-information about onboarding your own taxonomy overlay.
+our `Client Services Team`_ to learn more about the standard overlays we support, or commission a custom overlay.
 
 In general, the overlay object itself will contain a dictionary of eContext
-category ids that correspond to the categories dictionary, and then matching
+Category ids that correspond to the categories dictionary, and then matching
 categories inside each subscribed taxonomy overlay.
 
 For example, if a user is subscribed to the IAB taxonomy overlay, the output for
@@ -184,26 +179,36 @@ the following `classify/keywords` call might look like this:
           },
           "overlay": {
             "33ffa2f8cae5b84455321ab2575441fe": {
-              "iab2016": [
+              "IAB_v2.0_2018": [
                 [
-                  "Home & Garden"
+                  [
+                    "274",
+                    "Home & Garden"
+                  ]
                 ],
                 [
-                  "Family & Parenting",
-                  "Babies & Toddlers"
+                  [
+                    "196",
+                    "Family and Relationships::Parenting::Parenting Babies and Toddlers"
+                  ]
                 ]
               ]
             },
             "85edc49558d9373a4a5bcfc6eb0bac90": {
-              "iab2016": [
+              "IAB_v2.0_2018": [
                 [
-                  "Sports"
+                  [
+                    "483",
+                    "Sports"
+                  ],
                 ],
                 [
-                  "Sports",
-                  "Football"
+                  [
+                    "484",
+                    "Sports::American Football"
+                  ]
                 ]
-              ]
+              ],
             }
           }
         },
@@ -215,40 +220,38 @@ the following `classify/keywords` call might look like this:
       }
     }
 
-In this case, we're returning categories from the eContext 2015 IAB Taxonomy 
+In this case, we're returning categories from the eContext 2018 IAB Taxonomy
 Overlay that maps from eContext categories to the IAB.  The eContext "Strollers"
-category maps to the IAB "Home & Garden" and "Babies & Toddlers" categories, and
-the eContext "Chicago Bears" category maps to the IAB "Sports" and "Football"
-categories.
+Category maps to the IAB "Home & Garden" and "Parenting Babies and Toddlers" categories, and the eContext "Chicago Bears" Category maps to the IAB "Sports" and "American Football" categories.
 
-Please note that the overlay object will not appear for categories/map or 
+Please note that the overlay object will not appear for categories/map or
 categories/search calls.
 
 Entities
 --------
 
-In certain cases, the eContext Taxonomy may not return as many classifications 
-as you may like.  For example, eContext may not return many location names or
-the names of people mentioned in a social media post or article.  In these cases
-you may specifically request additional entities to be returned.  Please note
-that the addition of named entity parsing does increase latency.
+In addition to topics from its curated hierarchy, eContext can also use Named Entity Recognition (NER) to return additional information on a document.
 
-Entity extraction is provided for the classify/social, classify/html, 
-classify/text, and classify/url calls and can be enabled by passing in an 
-additional parameter with your request object.  For example, to retrieve extra
-entities in a classify/social call you may pass in ``"entities":true`` as shown
+Please note that the addition of Named Entity Recognition does increase latency.
+
+Entity recognition is provided for the classify/social, classify/html,
+classify/text, and classify/url calls and can be enabled by passing in an
+additional parameter with your request object.  For example, to retrieve
+Entities in a classify/social call you may pass in ``"entities":true`` as shown
 in the following example:
-    
+
 .. literalinclude:: _static/classify-social-input.json
     :language: json
 
-Available entities types:
+For each item classified, its recognized ``entities`` will be returned in a separate list from ``scored_categories``. Entity ids can be referenced in the ``categories`` dictionary to lookup their names, paths, and idpaths. In some cases, one or more of the recognized entities may be synonymous with a Category, and the id for the category will be included in the ``entities`` list, along with an Entity type.
+
+Available Entity types:
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. csv-table:: 
+.. csv-table::
     :header: "Entity", "Description"
     :stub-columns: 1
-    
+
     "PERSON","Names of people"
     "NORP","Nationalities or religious and political groups"
     "FAC","Facilities"
@@ -261,36 +264,38 @@ Available entities types:
     "LAW","Laws and legal documents"
     "LANGUAGE","Names of Languages"
 
+eContext's Entity recognition should resolve multiple occurances or references of the same Entity in a document into a single entry. For some location Entities, eContext may provide additional levels of detail by referencing the Entity against a custom gazetteer.
+
 .. _objects-flags:
 
 Object Flags
 ------------
 
-There are many scenarios where you may want to be able to filter content on the
-fly.  Along with classification of content, eContext is able to quickly identify
+Along with classification of content, eContext is able to identify
 and flag social media posts and keywords for content that may be unsuitable for
 your audiences.  Please note that the addition of content flagging does increase
 latency.
 
 Social media posts and keywords may be flagged in real-time to the following
-categories and can be triggered, as shown above, by passing in ``"flags":true``
-in your request object:
+categories and can be triggered by passing in ``"flags":true``
+in your request object.
+
+eContext offers the following flagging categories. Be advised that these flags are optimized for keyword search & display, and are engineered to over-flag in cases of ambiguity.
 
 .. csv-table::
     :header: "ID","Flag Name","Description"
     :stub-columns: 1
     :widths: 10, 30, 100
-    
-    "2","General","Keyword fails general banned standards, including obscene language"
-    "4","Adult","Keyword contains adult content"
-    "8","Alcohol","Keyword contains content referring to alcohol"
-    "16","Fireworks","Keyword contains content referring to fireworks"
-    "32","Gambling","Keyword contains content referring to gambling"
-    "64","Prescription Drugs","Keyword contains content referring to prescription drugs"
-    "128","Tobacco and Cigarettes","Keyword contains content referring to smoking, tobacco, or cigarettes"
-    "256","Weapons","Keyword contains content referring to weapons"
-    "2048","Intent","Keyword contains either a purchase, comparison, question, or negative intent"
+
+    "2","General","Text fails general standards, including obscene language"
+    "4","Adult","Text contains adult content"
+    "8","Alcohol","Text contains content referring to alcohol"
+    "16","Fireworks","Text contains content referring to fireworks"
+    "32","Gambling","Text contains content referring to gambling"
+    "64","Prescription Drugs","Text contains content referring to prescription drugs"
+    "128","Tobacco and Cigarettes","Text contains content referring to smoking, tobacco, or cigarettes"
+    "256","Weapons","Text contains content referring to weapons"
+    "2048","Intent","Text contains either a purchase, comparison, question, or negative intent"
 
 
-.. _Overlay Team: overlayteam@econtext.com
-
+.. _Client Services Team: hello@econtext.com

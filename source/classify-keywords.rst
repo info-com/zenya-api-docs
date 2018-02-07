@@ -30,12 +30,14 @@ Parameters
     :header: "Parameter","Type","Description"
     :stub-columns: 1
     :widths: 25, 20, 100
-    
+
     "keywords (*required*)", "array", "A list of keyword strings to process (no more than 1,000)."
-    "async (*optional*)", "boolean", "Run a non-blocking call and retrieve a result set later (defaults to ``true``).  When set to ``false``, block, and return results immediately upon completion"
+    "async (*optional, but recommended*)", "boolean", "Set to ``false`` to run a blocking call and return results immediately upon completion. Set to ``true`` to run a non-blocking call and retrieve a result set later (defaults to ``true``)"
+    "classification_type (*optional*)", "integer", "Select the classification method: ``1`` for rule-based, ``2`` for model-based, or ``0`` for a rule-based with model-based as a fallback (defaults to ``1``)"
     "flags (*optional*)", "boolean", "Provide :ref:`objects-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
-    "branches (*optional*)", "array", "A list of eContext category ids to limit mapping to"
-    "taxonomy_timestamp (*optional*)", "integer", "Use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
+    "branches (*optional*)", "array", "A set of eContext category ids. Any classification outside the section/s of the hierarchy described by this set will be removed from the response."
+    "entities (*optional*)", "boolean", "Perform Named Entity Recognition (NER) on the content submitted (defaults to ``false``)"
+    "taxonomy_timestamp (*optional*)", "integer", "A Unix timestamp instructing the classifier to use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
     "dataset_id (*optional*)", "string", "A :ref:`custom-taxonomies` id to use in lieu of the default eContext Taxonomy"
 
 Return
@@ -46,13 +48,6 @@ keys and associated data including :ref:`objects-flags`, if requested and found.
 The results in this set are in the same order as the keyword list submitted in
 the POST call.
 
-The result set includes a legacy key ``mappings`` which is a list of category id
-keys that correspond to the ``categories`` dictionary. The mappings are in the
-same order as the keyword list submitted in the POST call. A ``null`` value in
-the id indicates that the keyword is currently unmapped to the eContext
-Taxonomy.  Please note that the ``mappings`` key is being deprecated and will
-disappear in a future release.
-
 Example Request
 ^^^^^^^^^^^^^^^
 
@@ -60,7 +55,7 @@ POST Request
 """"""""""""
 
 .. parsed-literal::
-    
+
     curl -X POST -u username:password --data-binary @classify-keywords-input.json \\
     --header "Content-type: application/json" \\
     :api_url:`classify/keywords`
