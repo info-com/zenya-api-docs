@@ -1,322 +1,117 @@
 {
-  "econtext": {
-    "classify": {
-      "title": "Parks - topics.",
-      "scored_categories": [
-        {
-          "category_id": "79d9fd400d535d842ecfd204f26eb2ea",
-          "score": 0.38011695906433
+    "econtext": {
+        "classify": {
+            "title": "eContext - The World's Largest Semantic Text Classification Engine",
+            "scored_categories": [
+                {
+                    "category_id": "69b3097c31e1afeda8b52873b5739b6f",
+                    "score": 0.8
+                },
+                {
+                    "category_id": "83a464cf84a9482221d2794a782c4bca",
+                    "score": 0.2
+                }
+            ],
+            "scored_keywords": [
+                {
+                    "score": 0.30769230769231,
+                    "keyword": "eContext - The World's Largest Semantic Text Classification Engine"
+                },
+                {
+                    "score": 0.12820512820513,
+                    "keyword": "Build Smarter Sites"
+                },
+                {
+                    "score": 0.1025641025641,
+                    "keyword": "chatbots and site content"
+                },
+                {
+                    "score": 0.1025641025641,
+                    "keyword": "eContext The World's Largest Semantic"
+                },
+                {
+                    "score": 0.1025641025641,
+                    "keyword": "eContext the world"
+                },
+                {
+                    "score": 0.1025641025641,
+                    "keyword": "Make better recommendations for chatbots"
+                },
+                {
+                    "score": 0.1025641025641,
+                    "keyword": "engine classifies content instantly"
+                },
+                {
+                    "score": 0.051282051282051,
+                    "keyword": "to structure data from any text source"
+                }
+            ],
+            "categories": {
+                "69b3097c31e1afeda8b52873b5739b6f": {
+                    "id": "69b3097c31e1afeda8b52873b5739b6f",
+                    "name": "eContext",
+                    "path": [
+                        "Business & Industrial",
+                        "Advertising & Marketing",
+                        "Advertising & Marketing Services",
+                        "Internet Advertising & Marketing",
+                        "Internet Advertising & Marketing Tools",
+                        "eContext"
+                    ],
+                    "idpath": [
+                        "246045a85ad09438156569ba21b02f5e",
+                        "b3f2f7a629f2d467e62506f43bbac6a8",
+                        "0ac9fd31e88f8c9817c8fdcdf7a44452",
+                        "06272ebbc94366aafba8b543a4265f61",
+                        "dbdfde0084809a3187acba657a974964",
+                        "69b3097c31e1afeda8b52873b5739b6f"
+                    ],
+                    "stats": {
+                        "social_relevance": null,
+                        "social_idf": null
+                    }
+                },
+                "83a464cf84a9482221d2794a782c4bca": {
+                    "id": "83a464cf84a9482221d2794a782c4bca",
+                    "name": "Chatbots",
+                    "path": [
+                        "Computers & Electronics",
+                        "Computers",
+                        "Computer Products",
+                        "Computer Software",
+                        "Apps",
+                        "Application Software",
+                        "Communications Software",
+                        "Messaging Software",
+                        "Instant Messenger Programs",
+                        "Instant Messaging [No Provider Specified]",
+                        "Chatbots"
+                    ],
+                    "idpath": [
+                        "f2300bfd81612ac3e8e5c154334057c5",
+                        "961ed1628d0c0aeca238f0f46d802fb0",
+                        "0efe3cc7fb29ec6b8b912b10ff1dc404",
+                        "b3e03e0f41b89f7614e56c67ed5fcbbe",
+                        "358109a9bf7b205353d30f624412547d",
+                        "aba12a8acbca9a35f2fa2a47ad73b95c",
+                        "cee569d1cfd027e71c7ff256f03ce5a6",
+                        "12f003bf3669ef616d0b7761c3f06f35",
+                        "13c1eb86eba3b017a248183e1519f5fd",
+                        "85ca57916b1ad1d89fca5a43528b9451",
+                        "83a464cf84a9482221d2794a782c4bca"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000259136,
+                        "social_idf": 10.315752421802
+                    }
+                }
+            },
+            "entities": [],
         },
-        {
-          "category_id": "b58c6463b2f9a7ceae794e295c186f13",
-          "score": 0.23976608187135
-        },
-        {
-          "category_id": "8690217fab1c6de8935cf0e7e2c20ed0",
-          "score": 0.08187134502924
-        },
-        {
-          "category_id": "e205ca26092d0fdb0b7a49354a3fe318",
-          "score": 0.058479532163743
-        },
-        {
-          "category_id": "e00f7d575910c368f8a54a5c1c7ed1a1",
-          "score": 0.052631578947368
-        },
-        {
-          "category_id": "f38ecc41df86e08204af72fd8d622bbe",
-          "score": 0.046783625730994
-        },
-        {
-          "category_id": "867374be435024b71138cfa11b4502ed",
-          "score": 0.035087719298246
-        },
-        {
-          "category_id": "e79592e6fb4614aac2755ecccf5b9872",
-          "score": 0.035087719298246
-        },
-        {
-          "category_id": "c251f640cde099a82173d0ac1222396e",
-          "score": 0.035087719298246
-        },
-        {
-          "category_id": "47877091b472bf13a439e7848dd9b7b0",
-          "score": 0.035087719298246
+        "signature": {
+            "resource": "POST /classify/:type/:result_id",
+            "status": "200 OK - successful",
+            "client_ip": "127.0.0.1"
         }
-      ],
-      "scored_keywords": [
-        {
-          "score": 0.0077519379844961,
-          "keyword": "Parks topics"
-        },
-        {
-          "score": 0.0064599483204134,
-          "keyword": "Management Education Programs"
-        },
-        {
-          "score": 0.0064599483204134,
-          "keyword": "About City Park"
-        },
-        {
-          "score": 0.0064599483204134,
-          "keyword": "About State Park"
-        },
-        {
-          "score": 0.0064599483204134,
-          "keyword": "State Park Agencies"
-        },
-        {
-          "score": 0.0064599483204134,
-          "keyword": "About Local Parks"
-        },
-        {
-          "score": 0.0064599483204134,
-          "keyword": "Search the Web"
-        },
-        {
-          "score": 0.0064599483204134,
-          "keyword": "City Park District Management"
-        },
-        {
-          "score": 0.0064599483204134,
-          "keyword": "Parks Management Education"
-        },
-        {
-          "score": 0.0064599483204134,
-          "keyword": "Local Parks and Recreation Departments"
-        }
-      ],
-      "categories": {
-        "867374be435024b71138cfa11b4502ed": {
-          "id": "867374be435024b71138cfa11b4502ed",
-          "name": "Construction",
-          "path": [
-            "Business & Industrial",
-            "Construction"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "867374be435024b71138cfa11b4502ed"
-          ],
-          "stats": {
-            "social_relevance": 0.000167156,
-            "social_idf": 8.4567337281769
-          }
-        },
-        "b58c6463b2f9a7ceae794e295c186f13": {
-          "id": "b58c6463b2f9a7ceae794e295c186f13",
-          "name": "Parks and Recreation",
-          "path": [
-            "Arts & Entertainment",
-            "Movies & Television",
-            "Movie & TV Products",
-            "TV",
-            "Comedy TV Shows",
-            "Parks and Recreation"
-          ],
-          "idpath": [
-            "0cc9e1516aaa38d4802a2ee5314ac4ab",
-            "06b7167107de9cff93e6738da9c044c4",
-            "8e4e953b861d4597cb5fae3b7de67ce5",
-            "b3728edb10af57dfbd941132f0c932ae",
-            "8883e97b05dbce9b6c5a5be49d1f3a33",
-            "b58c6463b2f9a7ceae794e295c186f13"
-          ],
-          "stats": {
-            "social_relevance": 0.0000055662,
-            "social_idf": 11.858948403925
-          }
-        },
-        "e205ca26092d0fdb0b7a49354a3fe318": {
-          "id": "e205ca26092d0fdb0b7a49354a3fe318",
-          "name": "Government",
-          "path": [
-            "Government"
-          ],
-          "idpath": [
-            "e205ca26092d0fdb0b7a49354a3fe318"
-          ],
-          "stats": {
-            "social_relevance": 0.0007616773,
-            "social_idf": 6.9401382752086
-          }
-        },
-        "e79592e6fb4614aac2755ecccf5b9872": {
-          "id": "e79592e6fb4614aac2755ecccf5b9872",
-          "name": "Information Technology Services",
-          "path": [
-            "Business & Industrial",
-            "General Business & Industrial",
-            "General Business & Industrial Services",
-            "General Business Services",
-            "Business Operations, Management, & Support Services",
-            "Business Operations & Management",
-            "Information Technology Services"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "1df4b9b5502bedb4a6f27153704e6f04",
-            "774323fee882e4d9e1cf64511a660fb5",
-            "e6c41c92885de7cde5da1b63d6121a81",
-            "d28d13ec857f1cf440b165346e61b7e1",
-            "d817aa49bb89d119bd70b52db0e8729f",
-            "e79592e6fb4614aac2755ecccf5b9872"
-          ],
-          "stats": {
-            "social_relevance": 0.0000071808,
-            "social_idf": 11.604247012203
-          }
-        },
-        "47877091b472bf13a439e7848dd9b7b0": {
-          "id": "47877091b472bf13a439e7848dd9b7b0",
-          "name": "Human Resources",
-          "path": [
-            "Business & Industrial",
-            "General Business & Industrial",
-            "General Business & Industrial Services",
-            "General Business Services",
-            "Business Operations, Management, & Support Services",
-            "Business Operations & Management",
-            "Human Resources"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "1df4b9b5502bedb4a6f27153704e6f04",
-            "774323fee882e4d9e1cf64511a660fb5",
-            "e6c41c92885de7cde5da1b63d6121a81",
-            "d28d13ec857f1cf440b165346e61b7e1",
-            "d817aa49bb89d119bd70b52db0e8729f",
-            "47877091b472bf13a439e7848dd9b7b0"
-          ],
-          "stats": {
-            "social_relevance": 0.0000258765,
-            "social_idf": 10.322327459416
-          }
-        },
-        "e00f7d575910c368f8a54a5c1c7ed1a1": {
-          "id": "e00f7d575910c368f8a54a5c1c7ed1a1",
-          "name": "Recreation Management Services",
-          "path": [
-            "Business & Industrial",
-            "Sports & Entertainment Industry",
-            "Sports & Entertainment Industry Services",
-            "Park & Recreation Services",
-            "Recreation Management Services"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "d42c70f60417a538497907324b0e90d8",
-            "7c43e69f428778d8cdf54c6be7a23433",
-            "e22fa2bab4d6b098e7170dceac93a457",
-            "e00f7d575910c368f8a54a5c1c7ed1a1"
-          ],
-          "stats": {
-            "social_relevance": 0.000000,
-            "social_idf": 15.635533438458
-          }
-        },
-        "f38ecc41df86e08204af72fd8d622bbe": {
-          "id": "f38ecc41df86e08204af72fd8d622bbe",
-          "name": "Education & Reference Software",
-          "path": [
-            "Computers & Electronics",
-            "Computers",
-            "Computer Products",
-            "Computer Software",
-            "Apps",
-            "Application Software",
-            "Education & Reference Software"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "961ed1628d0c0aeca238f0f46d802fb0",
-            "0efe3cc7fb29ec6b8b912b10ff1dc404",
-            "b3e03e0f41b89f7614e56c67ed5fcbbe",
-            "358109a9bf7b205353d30f624412547d",
-            "aba12a8acbca9a35f2fa2a47ad73b95c",
-            "f38ecc41df86e08204af72fd8d622bbe"
-          ],
-          "stats": {
-            "social_relevance": 0.0000072658,
-            "social_idf": 11.592482170623
-          }
-        },
-        "8690217fab1c6de8935cf0e7e2c20ed0": {
-          "id": "8690217fab1c6de8935cf0e7e2c20ed0",
-          "name": "City Parks",
-          "path": [
-            "Travel",
-            "Sightseeing Tours & Tourist Attractions",
-            "Tourist Attractions",
-            "Ecological & Outdoor Tourist Attractions",
-            "City Parks"
-          ],
-          "idpath": [
-            "71d23bae99aff67ee839c60c0c8ba179",
-            "464464e0888a968cc968fa732e173502",
-            "38d7f7961dc84f1c28b49c9c0f7864c6",
-            "41d20c52f770c1f19afb516622707542",
-            "8690217fab1c6de8935cf0e7e2c20ed0"
-          ],
-          "stats": {
-            "social_relevance": 0.000006416,
-            "social_idf": 11.716865890311
-          }
-        },
-        "79d9fd400d535d842ecfd204f26eb2ea": {
-          "id": "79d9fd400d535d842ecfd204f26eb2ea",
-          "name": "State & Regional Parks",
-          "path": [
-            "Travel",
-            "Sightseeing Tours & Tourist Attractions",
-            "Tourist Attractions",
-            "Ecological & Outdoor Tourist Attractions",
-            "State & Regional Parks"
-          ],
-          "idpath": [
-            "71d23bae99aff67ee839c60c0c8ba179",
-            "464464e0888a968cc968fa732e173502",
-            "38d7f7961dc84f1c28b49c9c0f7864c6",
-            "41d20c52f770c1f19afb516622707542",
-            "79d9fd400d535d842ecfd204f26eb2ea"
-          ],
-          "stats": {
-            "social_relevance": 0.0000227747,
-            "social_idf": 10.450011566055
-          }
-        },
-        "c251f640cde099a82173d0ac1222396e": {
-          "id": "c251f640cde099a82173d0ac1222396e",
-          "name": "Mayors",
-          "path": [
-            "Government",
-            "Government [No Location Specified]",
-            "Governmental Structures",
-            "Regional & Local Governments",
-            "City Government Offices",
-            "Mayors"
-          ],
-          "idpath": [
-            "e205ca26092d0fdb0b7a49354a3fe318",
-            "24aaabbafb32ca94a5d558c4331b20ee",
-            "70b4deb5fe5d7377167defd340b379ad",
-            "cfe38244426e7ac1865fc5f755824009",
-            "ccc51358c778ba2de183c252219639e9",
-            "c251f640cde099a82173d0ac1222396e"
-          ],
-          "stats": {
-            "social_relevance": 0.0001420019,
-            "social_idf": 8.6198210179706
-          }
-        }
-      },
-      "entities": [],
-      "overlay": []
-    },
-    "signature": {
-      "resource": "GET /classify/:type/:result_id",
-      "status": "200 OK - successful",
-      "client_ip": "127.0.0.1"
     }
-  }
 }

@@ -1,736 +1,1094 @@
 {
-  "econtext": {
-    "classify": {
-      "results": [
-        {
-          "scored_categories": [
-            {
-              "category_id": "122368a0d17e72cd48a7e472aab27d8d",
-              "score": 1
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "pi day",
-              "score": 1
-            }
-          ],
-          "flags": [],
-          "entities": []
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "52d90c930eaf27779289164752c62991",
-              "score": 0.33333333333333
-            },
-            {
-              "category_id": "a815610c4d2a7ec354611138c4ba1bf1",
-              "score": 0.33333333333333
-            },
-            {
-              "category_id": "f7eddf58819869ff51e0d83b6eba4e59",
-              "score": 0.33333333333333
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "mit the institute",
-              "score": 0.33333333333333
-            },
-            {
-              "keyword": "birthday",
-              "score": 0.33333333333333
-            },
-            {
-              "keyword": "#tbt",
-              "score": 0.33333333333333
-            }
-          ],
-          "flags": [],
-          "entities": [
-            [
-              "William Barton Rogers",
-              "PERSON"
-            ]
-          ]
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "7fe320165aad65c827b76b9f4c2d7094",
-              "score": 1
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "state of matter",
-              "score": 1
-            }
-          ],
-          "flags": [],
-          "entities": []
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "45b0ed5d51754f3eb1f632e3b33a5f68",
-              "score": 0.5
-            },
-            {
-              "category_id": "27b7db4ac30fe1696b702d8a47ee5cd5",
-              "score": 0.5
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "car",
-              "score": 0.5
-            },
-            {
-              "keyword": "science fiction",
-              "score": 0.5
-            }
-          ],
-          "flags": [],
-          "entities": []
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "09ab79d1d3d6e83451bcc9433d951690",
-              "score": 1
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "time-lapse video",
-              "score": 1
-            }
-          ],
-          "flags": [],
-          "entities": [
-            [
-              "Amazing Time-Lapse Video Shows Evolution of",
-              "ORG"
-            ]
-          ]
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "0681d68d4a0087a689a93737e565a83f",
-              "score": 1
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "kenjennings",
-              "score": 1
-            }
-          ],
-          "flags": [],
-          "entities": [
-            [
-              "@JeopardyJulia",
-              "ORG"
-            ]
-          ]
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "f7eddf58819869ff51e0d83b6eba4e59",
-              "score": 1
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "b-day",
-              "score": 1
-            }
-          ],
-          "flags": [],
-          "entities": []
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "70c85dde424ed666fa044d410b941b48",
-              "score": 0.5
-            },
-            {
-              "category_id": "e3bf891483dbc6cc7b59b7f7afe20a79",
-              "score": 0.5
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "tetris",
-              "score": 0.5
-            },
-            {
-              "keyword": "hash browns",
-              "score": 0.5
-            }
-          ],
-          "flags": [],
-          "entities": [
-            [
-              "the Student Center",
-              "ORG"
+    "econtext": {
+        "classify": {
+            "results": [
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "122368a0d17e72cd48a7e472aab27d8d",
+                            "score": 1
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "PI DAY",
+                            "score": 1
+                        }
+                    ],
+                    "flags": [],
+                    "entities": []
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "a815610c4d2a7ec354611138c4ba1bf1",
+                            "score": 0.5
+                        },
+                        {
+                            "category_id": "f7eddf58819869ff51e0d83b6eba4e59",
+                            "score": 0.5
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "birthday",
+                            "score": 0.5
+                        },
+                        {
+                            "keyword": "tbt",
+                            "score": 0.5
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "d43dd02c-697b-54be-ac60-a93d6ae39f18",
+                            "type": "ORG"
+                        },
+                        {
+                            "category_id": "ac9e45bf-54d3-51ef-b774-127fa9d0ccdf",
+                            "type": "ORG"
+                        },
+                        {
+                            "category_id": "d68982ca-a1f0-5c73-a435-6b7f427f0a9c",
+                            "type": "PERSON"
+                        }
+                    ]
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "7fe320165aad65c827b76b9f4c2d7094",
+                            "score": 1
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "state of matter",
+                            "score": 1
+                        }
+                    ],
+                    "flags": [],
+                    "entities": []
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "27b7db4ac30fe1696b702d8a47ee5cd5",
+                            "score": 0.33333333333333
+                        },
+                        {
+                            "category_id": "8a5f896c69fcf9f72d24c9bd169d5283",
+                            "score": 0.33333333333333
+                        },
+                        {
+                            "category_id": "bbe2402e6d3462a37c617c8bd2c54803",
+                            "score": 0.33333333333333
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "car by @MITAeroAstro spinoff @Terrafugia moves",
+                            "score": 0.33333333333333
+                        },
+                        {
+                            "keyword": "Flying car",
+                            "score": 0.33333333333333
+                        },
+                        {
+                            "keyword": "science fiction",
+                            "score": 0.33333333333333
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "77b285ed-dbdf-5672-9fd4-d4f3ae1bff92",
+                            "type": "ORG"
+                        },
+                        {
+                            "category_id": "2597c440-95ea-54ab-a355-ff872a41fa2d",
+                            "type": "PERSON"
+                        }
+                    ]
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "09ab79d1d3d6e83451bcc9433d951690",
+                            "score": 1
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "Time-Lapse Video",
+                            "score": 1
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "193ce25d-c5c2-514d-9e40-7bad9f30f396",
+                            "type": "ORG"
+                        }
+                    ]
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "0681d68d4a0087a689a93737e565a83f",
+                            "score": 1
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "@kenjennings",
+                            "score": 1
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "d43dd02c-697b-54be-ac60-a93d6ae39f18",
+                            "type": "ORG"
+                        },
+                        {
+                            "category_id": "2ddb28b4-2c65-5bd3-be1f-85b585f8a944",
+                            "type": "PERSON"
+                        },
+                        {
+                            "category_id": "0681d68d4a0087a689a93737e565a83f",
+                            "type": "PERSON"
+                        }
+                    ]
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "f7eddf58819869ff51e0d83b6eba4e59",
+                            "score": 1
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "b-day",
+                            "score": 1
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "3df8c40d-0932-58a3-ba1a-f1b4fb150df2",
+                            "type": "PERSON"
+                        }
+                    ]
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "e3bf891483dbc6cc7b59b7f7afe20a79",
+                            "score": 0.5
+                        },
+                        {
+                            "category_id": "70c85dde424ed666fa044d410b941b48",
+                            "score": 0.5
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "hash browns",
+                            "score": 0.5
+                        },
+                        {
+                            "keyword": "Tetris",
+                            "score": 0.5
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "3bbb442f-3415-53a4-bac2-7d05718c2029",
+                            "type": "FAC"
+                        },
+                        {
+                            "category_id": "e3bf891483dbc6cc7b59b7f7afe20a79",
+                            "type": "PRODUCT"
+                        }
+                    ]
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "e6c24ce48720b481f29e2232f439effa",
+                            "score": 1
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "large earthquake",
+                            "score": 1
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "8c4decd2-a521-5b78-b832-b612a18c693d",
+                            "type": "GPE"
+                        }
+                    ]
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "db9b57251e0bc41db948ab75272a9392",
+                            "score": 1
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "robotic",
+                            "score": 1
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "1f3c312f-04bb-5c64-8163-86b93eff1fc5",
+                            "type": "ORG"
+                        }
+                    ]
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "0f1e32b2be9761d9ba1b8dc81830a45b",
+                            "score": 0.5
+                        },
+                        {
+                            "category_id": "80d606580d6ea800a4ba9d3123a11f1c",
+                            "score": 0.5
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "astronauts",
+                            "score": 0.5
+                        },
+                        {
+                            "keyword": "Spacesuit",
+                            "score": 0.5
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "77b285ed-dbdf-5672-9fd4-d4f3ae1bff92",
+                            "type": "ORG"
+                        }
+                    ]
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "8cb417c1c362a793c603aac1a05da853",
+                            "score": 0.5
+                        },
+                        {
+                            "category_id": "67c788105cdbb2df53764713ce0e6353",
+                            "score": 0.5
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "gambling",
+                            "score": 0.5
+                        },
+                        {
+                            "keyword": "fireworks",
+                            "score": 0.5
+                        }
+                    ],
+                    "flags": [
+                        {
+                            "flag_id": 32,
+                            "priority": 1,
+                            "listname": [
+                                "banned",
+                                "content"
+                            ]
+                        },
+                        {
+                            "flag_id": 32,
+                            "priority": 1,
+                            "listname": [
+                                "banned",
+                                "content"
+                            ]
+                        },
+                        {
+                            "flag_id": 16,
+                            "priority": 1,
+                            "listname": [
+                                "banned",
+                                "content"
+                            ]
+                        }
+                    ],
+                    "entities": []
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "148267e593ebc6e43d56a3163330abdf",
+                            "score": 0.66666666666667
+                        },
+                        {
+                            "category_id": "117b083d113803a888698414b78b5bb2",
+                            "score": 0.33333333333333
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "マッサージ",
+                            "score": 0.5
+                        },
+                        {
+                            "keyword": "出張",
+                            "score": 0.5
+                        }
+                    ],
+                    "flags": [
+                        {
+                            "flag_id": 4,
+                            "priority": 1,
+                            "listname": [
+                                "banned",
+                                null
+                            ]
+                        }
+                    ],
+                    "entities": []
+                },
+                {
+                    "scored_categories": [
+                        {
+                            "category_id": "47877091b472bf13a439e7848dd9b7b0",
+                            "score": 0.5
+                        },
+                        {
+                            "category_id": "03153a1abf334ab78ca354bcd70b5e83",
+                            "score": 0.5
+                        }
+                    ],
+                    "scored_keywords": [
+                        {
+                            "keyword": "الجزيرة",
+                            "score": 0.5
+                        },
+                        {
+                            "keyword": "الموارد",
+                            "score": 0.5
+                        }
+                    ],
+                    "flags": [],
+                    "entities": [
+                        {
+                            "category_id": "03153a1abf334ab78ca354bcd70b5e83",
+                            "type": "ORG"
+                        }
+                    ]
+                }
             ],
-            [
-              "Tetris",
-              "WORK_OF_ART"
-            ]
-          ]
+            "categories": {
+                "122368a0d17e72cd48a7e472aab27d8d": {
+                    "id": "122368a0d17e72cd48a7e472aab27d8d",
+                    "name": "Pi Day",
+                    "path": [
+                        "Sciences & Humanities",
+                        "Science",
+                        "Mathematics & Computer Sciences",
+                        "Mathematics",
+                        "Principles of Mathematics",
+                        "Numbers & Numeration Systems",
+                        "Mathematical Constants",
+                        "Pi",
+                        "Pi Day"
+                    ],
+                    "idpath": [
+                        "97a2cc1e4f6df353e6eab12cfe9782ef",
+                        "b8076df03ebed4e8cca77182afa4f7eb",
+                        "5af4c101aba2324875be64b416e2da9b",
+                        "43a1f3b9d2de50b8abf341eaff07ad20",
+                        "83354cdf632516b407507a24a8b6b51e",
+                        "01a6fa25d3d7d6b31ba1a8912d36fc65",
+                        "cfe02e9d2e96628b588da4822ed35ae6",
+                        "b646c5bdf8b9e289cb1f8712d518c045",
+                        "122368a0d17e72cd48a7e472aab27d8d"
+                    ],
+                    "stats": {
+                        "social_relevance": 7.004e-7,
+                        "social_idf": 13.9266703344
+                    }
+                },
+                "f7eddf58819869ff51e0d83b6eba4e59": {
+                    "id": "f7eddf58819869ff51e0d83b6eba4e59",
+                    "name": "Birthdays",
+                    "path": [
+                        "People & Society",
+                        "Holidays & Special Events",
+                        "Personal & General Events",
+                        "Birthdays"
+                    ],
+                    "idpath": [
+                        "bcfb236bcfc3b0f4f03a3cfeed7253a7",
+                        "82d36d41376197e3106ca447fb77fa46",
+                        "463790d819b68705ab787544693f7f4b",
+                        "f7eddf58819869ff51e0d83b6eba4e59"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0043813019,
+                        "social_idf": 5.1854176477
+                    }
+                },
+                "a815610c4d2a7ec354611138c4ba1bf1": {
+                    "id": "a815610c4d2a7ec354611138c4ba1bf1",
+                    "name": "Throwback Thursday",
+                    "path": [
+                        "Computers & Electronics",
+                        "Telecommunications",
+                        "Internet",
+                        "Websites & Digital Content",
+                        "Memes & Hashtags",
+                        "Throwback Thursday"
+                    ],
+                    "idpath": [
+                        "f2300bfd81612ac3e8e5c154334057c5",
+                        "32d2e2823a3b43e5c07d112c547247e2",
+                        "999f4a57dfa866fb307855de356453f1",
+                        "4a5073054bf6bc245f61d18a8e5bd8f2",
+                        "e8b907ff4b40764125cda19f39bb06a1",
+                        "a815610c4d2a7ec354611138c4ba1bf1"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.000133006,
+                        "social_idf": 8.6801248457
+                    }
+                },
+                "7fe320165aad65c827b76b9f4c2d7094": {
+                    "id": "7fe320165aad65c827b76b9f4c2d7094",
+                    "name": "States of Matter",
+                    "path": [
+                        "Sciences & Humanities",
+                        "Science",
+                        "Natural & Applied Sciences",
+                        "Natural Sciences",
+                        "Chemistry",
+                        "Branches of Chemistry",
+                        "Physical Chemistry",
+                        "States of Matter"
+                    ],
+                    "idpath": [
+                        "97a2cc1e4f6df353e6eab12cfe9782ef",
+                        "b8076df03ebed4e8cca77182afa4f7eb",
+                        "87a9f74b9818c9e6ecba5b4cee3f7b80",
+                        "679b98e2f45ea4cbc9a80c76260ab957",
+                        "6625c0d9896d45e91c098af3214916f2",
+                        "686c0abfd0663f2210f3983cfa8429c1",
+                        "90ec5b52febff76d5b64b42656a77eac",
+                        "7fe320165aad65c827b76b9f4c2d7094"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000037565,
+                        "social_idf": 12.2470281633
+                    }
+                },
+                "bbe2402e6d3462a37c617c8bd2c54803": {
+                    "id": "bbe2402e6d3462a37c617c8bd2c54803",
+                    "name": "Car Shipping Services",
+                    "path": [
+                        "Business & Industrial",
+                        "Transportation & Logistics",
+                        "Distribution & Logistics",
+                        "Distribution & Logistics Services",
+                        "Delivery & Shipping Services",
+                        "Cargo & Freight Shipping Services",
+                        "Cargo & Freight Shipping Services [No Transportation Specified]",
+                        "Auto Shipping Services",
+                        "Car Shipping Services"
+                    ],
+                    "idpath": [
+                        "246045a85ad09438156569ba21b02f5e",
+                        "438bf47e4b8eaf591732d1b7a7eb92bd",
+                        "07c00e8907911cb7e0249c7e9a06d374",
+                        "71055fb1db11a7740d1d1bdda1478dcf",
+                        "19a898a747a27a03a54fed39da608785",
+                        "a05e65024db601c3b19201955e634b25",
+                        "d180964401c5ce5c0ca966f07add2466",
+                        "6de64ce84cf5e5895ba51f64e2266bee",
+                        "bbe2402e6d3462a37c617c8bd2c54803"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000108238,
+                        "social_idf": 11.1887671702
+                    }
+                },
+                "8a5f896c69fcf9f72d24c9bd169d5283": {
+                    "id": "8a5f896c69fcf9f72d24c9bd169d5283",
+                    "name": "Flying Cars",
+                    "path": [
+                        "Vehicles",
+                        "Automotive",
+                        "Automotive Vehicles",
+                        "Cars",
+                        "Cars [No Make or Model Specified]",
+                        "Concept Cars",
+                        "Flying Cars"
+                    ],
+                    "idpath": [
+                        "8e80758bbe284a4a02ffaad4636f21b2",
+                        "5f31d0f0ed8a0cba258a64d7f7b9c007",
+                        "6447334dfc6c2f313122842c6b7d5f7c",
+                        "45b0ed5d51754f3eb1f632e3b33a5f68",
+                        "c869415a3a0d296980933be879773913",
+                        "ab79f42681536c149e8c62b8311e3206",
+                        "8a5f896c69fcf9f72d24c9bd169d5283"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.000013116,
+                        "social_idf": 10.9966894385
+                    }
+                },
+                "27b7db4ac30fe1696b702d8a47ee5cd5": {
+                    "id": "27b7db4ac30fe1696b702d8a47ee5cd5",
+                    "name": "Science Fiction",
+                    "path": [
+                        "Books & Literature",
+                        "Books & Literature Products",
+                        "Fiction Books",
+                        "Science Fiction & Fantasy Books",
+                        "Science Fiction & Fantasy Books [No Title Specified]",
+                        "Science Fiction"
+                    ],
+                    "idpath": [
+                        "3064c1a4cbbabd7f0ffd45cd40db97ed",
+                        "b98bc8a6d1729e64bb9aab11e1aea2f7",
+                        "e57f31a304a64c25ef8aaeae97358274",
+                        "88f79e445b6b4e42f94bb7e090cf71f8",
+                        "60a7b9e2cdc91002826ea7f63a976c4e",
+                        "27b7db4ac30fe1696b702d8a47ee5cd5"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000622053,
+                        "social_idf": 9.4400789552
+                    }
+                },
+                "09ab79d1d3d6e83451bcc9433d951690": {
+                    "id": "09ab79d1d3d6e83451bcc9433d951690",
+                    "name": "Time Lapse Photography",
+                    "path": [
+                        "Arts & Entertainment",
+                        "Art & Architecture",
+                        "Photographic & Digital Arts",
+                        "Photography",
+                        "Photography Reference",
+                        "Photography Styles",
+                        "Time Lapse Photography"
+                    ],
+                    "idpath": [
+                        "0cc9e1516aaa38d4802a2ee5314ac4ab",
+                        "3d79e976ed126c05eb3755a8a68cf259",
+                        "f5c67941e5c5a6560fd482481e127f67",
+                        "1655c9e3f933444a2588335d2004a3d7",
+                        "7dc5efd41018614eba1e7327248861db",
+                        "db8090776500e2cd7b19763281fa83d2",
+                        "09ab79d1d3d6e83451bcc9433d951690"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000038202,
+                        "social_idf": 12.230221045
+                    }
+                },
+                "0681d68d4a0087a689a93737e565a83f": {
+                    "id": "0681d68d4a0087a689a93737e565a83f",
+                    "name": "Ken Jennings",
+                    "path": [
+                        "Books & Literature",
+                        "Authors",
+                        "Ken Jennings"
+                    ],
+                    "idpath": [
+                        "3064c1a4cbbabd7f0ffd45cd40db97ed",
+                        "55cd7396d50e51a8c428479683096499",
+                        "0681d68d4a0087a689a93737e565a83f"
+                    ],
+                    "stats": {
+                        "social_relevance": 3.82e-7,
+                        "social_idf": 14.532806138
+                    }
+                },
+                "70c85dde424ed666fa044d410b941b48": {
+                    "id": "70c85dde424ed666fa044d410b941b48",
+                    "name": "Hash Browns",
+                    "path": [
+                        "Food & Drink",
+                        "Food",
+                        "Produce",
+                        "Vegetables",
+                        "Potatoes",
+                        "Potatoes [No Brand Specified]",
+                        "Potato Dishes",
+                        "Hash Browns"
+                    ],
+                    "idpath": [
+                        "10fedce50b97f7006e71901bcdacc0fc",
+                        "aff907a7e0efbc38e4e194ab8794ed48",
+                        "7e0efe368b864bae1e48614d4ef1a84d",
+                        "a9aed11a9e1054afb72c436bc3d39825",
+                        "d8f96e81e5443ab4dc7aa1b75e8e6cc9",
+                        "f923866568bd965ac800b7245ad72f8b",
+                        "ebc74c55297b12cb28d9ea30cfaa2078",
+                        "70c85dde424ed666fa044d410b941b48"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000083407,
+                        "social_idf": 11.449368284
+                    }
+                },
+                "e3bf891483dbc6cc7b59b7f7afe20a79": {
+                    "id": "e3bf891483dbc6cc7b59b7f7afe20a79",
+                    "name": "Tetris",
+                    "path": [
+                        "Games & Toys",
+                        "Video Games",
+                        "Video Game Products",
+                        "Video Game Titles",
+                        "Puzzle Video Games",
+                        "Tetris Video Game Series",
+                        "Tetris"
+                    ],
+                    "idpath": [
+                        "132a2327ee287cd11be6d6fd6fb2f276",
+                        "3432e930f9145dc257bea9547c1fc71c",
+                        "db3e30d23ac3e8697862736e0d27c88d",
+                        "e8882dea1d23e64ec80c6753840d9949",
+                        "d9e8536f8b8000207918fb34100405de",
+                        "10167485a9e6dd45df4f329589d43676",
+                        "e3bf891483dbc6cc7b59b7f7afe20a79"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000089774,
+                        "social_idf": 11.3758057169
+                    }
+                },
+                "e6c24ce48720b481f29e2232f439effa": {
+                    "id": "e6c24ce48720b481f29e2232f439effa",
+                    "name": "Largest Earthquakes",
+                    "path": [
+                        "Sciences & Humanities",
+                        "Science",
+                        "Natural & Applied Sciences",
+                        "Natural Sciences",
+                        "Earth Sciences",
+                        "Branches of Earth Science",
+                        "Geology",
+                        "Geological Events",
+                        "Natural Disasters",
+                        "Earthquakes",
+                        "Largest Earthquakes"
+                    ],
+                    "idpath": [
+                        "97a2cc1e4f6df353e6eab12cfe9782ef",
+                        "b8076df03ebed4e8cca77182afa4f7eb",
+                        "87a9f74b9818c9e6ecba5b4cee3f7b80",
+                        "679b98e2f45ea4cbc9a80c76260ab957",
+                        "3fc52b60febc465afd172d06c805e194",
+                        "6729e4a44d0a7b7fa77e469dfe170e14",
+                        "e761c73c13e92310a3da6035be26bfbe",
+                        "9e982c486adfa285b13993bf1f4eae53",
+                        "5c64575729c5a3d2fffd8da6cfa7c022",
+                        "e7ed6e064209bceb2bb74be1357c5df8",
+                        "e6c24ce48720b481f29e2232f439effa"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000031835,
+                        "social_idf": 12.4125426018
+                    }
+                },
+                "db9b57251e0bc41db948ab75272a9392": {
+                    "id": "db9b57251e0bc41db948ab75272a9392",
+                    "name": "Robotics Engineering",
+                    "path": [
+                        "Sciences & Humanities",
+                        "Science",
+                        "Natural & Applied Sciences",
+                        "Applied Sciences",
+                        "Branches of Applied Science",
+                        "Engineering & Technology Sciences",
+                        "Robotics Engineering"
+                    ],
+                    "idpath": [
+                        "97a2cc1e4f6df353e6eab12cfe9782ef",
+                        "b8076df03ebed4e8cca77182afa4f7eb",
+                        "87a9f74b9818c9e6ecba5b4cee3f7b80",
+                        "fcfb831da99d159c2a3e525583bf97b2",
+                        "c9289a59e1e2092528231a70489851fb",
+                        "b78530c321a0540429e16153263502c3",
+                        "db9b57251e0bc41db948ab75272a9392"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000469882,
+                        "social_idf": 9.7206217826
+                    }
+                },
+                "80d606580d6ea800a4ba9d3123a11f1c": {
+                    "id": "80d606580d6ea800a4ba9d3123a11f1c",
+                    "name": "Astronauts & Cosmonauts",
+                    "path": [
+                        "Sciences & Humanities",
+                        "Science",
+                        "Natural & Applied Sciences",
+                        "Applied Sciences",
+                        "Branches of Applied Science",
+                        "Engineering & Technology Sciences",
+                        "Space Technologies",
+                        "Space Travel",
+                        "Space Travel [No Agency Specified]",
+                        "Astronauts & Cosmonauts"
+                    ],
+                    "idpath": [
+                        "97a2cc1e4f6df353e6eab12cfe9782ef",
+                        "b8076df03ebed4e8cca77182afa4f7eb",
+                        "87a9f74b9818c9e6ecba5b4cee3f7b80",
+                        "fcfb831da99d159c2a3e525583bf97b2",
+                        "c9289a59e1e2092528231a70489851fb",
+                        "b78530c321a0540429e16153263502c3",
+                        "f66116b90ebde7e3c94825c4f219e963",
+                        "ce2d2abee36cf2321d53ee45791ddc84",
+                        "7221412274b411d44e5c690ae5d268d0",
+                        "80d606580d6ea800a4ba9d3123a11f1c"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000433591,
+                        "social_idf": 9.8010033011
+                    }
+                },
+                "0f1e32b2be9761d9ba1b8dc81830a45b": {
+                    "id": "0f1e32b2be9761d9ba1b8dc81830a45b",
+                    "name": "Space Suits",
+                    "path": [
+                        "Sciences & Humanities",
+                        "Science",
+                        "Natural & Applied Sciences",
+                        "Applied Sciences",
+                        "Branches of Applied Science",
+                        "Engineering & Technology Sciences",
+                        "Space Technologies",
+                        "Space Travel",
+                        "Space Travel [No Agency Specified]",
+                        "Space Suits"
+                    ],
+                    "idpath": [
+                        "97a2cc1e4f6df353e6eab12cfe9782ef",
+                        "b8076df03ebed4e8cca77182afa4f7eb",
+                        "87a9f74b9818c9e6ecba5b4cee3f7b80",
+                        "fcfb831da99d159c2a3e525583bf97b2",
+                        "c9289a59e1e2092528231a70489851fb",
+                        "b78530c321a0540429e16153263502c3",
+                        "f66116b90ebde7e3c94825c4f219e963",
+                        "ce2d2abee36cf2321d53ee45791ddc84",
+                        "7221412274b411d44e5c690ae5d268d0",
+                        "0f1e32b2be9761d9ba1b8dc81830a45b"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000047116,
+                        "social_idf": 12.020500514
+                    }
+                },
+                "67c788105cdbb2df53764713ce0e6353": {
+                    "id": "67c788105cdbb2df53764713ce0e6353",
+                    "name": "Gambling",
+                    "path": [
+                        "Sports",
+                        "Gambling"
+                    ],
+                    "idpath": [
+                        "b00fac5f30dc8dbb660c8d08fe66f487",
+                        "67c788105cdbb2df53764713ce0e6353"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0001976307,
+                        "social_idf": 8.2841187259
+                    }
+                },
+                "8cb417c1c362a793c603aac1a05da853": {
+                    "id": "8cb417c1c362a793c603aac1a05da853",
+                    "name": "Fireworks",
+                    "path": [
+                        "People & Society",
+                        "Holidays & Special Events",
+                        "General Event Products",
+                        "Party Supplies",
+                        "General Party Supplies",
+                        "Party Games & Activities Supplies",
+                        "Fireworks"
+                    ],
+                    "idpath": [
+                        "bcfb236bcfc3b0f4f03a3cfeed7253a7",
+                        "82d36d41376197e3106ca447fb77fa46",
+                        "45c33e2ce2157aeaa8f005c1451dc4e0",
+                        "5145152fdf9a8a6a8fe9684b24f28deb",
+                        "d82342348bfadba260fc63c19af2c220",
+                        "8266e4d5c4420745f507700728ddbe2f",
+                        "8cb417c1c362a793c603aac1a05da853"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0001659869,
+                        "social_idf": 8.4586101933
+                    }
+                },
+                "148267e593ebc6e43d56a3163330abdf": {
+                    "id": "148267e593ebc6e43d56a3163330abdf",
+                    "name": "Massage Therapy",
+                    "path": [
+                        "Health",
+                        "Health Conditions & Treatments",
+                        "Health Conditions & Treatments [No System Specified]",
+                        "Health Conditions & Treatments [No Cause Specified]",
+                        "Health Conditions & Treatments [No Condition Specified]",
+                        "Health Conditions & Treatments [No Symptom Specified]",
+                        "Alternative Health Treatments",
+                        "Massage Therapy"
+                    ],
+                    "idpath": [
+                        "65a41262de6b6fa72bebc5fb7b84d4dd",
+                        "7ff173df395603291b7161edbd13a437",
+                        "d631b7fcad4fb876788648303a48f400",
+                        "4eff62ca21124ecc24d28036673fa2b2",
+                        "f790d13862fc3e041e1ecce9c3f63df8",
+                        "e870f279ac0e0ab560a79807b44abb22",
+                        "3028d55c2b424fcfa09594ad0858da8b",
+                        "148267e593ebc6e43d56a3163330abdf"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.000083662,
+                        "social_idf": 9.1437344082
+                    }
+                },
+                "117b083d113803a888698414b78b5bb2": {
+                    "id": "117b083d113803a888698414b78b5bb2",
+                    "name": "Business Travel",
+                    "path": [
+                        "Travel",
+                        "Business Travel"
+                    ],
+                    "idpath": [
+                        "71d23bae99aff67ee839c60c0c8ba179",
+                        "117b083d113803a888698414b78b5bb2"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.000015026,
+                        "social_idf": 10.8607338022
+                    }
+                },
+                "03153a1abf334ab78ca354bcd70b5e83": {
+                    "id": "03153a1abf334ab78ca354bcd70b5e83",
+                    "name": "Al Jazeera",
+                    "path": [
+                        "Arts & Entertainment",
+                        "Movies & Television",
+                        "Movie & TV Services",
+                        "TV & Cable Networks",
+                        "International TV Networks",
+                        "Al Jazeera"
+                    ],
+                    "idpath": [
+                        "0cc9e1516aaa38d4802a2ee5314ac4ab",
+                        "06b7167107de9cff93e6738da9c044c4",
+                        "2650e6456959ecdfa4c7c74d53d5b1cf",
+                        "f1ba98f2a81ebefc06a624ce159c1515",
+                        "ce61deb17f67dfcc121b984bbf7c6abf",
+                        "03153a1abf334ab78ca354bcd70b5e83"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000159811,
+                        "social_idf": 10.7991126681
+                    }
+                },
+                "47877091b472bf13a439e7848dd9b7b0": {
+                    "id": "47877091b472bf13a439e7848dd9b7b0",
+                    "name": "Human Resources",
+                    "path": [
+                        "Business & Industrial",
+                        "General Business & Industrial",
+                        "General Business & Industrial Services",
+                        "General Business Services",
+                        "Business Operations, Management, & Support Services",
+                        "Business Operations & Management",
+                        "Human Resources"
+                    ],
+                    "idpath": [
+                        "246045a85ad09438156569ba21b02f5e",
+                        "1df4b9b5502bedb4a6f27153704e6f04",
+                        "774323fee882e4d9e1cf64511a660fb5",
+                        "e6c41c92885de7cde5da1b63d6121a81",
+                        "d28d13ec857f1cf440b165346e61b7e1",
+                        "d817aa49bb89d119bd70b52db0e8729f",
+                        "47877091b472bf13a439e7848dd9b7b0"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0000240035,
+                        "social_idf": 10.3923204198
+                    }
+                },
+                "d43dd02c-697b-54be-ac60-a93d6ae39f18": {
+                    "id": "d43dd02c-697b-54be-ac60-a93d6ae39f18",
+                    "name": "MIT",
+                    "path": [
+                        "Organizations",
+                        "MIT"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "d43dd02c-697b-54be-ac60-a93d6ae39f18"
+                    ],
+                    "stats": null
+                },
+                "ac9e45bf-54d3-51ef-b774-127fa9d0ccdf": {
+                    "id": "ac9e45bf-54d3-51ef-b774-127fa9d0ccdf",
+                    "name": "The Institute",
+                    "path": [
+                        "Organizations",
+                        "The Institute"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "ac9e45bf-54d3-51ef-b774-127fa9d0ccdf"
+                    ],
+                    "stats": null
+                },
+                "d68982ca-a1f0-5c73-a435-6b7f427f0a9c": {
+                    "id": "d68982ca-a1f0-5c73-a435-6b7f427f0a9c",
+                    "name": "William Barton Rogers",
+                    "path": [
+                        "People",
+                        "William Barton Rogers"
+                    ],
+                    "idpath": [
+                        "b5029184-4d4f-5783-919b-0a91c20fec73",
+                        "d68982ca-a1f0-5c73-a435-6b7f427f0a9c"
+                    ],
+                    "stats": null
+                },
+                "77b285ed-dbdf-5672-9fd4-d4f3ae1bff92": {
+                    "id": "77b285ed-dbdf-5672-9fd4-d4f3ae1bff92",
+                    "name": "@MITAeroAstro",
+                    "path": [
+                        "Organizations",
+                        "@MITAeroAstro"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "77b285ed-dbdf-5672-9fd4-d4f3ae1bff92"
+                    ],
+                    "stats": null
+                },
+                "2597c440-95ea-54ab-a355-ff872a41fa2d": {
+                    "id": "2597c440-95ea-54ab-a355-ff872a41fa2d",
+                    "name": "@Terrafugia",
+                    "path": [
+                        "People",
+                        "@Terrafugia"
+                    ],
+                    "idpath": [
+                        "b5029184-4d4f-5783-919b-0a91c20fec73",
+                        "2597c440-95ea-54ab-a355-ff872a41fa2d"
+                    ],
+                    "stats": null
+                },
+                "193ce25d-c5c2-514d-9e40-7bad9f30f396": {
+                    "id": "193ce25d-c5c2-514d-9e40-7bad9f30f396",
+                    "name": "Amazing Time-Lapse Video Shows Evolution",
+                    "path": [
+                        "Organizations",
+                        "Amazing Time-Lapse Video Shows Evolution"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "193ce25d-c5c2-514d-9e40-7bad9f30f396"
+                    ],
+                    "stats": null
+                },
+                "2ddb28b4-2c65-5bd3-be1f-85b585f8a944": {
+                    "id": "2ddb28b4-2c65-5bd3-be1f-85b585f8a944",
+                    "name": "@JeopardyJulia",
+                    "path": [
+                        "People",
+                        "@JeopardyJulia"
+                    ],
+                    "idpath": [
+                        "b5029184-4d4f-5783-919b-0a91c20fec73",
+                        "2ddb28b4-2c65-5bd3-be1f-85b585f8a944"
+                    ],
+                    "stats": null
+                },
+                "3df8c40d-0932-58a3-ba1a-f1b4fb150df2": {
+                    "id": "3df8c40d-0932-58a3-ba1a-f1b4fb150df2",
+                    "name": "Startup",
+                    "path": [
+                        "People",
+                        "Startup"
+                    ],
+                    "idpath": [
+                        "b5029184-4d4f-5783-919b-0a91c20fec73",
+                        "3df8c40d-0932-58a3-ba1a-f1b4fb150df2"
+                    ],
+                    "stats": null
+                },
+                "3bbb442f-3415-53a4-bac2-7d05718c2029": {
+                    "id": "3bbb442f-3415-53a4-bac2-7d05718c2029",
+                    "name": "the Student Center",
+                    "path": [
+                        "Locations",
+                        "the Student Center"
+                    ],
+                    "idpath": [
+                        "d5a74840-36e2-5078-b605-523a16ed49be",
+                        "3bbb442f-3415-53a4-bac2-7d05718c2029"
+                    ],
+                    "stats": null
+                },
+                "8c4decd2-a521-5b78-b832-b612a18c693d": {
+                    "id": "8c4decd2-a521-5b78-b832-b612a18c693d",
+                    "name": "Istanbul",
+                    "path": [
+                        "Locations",
+                        "Istanbul"
+                    ],
+                    "idpath": [
+                        "d5a74840-36e2-5078-b605-523a16ed49be",
+                        "8c4decd2-a521-5b78-b832-b612a18c693d"
+                    ],
+                    "stats": null
+                },
+                "1f3c312f-04bb-5c64-8163-86b93eff1fc5": {
+                    "id": "1f3c312f-04bb-5c64-8163-86b93eff1fc5",
+                    "name": "MIT's",
+                    "path": [
+                        "Organizations",
+                        "MIT's"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "1f3c312f-04bb-5c64-8163-86b93eff1fc5"
+                    ],
+                    "stats": null
+                }
+            }
         },
-        {
-          "scored_categories": [
-            {
-              "category_id": "e6c24ce48720b481f29e2232f439effa",
-              "score": 1
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "large earthquake",
-              "score": 1
-            }
-          ],
-          "flags": [],
-          "entities": [
-            [
-              "Istanbul",
-              "GPE"
-            ]
-          ]
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "db9b57251e0bc41db948ab75272a9392",
-              "score": 1
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "robotic",
-              "score": 1
-            }
-          ],
-          "flags": [],
-          "entities": []
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "0f1e32b2be9761d9ba1b8dc81830a45b",
-              "score": 0.5
-            },
-            {
-              "category_id": "80d606580d6ea800a4ba9d3123a11f1c",
-              "score": 0.5
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "spacesuit",
-              "score": 0.5
-            },
-            {
-              "keyword": "astronauts",
-              "score": 0.5
-            }
-          ],
-          "flags": [],
-          "entities": []
-        },
-        {
-          "scored_categories": [
-            {
-              "category_id": "8cb417c1c362a793c603aac1a05da853",
-              "score": 0.5
-            },
-            {
-              "category_id": "67c788105cdbb2df53764713ce0e6353",
-              "score": 0.5
-            }
-          ],
-          "scored_keywords": [
-            {
-              "keyword": "gambling",
-              "score": 0.5
-            },
-            {
-              "keyword": "fireworks",
-              "score": 0.5
-            }
-          ],
-          "flags": [
-            {
-              "flag_id": 32,
-              "priority": 1,
-              "listname": [
-                "banned",
-                "content"
-              ]
-            },
-            {
-              "flag_id": 16,
-              "priority": 1,
-              "listname": [
-                "banned",
-                "content"
-              ]
-            }
-          ],
-          "entities": []
+        "signature": {
+            "resource": "POST /classify/:type/:result_id",
+            "status": "200 OK - successful",
+            "client_ip": "127.0.0.1"
         }
-      ],
-      "categories": {
-        "7fe320165aad65c827b76b9f4c2d7094": {
-          "id": "7fe320165aad65c827b76b9f4c2d7094",
-          "name": "States of Matter",
-          "path": [
-            "Sciences & Humanities",
-            "Science",
-            "Natural & Applied Sciences",
-            "Natural Sciences",
-            "Chemistry",
-            "Branches of Chemistry",
-            "Physical Chemistry",
-            "States of Matter"
-          ],
-          "idpath": [
-            "97a2cc1e4f6df353e6eab12cfe9782ef",
-            "b8076df03ebed4e8cca77182afa4f7eb",
-            "87a9f74b9818c9e6ecba5b4cee3f7b80",
-            "679b98e2f45ea4cbc9a80c76260ab957",
-            "6625c0d9896d45e91c098af3214916f2",
-            "686c0abfd0663f2210f3983cfa8429c1",
-            "90ec5b52febff76d5b64b42656a77eac",
-            "7fe320165aad65c827b76b9f4c2d7094"
-          ],
-          "stats": {
-            "social_relevance": 0.0000025069,
-            "social_idf": 12.65660828322
-          }
-        },
-        "e6c24ce48720b481f29e2232f439effa": {
-          "id": "e6c24ce48720b481f29e2232f439effa",
-          "name": "Largest Earthquakes",
-          "path": [
-            "Sciences & Humanities",
-            "Science",
-            "Natural & Applied Sciences",
-            "Natural Sciences",
-            "Earth Sciences",
-            "Branches of Earth Science",
-            "Geology",
-            "Geological Events",
-            "Earthquakes",
-            "Largest Earthquakes"
-          ],
-          "idpath": [
-            "97a2cc1e4f6df353e6eab12cfe9782ef",
-            "b8076df03ebed4e8cca77182afa4f7eb",
-            "87a9f74b9818c9e6ecba5b4cee3f7b80",
-            "679b98e2f45ea4cbc9a80c76260ab957",
-            "3fc52b60febc465afd172d06c805e194",
-            "6729e4a44d0a7b7fa77e469dfe170e14",
-            "e761c73c13e92310a3da6035be26bfbe",
-            "9e982c486adfa285b13993bf1f4eae53",
-            "e7ed6e064209bceb2bb74be1357c5df8",
-            "e6c24ce48720b481f29e2232f439effa"
-          ],
-          "stats": {
-            "social_relevance": 0.0000018696,
-            "social_idf": 12.949956093208
-          }
-        },
-        "db9b57251e0bc41db948ab75272a9392": {
-          "id": "db9b57251e0bc41db948ab75272a9392",
-          "name": "Robotics Engineering",
-          "path": [
-            "Sciences & Humanities",
-            "Science",
-            "Natural & Applied Sciences",
-            "Applied Sciences",
-            "Branches of Applied Science",
-            "Engineering & Technology Sciences",
-            "Robotics Engineering"
-          ],
-          "idpath": [
-            "97a2cc1e4f6df353e6eab12cfe9782ef",
-            "b8076df03ebed4e8cca77182afa4f7eb",
-            "87a9f74b9818c9e6ecba5b4cee3f7b80",
-            "fcfb831da99d159c2a3e525583bf97b2",
-            "c9289a59e1e2092528231a70489851fb",
-            "b78530c321a0540429e16153263502c3",
-            "db9b57251e0bc41db948ab75272a9392"
-          ],
-          "stats": {
-            "social_relevance": 0.0000238369,
-            "social_idf": 10.404424821603
-          }
-        },
-        "8cb417c1c362a793c603aac1a05da853": {
-          "id": "8cb417c1c362a793c603aac1a05da853",
-          "name": "Fireworks",
-          "path": [
-            "People & Society",
-            "Holidays & Special Events",
-            "General Event Products",
-            "Party Supplies",
-            "General Party Supplies",
-            "Party Games & Activities Supplies",
-            "Fireworks"
-          ],
-          "idpath": [
-            "bcfb236bcfc3b0f4f03a3cfeed7253a7",
-            "82d36d41376197e3106ca447fb77fa46",
-            "45c33e2ce2157aeaa8f005c1451dc4e0",
-            "5145152fdf9a8a6a8fe9684b24f28deb",
-            "d82342348bfadba260fc63c19af2c220",
-            "8266e4d5c4420745f507700728ddbe2f",
-            "8cb417c1c362a793c603aac1a05da853"
-          ],
-          "stats": {
-            "social_relevance": 0.0005313385,
-            "social_idf": 7.3002618838142
-          }
-        },
-        "52d90c930eaf27779289164752c62991": {
-          "id": "52d90c930eaf27779289164752c62991",
-          "name": "Massachusetts Institute of Technology",
-          "path": [
-            "Jobs & Education",
-            "Education",
-            "Undergraduate Education",
-            "Undergraduate Schools",
-            "Colleges & Universities in the United States",
-            "Colleges & Universities in Massachusetts",
-            "Massachusetts Institute of Technology"
-          ],
-          "idpath": [
-            "be42e02a03e419e7d31db6b54ef84913",
-            "2e20880e103efbf6fef2a48335ea4a4b",
-            "a72aab07447c22bcb19d275be7af2fad",
-            "c024219faa683c020254ac2e353415df",
-            "16b0283de21adda1f8bb3327ae366263",
-            "2861ee7e09a42f7c1c1b0e5a5bfed5a2",
-            "52d90c930eaf27779289164752c62991"
-          ],
-          "stats": {
-            "social_relevance": 0.0000030168,
-            "social_idf": 12.471465850085
-          }
-        },
-        "09ab79d1d3d6e83451bcc9433d951690": {
-          "id": "09ab79d1d3d6e83451bcc9433d951690",
-          "name": "Time Lapse Photography",
-          "path": [
-            "Arts & Entertainment",
-            "Art & Architecture",
-            "Photographic & Digital Arts",
-            "Photography",
-            "Photography Reference",
-            "Photography Styles",
-            "Time Lapse Photography"
-          ],
-          "idpath": [
-            "0cc9e1516aaa38d4802a2ee5314ac4ab",
-            "3d79e976ed126c05eb3755a8a68cf259",
-            "f5c67941e5c5a6560fd482481e127f67",
-            "1655c9e3f933444a2588335d2004a3d7",
-            "7dc5efd41018614eba1e7327248861db",
-            "db8090776500e2cd7b19763281fa83d2",
-            "09ab79d1d3d6e83451bcc9433d951690"
-          ],
-          "stats": {
-            "social_relevance": 0.0000043765,
-            "social_idf": 12.099416738896
-          }
-        },
-        "122368a0d17e72cd48a7e472aab27d8d": {
-          "id": "122368a0d17e72cd48a7e472aab27d8d",
-          "name": "Pi Day",
-          "path": [
-            "Sciences & Humanities",
-            "Science",
-            "Mathematics & Computer Sciences",
-            "Mathematics",
-            "Principles of Mathematics",
-            "Numbers & Numeration Systems",
-            "Mathematical Constants",
-            "Pi",
-            "Pi Day"
-          ],
-          "idpath": [
-            "97a2cc1e4f6df353e6eab12cfe9782ef",
-            "b8076df03ebed4e8cca77182afa4f7eb",
-            "5af4c101aba2324875be64b416e2da9b",
-            "43a1f3b9d2de50b8abf341eaff07ad20",
-            "83354cdf632516b407507a24a8b6b51e",
-            "01a6fa25d3d7d6b31ba1a8912d36fc65",
-            "cfe02e9d2e96628b588da4822ed35ae6",
-            "b646c5bdf8b9e289cb1f8712d518c045",
-            "122368a0d17e72cd48a7e472aab27d8d"
-          ],
-          "stats": {
-            "social_relevance": 0.000001,
-            "social_idf": 13.689623289403
-          }
-        },
-        "70c85dde424ed666fa044d410b941b48": {
-          "id": "70c85dde424ed666fa044d410b941b48",
-          "name": "Hash Browns",
-          "path": [
-            "Food & Drink",
-            "Food",
-            "Produce",
-            "Vegetables",
-            "Potatoes",
-            "Potatoes [No Brand Specified]",
-            "Potato Dishes",
-            "Hash Browns"
-          ],
-          "idpath": [
-            "10fedce50b97f7006e71901bcdacc0fc",
-            "aff907a7e0efbc38e4e194ab8794ed48",
-            "7e0efe368b864bae1e48614d4ef1a84d",
-            "a9aed11a9e1054afb72c436bc3d39825",
-            "d8f96e81e5443ab4dc7aa1b75e8e6cc9",
-            "f923866568bd965ac800b7245ad72f8b",
-            "ebc74c55297b12cb28d9ea30cfaa2078",
-            "70c85dde424ed666fa044d410b941b48"
-          ],
-          "stats": {
-            "social_relevance": 0.0000077757,
-            "social_idf": 11.524659574285
-          }
-        },
-        "e3bf891483dbc6cc7b59b7f7afe20a79": {
-          "id": "e3bf891483dbc6cc7b59b7f7afe20a79",
-          "name": "Tetris",
-          "path": [
-            "Computers & Electronics",
-            "Video Games",
-            "Video Game Products",
-            "Video Game Titles",
-            "Puzzle Video Games",
-            "Tetris Video Game Series",
-            "Tetris"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "3432e930f9145dc257bea9547c1fc71c",
-            "db3e30d23ac3e8697862736e0d27c88d",
-            "e8882dea1d23e64ec80c6753840d9949",
-            "d9e8536f8b8000207918fb34100405de",
-            "10167485a9e6dd45df4f329589d43676",
-            "e3bf891483dbc6cc7b59b7f7afe20a79"
-          ],
-          "stats": {
-            "social_relevance": 0.0000099427,
-            "social_idf": 11.278824611768
-          }
-        },
-        "45b0ed5d51754f3eb1f632e3b33a5f68": {
-          "id": "45b0ed5d51754f3eb1f632e3b33a5f68",
-          "name": "Cars",
-          "path": [
-            "Vehicles",
-            "Automotive",
-            "Automotive Vehicles",
-            "Cars"
-          ],
-          "idpath": [
-            "8e80758bbe284a4a02ffaad4636f21b2",
-            "5f31d0f0ed8a0cba258a64d7f7b9c007",
-            "6447334dfc6c2f313122842c6b7d5f7c",
-            "45b0ed5d51754f3eb1f632e3b33a5f68"
-          ],
-          "stats": {
-            "social_relevance": 0.0013851768,
-            "social_idf": 6.3420781597712
-          }
-        },
-        "a815610c4d2a7ec354611138c4ba1bf1": {
-          "id": "a815610c4d2a7ec354611138c4ba1bf1",
-          "name": "Throwback Thursday",
-          "path": [
-            "Computers & Electronics",
-            "Telecommunications",
-            "Internet",
-            "Websites & Digital Content",
-            "Memes & Hashtags",
-            "Throwback Thursday"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "32d2e2823a3b43e5c07d112c547247e2",
-            "999f4a57dfa866fb307855de356453f1",
-            "4a5073054bf6bc245f61d18a8e5bd8f2",
-            "e8b907ff4b40764125cda19f39bb06a1",
-            "a815610c4d2a7ec354611138c4ba1bf1"
-          ],
-          "stats": {
-            "social_relevance": 0.0002007232,
-            "social_idf": 8.2737345498087
-          }
-        },
-        "80d606580d6ea800a4ba9d3123a11f1c": {
-          "id": "80d606580d6ea800a4ba9d3123a11f1c",
-          "name": "Astronauts & Cosmonauts",
-          "path": [
-            "Sciences & Humanities",
-            "Science",
-            "Natural & Applied Sciences",
-            "Applied Sciences",
-            "Branches of Applied Science",
-            "Engineering & Technology Sciences",
-            "Space Technologies",
-            "Space Travel",
-            "Space Travel [No Agency Specified]",
-            "Astronauts & Cosmonauts"
-          ],
-          "idpath": [
-            "97a2cc1e4f6df353e6eab12cfe9782ef",
-            "b8076df03ebed4e8cca77182afa4f7eb",
-            "87a9f74b9818c9e6ecba5b4cee3f7b80",
-            "fcfb831da99d159c2a3e525583bf97b2",
-            "c9289a59e1e2092528231a70489851fb",
-            "b78530c321a0540429e16153263502c3",
-            "f66116b90ebde7e3c94825c4f219e963",
-            "ce2d2abee36cf2321d53ee45791ddc84",
-            "7221412274b411d44e5c690ae5d268d0",
-            "80d606580d6ea800a4ba9d3123a11f1c"
-          ],
-          "stats": {
-            "social_relevance": 0.0000367539,
-            "social_idf": 9.9714162201941
-          }
-        },
-        "0681d68d4a0087a689a93737e565a83f": {
-          "id": "0681d68d4a0087a689a93737e565a83f",
-          "name": "Ken Jennings",
-          "path": [
-            "Books & Literature",
-            "Authors",
-            "Ken Jennings"
-          ],
-          "idpath": [
-            "3064c1a4cbbabd7f0ffd45cd40db97ed",
-            "55cd7396d50e51a8c428479683096499",
-            "0681d68d4a0087a689a93737e565a83f"
-          ],
-          "stats": {
-            "social_relevance": 0.000000,
-            "social_idf": 14.942386257898
-          }
-        },
-        "f7eddf58819869ff51e0d83b6eba4e59": {
-          "id": "f7eddf58819869ff51e0d83b6eba4e59",
-          "name": "Birthdays",
-          "path": [
-            "People & Society",
-            "Holidays & Special Events",
-            "Personal & General Events",
-            "Birthdays"
-          ],
-          "idpath": [
-            "bcfb236bcfc3b0f4f03a3cfeed7253a7",
-            "82d36d41376197e3106ca447fb77fa46",
-            "463790d819b68705ab787544693f7f4b",
-            "f7eddf58819869ff51e0d83b6eba4e59"
-          ],
-          "stats": {
-            "social_relevance": 0.0051486089,
-            "social_idf": 5.0291794243009
-          }
-        },
-        "0f1e32b2be9761d9ba1b8dc81830a45b": {
-          "id": "0f1e32b2be9761d9ba1b8dc81830a45b",
-          "name": "Space Suits",
-          "path": [
-            "Sciences & Humanities",
-            "Science",
-            "Natural & Applied Sciences",
-            "Applied Sciences",
-            "Branches of Applied Science",
-            "Engineering & Technology Sciences",
-            "Space Technologies",
-            "Space Travel",
-            "Space Travel [No Agency Specified]",
-            "Space Suits"
-          ],
-          "idpath": [
-            "97a2cc1e4f6df353e6eab12cfe9782ef",
-            "b8076df03ebed4e8cca77182afa4f7eb",
-            "87a9f74b9818c9e6ecba5b4cee3f7b80",
-            "fcfb831da99d159c2a3e525583bf97b2",
-            "c9289a59e1e2092528231a70489851fb",
-            "b78530c321a0540429e16153263502c3",
-            "f66116b90ebde7e3c94825c4f219e963",
-            "ce2d2abee36cf2321d53ee45791ddc84",
-            "7221412274b411d44e5c690ae5d268d0",
-            "0f1e32b2be9761d9ba1b8dc81830a45b"
-          ],
-          "stats": {
-            "social_relevance": 0.0000030593,
-            "social_idf": 12.45747960811
-          }
-        },
-        "27b7db4ac30fe1696b702d8a47ee5cd5": {
-          "id": "27b7db4ac30fe1696b702d8a47ee5cd5",
-          "name": "Science Fiction",
-          "path": [
-            "Books & Literature",
-            "Books & Literature Products",
-            "Fiction Books",
-            "Science Fiction & Fantasy Books",
-            "Science Fiction & Fantasy Books [No Title Specified]",
-            "Science Fiction"
-          ],
-          "idpath": [
-            "3064c1a4cbbabd7f0ffd45cd40db97ed",
-            "b98bc8a6d1729e64bb9aab11e1aea2f7",
-            "e57f31a304a64c25ef8aaeae97358274",
-            "88f79e445b6b4e42f94bb7e090cf71f8",
-            "60a7b9e2cdc91002826ea7f63a976c4e",
-            "27b7db4ac30fe1696b702d8a47ee5cd5"
-          ],
-          "stats": {
-            "social_relevance": 0.0000571067,
-            "social_idf": 9.5307402060429
-          }
-        },
-        "67c788105cdbb2df53764713ce0e6353": {
-          "id": "67c788105cdbb2df53764713ce0e6353",
-          "name": "Gambling",
-          "path": [
-            "Sports",
-            "Gambling"
-          ],
-          "idpath": [
-            "b00fac5f30dc8dbb660c8d08fe66f487",
-            "67c788105cdbb2df53764713ce0e6353"
-          ],
-          "stats": {
-            "social_relevance": 0.0002565127,
-            "social_idf": 8.0284832483295
-          }
-        }
-      },
-      "overlay": []
-    },
-    "signature": {
-      "resource": "GET /classify/:type/:result_id",
-      "status": "200 OK - successful",
-      "client_ip": "127.0.0.1"
     }
-  }
 }
