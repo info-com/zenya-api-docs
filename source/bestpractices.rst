@@ -87,10 +87,10 @@ To ensure this consistency, users may pass in the ``taxonomy_timestamp`` paramet
 
 .. code-block:: json
 
-{
-  "async":false,
-  "taxonomy_timestamp":1514764800,
-  "social":[
-        "happy new year!"
-    ]
-}
+   {
+     "async":false,
+     "taxonomy_timestamp":1514764800,
+     "social":[
+           "happy new year!"
+       ]
+   }
