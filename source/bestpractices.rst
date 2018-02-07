@@ -65,7 +65,7 @@ Users can select the method they wish to use with the ``classification_type`` pa
     "1","Rule-based method, only (default)"
     "2","Mode-based method, only"
 
-.. code-block:: json
+.. code-block:: javascript
 
 {
   "async":false,
