@@ -298,4 +298,4 @@ eContext offers the following flagging categories. Be advised that these flags a
     "2048","Intent","Text contains either a purchase, comparison, question, or negative intent"
 
 
-.. _Client Services Team: hello@econtext.com
+.. _Client Services Team: hello@econtext.ai

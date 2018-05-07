@@ -30,4 +30,4 @@ The following output formats are currently supported:
 
 * application/json (:rfc:`4627`)
 
-.. _Client Services Team: hello@econtext.com
+.. _Client Services Team: hello@econtext.ai

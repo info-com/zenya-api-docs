@@ -49,4 +49,4 @@ Additional Languages
 
 If you need to submit content in a language not included in the list of supported languages, please contact our `Client Services Team`_. eContext is always soliciting feedback on new languages to support, and can iterate quickly if your data demands it.
 
-.. _Client Services Team: hello@econtext.com
+.. _Client Services Team: hello@econtext.ai
