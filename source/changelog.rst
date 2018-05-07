@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Version 1.2.0 - 2018-05-10
+--------------------------
+*   Include new multi-lingual support :ref:`language-support`
+*   Improved the efficiency for :ref:`custom-taxonomies`
+*   Increased performance of the classification engine to provide greater detail and insight into classifications
+
 Version 1.1.6 - 2017-03-16
 --------------------------
 *   Several performance enhancements and bug fixes

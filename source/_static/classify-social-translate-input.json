@@ -9,8 +9,5 @@
         "Cómo es el recién creado Microlattice, el metal 'más liviano' del mundo",
         "5 grandes detectives de la literatura latinoamericana"
     ],
-    "translate": {
-        "provider":"econtext",
-        "credential":null
-    }
+    "source_language": "es"
 }

@@ -17,6 +17,11 @@ Calls that Accept Non-English Content
 * :doc:`classify-text`
 * :doc:`classify-url`
 
+In supported calls, please identify the source language using an ISO 639-1 Code.  For example, in a classify/social call you might use the following:
+
+.. literalinclude:: _static/classify-social-translate-input.json
+    :language: json
+
 Supported Languages
 -------------------
 

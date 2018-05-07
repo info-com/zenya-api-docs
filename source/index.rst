@@ -13,7 +13,7 @@ eContext API documentation
     bestpractices
     authentication
     objects
-    translation
+    language-support
     available-functions
     categories
     classify
