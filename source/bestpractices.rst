@@ -30,13 +30,13 @@ an algorithm to run process a large dataset using asynchronous calls.  In this c
 respectful of your usage.  For example, do not POST a very large number of classification requests (for example, more than 25,000)
 before beginning to GET results.  Performance will generally be more stable
 if you run several asynchronous calls in a queue, checking for results
-periodically so before you submit new requests.
+periodically before you submit new requests.
 
 Synchronous Calls
 ^^^^^^^^^^^^^^^^^
 
 Synchronous calls block and return a result from the eContext
-Classification Engine as soon as is completed.  Depending on your programming
+Classification Engine as soon as it is completed.  Depending on your programming
 environment and capabilities, synchronous calls can be parallelized and allow
 for very high throughput, and less load on the eContext Classification Engine.
 A typical workflow for synchronous calls would make use of process pools, threads,
@@ -53,7 +53,7 @@ Rule-Based vs. Model-Based Classification
 
 eContext offers a unique combination of curated, rule-based classification and machine learned, neural network model-based classification. Users can request classification from one or the other, or use a hybrid ML + rule-based system.
 
-Classification results from the rule-based system can come from any one of eContext's 500,000+ topic categories, across it's 20+ levels of the hierarchy. Classification from the model-based system can come from one of approximately 3,500 topic categories at the first 3 levels of depth in the hierarchy.
+Classification results from the rule-based system can come from any one of eContext's 500,000+ topic categories, across its 20+ levels of the hierarchy. Classification from the model-based system can come from one of approximately 2,000 topic categories at the first 3 levels of depth in the hierarchy.
 
 Users can select the method they wish to use with the ``classification_type`` parameter, and the values below:
 
@@ -83,7 +83,7 @@ eContext is continually expanding and improving its classification abilities, ad
 
 However, there may be cases where users do not want the classification to change over the course of a long-running job or while processing batches of content across several days.
 
-To ensure this consistency, users may pass in the ``taxonomy_timestamp`` parameter with their request. This parameter accepts a unix timestamp which will instruct the engine to ignore any changes made to the classification system after this date. Any timestamp within the past three-weeks is considered valid.  See the below example:
+To ensure this consistency, users may pass in the ``taxonomy_timestamp`` parameter with their request. This parameter accepts a unix timestamp which will instruct the engine to ignore any changes made to the classification system after this date. Any timestamp within the past three weeks is considered valid.  See the below example:
 
 .. code-block:: json
 
