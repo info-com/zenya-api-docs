@@ -1,13 +1,11 @@
 Non-English Content in eContext
-=======================
+===============================
 
-eContext accepts content in selected non-english languages, as described in this section. When submitting content in one of these supported languages, no additional parameters or declarations are required.
+eContext accepts content in selected non-english languages, as described in this section.
 
-For functions that support multiple records per post, users may submit some records in one language and some records in another language and have each of language recognized individually. However, a mixture of languages in the same record may not be recognized correctly.
+eContext uses a variety of additional technology to support this capability so latency may increase compared to processing content in English. Content in some languages may take longer to process than others.
 
-eContext uses a variety of additional technology to support this capability, including machine translation, so latency will increase compared to processing content in English. Content in some non-english languages, including those with more diverse character sets or right-to-left script, may take longer to process than others.
-
-All eContext Category information is returned in English; however, certain other response objects may be in English or may be in the source language. See the list of supported languages for more details.
+All eContext Category information is currently returned in English.  However, certain other response objects, namely keyword hints and entities, may be in English or may be in the source language. See the list of supported languages for more details.
 
 
 Calls that Accept Non-English Content
