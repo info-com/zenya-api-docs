@@ -33,7 +33,7 @@ Parameters
 
     "keywords (*required*)", "array", "A list of keyword strings to process (no more than 1,000)."
     "async (*optional, but recommended*)", "boolean", "Set to ``false`` to run a blocking call and return results immediately upon completion. Set to ``true`` to run a non-blocking call and retrieve a result set later (defaults to ``true``)"
-    "classification_type (*optional*)", "integer", "Select the classification method: ``1`` for rule-based, ``2`` for model-based, or ``0`` for a rule-based with model-based as a fallback (defaults to ``0``)"
+    "classification_type (*optional*)", "integer", "Select the classification method: ``1`` for rule-based, ``2`` for model-based, or ``0`` for a hybrid rule-based + model-based (defaults to ``0``)"
     "flags (*optional*)", "boolean", "Provide :ref:`objects-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
     "branches (*optional*)", "array", "A set of eContext category ids. Any classification outside the section/s of the hierarchy described by this set will be removed from the response."
     "entities (*optional*)", "boolean", "Perform Named Entity Recognition (NER) on the content submitted (defaults to ``false``)"
