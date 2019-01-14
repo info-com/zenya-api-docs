@@ -1,6 +1,19 @@
 Changelog
 =========
 
+
+Version 1.2.6 - 2019-01-08
+--------------------------
+*   Significant changes to the eContext sentiment models as well as significant performance enhancement.  Quickly retrieve sentiment on classification calls.
+*   New NLP features - language identification for URLs and other input text.  Available now at ``/v2/nlp/lid``
+
+
+Version 1.2.5 - 2018-10-25
+--------------------------
+*   Added Sentiment to most classification calls.  Generally, simply add a ``"sentiment": true`` parameter to the request body.
+*   Added NLP parsing functions to the API at ``/v2/nlp/parse`` which performs POS tagging, NER, dependency parsing, entity extraction, etc.  Parsing is currently limited to select users.  Please contact eContext.ai if you're interested in accessing these functions.
+
+
 Version 1.2.0 - 2018-05-10
 --------------------------
 *   Include new multi-lingual support :ref:`language-support`
