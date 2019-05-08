@@ -1,362 +1,313 @@
 {
-  "econtext": {
-    "classify": {
-      "title": "Microsoft Stores offer $100 Xbox One discount if you trade in a PS3",
-      "scored_categories": [
-        {
-          "category_id": "2fc682da83690e84248c7015c76e082c",
-          "score": 0.33333333333333
+    "econtext": {
+        "classify": {
+            "title": "Microsoft Stores offer $100 Xbox One discount if you trade in a PS3",
+            "scored_categories": [
+                {
+                    "category_id": "9aff776d1e7abae4ebe5f479e3751cbb",
+                    "score": 0.29508196721311
+                },
+                {
+                    "category_id": "8a2ad6312124c03c5b2ec97beff0648a",
+                    "score": 0.21311475409836
+                },
+                {
+                    "category_id": "8ae3920deed5d83d81ade8a4471a4d1b",
+                    "score": 0.14754098360656
+                },
+                {
+                    "category_id": "be1561fb604bd17368b7902ac141a238",
+                    "score": 0.14754098360656
+                }
+            ],
+            "scored_keywords": [
+                {
+                    "keyword": "microsoft stores",
+                    "score": 0.29508196721311
+                },
+                {
+                    "keyword": "xbox one",
+                    "score": 0.21311475409836
+                },
+                {
+                    "keyword": "microsoft",
+                    "score": 0.14754098360656
+                },
+                {
+                    "keyword": "ps3",
+                    "score": 0.14754098360656
+                }
+            ],
+            "categories": {
+                "9aff776d1e7abae4ebe5f479e3751cbb": {
+                    "id": "9aff776d1e7abae4ebe5f479e3751cbb",
+                    "name": "Microsoft Stores",
+                    "path": [
+                        "Computers \u0026 Electronics",
+                        "General Electronics",
+                        "General Electronics Retailers [List]",
+                        "Microsoft Stores"
+                    ],
+                    "idpath": [
+                        "7bca9e76a159d9772a0d35eeb4cc624e",
+                        "16e1aeceba066434bb343898828b178c",
+                        "1421a7a5d0c8de0bd36a0e085d4c2fbe",
+                        "9aff776d1e7abae4ebe5f479e3751cbb"
+                    ],
+                    "stats": {
+                        "social_relevance": 2.1834e-6,
+                        "social_idf": 12.8158720241
+                    },
+                    "facets": []
+                },
+                "8ae3920deed5d83d81ade8a4471a4d1b": {
+                    "id": "8ae3920deed5d83d81ade8a4471a4d1b",
+                    "name": "Microsoft",
+                    "path": [
+                        "Computers \u0026 Electronics",
+                        "Technology Companies",
+                        "Microsoft"
+                    ],
+                    "idpath": [
+                        "7bca9e76a159d9772a0d35eeb4cc624e",
+                        "d900b3504c7ca5443d9f1cffcb25e939",
+                        "8ae3920deed5d83d81ade8a4471a4d1b"
+                    ],
+                    "stats": {
+                        "social_relevance": 9.00323e-5,
+                        "social_idf": 9.0965774811
+                    },
+                    "facets": [
+                        [
+                            "brand",
+                            "microsoft"
+                        ]
+                    ]
+                },
+                "8a2ad6312124c03c5b2ec97beff0648a": {
+                    "id": "8a2ad6312124c03c5b2ec97beff0648a",
+                    "name": "Xbox One",
+                    "path": [
+                        "Games \u0026 Toys",
+                        "Video Games",
+                        "Video Game Products",
+                        "Video Game Electronics",
+                        "Xbox One"
+                    ],
+                    "idpath": [
+                        "d3bedd258b880d0ed9356543a809c006",
+                        "dde8e9870a8bf208aa2ca50d9ee632eb",
+                        "0fb5edca26418570e1323831ff77c903",
+                        "ab0421bd9a9552bd1e9e2b611a535dfe",
+                        "8a2ad6312124c03c5b2ec97beff0648a"
+                    ],
+                    "stats": {
+                        "social_relevance": 8.08493e-5,
+                        "social_idf": 9.2041595147
+                    },
+                    "facets": [
+                        [
+                            "domain",
+                            "product"
+                        ],
+                        [
+                            "brand",
+                            "microsoft"
+                        ],
+                        [
+                            "product line",
+                            "xbox one"
+                        ]
+                    ]
+                },
+                "be1561fb604bd17368b7902ac141a238": {
+                    "id": "be1561fb604bd17368b7902ac141a238",
+                    "name": "PlayStation 3",
+                    "path": [
+                        "Games \u0026 Toys",
+                        "Video Games",
+                        "Video Game Products",
+                        "Video Game Electronics",
+                        "PlayStation 3"
+                    ],
+                    "idpath": [
+                        "d3bedd258b880d0ed9356543a809c006",
+                        "dde8e9870a8bf208aa2ca50d9ee632eb",
+                        "0fb5edca26418570e1323831ff77c903",
+                        "ab0421bd9a9552bd1e9e2b611a535dfe",
+                        "be1561fb604bd17368b7902ac141a238"
+                    ],
+                    "stats": {
+                        "social_relevance": 1.25865e-5,
+                        "social_idf": 11.0641178895
+                    },
+                    "facets": [
+                        [
+                            "domain",
+                            "product"
+                        ],
+                        [
+                            "product line",
+                            "playstation 3"
+                        ],
+                        [
+                            "brand",
+                            "sony"
+                        ]
+                    ]
+                },
+                "b92b6f1c-26e1-579c-b2ab-c8d78fa820c7": {
+                    "id": "b92b6f1c-26e1-579c-b2ab-c8d78fa820c7",
+                    "name": "Microsoft",
+                    "path": [
+                        "Organizations",
+                        "Microsoft"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "b92b6f1c-26e1-579c-b2ab-c8d78fa820c7"
+                    ],
+                    "stats": null,
+                    "facets": null
+                }
+            },
+            "entities": [
+                {
+                    "category_id": "9aff776d1e7abae4ebe5f479e3751cbb",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "be1561fb604bd17368b7902ac141a238",
+                    "type": "PRODUCT"
+                },
+                {
+                    "category_id": "9aff776d1e7abae4ebe5f479e3751cbb",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "be1561fb604bd17368b7902ac141a238",
+                    "type": "PRODUCT"
+                },
+                {
+                    "category_id": "9aff776d1e7abae4ebe5f479e3751cbb",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "b92b6f1c-26e1-579c-b2ab-c8d78fa820c7",
+                    "type": "ORG"
+                }
+            ],
+            "sentiment": 0.6422,
+            "chars": 326,
+            "overlay": {
+                "9aff776d1e7abae4ebe5f479e3751cbb": {
+                    "IAB_v2.0": [
+                        [
+                            "Technology \u0026 Computing",
+                            "Technology \u0026 Computing::Consumer Electronics"
+                        ]
+                    ],
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "632",
+                                "Technology \u0026 Computing::Consumer Electronics"
+                            ],
+                            [
+                                "596",
+                                "Technology \u0026 Computing"
+                            ]
+                        ]
+                    ]
+                },
+                "8ae3920deed5d83d81ade8a4471a4d1b": {
+                    "IAB_v2.0": [
+                        [
+                            "Technology \u0026 Computing",
+                            "Technology \u0026 Computing::Consumer Electronics"
+                        ]
+                    ],
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "632",
+                                "Technology \u0026 Computing::Consumer Electronics"
+                            ],
+                            [
+                                "596",
+                                "Technology \u0026 Computing"
+                            ]
+                        ]
+                    ]
+                },
+                "8a2ad6312124c03c5b2ec97beff0648a": {
+                    "IAB_v2.0": [
+                        [
+                            "Hobbies \u0026 Interests::Games and Puzzles",
+                            "Hobbies \u0026 Interests"
+                        ],
+                        [
+                            "Video Gaming"
+                        ]
+                    ],
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "239",
+                                "Hobbies \u0026 Interests"
+                            ],
+                            [
+                                "269",
+                                "Hobbies \u0026 Interests::Games and Puzzles"
+                            ]
+                        ],
+                        [
+                            [
+                                "680",
+                                "Video Gaming"
+                            ]
+                        ]
+                    ]
+                },
+                "be1561fb604bd17368b7902ac141a238": {
+                    "IAB_v2.0": [
+                        [
+                            "Hobbies \u0026 Interests::Games and Puzzles",
+                            "Hobbies \u0026 Interests"
+                        ],
+                        [
+                            "Video Gaming"
+                        ]
+                    ],
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "239",
+                                "Hobbies \u0026 Interests"
+                            ],
+                            [
+                                "269",
+                                "Hobbies \u0026 Interests::Games and Puzzles"
+                            ]
+                        ],
+                        [
+                            [
+                                "680",
+                                "Video Gaming"
+                            ]
+                        ]
+                    ]
+                },
+                "b92b6f1c-26e1-579c-b2ab-c8d78fa820c7": {
+                    "IAB_v2.0": [],
+                    "IAB_v2.0_2018": []
+                }
+            }
         },
-        {
-          "category_id": "e8a1d9aba54af6bd2ecaeb1652c441e5",
-          "score": 0.33333333333333
-        },
-        {
-          "category_id": "9fdc925eaf9a0a08c3ca789e360f4812",
-          "score": 0.14285714285714
-        },
-        {
-          "category_id": "57be2d7669f07ef9d8d924b1423bd85f",
-          "score": 0.071428571428571
-        },
-        {
-          "category_id": "f97d97c315025b4c54ba57d8a233bdd9",
-          "score": 0.047619047619048
-        },
-        {
-          "category_id": "73ae9b3dd4fd1dacad85c6c614801278",
-          "score": 0.023809523809524
-        },
-        {
-          "category_id": "aabbe756ffe2b7b4666a22481bce24a0",
-          "score": 0.023809523809524
-        },
-        {
-          "category_id": "1250b4af034af5495879c7baab4c4cf9",
-          "score": 0.023809523809524
+        "signature": {
+            "resource": "POST \/classify\/:type\/:result_id",
+            "status": "200 OK - successful",
+            "client_ip": "209.41.117.158"
         }
-      ],
-      "scored_keywords": [
-        {
-          "keyword": "you trade in a ps3",
-          "score": 0.2
-        },
-        {
-          "keyword": "microsoft stores offer 100 xbox one discount if you trade",
-          "score": 0.2
-        },
-        {
-          "keyword": "can do little about the price difference",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "terms and conditions in order",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "get that 100",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "a ps3 xbox 360 s or xbox 360 e Of course",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "course there s a number of terms",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "now until march 2 microsoft stores will offer",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "store credit if you trade in a ps3 xbox 360 s",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "has over the xbox one that microsoft",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "Currently there s one advantage the ps4",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "will offer you 100 of store credit",
-          "score": 0.033333333333333
-        },
-        {
-          "keyword": "up with a way to offer",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "to offer you an xbox one for 399",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "could cut the price of the xbox one",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "Sure they could cut",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "to get 100 for your old machine",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "but then microsoft would be",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "and match the ps4 at 399",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "to purchase an xbox one at the same time",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "and have its original accessories including the power supply",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "be making a big loss on every console",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "the xbox one by 100 and match",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "the console must be",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "you will also",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "However they have come",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "your old machine if you agree to",
-          "score": 0.016666666666667
-        },
-        {
-          "keyword": "fully working order and have",
-          "score": 0.016666666666667
-        }
-      ],
-      "categories": {
-        "2fc682da83690e84248c7015c76e082c": {
-          "id": "2fc682da83690e84248c7015c76e082c",
-          "name": "Microsoft Stores",
-          "path": [
-            "Computers & Electronics",
-            "General Electronics",
-            "General Electronics Retailers [List]",
-            "Microsoft Stores"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "3368a8c9892ccf031053ea8137c17be4",
-            "31a5865ebfbe870248553ab69dd55f3d",
-            "2fc682da83690e84248c7015c76e082c"
-          ],
-          "stats": {
-            "social_relevance": 0.0000038809,
-            "social_idf": 207275.6344086
-          }
-        },
-        "e8a1d9aba54af6bd2ecaeb1652c441e5": {
-          "id": "e8a1d9aba54af6bd2ecaeb1652c441e5",
-          "name": "PlayStation 3",
-          "path": [
-            "Computers & Electronics",
-            "Video Games",
-            "Video Game Products",
-            "Video Game Electronics",
-            "Video Game Systems",
-            "Sony Game Systems",
-            "PlayStation Game Systems",
-            "PlayStation 3"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "3432e930f9145dc257bea9547c1fc71c",
-            "db3e30d23ac3e8697862736e0d27c88d",
-            "c4d6c78dc4b141b2fe4450a57f2ab802",
-            "f84077791f619384f5cc79872879b228",
-            "0fc6205b700575e5be1c192b8f5580be",
-            "a6f5d232575a44e7f3ee17d9c26bf2b5",
-            "e8a1d9aba54af6bd2ecaeb1652c441e5"
-          ],
-          "stats": {
-            "social_relevance": 0.000081331,
-            "social_idf": 9890.5253976398
-          }
-        },
-        "9fdc925eaf9a0a08c3ca789e360f4812": {
-          "id": "9fdc925eaf9a0a08c3ca789e360f4812",
-          "name": "Xbox One",
-          "path": [
-            "Computers & Electronics",
-            "Video Games",
-            "Video Game Products",
-            "Video Game Electronics",
-            "Video Game Systems",
-            "Microsoft Game Systems",
-            "Xbox One"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "3432e930f9145dc257bea9547c1fc71c",
-            "db3e30d23ac3e8697862736e0d27c88d",
-            "c4d6c78dc4b141b2fe4450a57f2ab802",
-            "f84077791f619384f5cc79872879b228",
-            "5bf54b84cd842c860ae687be5c5e9725",
-            "9fdc925eaf9a0a08c3ca789e360f4812"
-          ],
-          "stats": {
-            "social_relevance": 0.0001885344,
-            "social_idf": 4266.6299247455
-          }
-        },
-        "57be2d7669f07ef9d8d924b1423bd85f": {
-          "id": "57be2d7669f07ef9d8d924b1423bd85f",
-          "name": "PlayStation 4",
-          "path": [
-            "Computers & Electronics",
-            "Video Games",
-            "Video Game Products",
-            "Video Game Electronics",
-            "Video Game Systems",
-            "Sony Game Systems",
-            "PlayStation Game Systems",
-            "PlayStation 4"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "3432e930f9145dc257bea9547c1fc71c",
-            "db3e30d23ac3e8697862736e0d27c88d",
-            "c4d6c78dc4b141b2fe4450a57f2ab802",
-            "f84077791f619384f5cc79872879b228",
-            "0fc6205b700575e5be1c192b8f5580be",
-            "a6f5d232575a44e7f3ee17d9c26bf2b5",
-            "57be2d7669f07ef9d8d924b1423bd85f"
-          ],
-          "stats": {
-            "social_relevance": 0.0003527404,
-            "social_idf": 2280.4488347332
-          }
-        },
-        "f97d97c315025b4c54ba57d8a233bdd9": {
-          "id": "f97d97c315025b4c54ba57d8a233bdd9",
-          "name": "Xbox 360",
-          "path": [
-            "Computers & Electronics",
-            "Video Games",
-            "Video Game Products",
-            "Video Game Electronics",
-            "Video Game Systems",
-            "Microsoft Game Systems",
-            "Xbox 360"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "3432e930f9145dc257bea9547c1fc71c",
-            "db3e30d23ac3e8697862736e0d27c88d",
-            "c4d6c78dc4b141b2fe4450a57f2ab802",
-            "f84077791f619384f5cc79872879b228",
-            "5bf54b84cd842c860ae687be5c5e9725",
-            "f97d97c315025b4c54ba57d8a233bdd9"
-          ],
-          "stats": {
-            "social_relevance": 0.0001103331,
-            "social_idf": 7290.708774584
-          }
-        },
-        "73ae9b3dd4fd1dacad85c6c614801278": {
-          "id": "73ae9b3dd4fd1dacad85c6c614801278",
-          "name": "Microsoft",
-          "path": [
-            "Computers & Electronics",
-            "Computers & Electronics Brands [List]",
-            "Microsoft"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "0d748b7c5747765c8817d4ea8da5f324",
-            "73ae9b3dd4fd1dacad85c6c614801278"
-          ],
-          "stats": {
-            "social_relevance": 0.0001935002,
-            "social_idf": 4157.1347854216
-          }
-        },
-        "aabbe756ffe2b7b4666a22481bce24a0": {
-          "id": "aabbe756ffe2b7b4666a22481bce24a0",
-          "name": "Work Orders",
-          "path": [
-            "Business & Industrial",
-            "General Business & Industrial",
-            "General Business & Industrial Equipment & Supplies",
-            "General Business Equipment & Supplies",
-            "Office Equipment & Supplies",
-            "Office Supplies",
-            "Paper",
-            "Business Forms & Record Keeping",
-            "Work Orders"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "1df4b9b5502bedb4a6f27153704e6f04",
-            "35bd29cba6976e653661baa3b9455984",
-            "b8fc1b96175b465faa8bf97e15f760a7",
-            "181a21502cdf8bdc29c969a3bf0a3a2c",
-            "72499047cf0f7216a3288dee7d13d0f8",
-            "d5a09d5831ff912622b994bc31032112",
-            "1ec4c2be2846dcdc79adf23c7c68ceec",
-            "aabbe756ffe2b7b4666a22481bce24a0"
-          ],
-          "stats": {
-            "social_relevance": 0.0000124772,
-            "social_idf": 64470.347826087
-          }
-        },
-        "1250b4af034af5495879c7baab4c4cf9": {
-          "id": "1250b4af034af5495879c7baab4c4cf9",
-          "name": "Power Supplies",
-          "path": [
-            "Computers & Electronics",
-            "General Electronics",
-            "General Electronics Products",
-            "General Electronics Power Supply Products",
-            "Power Cords & Power Supplies",
-            "Power Supplies"
-          ],
-          "idpath": [
-            "f2300bfd81612ac3e8e5c154334057c5",
-            "3368a8c9892ccf031053ea8137c17be4",
-            "3e59e70ac95e71517a737fc741bdb5b9",
-            "36f921c71ebef743341ec5cfbd5a5477",
-            "8626c7826d24b792de5d75c9728c6056",
-            "1250b4af034af5495879c7baab4c4cf9"
-          ],
-          "stats": {
-            "social_relevance": 0.0000274164,
-            "social_idf": 29340.386605784
-          }
-        }
-      }
-    },
-    "signature": {
-      "resource": "GET /classify/:type/:result_id",
-      "status": "200 OK - successful",
-      "client_ip": "127.0.0.1"
     }
-  }
 }
