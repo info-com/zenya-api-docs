@@ -44,6 +44,8 @@ Parameters
     "async (*optional, but recommended*)", "boolean", "Set to ``false`` to run a blocking call and return results immediately upon completion. Set to ``true`` to run a non-blocking call and retrieve a result set later (defaults to ``true``)"
     "classification_type (*optional*)", "integer", "Select the classification method: ``1`` for rule-based, ``2`` for model-based, or ``0`` for a hybrid rule-based + model-based (defaults to ``0``)"
     "entities (*optional*)", "boolean", "Perform Named Entity Recognition (NER) on the content submitted (defaults to ``false``)"
+    "sentiment (*optional*)", "boolean", "Perform sentiment analysis on the content submitted (defaults to ``false``)"
+    "min_tags (*optional*)", "integer", "eContext uses a smart parsing library to extract only the most relevant content from a webpage, and ignore areas likely to be less relevant (navigation, footers, etc). However, for some pages this may result in less content extracted than expected. Use this parameter to set a minimum number of HTML tags the smart library must extract; if the result is less than this minimum, eContext will extract content from all HTML tags (eg, a full-page parse)."
     "taxonomy_timestamp (*optional*)", "integer", "A Unix timestamp instructing the classifier to use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
     "dataset_id (*optional*)", "string", "A :ref:`custom-taxonomies` id to use in lieu of the default eContext Taxonomy"
 
