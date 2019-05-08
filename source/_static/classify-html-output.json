@@ -43,7 +43,7 @@
                     "id": "9aff776d1e7abae4ebe5f479e3751cbb",
                     "name": "Microsoft Stores",
                     "path": [
-                        "Computers \u0026 Electronics",
+                        "Computers & Electronics",
                         "General Electronics",
                         "General Electronics Retailers [List]",
                         "Microsoft Stores"
@@ -64,7 +64,7 @@
                     "id": "8ae3920deed5d83d81ade8a4471a4d1b",
                     "name": "Microsoft",
                     "path": [
-                        "Computers \u0026 Electronics",
+                        "Computers & Electronics",
                         "Technology Companies",
                         "Microsoft"
                     ],
@@ -88,7 +88,7 @@
                     "id": "8a2ad6312124c03c5b2ec97beff0648a",
                     "name": "Xbox One",
                     "path": [
-                        "Games \u0026 Toys",
+                        "Games & Toys",
                         "Video Games",
                         "Video Game Products",
                         "Video Game Electronics",
@@ -124,7 +124,7 @@
                     "id": "be1561fb604bd17368b7902ac141a238",
                     "name": "PlayStation 3",
                     "path": [
-                        "Games \u0026 Toys",
+                        "Games & Toys",
                         "Video Games",
                         "Video Game Products",
                         "Video Game Electronics",
@@ -201,6 +201,12 @@
             "chars": 326,
             "overlay": {
                 "9aff776d1e7abae4ebe5f479e3751cbb": {
+                    "IAB_v2.0": [
+                        [
+                            "Technology & Computing",
+                            "Technology & Computing::Consumer Electronics"
+                        ]
+                    ],
                     "IAB_v2.0_2018": [
                         [
                             [
@@ -214,7 +220,13 @@
                         ]
                     ]
                 },
-                "8ae3920deed5d83d81ade8a4471a4d1b": {               
+                "8ae3920deed5d83d81ade8a4471a4d1b": {
+                    "IAB_v2.0": [
+                        [
+                            "Technology & Computing",
+                            "Technology & Computing::Consumer Electronics"
+                        ]
+                    ],
                     "IAB_v2.0_2018": [
                         [
                             [
@@ -229,6 +241,15 @@
                     ]
                 },
                 "8a2ad6312124c03c5b2ec97beff0648a": {
+                    "IAB_v2.0": [
+                        [
+                            "Hobbies & Interests::Games and Puzzles",
+                            "Hobbies & Interests"
+                        ],
+                        [
+                            "Video Gaming"
+                        ]
+                    ],
                     "IAB_v2.0_2018": [
                         [
                             [
@@ -249,6 +270,15 @@
                     ]
                 },
                 "be1561fb604bd17368b7902ac141a238": {
+                    "IAB_v2.0": [
+                        [
+                            "Hobbies & Interests::Games and Puzzles",
+                            "Hobbies & Interests"
+                        ],
+                        [
+                            "Video Gaming"
+                        ]
+                    ],
                     "IAB_v2.0_2018": [
                         [
                             [
@@ -269,6 +299,7 @@
                     ]
                 },
                 "b92b6f1c-26e1-579c-b2ab-c8d78fa820c7": {
+                    "IAB_v2.0": [],
                     "IAB_v2.0_2018": []
                 }
             }
