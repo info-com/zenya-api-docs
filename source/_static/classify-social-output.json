@@ -932,8 +932,7 @@
                 }
             },
             "chars": 850,
-            "overlay": {
-            },
+            "overlay": []
         },
         "signature": {
             "resource": "POST \/classify\/:type\/:result_id",
