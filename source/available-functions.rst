@@ -1,6 +1,19 @@
 List of Available Functions
 ===========================
 
+NLP
+----------
+
+Perform Natural Language Processing functions against text strings and documents.
+
+.. csv-table::
+    :header: "Method","Resource","Description"
+    :stub-columns: 1
+    :widths: 10, 30, 100
+
+    "POST","nlp/parse","Performs Part of Speech (POS) tagging, Named Entity Recognition (NER), dependency parsing, tokenization, sentiment analysis, and other core functions of the eContext NLP stack."
+    "POST","nlp/lid","Identify the language of some text input."
+
 Categories
 ----------
 
