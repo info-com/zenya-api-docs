@@ -2,6 +2,7 @@
     "async":false,
     "entities":true,
     "flags":true,
+    "sentiment":true,
     "social":[
         "HAPPY PI DAY 3.141592653589793238462643383279502884197169399375...",
         "Happy birthday, MIT! The Institute was founded April 10, 1861 by William Barton Rogers. #tbt",
