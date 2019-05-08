@@ -1,54 +1,86 @@
 {
     "econtext": {
         "classify": {
-            "title": "eContext - The World's Largest Semantic Text Classification Engine",
+            "title": "Semantic Text Classification | eContext Taxonomy and Data Structure |",
             "scored_categories": [
                 {
-                    "category_id": "69b3097c31e1afeda8b52873b5739b6f",
-                    "score": 0.8
+                    "category_id": "6981e993569ba5af3cc14d7c3a05fc76",
+                    "score": 0.66405638214565
                 },
                 {
-                    "category_id": "83a464cf84a9482221d2794a782c4bca",
-                    "score": 0.2
+                    "category_id": "1a9587f016d90b4cfb0c473039c98f3a",
+                    "score": 0.065779169929522
+                },
+                {
+                    "category_id": "b2ba2d3dc01ec7dea4263ebd882f9e86",
+                    "score": 0.043852779953015
+                },
+                {
+                    "category_id": "c29f157a195759a39cc27e7c540cd4d9",
+                    "score": 0.043852779953015
+                },
+                {
+                    "category_id": "9bfd0bb46baa2306a253f745cec5b1f7",
+                    "score": 0.037588097102584
+                },
+                {
+                    "category_id": "71a84c532ab6124052e5b92f85dc5dd8",
+                    "score": 0.034455755677369
+                },
+                {
+                    "category_id": "34d5bf8766845bf437fe3c69663692f2",
+                    "score": 0.027407987470634
+                },
+                {
+                    "category_id": "fc2b4234fdf6b60d01daa7e34d8b5bae",
+                    "score": 0.02662490211433
+                },
+                {
+                    "category_id": "6c7d1b5fbb00b32a1132007c9c851995",
+                    "score": 0.025058731401723
                 }
             ],
             "scored_keywords": [
                 {
-                    "score": 0.30769230769231,
-                    "keyword": "eContext - The World's Largest Semantic Text Classification Engine"
+                    "keyword": "econtext",
+                    "score": 0.63082437275986
                 },
                 {
-                    "score": 0.12820512820513,
-                    "keyword": "Build Smarter Sites"
+                    "keyword": "video",
+                    "score": 0.075268817204301
                 },
                 {
-                    "score": 0.1025641025641,
-                    "keyword": "chatbots and site content"
+                    "keyword": "chatbots",
+                    "score": 0.050179211469534
                 },
                 {
-                    "score": 0.1025641025641,
-                    "keyword": "eContext The World's Largest Semantic"
+                    "keyword": "surveys",
+                    "score": 0.043010752688172
                 },
                 {
-                    "score": 0.1025641025641,
-                    "keyword": "eContext the world"
+                    "keyword": "keywords",
+                    "score": 0.039426523297491
                 },
                 {
-                    "score": 0.1025641025641,
-                    "keyword": "Make better recommendations for chatbots"
+                    "keyword": "econtext's",
+                    "score": 0.039426523297491
                 },
                 {
-                    "score": 0.1025641025641,
-                    "keyword": "engine classifies content instantly"
+                    "keyword": "kantar",
+                    "score": 0.028673835125448
                 },
                 {
-                    "score": 0.051282051282051,
-                    "keyword": "to structure data from any text source"
+                    "keyword": "scientist",
+                    "score": 0.028673835125448
+                },
+                {
+                    "keyword": "taxonomy",
+                    "score": 0.028673835125448
                 }
             ],
             "categories": {
-                "69b3097c31e1afeda8b52873b5739b6f": {
-                    "id": "69b3097c31e1afeda8b52873b5739b6f",
+                "6981e993569ba5af3cc14d7c3a05fc76": {
+                    "id": "6981e993569ba5af3cc14d7c3a05fc76",
                     "name": "eContext",
                     "path": [
                         "Business & Industrial",
@@ -59,21 +91,61 @@
                         "eContext"
                     ],
                     "idpath": [
-                        "246045a85ad09438156569ba21b02f5e",
-                        "b3f2f7a629f2d467e62506f43bbac6a8",
-                        "0ac9fd31e88f8c9817c8fdcdf7a44452",
-                        "06272ebbc94366aafba8b543a4265f61",
-                        "dbdfde0084809a3187acba657a974964",
-                        "69b3097c31e1afeda8b52873b5739b6f"
+                        "93ae18acd5845912d0719cf14e34fff0",
+                        "4a90604ecbb8e54663f84f59ce4350c1",
+                        "ab0630bafba120dedbb788c0b8d33091",
+                        "56ee67cc2683e5c1e5dcf113f835fddb",
+                        "e6229d3e428212d041b432f89399871a",
+                        "6981e993569ba5af3cc14d7c3a05fc76"
                     ],
                     "stats": {
-                        "social_relevance": null,
-                        "social_idf": null
-                    }
+                        "social_relevance": 6.42e-8,
+                        "social_idf": 16.3422325487
+                    },
+                    "facets": [
+                        [
+                            "domain",
+                            "service"
+                        ]
+                    ]
                 },
-                "83a464cf84a9482221d2794a782c4bca": {
-                    "id": "83a464cf84a9482221d2794a782c4bca",
-                    "name": "Chatbots",
+                "1a9587f016d90b4cfb0c473039c98f3a": {
+                    "id": "1a9587f016d90b4cfb0c473039c98f3a",
+                    "name": "Video & Live Media Streaming",
+                    "path": [
+                        "Computers & Electronics",
+                        "Telecommunications",
+                        "Internet",
+                        "Websites & Digital Content",
+                        "File Hosting & Sharing",
+                        "Video & Live Media Streaming"
+                    ],
+                    "idpath": [
+                        "bdc03d860e5f33c08146faa43487c1bd",
+                        "2712a67ea6c5398779d806a7a5f016eb",
+                        "bbd7a35fae11c6cde461e75bd99e1b1a",
+                        "78971b721e12d951c071b2e3d01c74e8",
+                        "25bd7afbfe29570a835b986b68518d79",
+                        "1a9587f016d90b4cfb0c473039c98f3a"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.003922828,
+                        "social_idf": 5.3221781922
+                    },
+                    "facets": [
+                        [
+                            "domain",
+                            "facility"
+                        ],
+                        [
+                            "domain",
+                            "service"
+                        ]
+                    ]
+                },
+                "b2ba2d3dc01ec7dea4263ebd882f9e86": {
+                    "id": "b2ba2d3dc01ec7dea4263ebd882f9e86",
+                    "name": "Chatbots & Conversational Platforms",
                     "path": [
                         "Computers & Electronics",
                         "Computers",
@@ -83,35 +155,418 @@
                         "Application Software",
                         "Communications Software",
                         "Messaging Software",
-                        "Instant Messenger Programs",
-                        "Instant Messaging [No Provider Specified]",
-                        "Chatbots"
+                        "Chatbots & Conversational Platforms"
                     ],
                     "idpath": [
-                        "f2300bfd81612ac3e8e5c154334057c5",
-                        "961ed1628d0c0aeca238f0f46d802fb0",
-                        "0efe3cc7fb29ec6b8b912b10ff1dc404",
-                        "b3e03e0f41b89f7614e56c67ed5fcbbe",
-                        "358109a9bf7b205353d30f624412547d",
-                        "aba12a8acbca9a35f2fa2a47ad73b95c",
-                        "cee569d1cfd027e71c7ff256f03ce5a6",
-                        "12f003bf3669ef616d0b7761c3f06f35",
-                        "13c1eb86eba3b017a248183e1519f5fd",
-                        "85ca57916b1ad1d89fca5a43528b9451",
-                        "83a464cf84a9482221d2794a782c4bca"
+                        "bdc03d860e5f33c08146faa43487c1bd",
+                        "ed62d0b6672e5addd702fd780ccd185d",
+                        "40cf7c7334801a84c1c52166595e3d7e",
+                        "3f1ff940a8bdeb0c9804a879f88f598e",
+                        "e4782eb0f978ded90481e2b177ead9c4",
+                        "3295dd2a46d67ca4c723c481dac6ed5f",
+                        "2f15d4c34b296dee69c2fab67cfe11e6",
+                        "d039be7ef56e1a2d07e6dfb7509052ba",
+                        "b2ba2d3dc01ec7dea4263ebd882f9e86"
                     ],
                     "stats": {
-                        "social_relevance": 0.0000259136,
-                        "social_idf": 10.315752421802
-                    }
+                        "social_relevance": 1.29076e-5,
+                        "social_idf": 11.0389276407
+                    },
+                    "facets": []
+                },
+                "71a84c532ab6124052e5b92f85dc5dd8": {
+                    "id": "71a84c532ab6124052e5b92f85dc5dd8",
+                    "name": "Keywords",
+                    "path": [
+                        "Business & Industrial",
+                        "Advertising & Marketing",
+                        "Advertising & Marketing Services",
+                        "Internet Advertising & Marketing",
+                        "Internet Advertising & Marketing [No Strategy Specified]",
+                        "Keywords"
+                    ],
+                    "idpath": [
+                        "93ae18acd5845912d0719cf14e34fff0",
+                        "4a90604ecbb8e54663f84f59ce4350c1",
+                        "ab0630bafba120dedbb788c0b8d33091",
+                        "56ee67cc2683e5c1e5dcf113f835fddb",
+                        "c4b046136fcb9ae7bc9df7a1b4f6afe3",
+                        "71a84c532ab6124052e5b92f85dc5dd8"
+                    ],
+                    "stats": {
+                        "social_relevance": 2.89619e-5,
+                        "social_idf": 10.2307652092
+                    },
+                    "facets": []
+                },
+                "c29f157a195759a39cc27e7c540cd4d9": {
+                    "id": "c29f157a195759a39cc27e7c540cd4d9",
+                    "name": "Scientists",
+                    "path": [
+                        "Sciences & Humanities",
+                        "Science",
+                        "Science [No Branch Specified]",
+                        "Scientists"
+                    ],
+                    "idpath": [
+                        "9c15c34150b7e723fea0eb4b12878947",
+                        "9954bdf75b1d9c9abde66f5fa8d8754f",
+                        "3b54651274fceca46f708592533817b4",
+                        "c29f157a195759a39cc27e7c540cd4d9"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0001907889,
+                        "social_idf": 8.3455786733
+                    },
+                    "facets": []
+                },
+                "fc2b4234fdf6b60d01daa7e34d8b5bae": {
+                    "id": "fc2b4234fdf6b60d01daa7e34d8b5bae",
+                    "name": "Publicis Groupe",
+                    "path": [
+                        "Business & Industrial",
+                        "Advertising & Marketing",
+                        "Advertising & Marketing Services",
+                        "Advertising & Marketing Services [No Media Type Specified]",
+                        "Advertising & Marketing Services [No Industry or Demographic Specified]",
+                        "Advertising & Marketing Agencies",
+                        "Publicis Groupe"
+                    ],
+                    "idpath": [
+                        "93ae18acd5845912d0719cf14e34fff0",
+                        "4a90604ecbb8e54663f84f59ce4350c1",
+                        "ab0630bafba120dedbb788c0b8d33091",
+                        "014c8b620691495410e338d79143c579",
+                        "8bc5d713c6c3637d379d216d56e36a6e",
+                        "12bcf2eeb20bbcb300f78e06378d5df9",
+                        "fc2b4234fdf6b60d01daa7e34d8b5bae"
+                    ],
+                    "stats": {
+                        "social_relevance": 1.2201e-6,
+                        "social_idf": 13.3977935696
+                    },
+                    "facets": []
+                },
+                "6c7d1b5fbb00b32a1132007c9c851995": {
+                    "id": "6c7d1b5fbb00b32a1132007c9c851995",
+                    "name": "Kantar",
+                    "path": [
+                        "Business & Industrial",
+                        "Advertising & Marketing",
+                        "Advertising & Marketing Services",
+                        "Advertising & Marketing Services [No Media Type Specified]",
+                        "Advertising & Marketing Services [No Industry or Demographic Specified]",
+                        "Advertising & Marketing Agencies",
+                        "WPP",
+                        "Kantar"
+                    ],
+                    "idpath": [
+                        "93ae18acd5845912d0719cf14e34fff0",
+                        "4a90604ecbb8e54663f84f59ce4350c1",
+                        "ab0630bafba120dedbb788c0b8d33091",
+                        "014c8b620691495410e338d79143c579",
+                        "8bc5d713c6c3637d379d216d56e36a6e",
+                        "12bcf2eeb20bbcb300f78e06378d5df9",
+                        "8b3342227d08018b0171b0c661b9f996",
+                        "6c7d1b5fbb00b32a1132007c9c851995"
+                    ],
+                    "stats": {
+                        "social_relevance": 5.78e-7,
+                        "social_idf": 14.1450079714
+                    },
+                    "facets": []
+                },
+                "34d5bf8766845bf437fe3c69663692f2": {
+                    "id": "34d5bf8766845bf437fe3c69663692f2",
+                    "name": "Customer Service",
+                    "path": [
+                        "Business & Industrial",
+                        "General Business & Industrial",
+                        "General Business & Industrial Services",
+                        "General Business Services",
+                        "Business Operations, Management, & Support Services",
+                        "Business Operations & Management",
+                        "Customer Relations",
+                        "Customer Service"
+                    ],
+                    "idpath": [
+                        "93ae18acd5845912d0719cf14e34fff0",
+                        "85223b2c100418dea4b61c33ca47f862",
+                        "63ad16a5babfd448801877882fee0516",
+                        "60876790b7febe9ceaa6cc623cad9c20",
+                        "71a8e104f880da61fb5cc3db0e10ec3c",
+                        "a42adf2a895dd4d471b9391e072fc687",
+                        "8599dc1f0e4ecf0e18102c9d18f42363",
+                        "34d5bf8766845bf437fe3c69663692f2"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0002349703,
+                        "social_idf": 8.1372873837
+                    },
+                    "facets": []
+                },
+                "9bfd0bb46baa2306a253f745cec5b1f7": {
+                    "id": "9bfd0bb46baa2306a253f745cec5b1f7",
+                    "name": "Surveys",
+                    "path": [
+                        "Sciences & Humanities",
+                        "Science",
+                        "Social Sciences",
+                        "Sociology",
+                        "Sociological Research Methods",
+                        "Surveys"
+                    ],
+                    "idpath": [
+                        "9c15c34150b7e723fea0eb4b12878947",
+                        "9954bdf75b1d9c9abde66f5fa8d8754f",
+                        "c270f6632e37fe26329d9af4a515122c",
+                        "f3df44a5265aff3cfda548122add9271",
+                        "58a43bc17febd6642724d8acafec7275",
+                        "9bfd0bb46baa2306a253f745cec5b1f7"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0001555337,
+                        "social_idf": 8.5498836246
+                    },
+                    "facets": []
                 }
             },
             "entities": [],
+            "sentiment": 0.61099622641509,
+            "chars": 5663,
+            "overlay": {
+                "6981e993569ba5af3cc14d7c3a05fc76": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "52",
+                                "Business and Finance"
+                            ],
+                            [
+                                "53",
+                                "Business and Finance::Business"
+                            ]
+                        ],
+                        [
+                            [
+                                "90",
+                                "Business and Finance::Industries"
+                            ],
+                            [
+                                "91",
+                                "Business and Finance::Industries::Advertising Industry"
+                            ],
+                            [
+                                "58",
+                                "Business and Finance::Business::Marketing and Advertising"
+                            ]
+                        ],
+                        [
+                            [
+                                "602",
+                                "Technology & Computing::Computing::Computer Software and Applications"
+                            ]
+                        ]
+                    ]
+                },
+                "1a9587f016d90b4cfb0c473039c98f3a": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "632",
+                                "Technology & Computing::Consumer Electronics"
+                            ],
+                            [
+                                "596",
+                                "Technology & Computing"
+                            ]
+                        ],
+                        [
+                            [
+                                "116",
+                                "Business and Finance::Industries::Telecommunications Industry"
+                            ]
+                        ],
+                        [
+                            [
+                                "619",
+                                "Technology & Computing::Computing::Internet"
+                            ]
+                        ]
+                    ]
+                },
+                "b2ba2d3dc01ec7dea4263ebd882f9e86": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "632",
+                                "Technology & Computing::Consumer Electronics"
+                            ],
+                            [
+                                "596",
+                                "Technology & Computing"
+                            ]
+                        ],
+                        [
+                            [
+                                "599",
+                                "Technology & Computing::Computing"
+                            ]
+                        ],
+                        [
+                            [
+                                "602",
+                                "Technology & Computing::Computing::Computer Software and Applications"
+                            ]
+                        ]
+                    ]
+                },
+                "71a84c532ab6124052e5b92f85dc5dd8": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "52",
+                                "Business and Finance"
+                            ],
+                            [
+                                "53",
+                                "Business and Finance::Business"
+                            ]
+                        ],
+                        [
+                            [
+                                "90",
+                                "Business and Finance::Industries"
+                            ],
+                            [
+                                "91",
+                                "Business and Finance::Industries::Advertising Industry"
+                            ],
+                            [
+                                "58",
+                                "Business and Finance::Business::Marketing and Advertising"
+                            ]
+                        ]
+                    ]
+                },
+                "c29f157a195759a39cc27e7c540cd4d9": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "464",
+                                "Science"
+                            ]
+                        ]
+                    ]
+                },
+                "fc2b4234fdf6b60d01daa7e34d8b5bae": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "52",
+                                "Business and Finance"
+                            ],
+                            [
+                                "53",
+                                "Business and Finance::Business"
+                            ]
+                        ],
+                        [
+                            [
+                                "90",
+                                "Business and Finance::Industries"
+                            ],
+                            [
+                                "91",
+                                "Business and Finance::Industries::Advertising Industry"
+                            ],
+                            [
+                                "58",
+                                "Business and Finance::Business::Marketing and Advertising"
+                            ]
+                        ]
+                    ]
+                },
+                "6c7d1b5fbb00b32a1132007c9c851995": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "52",
+                                "Business and Finance"
+                            ],
+                            [
+                                "53",
+                                "Business and Finance::Business"
+                            ]
+                        ],
+                        [
+                            [
+                                "90",
+                                "Business and Finance::Industries"
+                            ],
+                            [
+                                "91",
+                                "Business and Finance::Industries::Advertising Industry"
+                            ],
+                            [
+                                "58",
+                                "Business and Finance::Business::Marketing and Advertising"
+                            ]
+                        ]
+                    ]
+                },
+                "34d5bf8766845bf437fe3c69663692f2": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "52",
+                                "Business and Finance"
+                            ],
+                            [
+                                "53",
+                                "Business and Finance::Business"
+                            ]
+                        ],
+                        [
+                            [
+                                "62",
+                                "Business and Finance::Business::Business Administration"
+                            ],
+                            [
+                                "73",
+                                "Business and Finance::Business::Business Operations"
+                            ]
+                        ],
+                        [
+                            [
+                                "76",
+                                "Business and Finance::Business::Executive Leadership & Management"
+                            ]
+                        ],
+                        [
+                            [
+                                "74",
+                                "Business and Finance::Business::Consumer Issues"
+                            ]
+                        ]
+                    ]
+                },
+                "9bfd0bb46baa2306a253f745cec5b1f7": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "464",
+                                "Science"
+                            ]
+                        ]
+                    ]
+                }
+            }
         },
         "signature": {
-            "resource": "POST /classify/:type/:result_id",
+            "resource": "POST \/classify\/:type\/:result_id",
             "status": "200 OK - successful",
-            "client_ip": "127.0.0.1"
+            "client_ip": "209.41.117.158"
         }
     }
 }

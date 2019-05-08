@@ -1,87 +1,669 @@
 {
-  "econtext": {
-    "classify": {
-      "scored_categories": [
-        {
-          "category_id": "69b3097c31e1afeda8b52873b5739b6f",
-          "score": 0.6
+    "econtext": {
+        "classify": {
+            "scored_categories": [
+                {
+                    "category_id": "b0abd2a963cb083923b5aaf6ec8b12f9",
+                    "score": 0.16120027913468
+                },
+                {
+                    "category_id": "c793808308ef14243db97af8ccf9ad8a",
+                    "score": 0.15491974877879
+                },
+                {
+                    "category_id": "fe1fb7c5db256c9c0c2af9f45d0194b4",
+                    "score": 0.15282623866015
+                },
+                {
+                    "category_id": "1107f31431901cf750672e78aa0744b9",
+                    "score": 0.13398464759246
+                },
+                {
+                    "category_id": "1a31cf982eb9390410094f39707db2eb",
+                    "score": 0.11933007676204
+                },
+                {
+                    "category_id": "2d3c01aa275e87f389821f10f0f1433f",
+                    "score": 0.10467550593161
+                },
+                {
+                    "category_id": "b4799258dfb2df2b13978438a6a6ec8e",
+                    "score": 0.050244242847174
+                },
+                {
+                    "category_id": "d1fcd82b76b41b3b24846474e725d716",
+                    "score": 0.041870202372645
+                },
+                {
+                    "category_id": "81b7c121d63f530187adf07e27f17342",
+                    "score": 0.039078855547802
+                },
+                {
+                    "category_id": "7d0f6ffe5b5949f8699a534d03cd4671",
+                    "score": 0.03768318213538
+                }
+            ],
+            "scored_keywords": [
+                {
+                    "keyword": "health",
+                    "score": 0.17703349282297
+                },
+                {
+                    "keyword": "military",
+                    "score": 0.15311004784689
+                },
+                {
+                    "keyword": "veterans",
+                    "score": 0.14354066985646
+                },
+                {
+                    "keyword": "red cross",
+                    "score": 0.14114832535885
+                },
+                {
+                    "keyword": "volunteers",
+                    "score": 0.11961722488038
+                },
+                {
+                    "keyword": "blood your donations",
+                    "score": 0.069377990430622
+                },
+                {
+                    "keyword": "hurricanes",
+                    "score": 0.057416267942584
+                },
+                {
+                    "keyword": "humanitarian",
+                    "score": 0.047846889952153
+                },
+                {
+                    "keyword": "donate blood",
+                    "score": 0.043062200956938
+                },
+                {
+                    "keyword": "lifeguard",
+                    "score": 0.043062200956938
+                }
+            ],
+            "categories": {
+                "fe1fb7c5db256c9c0c2af9f45d0194b4": {
+                    "id": "fe1fb7c5db256c9c0c2af9f45d0194b4",
+                    "name": "American Red Cross",
+                    "path": [
+                        "People \u0026 Society",
+                        "Social Groups \u0026 Issues",
+                        "Emergencies, Disasters \u0026 Safety",
+                        "Disaster Relief",
+                        "International Red Cross and Red Crescent Movement",
+                        "American Red Cross"
+                    ],
+                    "idpath": [
+                        "4bfa345531d3a9bff09432c924bcc729",
+                        "e48d0942110598946dbfe4b5fa8dc924",
+                        "1b76c4621627a905e40c2eaf1a93b85c",
+                        "ad0b94eb59b7d1ba60cba3428d824e58",
+                        "47383e0b647d2154ab0d0cdf19701717",
+                        "fe1fb7c5db256c9c0c2af9f45d0194b4"
+                    ],
+                    "stats": {
+                        "social_relevance": 1.08527e-5,
+                        "social_idf": 11.2123338338
+                    },
+                    "facets": [
+                        [
+                            "domain",
+                            "facility"
+                        ]
+                    ]
+                },
+                "2d3c01aa275e87f389821f10f0f1433f": {
+                    "id": "2d3c01aa275e87f389821f10f0f1433f",
+                    "name": "Volunteering",
+                    "path": [
+                        "People \u0026 Society",
+                        "Social Groups \u0026 Issues",
+                        "Social Issues \u0026 Advocacy",
+                        "Charity \u0026 Philanthropy",
+                        "Volunteering"
+                    ],
+                    "idpath": [
+                        "4bfa345531d3a9bff09432c924bcc729",
+                        "e48d0942110598946dbfe4b5fa8dc924",
+                        "f9fb32661586c3ebe507622d8e8f773f",
+                        "2d4b2a9a394ff9ce37a6ef552cd37f46",
+                        "2d3c01aa275e87f389821f10f0f1433f"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0002027975,
+                        "social_idf": 8.2845383539
+                    },
+                    "facets": []
+                },
+                "b4799258dfb2df2b13978438a6a6ec8e": {
+                    "id": "b4799258dfb2df2b13978438a6a6ec8e",
+                    "name": "Hurricanes \u0026 Cyclones",
+                    "path": [
+                        "Sciences \u0026 Humanities",
+                        "Science",
+                        "Natural Sciences",
+                        "Earth Sciences",
+                        "Branches of Earth Science",
+                        "Atmospheric Science",
+                        "Meteorology",
+                        "Weather",
+                        "Hurricanes \u0026 Cyclones"
+                    ],
+                    "idpath": [
+                        "9c15c34150b7e723fea0eb4b12878947",
+                        "9954bdf75b1d9c9abde66f5fa8d8754f",
+                        "36c3f922da8fc76f982280ca44c8e4b8",
+                        "3f98be34278d9e5a70bedafb5b31e8b2",
+                        "a92ee8be0d06baa40a30a7066666fd84",
+                        "2af22889ddd8dd6ed27c18e3dc2cb115",
+                        "32b689b419a1166095a2c02cc3503670",
+                        "df261c3fede05cc48a31e352bdfac50e",
+                        "b4799258dfb2df2b13978438a6a6ec8e"
+                    ],
+                    "stats": {
+                        "social_relevance": 6.8327e-5,
+                        "social_idf": 9.3724418788
+                    },
+                    "facets": []
+                },
+                "c793808308ef14243db97af8ccf9ad8a": {
+                    "id": "c793808308ef14243db97af8ccf9ad8a",
+                    "name": "Health",
+                    "path": [
+                        "Health"
+                    ],
+                    "idpath": [
+                        "c793808308ef14243db97af8ccf9ad8a"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0009595314,
+                        "social_idf": 6.7303012302
+                    },
+                    "facets": []
+                },
+                "81b7c121d63f530187adf07e27f17342": {
+                    "id": "81b7c121d63f530187adf07e27f17342",
+                    "name": "Mental Health Services",
+                    "path": [
+                        "Health",
+                        "Healthcare Services",
+                        "Mental Health Services"
+                    ],
+                    "idpath": [
+                        "c793808308ef14243db97af8ccf9ad8a",
+                        "43bb825aa41e7ebcafa1591abc3c5d15",
+                        "81b7c121d63f530187adf07e27f17342"
+                    ],
+                    "stats": {
+                        "social_relevance": 3.28791e-5,
+                        "social_idf": 10.1039079237
+                    },
+                    "facets": [
+                        [
+                            "domain",
+                            "service"
+                        ]
+                    ]
+                },
+                "1107f31431901cf750672e78aa0744b9": {
+                    "id": "1107f31431901cf750672e78aa0744b9",
+                    "name": "Militaries",
+                    "path": [
+                        "Government",
+                        "Government [No Location Specified]",
+                        "Governmental Structures",
+                        "National Governments",
+                        "Militaries"
+                    ],
+                    "idpath": [
+                        "2aeb9349223b598a228ce6da9d8dd364",
+                        "65daf9280247be20b6d6c88e68912658",
+                        "a2833d90fa14ae4bf87d09d13a16d634",
+                        "22a6d0da3aa764e6b7c11020dbc46ab2",
+                        "1107f31431901cf750672e78aa0744b9"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.000242869,
+                        "social_idf": 8.1042242995
+                    },
+                    "facets": []
+                },
+                "b0abd2a963cb083923b5aaf6ec8b12f9": {
+                    "id": "b0abd2a963cb083923b5aaf6ec8b12f9",
+                    "name": "Military Veterans",
+                    "path": [
+                        "Government",
+                        "Government [No Location Specified]",
+                        "Governmental Structures",
+                        "National Governments",
+                        "Militaries",
+                        "National Defense Forces [No Branch Specified]",
+                        "Military Veterans"
+                    ],
+                    "idpath": [
+                        "2aeb9349223b598a228ce6da9d8dd364",
+                        "65daf9280247be20b6d6c88e68912658",
+                        "a2833d90fa14ae4bf87d09d13a16d634",
+                        "22a6d0da3aa764e6b7c11020dbc46ab2",
+                        "1107f31431901cf750672e78aa0744b9",
+                        "b2713f7f076ce54a82346cc17f0a7a13",
+                        "b0abd2a963cb083923b5aaf6ec8b12f9"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0001645883,
+                        "social_idf": 8.4932988224
+                    },
+                    "facets": []
+                },
+                "1a31cf982eb9390410094f39707db2eb": {
+                    "id": "1a31cf982eb9390410094f39707db2eb",
+                    "name": "Blood Donations",
+                    "path": [
+                        "Health",
+                        "Healthcare Services",
+                        "Internal Medicine Services",
+                        "Hematology Services",
+                        "Blood \u0026 Bone Marrow Donations",
+                        "Blood Donations"
+                    ],
+                    "idpath": [
+                        "c793808308ef14243db97af8ccf9ad8a",
+                        "43bb825aa41e7ebcafa1591abc3c5d15",
+                        "b8a4228d0e04381e80fd0687677ba6b0",
+                        "0e28d1f1429449b3b11cfdee9915579c",
+                        "e176a76af10d538b0a7ebf82caf205bc",
+                        "1a31cf982eb9390410094f39707db2eb"
+                    ],
+                    "stats": {
+                        "social_relevance": 1.34856e-5,
+                        "social_idf": 10.995125018
+                    },
+                    "facets": []
+                },
+                "7d0f6ffe5b5949f8699a534d03cd4671": {
+                    "id": "7d0f6ffe5b5949f8699a534d03cd4671",
+                    "name": "Lifeguards",
+                    "path": [
+                        "Jobs \u0026 Education",
+                        "Jobs",
+                        "Law Enforcement \u0026 Public Safety Careers",
+                        "Law Enforcement \u0026 Public Safety Job Listings",
+                        "Lifeguards"
+                    ],
+                    "idpath": [
+                        "65ace7f404e084a6a2d7f326aa5d8643",
+                        "a04e132c5ed85ce41f23e38ad9996b66",
+                        "7e2e38d02b19e143d50be40829b66f05",
+                        "77824adc451da966cdcb41b3b5fc9e41",
+                        "7d0f6ffe5b5949f8699a534d03cd4671"
+                    ],
+                    "stats": {
+                        "social_relevance": 7.1923e-6,
+                        "social_idf": 11.6237336774
+                    },
+                    "facets": []
+                },
+                "d1fcd82b76b41b3b24846474e725d716": {
+                    "id": "d1fcd82b76b41b3b24846474e725d716",
+                    "name": "Humanitarianism",
+                    "path": [
+                        "People \u0026 Society",
+                        "Social Groups \u0026 Issues",
+                        "Social Issues \u0026 Advocacy",
+                        "Social Issues \u0026 Advocacy [No Cause Specified]",
+                        "Humanitarianism"
+                    ],
+                    "idpath": [
+                        "4bfa345531d3a9bff09432c924bcc729",
+                        "e48d0942110598946dbfe4b5fa8dc924",
+                        "f9fb32661586c3ebe507622d8e8f773f",
+                        "3bb8d373b167c6b5c8f769a4f1866007",
+                        "d1fcd82b76b41b3b24846474e725d716"
+                    ],
+                    "stats": {
+                        "social_relevance": 2.42741e-5,
+                        "social_idf": 10.4073383531
+                    },
+                    "facets": []
+                },
+                "c0b7dfb1-7ef6-50c9-811a-1a708e54588a": {
+                    "id": "c0b7dfb1-7ef6-50c9-811a-1a708e54588a",
+                    "name": "the Red Cross",
+                    "path": [
+                        "Organizations",
+                        "the Red Cross"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "c0b7dfb1-7ef6-50c9-811a-1a708e54588a"
+                    ],
+                    "stats": null,
+                    "facets": null
+                },
+                "7c2bfa2e-fcd9-5d84-a7f0-19c7aaf44849": {
+                    "id": "7c2bfa2e-fcd9-5d84-a7f0-19c7aaf44849",
+                    "name": "American",
+                    "path": [
+                        "Organizations",
+                        "American"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "7c2bfa2e-fcd9-5d84-a7f0-19c7aaf44849"
+                    ],
+                    "stats": null,
+                    "facets": null
+                },
+                "516b1cb7-96a7-532b-9a38-bf92d43d0f1d": {
+                    "id": "516b1cb7-96a7-532b-9a38-bf92d43d0f1d",
+                    "name": "the United States",
+                    "path": [
+                        "Locations",
+                        "the United States"
+                    ],
+                    "idpath": [
+                        "d5a74840-36e2-5078-b605-523a16ed49be",
+                        "516b1cb7-96a7-532b-9a38-bf92d43d0f1d"
+                    ],
+                    "stats": null,
+                    "facets": null
+                },
+                "130ce71f-0663-53b5-84d6-25920651a296": {
+                    "id": "130ce71f-0663-53b5-84d6-25920651a296",
+                    "name": "U.S",
+                    "path": [
+                        "Locations",
+                        "U.S"
+                    ],
+                    "idpath": [
+                        "d5a74840-36e2-5078-b605-523a16ed49be",
+                        "130ce71f-0663-53b5-84d6-25920651a296"
+                    ],
+                    "stats": null,
+                    "facets": null
+                },
+                "9ad154c7-1e1f-5bc0-8314-74c07bc7913d": {
+                    "id": "9ad154c7-1e1f-5bc0-8314-74c07bc7913d",
+                    "name": "America",
+                    "path": [
+                        "Locations",
+                        "America"
+                    ],
+                    "idpath": [
+                        "d5a74840-36e2-5078-b605-523a16ed49be",
+                        "9ad154c7-1e1f-5bc0-8314-74c07bc7913d"
+                    ],
+                    "stats": null,
+                    "facets": null
+                },
+                "1229403": {
+                    "id": 1229403,
+                    "name": "Healthcare Services",
+                    "path": [
+                        "Health",
+                        "Healthcare Services"
+                    ],
+                    "idpath": [
+                        1002000,
+                        1229403
+                    ],
+                    "stats": {
+                        "social_relevance": 3.8466e-5,
+                        "social_idf": 9.9469709506
+                    },
+                    "facets": null
+                },
+                "7e0a6060-c4b2-57e5-8139-fe6cc8e00975": {
+                    "id": "7e0a6060-c4b2-57e5-8139-fe6cc8e00975",
+                    "name": "CPR",
+                    "path": [
+                        "Organizations",
+                        "CPR"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "7e0a6060-c4b2-57e5-8139-fe6cc8e00975"
+                    ],
+                    "stats": null,
+                    "facets": null
+                },
+                "d74a7093-e576-539c-ace5-9efb7fce0153": {
+                    "id": "d74a7093-e576-539c-ace5-9efb7fce0153",
+                    "name": "First Aid",
+                    "path": [
+                        "Organizations",
+                        "First Aid"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "d74a7093-e576-539c-ace5-9efb7fce0153"
+                    ],
+                    "stats": null,
+                    "facets": null
+                },
+                "d515c917-0e04-59da-bf21-cab2ef5249e4": {
+                    "id": "d515c917-0e04-59da-bf21-cab2ef5249e4",
+                    "name": "Americans",
+                    "path": [
+                        "Organizations",
+                        "Americans"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "d515c917-0e04-59da-bf21-cab2ef5249e4"
+                    ],
+                    "stats": null,
+                    "facets": null
+                },
+                "22be2ebd-da59-50d8-8e2a-96331ca2328b": {
+                    "id": "22be2ebd-da59-50d8-8e2a-96331ca2328b",
+                    "name": "International Services",
+                    "path": [
+                        "Organizations",
+                        "International Services"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "22be2ebd-da59-50d8-8e2a-96331ca2328b"
+                    ],
+                    "stats": null,
+                    "facets": null
+                },
+                "0eed0a7c-53e6-5da3-9c1a-5311a7027607": {
+                    "id": "0eed0a7c-53e6-5da3-9c1a-5311a7027607",
+                    "name": "The American Red Cross",
+                    "path": [
+                        "Organizations",
+                        "The American Red Cross"
+                    ],
+                    "idpath": [
+                        "003469e8-80c6-51da-8ea8-e22db254fb74",
+                        "0eed0a7c-53e6-5da3-9c1a-5311a7027607"
+                    ],
+                    "stats": null,
+                    "facets": null
+                }
+            },
+            "entities": [
+                {
+                    "category_id": "c0b7dfb1-7ef6-50c9-811a-1a708e54588a",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "7c2bfa2e-fcd9-5d84-a7f0-19c7aaf44849",
+                    "type": "NORP"
+                },
+                {
+                    "category_id": "fe1fb7c5db256c9c0c2af9f45d0194b4",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "516b1cb7-96a7-532b-9a38-bf92d43d0f1d",
+                    "type": "GPE"
+                },
+                {
+                    "category_id": "c0b7dfb1-7ef6-50c9-811a-1a708e54588a",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "c0b7dfb1-7ef6-50c9-811a-1a708e54588a",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "130ce71f-0663-53b5-84d6-25920651a296",
+                    "type": "GPE"
+                },
+                {
+                    "category_id": "c0b7dfb1-7ef6-50c9-811a-1a708e54588a",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "9ad154c7-1e1f-5bc0-8314-74c07bc7913d",
+                    "type": "GPE"
+                },
+                {
+                    "category_id": 1229403,
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "7e0a6060-c4b2-57e5-8139-fe6cc8e00975",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "d74a7093-e576-539c-ace5-9efb7fce0153",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "d515c917-0e04-59da-bf21-cab2ef5249e4",
+                    "type": "NORP"
+                },
+                {
+                    "category_id": "22be2ebd-da59-50d8-8e2a-96331ca2328b",
+                    "type": "ORG"
+                },
+                {
+                    "category_id": "0eed0a7c-53e6-5da3-9c1a-5311a7027607",
+                    "type": "ORG"
+                }
+            ],
+            "sentiment": 0.73522631578947,
+            "chars": 2204,
+            "overlay": {
+                "fe1fb7c5db256c9c0c2af9f45d0194b4": {
+                    "IAB_v2.0_2018": []
+                },
+                "2d3c01aa275e87f389821f10f0f1433f": {
+                    "IAB_v2.0_2018": []
+                },
+                "b4799258dfb2df2b13978438a6a6ec8e": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "464",
+                                "Science"
+                            ]
+                        ]
+                    ]
+                },
+                "c793808308ef14243db97af8ccf9ad8a": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "286",
+                                "Medical Health"
+                            ]
+                        ]
+                    ]
+                },
+                "81b7c121d63f530187adf07e27f17342": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "286",
+                                "Medical Health"
+                            ]
+                        ]
+                    ]
+                },
+                "1107f31431901cf750672e78aa0744b9": {
+                    "IAB_v2.0_2018": []
+                },
+                "b0abd2a963cb083923b5aaf6ec8b12f9": {
+                    "IAB_v2.0_2018": []
+                },
+                "1a31cf982eb9390410094f39707db2eb": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "286",
+                                "Medical Health"
+                            ]
+                        ]
+                    ]
+                },
+                "7d0f6ffe5b5949f8699a534d03cd4671": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "123",
+                                "Careers"
+                            ]
+                        ]
+                    ]
+                },
+                "d1fcd82b76b41b3b24846474e725d716": {
+                    "IAB_v2.0_2018": []
+                },
+                "c0b7dfb1-7ef6-50c9-811a-1a708e54588a": {
+                    "IAB_v2.0_2018": []
+                },
+                "7c2bfa2e-fcd9-5d84-a7f0-19c7aaf44849": {
+                    "IAB_v2.0_2018": []
+                },
+                "516b1cb7-96a7-532b-9a38-bf92d43d0f1d": {
+                    "IAB_v2.0_2018": []
+                },
+                "130ce71f-0663-53b5-84d6-25920651a296": {
+                    "IAB_v2.0_2018": []
+                },
+                "9ad154c7-1e1f-5bc0-8314-74c07bc7913d": {
+                    "IAB_v2.0_2018": []
+                },
+                "1229403": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "286",
+                                "Medical Health"
+                            ]
+                        ]
+                    ]
+                },
+                "7e0a6060-c4b2-57e5-8139-fe6cc8e00975": {
+                    "IAB_v2.0_2018": []
+                },
+                "d74a7093-e576-539c-ace5-9efb7fce0153": {
+                    "IAB_v2.0_2018": []
+                },
+                "d515c917-0e04-59da-bf21-cab2ef5249e4": {
+                    "IAB_v2.0_2018": []
+                },
+                "22be2ebd-da59-50d8-8e2a-96331ca2328b": {
+                    "IAB_v2.0_2018": []
+                },
+                "0eed0a7c-53e6-5da3-9c1a-5311a7027607": {
+                    "IAB_v2.0_2018": []
+                }
+            }
         },
-        {
-          "category_id": "4a5b8ef0e9d0bda79de35a6e52b0dd4f",
-          "score": 0.4
+        "signature": {
+            "resource": "POST \/classify\/:type\/:result_id",
+            "status": "200 OK - successful",
+            "client_ip": "209.41.117.158"
         }
-      ],
-      "scored_keywords": [
-        {
-          "keyword": "well does econtext work",
-          "score": 0.6
-        },
-        {
-          "keyword": "market intelligence for brands and agencies",
-          "score": 0.2
-        },
-        {
-          "keyword": "innovative sem social display and market intelligence",
-          "score": 0.2
-        }
-      ],
-      "categories": {
-        "69b3097c31e1afeda8b52873b5739b6f": {
-          "id": "69b3097c31e1afeda8b52873b5739b6f",
-          "name": "eContext",
-          "path": [
-            "Business & Industrial",
-            "Advertising & Marketing",
-            "Advertising & Marketing Services",
-            "Internet Advertising & Marketing",
-            "Internet Advertising & Marketing Tools",
-            "eContext"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "b3f2f7a629f2d467e62506f43bbac6a8",
-            "0ac9fd31e88f8c9817c8fdcdf7a44452",
-            "06272ebbc94366aafba8b543a4265f61",
-            "dbdfde0084809a3187acba657a974964",
-            "69b3097c31e1afeda8b52873b5739b6f"
-          ],
-          "stats": {
-            "social_idf": 19276634,
-            "social_relevance": 0.00000
-          }
-        },
-        "4a5b8ef0e9d0bda79de35a6e52b0dd4f": {
-          "id": "4a5b8ef0e9d0bda79de35a6e52b0dd4f",
-          "name": "Business Intelligence Services",
-          "path": [
-            "Business & Industrial",
-            "General Business & Industrial",
-            "General Business & Industrial Services",
-            "General Business Services",
-            "Business Operations, Management, & Support Services",
-            "Business Operations & Management",
-            "Business Intelligence Services"
-          ],
-          "idpath": [
-            "246045a85ad09438156569ba21b02f5e",
-            "1df4b9b5502bedb4a6f27153704e6f04",
-            "774323fee882e4d9e1cf64511a660fb5",
-            "e6c41c92885de7cde5da1b63d6121a81",
-            "d28d13ec857f1cf440b165346e61b7e1",
-            "d817aa49bb89d119bd70b52db0e8729f",
-            "4a5b8ef0e9d0bda79de35a6e52b0dd4f"
-          ],
-          "stats": {
-            "social_idf": 73856.835249042,
-            "social_relevance": 0.0000108914
-          }
-        }
-      }
-    },
-    "signature": {
-      "resource": "GET /classify/:type/:result_id",
-      "status": "200 OK - successful",
-      "client_ip": "127.0.0.1"
     }
-  }
 }

@@ -4,55 +4,79 @@
             "title": "Microsoft Stores offer $100 Xbox One discount if you trade in a PS3",
             "scored_categories": [
                 {
-                    "category_id": "9aff776d1e7abae4ebe5f479e3751cbb",
-                    "score": 0.29508196721311
+                    "category_id": "f84fecd03747f686a400004a0c0c131f",
+                    "score": 0.2287166454892
                 },
                 {
-                    "category_id": "8a2ad6312124c03c5b2ec97beff0648a",
-                    "score": 0.21311475409836
+                    "category_id": "38ad1efe89be1d7422cfce5636156cad",
+                    "score": 0.16518424396442
                 },
                 {
-                    "category_id": "8ae3920deed5d83d81ade8a4471a4d1b",
-                    "score": 0.14754098360656
+                    "category_id": "269e2e578e59d5730412dd0e1137bfd4",
+                    "score": 0.1143583227446
                 },
                 {
-                    "category_id": "be1561fb604bd17368b7902ac141a238",
-                    "score": 0.14754098360656
+                    "category_id": "7c11e7aa595539b4801d8e7621c20840",
+                    "score": 0.1143583227446
+                },
+                {
+                    "category_id": "fd84446c4932d31e5f447e94d7f2da8f",
+                    "score": 0.09148665819568
+                },
+                {
+                    "category_id": "367f5ea7ca1e5c3ff10b077d9a65eb42",
+                    "score": 0.082592121982211
+                },
+                {
+                    "category_id": "fb842bf3a7941336e6add468d3906ff4",
+                    "score": 0.050825921219822
                 }
             ],
             "scored_keywords": [
                 {
                     "keyword": "microsoft stores",
-                    "score": 0.29508196721311
+                    "score": 0.2287166454892
                 },
                 {
                     "keyword": "xbox one",
-                    "score": 0.21311475409836
+                    "score": 0.16518424396442
                 },
                 {
                     "keyword": "microsoft",
-                    "score": 0.14754098360656
+                    "score": 0.1143583227446
                 },
                 {
                     "keyword": "ps3",
-                    "score": 0.14754098360656
+                    "score": 0.1143583227446
+                },
+                {
+                    "keyword": "discount",
+                    "score": 0.09148665819568
+                },
+                {
+                    "keyword": "xbox",
+                    "score": 0.082592121982211
+                },
+                {
+                    "keyword": "ps4",
+                    "score": 0.050825921219822
                 }
             ],
             "categories": {
-                "9aff776d1e7abae4ebe5f479e3751cbb": {
-                    "id": "9aff776d1e7abae4ebe5f479e3751cbb",
+                "f84fecd03747f686a400004a0c0c131f": {
+                    "id": "f84fecd03747f686a400004a0c0c131f",
                     "name": "Microsoft Stores",
                     "path": [
-                        "Computers & Electronics",
+                        "Computers \u0026 Electronics",
                         "General Electronics",
                         "General Electronics Retailers [List]",
                         "Microsoft Stores"
                     ],
                     "idpath": [
-                        "7bca9e76a159d9772a0d35eeb4cc624e",
-                        "16e1aeceba066434bb343898828b178c",
-                        "1421a7a5d0c8de0bd36a0e085d4c2fbe",
-                        "9aff776d1e7abae4ebe5f479e3751cbb"
+                        "bdc03d860e5f33c08146faa43487c1bd",
+                        "5d246a5262680d7e5ab8239a56425730",
+                        "adf37548583dd2d1266e915980c09f1f",
+                        "f84fecd03747f686a400004a0c0c131f"
                     ],
                     "stats": {
                         "social_relevance": 2.1834e-6,
@@ -60,18 +84,18 @@
                     },
                     "facets": []
                 },
-                "8ae3920deed5d83d81ade8a4471a4d1b": {
-                    "id": "8ae3920deed5d83d81ade8a4471a4d1b",
+                "269e2e578e59d5730412dd0e1137bfd4": {
+                    "id": "269e2e578e59d5730412dd0e1137bfd4",
                     "name": "Microsoft",
                     "path": [
-                        "Computers & Electronics",
+                        "Computers \u0026 Electronics",
                         "Technology Companies",
                         "Microsoft"
                     ],
                     "idpath": [
-                        "7bca9e76a159d9772a0d35eeb4cc624e",
-                        "d900b3504c7ca5443d9f1cffcb25e939",
-                        "8ae3920deed5d83d81ade8a4471a4d1b"
+                        "bdc03d860e5f33c08146faa43487c1bd",
+                        "45d78f5a0c2e0b188bb3931288ca0074",
+                        "269e2e578e59d5730412dd0e1137bfd4"
                     ],
                     "stats": {
                         "social_relevance": 9.00323e-5,
@@ -84,22 +108,26 @@
                         ]
                     ]
                 },
-                "8a2ad6312124c03c5b2ec97beff0648a": {
-                    "id": "8a2ad6312124c03c5b2ec97beff0648a",
+                "38ad1efe89be1d7422cfce5636156cad": {
+                    "id": "38ad1efe89be1d7422cfce5636156cad",
                     "name": "Xbox One",
                     "path": [
-                        "Games & Toys",
+                        "Games \u0026 Toys",
                         "Video Games",
                         "Video Game Products",
                         "Video Game Electronics",
+                        "Video Game Systems",
+                        "Microsoft Game Systems",
                         "Xbox One"
                     ],
                     "idpath": [
-                        "d3bedd258b880d0ed9356543a809c006",
-                        "dde8e9870a8bf208aa2ca50d9ee632eb",
-                        "0fb5edca26418570e1323831ff77c903",
-                        "ab0421bd9a9552bd1e9e2b611a535dfe",
-                        "8a2ad6312124c03c5b2ec97beff0648a"
+                        "798f51fd6b8d172fa4fd718313c8c4c6",
+                        "761a66aa4f58df6fdc5151837e392ffa",
+                        "e85b2a2795db3616a2e4efe77e9763d3",
+                        "fb6e05a0a6cb6e6e12f984484a95c8bd",
+                        "281afc76dd2aba143e93fbda5b12cd43",
+                        "3b372c9f4b17d9bf3daaa696d88bd2cb",
+                        "38ad1efe89be1d7422cfce5636156cad"
                     ],
                     "stats": {
                         "social_relevance": 8.08493e-5,
@@ -120,22 +148,98 @@
                         ]
                     ]
                 },
-                "be1561fb604bd17368b7902ac141a238": {
-                    "id": "be1561fb604bd17368b7902ac141a238",
-                    "name": "PlayStation 3",
+                "367f5ea7ca1e5c3ff10b077d9a65eb42": {
+                    "id": "367f5ea7ca1e5c3ff10b077d9a65eb42",
+                    "name": "Xbox",
                     "path": [
-                        "Games & Toys",
+                        "Games \u0026 Toys",
                         "Video Games",
                         "Video Game Products",
                         "Video Game Electronics",
+                        "Video Game Systems",
+                        "Microsoft Game Systems",
+                        "Xbox"
+                    ],
+                    "idpath": [
+                        "798f51fd6b8d172fa4fd718313c8c4c6",
+                        "761a66aa4f58df6fdc5151837e392ffa",
+                        "e85b2a2795db3616a2e4efe77e9763d3",
+                        "fb6e05a0a6cb6e6e12f984484a95c8bd",
+                        "281afc76dd2aba143e93fbda5b12cd43",
+                        "3b372c9f4b17d9bf3daaa696d88bd2cb",
+                        "367f5ea7ca1e5c3ff10b077d9a65eb42"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0001794867,
+                        "social_idf": 8.4066451632
+                    },
+                    "facets": [
+                        [
+                            "product line",
+                            "xbox"
+                        ],
+                        [
+                            "domain",
+                            "product"
+                        ],
+                        [
+                            "brand",
+                            "microsoft"
+                        ]
+                    ]
+                },
+                "fd84446c4932d31e5f447e94d7f2da8f": {
+                    "id": "fd84446c4932d31e5f447e94d7f2da8f",
+                    "name": "Discounts",
+                    "path": [
+                        "Shopping",
+                        "Shopping Resources",
+                        "Coupon Websites \u0026 Services",
+                        "Coupon Services",
+                        "Coupons \u0026 Promotional Discounts",
+                        "Discounts"
+                    ],
+                    "idpath": [
+                        "b5993a12bb630473aa1f4f7c924f5cb9",
+                        "72c561d57874e3163e70f8876b4b88b9",
+                        "8d82bfef852c143f2caa363514ece6ec",
+                        "e06400364dee27e6d8ade510564f8f27",
+                        "987101e47b003440c98a48eb750145ad",
+                        "fd84446c4932d31e5f447e94d7f2da8f"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0001633682,
+                        "social_idf": 8.5007396243
+                    },
+                    "facets": [
+                        [
+                            "domain",
+                            "service"
+                        ]
+                    ]
+                },
+                "7c11e7aa595539b4801d8e7621c20840": {
+                    "id": "7c11e7aa595539b4801d8e7621c20840",
+                    "name": "PlayStation 3",
+                    "path": [
+                        "Games \u0026 Toys",
+                        "Video Games",
+                        "Video Game Products",
+                        "Video Game Electronics",
+                        "Video Game Systems",
+                        "Sony Game Systems",
+                        "PlayStation",
                         "PlayStation 3"
                     ],
                     "idpath": [
-                        "d3bedd258b880d0ed9356543a809c006",
-                        "dde8e9870a8bf208aa2ca50d9ee632eb",
-                        "0fb5edca26418570e1323831ff77c903",
-                        "ab0421bd9a9552bd1e9e2b611a535dfe",
-                        "be1561fb604bd17368b7902ac141a238"
+                        "798f51fd6b8d172fa4fd718313c8c4c6",
+                        "761a66aa4f58df6fdc5151837e392ffa",
+                        "e85b2a2795db3616a2e4efe77e9763d3",
+                        "fb6e05a0a6cb6e6e12f984484a95c8bd",
+                        "281afc76dd2aba143e93fbda5b12cd43",
+                        "fc2ef8f2df41f297e63aa06a1992132b",
+                        "c83189555c0bcf05939ae6b5ad3ac17c",
+                        "7c11e7aa595539b4801d8e7621c20840"
                     ],
                     "stats": {
                         "social_relevance": 1.25865e-5,
@@ -147,8 +251,50 @@
                             "product"
                         ],
                         [
+                            "brand",
+                            "sony"
+                        ],
+                        [
                             "product line",
                             "playstation 3"
+                        ]
+                    ]
+                },
+                "fb842bf3a7941336e6add468d3906ff4": {
+                    "id": "fb842bf3a7941336e6add468d3906ff4",
+                    "name": "PlayStation 4",
+                    "path": [
+                        "Games \u0026 Toys",
+                        "Video Games",
+                        "Video Game Products",
+                        "Video Game Electronics",
+                        "Video Game Systems",
+                        "Sony Game Systems",
+                        "PlayStation",
+                        "PlayStation 4"
+                    ],
+                    "idpath": [
+                        "798f51fd6b8d172fa4fd718313c8c4c6",
+                        "761a66aa4f58df6fdc5151837e392ffa",
+                        "e85b2a2795db3616a2e4efe77e9763d3",
+                        "fb6e05a0a6cb6e6e12f984484a95c8bd",
+                        "281afc76dd2aba143e93fbda5b12cd43",
+                        "fc2ef8f2df41f297e63aa06a1992132b",
+                        "c83189555c0bcf05939ae6b5ad3ac17c",
+                        "fb842bf3a7941336e6add468d3906ff4"
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0005111679,
+                        "social_idf": 7.3600482699
+                    },
+                    "facets": [
+                        [
+                            "domain",
+                            "product"
+                        ],
+                        [
+                            "product line",
+                            "playstation 4"
                         ],
                         [
                             "brand",
@@ -173,23 +319,23 @@
             },
             "entities": [
                 {
-                    "category_id": "9aff776d1e7abae4ebe5f479e3751cbb",
+                    "category_id": "f84fecd03747f686a400004a0c0c131f",
                     "type": "ORG"
                 },
                 {
-                    "category_id": "be1561fb604bd17368b7902ac141a238",
+                    "category_id": "7c11e7aa595539b4801d8e7621c20840",
                     "type": "PRODUCT"
                 },
                 {
-                    "category_id": "9aff776d1e7abae4ebe5f479e3751cbb",
+                    "category_id": "f84fecd03747f686a400004a0c0c131f",
                     "type": "ORG"
                 },
                 {
-                    "category_id": "be1561fb604bd17368b7902ac141a238",
+                    "category_id": "7c11e7aa595539b4801d8e7621c20840",
                     "type": "PRODUCT"
                 },
                 {
-                    "category_id": "9aff776d1e7abae4ebe5f479e3751cbb",
+                    "category_id": "f84fecd03747f686a400004a0c0c131f",
                     "type": "ORG"
                 },
                 {
@@ -200,65 +346,44 @@
             "sentiment": 0.6422,
             "chars": 326,
             "overlay": {
-                "9aff776d1e7abae4ebe5f479e3751cbb": {
-                    "IAB_v2.0": [
-                        [
-                            "Technology & Computing",
-                            "Technology & Computing::Consumer Electronics"
-                        ]
-                    ],
+                "f84fecd03747f686a400004a0c0c131f": {
                     "IAB_v2.0_2018": [
                         [
                             [
                                 "632",
-                                "Technology & Computing::Consumer Electronics"
+                                "Technology \u0026 Computing::Consumer Electronics"
                             ],
                             [
                                 "596",
-                                "Technology & Computing"
+                                "Technology \u0026 Computing"
                             ]
                         ]
                     ]
                 },
-                "8ae3920deed5d83d81ade8a4471a4d1b": {
-                    "IAB_v2.0": [
-                        [
-                            "Technology & Computing",
-                            "Technology & Computing::Consumer Electronics"
-                        ]
-                    ],
+                "269e2e578e59d5730412dd0e1137bfd4": {
                     "IAB_v2.0_2018": [
                         [
                             [
                                 "632",
-                                "Technology & Computing::Consumer Electronics"
+                                "Technology \u0026 Computing::Consumer Electronics"
                             ],
                             [
                                 "596",
-                                "Technology & Computing"
+                                "Technology \u0026 Computing"
                             ]
                         ]
                     ]
                 },
-                "8a2ad6312124c03c5b2ec97beff0648a": {
-                    "IAB_v2.0": [
-                        [
-                            "Hobbies & Interests::Games and Puzzles",
-                            "Hobbies & Interests"
-                        ],
-                        [
-                            "Video Gaming"
-                        ]
-                    ],
+                "38ad1efe89be1d7422cfce5636156cad": {
                     "IAB_v2.0_2018": [
                         [
                             [
                                 "239",
-                                "Hobbies & Interests"
+                                "Hobbies \u0026 Interests"
                             ],
                             [
                                 "269",
-                                "Hobbies & Interests::Games and Puzzles"
+                                "Hobbies \u0026 Interests::Games and Puzzles"
                             ]
                         ],
                         [
@@ -266,40 +391,110 @@
                                 "680",
                                 "Video Gaming"
                             ]
+                        ],
+                        [
+                            [
+                                "681",
+                                "Video Gaming::Console Games"
+                            ]
                         ]
                     ]
                 },
-                "be1561fb604bd17368b7902ac141a238": {
-                    "IAB_v2.0": [
-                        [
-                            "Hobbies & Interests::Games and Puzzles",
-                            "Hobbies & Interests"
-                        ],
-                        [
-                            "Video Gaming"
-                        ]
-                    ],
+                "367f5ea7ca1e5c3ff10b077d9a65eb42": {
                     "IAB_v2.0_2018": [
                         [
                             [
                                 "239",
-                                "Hobbies & Interests"
+                                "Hobbies \u0026 Interests"
                             ],
                             [
                                 "269",
-                                "Hobbies & Interests::Games and Puzzles"
+                                "Hobbies \u0026 Interests::Games and Puzzles"
                             ]
                         ],
                         [
                             [
                                 "680",
                                 "Video Gaming"
+                            ]
+                        ],
+                        [
+                            [
+                                "681",
+                                "Video Gaming::Console Games"
+                            ]
+                        ]
+                    ]
+                },
+                "fd84446c4932d31e5f447e94d7f2da8f": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "473",
+                                "Shopping"
+                            ]
+                        ],
+                        [
+                            [
+                                "474",
+                                "Shopping::Coupons and Discounts"
+                            ]
+                        ]
+                    ]
+                },
+                "7c11e7aa595539b4801d8e7621c20840": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "239",
+                                "Hobbies \u0026 Interests"
+                            ],
+                            [
+                                "269",
+                                "Hobbies \u0026 Interests::Games and Puzzles"
+                            ]
+                        ],
+                        [
+                            [
+                                "680",
+                                "Video Gaming"
+                            ]
+                        ],
+                        [
+                            [
+                                "681",
+                                "Video Gaming::Console Games"
+                            ]
+                        ]
+                    ]
+                },
+                "fb842bf3a7941336e6add468d3906ff4": {
+                    "IAB_v2.0_2018": [
+                        [
+                            [
+                                "239",
+                                "Hobbies \u0026 Interests"
+                            ],
+                            [
+                                "269",
+                                "Hobbies \u0026 Interests::Games and Puzzles"
+                            ]
+                        ],
+                        [
+                            [
+                                "680",
+                                "Video Gaming"
+                            ]
+                        ],
+                        [
+                            [
+                                "681",
+                                "Video Gaming::Console Games"
                             ]
                         ]
                     ]
                 },
                 "b92b6f1c-26e1-579c-b2ab-c8d78fa820c7": {
-                    "IAB_v2.0": [],
                     "IAB_v2.0_2018": []
                 }
             }
