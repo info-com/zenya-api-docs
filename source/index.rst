@@ -15,6 +15,7 @@ eContext API documentation
     objects
     language-support
     available-functions
+    nlp
     categories
     classify
     keywords-search
