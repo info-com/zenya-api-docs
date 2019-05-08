@@ -1,4 +1,5 @@
 {
     "async":false,
+    "sentiment":true,
     "url":"https://www.econtext.ai"
 }
