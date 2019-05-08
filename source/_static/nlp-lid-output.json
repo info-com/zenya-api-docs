@@ -1,0 +1,16 @@
+{
+    "econtext": {
+        "nlp": {
+            "lid": [
+                "en",
+                "es",
+                "ja"
+            ]
+        },
+        "signature": {
+            "resource": "POST \/nlp\/lid",
+            "status": "200 OK - successful",
+            "client_ip": "209.41.117.158"
+        }
+    }
+}

@@ -1,0 +1,728 @@
+{
+    "econtext": {
+        "nlp": {
+            "doc": {
+                "sentences": [
+                    {
+                        "index": 0,
+                        "char_offset": [
+                            0,
+                            77
+                        ],
+                        "tokens": [
+                            {
+                                "text": "The",
+                                "lemma": "the",
+                                "index": 0,
+                                "char_offset": [
+                                    0,
+                                    3
+                                ],
+                                "part_of_speech": {
+                                    "tag": "DT",
+                                    "detail": "determiner"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 3,
+                                    "label": "det"
+                                }
+                            },
+                            {
+                                "text": "American",
+                                "lemma": "American",
+                                "index": 1,
+                                "char_offset": [
+                                    4,
+                                    12
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NNP",
+                                    "detail": "noun, proper singular"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 3,
+                                    "label": "compound"
+                                }
+                            },
+                            {
+                                "text": "Red",
+                                "lemma": "Red",
+                                "index": 2,
+                                "char_offset": [
+                                    13,
+                                    16
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NNP",
+                                    "detail": "noun, proper singular"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 3,
+                                    "label": "compound"
+                                }
+                            },
+                            {
+                                "text": "Cross",
+                                "lemma": "Cross",
+                                "index": 3,
+                                "char_offset": [
+                                    17,
+                                    22
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NNP",
+                                    "detail": "noun, proper singular"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 4,
+                                    "label": "nsubj"
+                                }
+                            },
+                            {
+                                "text": "exists",
+                                "lemma": "exist",
+                                "index": 4,
+                                "char_offset": [
+                                    23,
+                                    29
+                                ],
+                                "part_of_speech": {
+                                    "tag": "VBZ",
+                                    "detail": "verb, 3rd person singular present"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 4,
+                                    "label": "ROOT"
+                                }
+                            },
+                            {
+                                "text": "to",
+                                "lemma": "to",
+                                "index": 5,
+                                "char_offset": [
+                                    30,
+                                    32
+                                ],
+                                "part_of_speech": {
+                                    "tag": "TO",
+                                    "detail": "infinitival to"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 6,
+                                    "label": "aux"
+                                }
+                            },
+                            {
+                                "text": "provide",
+                                "lemma": "provide",
+                                "index": 6,
+                                "char_offset": [
+                                    33,
+                                    40
+                                ],
+                                "part_of_speech": {
+                                    "tag": "VB",
+                                    "detail": "verb, base form"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 4,
+                                    "label": "xcomp"
+                                }
+                            },
+                            {
+                                "text": "compassionate",
+                                "lemma": "compassionate",
+                                "index": 7,
+                                "char_offset": [
+                                    41,
+                                    54
+                                ],
+                                "part_of_speech": {
+                                    "tag": "JJ",
+                                    "detail": "adjective"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 8,
+                                    "label": "amod"
+                                }
+                            },
+                            {
+                                "text": "care",
+                                "lemma": "care",
+                                "index": 8,
+                                "char_offset": [
+                                    55,
+                                    59
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NN",
+                                    "detail": "noun, singular or mass"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 6,
+                                    "label": "dobj"
+                                }
+                            },
+                            {
+                                "text": "to",
+                                "lemma": "to",
+                                "index": 9,
+                                "char_offset": [
+                                    60,
+                                    62
+                                ],
+                                "part_of_speech": {
+                                    "tag": "IN",
+                                    "detail": "conjunction, subordinating or preposition"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 6,
+                                    "label": "dative"
+                                }
+                            },
+                            {
+                                "text": "those",
+                                "lemma": "those",
+                                "index": 10,
+                                "char_offset": [
+                                    63,
+                                    68
+                                ],
+                                "part_of_speech": {
+                                    "tag": "DT",
+                                    "detail": "determiner"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 9,
+                                    "label": "pobj"
+                                }
+                            },
+                            {
+                                "text": "in",
+                                "lemma": "in",
+                                "index": 11,
+                                "char_offset": [
+                                    69,
+                                    71
+                                ],
+                                "part_of_speech": {
+                                    "tag": "IN",
+                                    "detail": "conjunction, subordinating or preposition"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 10,
+                                    "label": "prep"
+                                }
+                            },
+                            {
+                                "text": "need",
+                                "lemma": "need",
+                                "index": 12,
+                                "char_offset": [
+                                    72,
+                                    76
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NN",
+                                    "detail": "noun, singular or mass"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 11,
+                                    "label": "pobj"
+                                }
+                            },
+                            {
+                                "text": ".",
+                                "lemma": ".",
+                                "index": 13,
+                                "char_offset": [
+                                    76,
+                                    77
+                                ],
+                                "part_of_speech": {
+                                    "tag": ".",
+                                    "detail": "punctuation mark, sentence closer"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 4,
+                                    "label": "punct"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "index": 1,
+                        "char_offset": [
+                            78,
+                            224
+                        ],
+                        "tokens": [
+                            {
+                                "text": "Our",
+                                "lemma": "-PRON-",
+                                "index": 14,
+                                "char_offset": [
+                                    78,
+                                    81
+                                ],
+                                "part_of_speech": {
+                                    "tag": "PRP$",
+                                    "detail": "pronoun, possessive"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 15,
+                                    "label": "poss"
+                                }
+                            },
+                            {
+                                "text": "network",
+                                "lemma": "network",
+                                "index": 15,
+                                "char_offset": [
+                                    82,
+                                    89
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NN",
+                                    "detail": "noun, singular or mass"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 23,
+                                    "label": "nsubj"
+                                }
+                            },
+                            {
+                                "text": "of",
+                                "lemma": "of",
+                                "index": 16,
+                                "char_offset": [
+                                    90,
+                                    92
+                                ],
+                                "part_of_speech": {
+                                    "tag": "IN",
+                                    "detail": "conjunction, subordinating or preposition"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 15,
+                                    "label": "prep"
+                                }
+                            },
+                            {
+                                "text": "generous",
+                                "lemma": "generous",
+                                "index": 17,
+                                "char_offset": [
+                                    93,
+                                    101
+                                ],
+                                "part_of_speech": {
+                                    "tag": "JJ",
+                                    "detail": "adjective"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 18,
+                                    "label": "amod"
+                                }
+                            },
+                            {
+                                "text": "donors",
+                                "lemma": "donor",
+                                "index": 18,
+                                "char_offset": [
+                                    102,
+                                    108
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NNS",
+                                    "detail": "noun, plural"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 16,
+                                    "label": "pobj"
+                                }
+                            },
+                            {
+                                "text": ",",
+                                "lemma": ",",
+                                "index": 19,
+                                "char_offset": [
+                                    108,
+                                    109
+                                ],
+                                "part_of_speech": {
+                                    "tag": ",",
+                                    "detail": "punctuation mark, comma"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 18,
+                                    "label": "punct"
+                                }
+                            },
+                            {
+                                "text": "volunteers",
+                                "lemma": "volunteer",
+                                "index": 20,
+                                "char_offset": [
+                                    110,
+                                    120
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NNS",
+                                    "detail": "noun, plural"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 18,
+                                    "label": "conj"
+                                }
+                            },
+                            {
+                                "text": "and",
+                                "lemma": "and",
+                                "index": 21,
+                                "char_offset": [
+                                    121,
+                                    124
+                                ],
+                                "part_of_speech": {
+                                    "tag": "CC",
+                                    "detail": "conjunction, coordinating"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 20,
+                                    "label": "cc"
+                                }
+                            },
+                            {
+                                "text": "employees",
+                                "lemma": "employee",
+                                "index": 22,
+                                "char_offset": [
+                                    125,
+                                    134
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NNS",
+                                    "detail": "noun, plural"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 20,
+                                    "label": "conj"
+                                }
+                            },
+                            {
+                                "text": "share",
+                                "lemma": "share",
+                                "index": 23,
+                                "char_offset": [
+                                    135,
+                                    140
+                                ],
+                                "part_of_speech": {
+                                    "tag": "VBP",
+                                    "detail": "verb, non-3rd person singular present"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 23,
+                                    "label": "ROOT"
+                                }
+                            },
+                            {
+                                "text": "a",
+                                "lemma": "a",
+                                "index": 24,
+                                "char_offset": [
+                                    141,
+                                    142
+                                ],
+                                "part_of_speech": {
+                                    "tag": "DT",
+                                    "detail": "determiner"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 25,
+                                    "label": "det"
+                                }
+                            },
+                            {
+                                "text": "mission",
+                                "lemma": "mission",
+                                "index": 25,
+                                "char_offset": [
+                                    143,
+                                    150
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NN",
+                                    "detail": "noun, singular or mass"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 23,
+                                    "label": "dobj"
+                                }
+                            },
+                            {
+                                "text": "of",
+                                "lemma": "of",
+                                "index": 26,
+                                "char_offset": [
+                                    151,
+                                    153
+                                ],
+                                "part_of_speech": {
+                                    "tag": "IN",
+                                    "detail": "conjunction, subordinating or preposition"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 25,
+                                    "label": "prep"
+                                }
+                            },
+                            {
+                                "text": "preventing",
+                                "lemma": "prevent",
+                                "index": 27,
+                                "char_offset": [
+                                    154,
+                                    164
+                                ],
+                                "part_of_speech": {
+                                    "tag": "VBG",
+                                    "detail": "verb, gerund or present participle"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 26,
+                                    "label": "pcomp"
+                                }
+                            },
+                            {
+                                "text": "and",
+                                "lemma": "and",
+                                "index": 28,
+                                "char_offset": [
+                                    165,
+                                    168
+                                ],
+                                "part_of_speech": {
+                                    "tag": "CC",
+                                    "detail": "conjunction, coordinating"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 27,
+                                    "label": "cc"
+                                }
+                            },
+                            {
+                                "text": "relieving",
+                                "lemma": "relieve",
+                                "index": 29,
+                                "char_offset": [
+                                    169,
+                                    178
+                                ],
+                                "part_of_speech": {
+                                    "tag": "VBG",
+                                    "detail": "verb, gerund or present participle"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 27,
+                                    "label": "conj"
+                                }
+                            },
+                            {
+                                "text": "suffering",
+                                "lemma": "suffering",
+                                "index": 30,
+                                "char_offset": [
+                                    179,
+                                    188
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NN",
+                                    "detail": "noun, singular or mass"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 29,
+                                    "label": "dobj"
+                                }
+                            },
+                            {
+                                "text": ",",
+                                "lemma": ",",
+                                "index": 31,
+                                "char_offset": [
+                                    188,
+                                    189
+                                ],
+                                "part_of_speech": {
+                                    "tag": ",",
+                                    "detail": "punctuation mark, comma"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 27,
+                                    "label": "punct"
+                                }
+                            },
+                            {
+                                "text": "here",
+                                "lemma": "here",
+                                "index": 32,
+                                "char_offset": [
+                                    190,
+                                    194
+                                ],
+                                "part_of_speech": {
+                                    "tag": "RB",
+                                    "detail": "adverb"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 27,
+                                    "label": "advmod"
+                                }
+                            },
+                            {
+                                "text": "at",
+                                "lemma": "at",
+                                "index": 33,
+                                "char_offset": [
+                                    195,
+                                    197
+                                ],
+                                "part_of_speech": {
+                                    "tag": "IN",
+                                    "detail": "conjunction, subordinating or preposition"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 32,
+                                    "label": "prep"
+                                }
+                            },
+                            {
+                                "text": "home",
+                                "lemma": "home",
+                                "index": 34,
+                                "char_offset": [
+                                    198,
+                                    202
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NN",
+                                    "detail": "noun, singular or mass"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 33,
+                                    "label": "pobj"
+                                }
+                            },
+                            {
+                                "text": "and",
+                                "lemma": "and",
+                                "index": 35,
+                                "char_offset": [
+                                    203,
+                                    206
+                                ],
+                                "part_of_speech": {
+                                    "tag": "CC",
+                                    "detail": "conjunction, coordinating"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 33,
+                                    "label": "cc"
+                                }
+                            },
+                            {
+                                "text": "around",
+                                "lemma": "around",
+                                "index": 36,
+                                "char_offset": [
+                                    207,
+                                    213
+                                ],
+                                "part_of_speech": {
+                                    "tag": "IN",
+                                    "detail": "conjunction, subordinating or preposition"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 33,
+                                    "label": "conj"
+                                }
+                            },
+                            {
+                                "text": "the",
+                                "lemma": "the",
+                                "index": 37,
+                                "char_offset": [
+                                    214,
+                                    217
+                                ],
+                                "part_of_speech": {
+                                    "tag": "DT",
+                                    "detail": "determiner"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 38,
+                                    "label": "det"
+                                }
+                            },
+                            {
+                                "text": "world",
+                                "lemma": "world",
+                                "index": 38,
+                                "char_offset": [
+                                    218,
+                                    223
+                                ],
+                                "part_of_speech": {
+                                    "tag": "NN",
+                                    "detail": "noun, singular or mass"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 36,
+                                    "label": "pobj"
+                                }
+                            },
+                            {
+                                "text": ".",
+                                "lemma": ".",
+                                "index": 39,
+                                "char_offset": [
+                                    223,
+                                    224
+                                ],
+                                "part_of_speech": {
+                                    "tag": ".",
+                                    "detail": "punctuation mark, sentence closer"
+                                },
+                                "dependency_parse": {
+                                    "head_index": 23,
+                                    "label": "punct"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "entities": [
+                    {
+                        "text": "American",
+                        "label": "NORP",
+                        "token_offset": [
+                            1,
+                            2
+                        ],
+                        "char_offset": [
+                            4,
+                            12
+                        ]
+                    }
+                ],
+                "sentiment": 0.7974
+            }
+        },
+        "signature": {
+            "resource": "POST \/nlp\/parse",
+            "status": "200 OK - successful",
+            "client_ip": "209.41.117.158"
+        }
+    }
+}
