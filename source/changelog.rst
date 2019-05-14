@@ -1,6 +1,18 @@
 Changelog
 =========
 
+Version 1.2.8 - 2019-04-10
+--------------------------
+*  Bug fix for URL classification - all non-200 responses for individually submitted URLs to the API will return a 400.
+*  Specify a min_tags parameter in classify/url to fallback to a different extraction engine if not enough content is retrieved
+*  Expose a `user/allotments` call to show usage limits if applicable
+*  Bug fix where sometimes overlay output format was incorrect
+
+
+Version 1.2.7 - 2019-03-05
+--------------------------
+*  Introduction of Facets to Category objects.  Facets can be used to help identify things like brands and products and makes our Categories a little bit richer.
+
 
 Version 1.2.6 - 2019-01-08
 --------------------------
