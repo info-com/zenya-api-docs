@@ -1,7 +1,7 @@
 Changelog
 =========
 
-Version 1.2.9 - 2019-05-121
+Version 1.2.9 - 2019-05-21
 --------------------------
 *  Added additional language support
 *  Default 'sentiment' parameter to 'true' during content classification
