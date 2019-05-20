@@ -1,6 +1,11 @@
 Changelog
 =========
 
+Version 1.2.9 - 2019-05-121
+--------------------------
+*  Added additional language support
+*  Default 'sentiment' parameter to 'true' during content classification
+
 Version 1.2.8 - 2019-04-10
 --------------------------
 *  Bug fix for URL classification - all non-200 responses for individually submitted URLs to the API will return a 400.
