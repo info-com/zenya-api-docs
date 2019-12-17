@@ -1,4 +1,4 @@
-Natural Langauge Processing
+Natural Language Processing
 ===========================
 
 .. contents:: NLP Calls
