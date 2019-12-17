@@ -1,52 +1,5 @@
 Best Practices
-==============
-
-Synchronous vs. Asynchronous calls
-----------------------------------
-
-The eContext API allows for both synchronous and asynchronous operation for all calls using the POST method.  By default, asynchronous operations are used.
-
-Some users may prefer synchronous calls for reducing the number of HTTP requests, while others may prefer asynchronous calls to allow for higher
-throughput in certain situations. eContext is happy to support both.
-
-Be advised that eContext reserves the right to throttle users sending through excessive calls.
-
-Asynchronous calls
-^^^^^^^^^^^^^^^^^^
-
-When using an asynchronous call (the default for classify/\*), a request is
-submitted via the API and is queued in the eContext Classification Engine.  A
-result object is created immediately and returned to the user to check on
-progress, and, when completed, also contains the classification result.  In
-general, the workflow looks like this:
-
-.. image:: _static/asynchronous-flow.png
-   :alt: Asynchronous Workflow
-
-This method involves more overhead, including the introduction of a storage backend to allow storage and retrieval of a result set.
-
-However, if your environment is single-threaded, it may be simpler to implement
-an algorithm to run process a large dataset using asynchronous calls.  In this case, please be
-respectful of your usage.  For example, do not POST a very large number of classification requests (for example, more than 25,000)
-before beginning to GET results.  Performance will generally be more stable
-if you run several asynchronous calls in a queue, checking for results
-periodically before you submit new requests.
-
-Synchronous Calls
-^^^^^^^^^^^^^^^^^
-
-Synchronous calls block and return a result from the eContext
-Classification Engine as soon as it is completed.  Depending on your programming
-environment and capabilities, synchronous calls can be parallelized and allow
-for very high throughput, and less load on the eContext Classification Engine.
-A typical workflow for synchronous calls would make use of process pools, threads,
-queues, etc, in order to run several synchronous calls at the same time.
-
-The synchronous workflow is illustrated below, and eliminates a storage backend,
-allowing for slightly increased performance:
-
-.. image:: _static/synchronous-flow.png
-   :alt: Synchronous Workflow
+===============
 
 Rule-Based vs. Model-Based Classification
 -----------------------------------------
@@ -59,18 +12,19 @@ Users can select the method they wish to use with the ``classification_type`` pa
 
 .. csv-table::
     :header: "Value", "Description"
-    :stub-columns: 1
 
     "0","Uses a hybrid ML + rule-based methodology (default for classify/text, classify/html, classify/url, and classify/keywords)"
     "1","Rule-based method, only (default for classify/social)"
     "2","Mode-based method, only"
 
+When machine learning models are being utilized, by default, eContext filters out predictions that fall below a certain probability threshold. This threshold can be adjusted by passing in an ``ml_threshold`` parameter with a float value between 0.0 and 1.0.
+
 .. code-block:: json
 
    {
-     "async":false,
-     "classification_type":2,
-     "social":[
+     "classification_type": 2,
+     "ml_threshold": 0.70,
+     "social": [
        "han and luke"
      ]
    }

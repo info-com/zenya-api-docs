@@ -411,7 +411,6 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
     
     "keyword (*required*)", "string", "The keyword to provide a best match Category for.  This should be URL encoded.
@@ -498,7 +497,6 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
     
     "keyword (*required*)", "string", "The keyword to match against the eContext Keyword Dataset for possible categorization. This value should be URL encoded.

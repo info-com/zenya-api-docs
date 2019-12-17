@@ -19,7 +19,6 @@ Available Filters
 
 .. csv-table::
     :header: "ID","Filter Name","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
     
     "1",":ref:`character_count`","Filter results based on the character length of keywords"
@@ -37,7 +36,6 @@ Keyword Flags
 
 .. csv-table::
     :header: "ID","Flag Name","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
     
     "1","Invalid","Keyword fails punctuation and composition standards"
@@ -57,7 +55,6 @@ Intent Flags
 
 .. csv-table::
     :header: "ID","Flag Name","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
     
     "1","Purchase","Keywords related to ""buying"" ideas"
@@ -71,7 +68,6 @@ Operators
 
 .. csv-table::
     :header: "ID","Flag Name","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
 
     "0","=","Equal to"

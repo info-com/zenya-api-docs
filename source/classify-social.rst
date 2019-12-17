@@ -9,15 +9,7 @@ POST classify/social
 
 Classify a list of social posts and return scored categories and keywords.
 
-In typical usage the ``async`` parameter should be set to ``false``.  The POST call will return a 200 HTTP
-Status-Code (:rfc:`2616#section-10.2.1`) as well as the classifications for the input.
-
-If ``async`` is set to ``true``, the POST call will return a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`)
-as well as a ``result_uri`` pointing to the result set. If the result set is not yet completed,
-the GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).  The result set, once completed, will be
-available for retrieval for either 2 days or until it is successfully consumed, whichever comes first.
-
-*There is a limit of 1,000 posts per call.*
+*There is a hard limit of 1,000 posts per call.*
 
 Resource URL
 ^^^^^^^^^^^^
@@ -28,12 +20,11 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
 
     "social (*required*)", "array", "A list (no more than 1,000 items) of strings."
-    "async (*optional, but recommended*)", "boolean", "Set to ``false`` to run a blocking call and return results immediately upon completion. Set to ``true`` to run a non-blocking call and retrieve a result set later (defaults to ``true``)"
     "classification_type (*optional*)", "integer", "Select the classification method: ``1`` for rule-based, ``2`` for model-based, or ``0`` for a hybrid rule-based + model-based (defaults to ``1``)"
+    "ml_threshold (*optional*)", "float", "Specify a confidence threshold for accepting an ML prediction. A lower value increases recall at the expense of precision (defaults to ``0.75``)"
     "flags (*optional*)", "boolean", "Provide :ref:`objects-flags` to help filter out certain content categories including adult, firearms, gambling, etc (defaults to ``false``)"
     "entities (*optional*)", "boolean", "Perform Named Entity Recognition (NER) on the content submitted (defaults to ``false``)"
     "sentiment (*optional*)", "boolean", "Perform sentiment analysis on the content submitted (defaults to ``false``)"

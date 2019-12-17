@@ -1,5 +1,4 @@
 {
-    "async":false,
     "entities":true,
     "flags":true,
     "sentiment":true,

@@ -27,10 +27,14 @@ Supported Languages
 
 eContext provides support for the following languages:
 
+    * Arabic
+    * German
     * Spanish
     * French
-    * German
     * Italian
+    * Portuguese
+    * Russian
+    * Turkish
 
 Additional Languages
 ^^^^^^^^^^^^^^^^^^^^

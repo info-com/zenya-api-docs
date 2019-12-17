@@ -8,7 +8,6 @@ Perform Natural Language Processing functions against text strings and documents
 
 .. csv-table::
     :header: "Method","Resource","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
 
     "POST","nlp/parse","Performs Part of Speech (POS) tagging, Named Entity Recognition (NER), dependency parsing, tokenization, sentiment analysis, and other core functions of the eContext NLP stack."
@@ -21,7 +20,6 @@ Classify single keywords into the eContext Taxonomy.
 
 .. csv-table::
     :header: "Method","Resource","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
 
     "GET","categories/tiers","Retrieve top tier Categories from the eContext Taxonomy."
@@ -35,20 +33,14 @@ Classify long-form text context, short-form text content (including social media
 
 .. csv-table::
     :header: "Method","Resource","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
 
     "POST","classify/text","Submit plain text for classification."
-    "GET","classify/text/:result_id","Retrieve a classified dataset."
     "POST","classify/social","Submit a list of social posts for classification."
-    "GET","classify/social/:result_id","Retrieve a classified dataset."
     "POST","classify/url","Submit a url to be retrieved and classified."
-    "GET","classify/url/:result_id","Retrieve a classified dataset."
     "POST","classify/html","Submit HTML code for classification."
-    "GET","classify/html/:result_id","Retrieve a classified dataset."
     "POST","classify/keywords","Submit a list of keywords for classification."
-    "GET","classify/keywords/:result_id","Retrieve a classified dataset."
-  
+
 
 Keywords
 --------
@@ -57,7 +49,6 @@ Retrieve collections of keywords based on executed searches.
 
 .. csv-table::
     :header: "Method","Resource","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
 
     "POST","keywords/search","Execute a search based on provided parameters."
@@ -70,7 +61,6 @@ Retrieve basic user and billing cycle information.
 
 .. csv-table::
     :header: "Method","Resource","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
 
     "GET","user/attributes","Return basic information about the current user."

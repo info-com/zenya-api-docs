@@ -20,14 +20,6 @@ URL must be one of the following: ``text/plain``, ``text/html``, ``text/xhtml``,
 ``Content-length`` header must present a value less than or equal to 256000
 bytes.
 
-In typical usage the ``async`` parameter should be set to ``false``.  The POST call will return a 200 HTTP
-Status-Code (:rfc:`2616#section-10.2.1`) as well as the classification for the input.
-
-If ``async`` is set to ``true``, the POST call will return a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`)
-as well as a ``result_uri`` pointing to the result set. If the result set is not yet completed,
-the GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).  The result set, once completed, will be
-available for retrieval for either 2 days or until it is successfully consumed, whichever comes first.
-
 Resource URL
 ^^^^^^^^^^^^
 :api_url:`classify/url`
@@ -37,12 +29,12 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
 
     "url (*required*)", "string", "A fully qualified URL to be retrieved and classified."
-    "async (*optional, but recommended*)", "boolean", "Set to ``false`` to run a blocking call and return results immediately upon completion. Set to ``true`` to run a non-blocking call and retrieve a result set later (defaults to ``true``)"
     "classification_type (*optional*)", "integer", "Select the classification method: ``1`` for rule-based, ``2`` for model-based, or ``0`` for a hybrid rule-based + model-based (defaults to ``0``)"
+    "ml_threshold (*optional*)", "float", "Specify a confidence threshold for accepting an ML prediction. A lower value increases recall at the expense of precision (defaults to ``0.75``)"
+    "cache_skip (*optional*)", "boolean", "Rescrape a URL for HTML content rather than using a possibly cached scrape (defaults to ``false``)"
     "entities (*optional*)", "boolean", "Perform Named Entity Recognition (NER) on the content submitted (defaults to ``false``)"
     "sentiment (*optional*)", "boolean", "Perform sentiment analysis on the content submitted (defaults to ``false``)"
     "min_tags (*optional*)", "integer", "eContext uses a smart parsing library to extract only the most relevant content from a webpage, and ignore areas likely to be less relevant (navigation, footers, etc). However, for some pages this may result in less content extracted than expected. Use this parameter to set a minimum number of HTML tags the smart library must extract; if the result is less than this minimum, eContext will extract content from all HTML tags (eg, a full-page parse)."

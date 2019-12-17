@@ -67,7 +67,6 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
 
     "name (*required*)", "string", "A name used to identify your taxonomy"
@@ -121,7 +120,6 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
 
     "dataset_id (*required*)", "string", "A globally unique custom taxonomy identifier"
@@ -158,7 +156,6 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
 
     "dataset_id (*required*)", "string", "A globally unique custom taxonomy identifier"

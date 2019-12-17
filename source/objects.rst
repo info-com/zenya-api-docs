@@ -42,7 +42,6 @@ only one parent. Categories may be altered over time, the content classified to 
 
 .. csv-table::
     :header: "Attribute","Description"
-    :stub-columns: 1
     :widths: 25, 100
 
     "id", "A unique identifier for this Category. Please note that ids are encoded to each account, and the ids shown in these examples will not be the same as those received from the service"
@@ -249,8 +248,8 @@ Available Entity types:
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. csv-table::
-    :header: "Entity", "Description"
-    :stub-columns: 1
+    :header: "Entity","Description"
+    :widths: 40, 100
 
     "PERSON","Names of people"
     "NORP","Nationalities or religious and political groups"
@@ -284,7 +283,6 @@ eContext offers the following flagging categories. Be advised that these flags a
 
 .. csv-table::
     :header: "ID","Flag Name","Description"
-    :stub-columns: 1
     :widths: 10, 30, 100
 
     "2","General","Text fails general standards, including obscene language"

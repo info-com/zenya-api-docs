@@ -9,14 +9,6 @@ POST classify/text
 
 Classify the submitted plain text and return scored categories and keywords.
 
-In typical usage the ``async`` parameter should be set to ``false``.  The POST call will return a 200 HTTP
-Status-Code (:rfc:`2616#section-10.2.1`) as well as the classification for the input.
-
-If ``async`` is set to ``true``, the POST call will return a 201 HTTP Status-Code (:rfc:`2616#section-10.2.2`)
-as well as a ``result_uri`` pointing to the result set. If the result set is not yet completed,
-the GET call will return a 202 HTTP Status-Code (:rfc:`2616#section-10.2.3`).  The result set, once completed, will be
-available for retrieval for either 2 days or until it is successfully consumed, whichever comes first.
-
 Resource URL
 ^^^^^^^^^^^^
 :api_url:`classify/text`
@@ -26,12 +18,11 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
 
     "text (*required*)", "string", "A plaintext string to be classified."
-    "async (*optional, but recommended*)", "boolean", "Set to ``false`` to run a blocking call and return results immediately upon completion. Set to ``true`` to run a non-blocking call and retrieve a result set later (defaults to ``true``)"
     "classification_type (*optional*)", "integer", "Select the classification method: ``1`` for rule-based, ``2`` for model-based, or ``0`` for a hybrid rule-based + model-based (defaults to ``0``)"
+    "ml_threshold (*optional*)", "float", "Specify a confidence threshold for accepting an ML prediction. A lower value increases recall at the expense of precision (defaults to ``0.75``)"
     "entities (*optional*)", "boolean", "Perform Named Entity Recognition (NER) on the content submitted (defaults to ``false``)"
     "sentiment (*optional*)", "boolean", "Perform sentiment analysis on the content submitted (defaults to ``false``)"
     "taxonomy_timestamp (*optional*)", "integer", "A Unix timestamp instructing the classifier to use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"

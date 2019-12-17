@@ -1,13 +1,29 @@
 Changelog
 =========
 
+Version 1.2.11 - 2019-12-12
+---------------------------
+*  Add an ``ml_threshold`` parameter to control machine learning results during classification. Setting this value lower will result in higher recall, but lower precision.
+*  ``async`` is dropped as an option during classification calls. All classification calls will now return results in the body of the response object rather than allowing for retrieval later.
+
+
+Version 1.2.10 - 2019-08-14
+---------------------------
+*  Cache the HTML from URL classification to prevent recrawling the same URL if it is seen within a certain period of time. You can force a recrawl by passing in ``cache_skip: true`` in your POST data.
+
+
+Version 1.2.9 - 2019-07-01
+--------------------------
+*  Bug fixes
+*  Performance enhancements
+
+
 Version 1.2.8 - 2019-04-10
 --------------------------
 *  Bug fix for URL classification - all non-200 responses for individually submitted URLs to the API will return a 400.
 *  Specify a min_tags parameter in classify/url to fallback to a different extraction engine if not enough content is retrieved
 *  Expose a `user/allotments` call to show usage limits if applicable
 *  Bug fix where sometimes overlay output format was incorrect
-
 
 Version 1.2.7 - 2019-03-05
 --------------------------

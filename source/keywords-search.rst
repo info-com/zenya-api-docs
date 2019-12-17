@@ -25,7 +25,6 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
     
     "query (*required*)", "mixed", "The query string, if search by Keyword, or an array of categories if searching by Category.  If searching by Category, the query should be an array of key->value pairs where the key is the Category id and the value is a boolean, selecting the entire branch if set to ``true``, or just the node, if set to ``false``."
@@ -129,7 +128,6 @@ Parameters
 
 .. csv-table::
     :header: "Parameter","Type","Description"
-    :stub-columns: 1
     :widths: 25, 20, 100
     
     "result_id (*required*)", "string", "The identifier specifying which search to return results from. The ``result_id`` is included in the response from a successful **POST** keywords/search call."
