@@ -142,8 +142,15 @@ the following `classify/keywords` call might look like this:
               ],
               "stats": {
                 "social_relevance": 0.0000055254,
-                "social_idf": 12.019372309892
-              }
+                "social_idf": 12.019372309892,
+                "commercial_score": 0.6
+              },
+              "facets": [
+                [
+                  "domain",
+                  "product"
+                ]
+              ]
             },
             "85edc49558d9373a4a5bcfc6eb0bac90": {
               "id": "85edc49558d9373a4a5bcfc6eb0bac90",
@@ -172,8 +179,19 @@ the following `classify/keywords` call might look like this:
               ],
               "stats": {
                 "social_relevance": 0.0000065315,
-                "social_idf": 11.852088630462
-              }
+                "social_idf": 11.852088630462,
+                "commercial_score": 0.35
+              },
+              "facets": [
+                [
+                  "brand",
+                  "national football league"
+                ],
+                [
+                  "product line",
+                  "chicago bears"
+                ]
+              ]
             }
           },
           "overlay": {
