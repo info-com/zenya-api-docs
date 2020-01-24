@@ -16,28 +16,39 @@ only one parent. Categories may be altered over time, the content classified to 
 .. code-block:: json
 
     {
-      "id": "ac0fb32ea52f2c1228592ad6598c2cc2",
+      "id": "d974b27c85b666e371d1a2f5d50d5d48",
       "name": "Breaking Bad",
       "path": [
-        "Arts & Entertainment",
-        "Movies & Television",
-        "Movie & TV Products",
-        "TV",
-        "Drama TV Shows",
-        "Breaking Bad"
+         "Arts & Entertainment",
+         "Movies & Television",
+         "Movie & TV Products",
+         "TV",
+         "Drama TV Shows",
+         "Breaking Bad"
       ],
       "idpath": [
-        "0cc9e1516aaa38d4802a2ee5314ac4ab",
-        "06b7167107de9cff93e6738da9c044c4",
-        "8e4e953b861d4597cb5fae3b7de67ce5",
-        "b3728edb10af57dfbd941132f0c932ae",
-        "153fd544b9063cfdbe86aaf1b04882b4",
-        "ac0fb32ea52f2c1228592ad6598c2cc2"
+         "90a7a21c5fe42569fb5bb0d28ce9f77a",
+         "7dde2749bbff96f9c111a50d8dd12fd8",
+         "c4d86afd19597a9bd040fee32df9b318",
+         "74c4ca4f7550a6267e1c0d1b5552465c",
+         "fe88b63f0fdb129d97fe996c05d3ebf1",
+         "d974b27c85b666e371d1a2f5d50d5d48"
       ],
       "stats": {
-        "social_idf": 21067.359562841,
-        "social_relevance": 0.0000381826
-      }
+         "social_relevance": 0.0000432244,
+         "social_idf": 9.8314479757,
+         "commercial_score": 0.3
+      },
+      "facets": [
+         [
+             "domain",
+             "product"
+         ],
+         [
+             "brand",
+             "breaking bad"
+         ]
+      ]
     }
 
 .. csv-table::
@@ -49,8 +60,10 @@ only one parent. Categories may be altered over time, the content classified to 
     "path", "The path for this Category in the eContext Taxonomy"
     "idpath", "The path for this Category using ids"
     "stats", "Useful statistics associated with this Category"
-    "stats.social_idf", "The Inverse Document Frequency of this Category.  See below for more details"
     "stats.social_relevance", "The percentage of conversations found in eContext's Social Media feeds over the past month that address this specific Category. This statistic only applies to the single Category object, and does not aggregate or sum categories deeper in its hierarchical path"
+    "stats.social_idf", "The Inverse Document Frequency of this Category.  See below for more details"
+    "commercial_score", "A value (0.0 - 1.0) representing the competition and cost of digital advertising around the category topic"
+    "facets", "A list of values describing aspects of the category. See below for examples of response values"
 
 
 stats.social_idf
@@ -85,6 +98,24 @@ Where:
 
 * :math:`|\{d \in D: t \in d\}|` = number of documents where the Category `t` appears
 * :math:`C` = Sum of all categories found in each document the corpus
+
+Facets
+^^^^^^
+
+Facets add detail to the nature of a category topic, and can be useful for organizing classifications across different paths and verticals. 
+
+For example, linking categories for the Brand "Honda", whether they appear in "Home & Garden" (Honda Lawn Mowers) or "Vehicles" (Honda Accord).
+
+Below are some examples of possible values pairs returned in the Facets list. Additional Facet Types will be released in future versions.
+
+.. csv-table::
+    :header: "Facet Type","Example Facet Value/s","Description"
+    :widths: 30, 40, 70
+
+    "Domain","Product, Service, Facility, Information","A broad class describing if a category is a commercial item or piece of IP; an action or practice; a place; or an abstract concept"
+    "Brand","Apple, Honda, et al","The brand name associated with a category. May also be the name of a Person or piece of intellectual property (like a film series or TV show)"
+    "Product Line", "iPhone, Accord, et al", "A distinguishing name given to a set of items or services offered by a Brand"
+    
 
 Overlay
 -------
