@@ -4,6 +4,121 @@ Categories
 .. contents:: Categories Calls
     :local:
 
+
+POST categories/categories
+------------------------------
+
+Retrieve a dictionary of Category objects and associated overlays given a list of IDs.
+
+Resource URL
+^^^^^^^^^^^^
+
+:api_url:`categories/categories`
+
+Parameters
+^^^^^^^^^^
+
+.. csv-table::
+    :header: "Parameter","Type","Description"
+    :widths: 25, 20, 100
+
+    "category_ids (*required*)", "list", "A list of IDs associated with the categories you wish to retrieve.
+
+      Example Value: ``["ac0fb32ea52f2c1228592ad6598c2cc2"]``."
+
+
+Example Request
+^^^^^^^^^^^^^^^
+
+POST Request
+"""""""""""
+
+.. parsed-literal::
+
+    curl -X POST -u username:password --data-binary @categories_list.json \
+    :api_url:`categories/categories`
+
+The contents of categories_list.json
+
+.. code-block:: json
+    {
+        "category_ids": ["ac0fb32ea52f2c1228592ad6598c2cc2"]
+    }
+
+POST Response
+""""""""""""
+
+.. code-block:: json
+
+    {
+        "econtext": {
+            "categories": {
+                "categories": {
+                    "ac0fb32ea52f2c1228592ad6598c2cc2": {
+                        "id": "ac0fb32ea52f2c1228592ad6598c2cc2",
+                        "name": "Breaking Bad",
+                        "path": [
+                            "Arts & Entertainment",
+                            "Movies & Television",
+                            "Movie & TV Products",
+                            "TV",
+                            "Drama TV Shows",
+                            "Breaking Bad"
+                        ],
+                        "idpath": [
+                            "0cc9e1516aaa38d4802a2ee5314ac4ab",
+                            "06b7167107de9cff93e6738da9c044c4",
+                            "8e4e953b861d4597cb5fae3b7de67ce5",
+                            "b3728edb10af57dfbd941132f0c932ae",
+                            "153fd544b9063cfdbe86aaf1b04882b4",
+                            "ac0fb32ea52f2c1228592ad6598c2cc2"
+                        ],
+                        "stats": {
+                            "social_relevance": 4.32244e-5,
+                            "social_idf": 9.8314479757,
+                            "commercial_score": 0.3
+                        },
+                        "facets": [
+                            [
+                                "domain",
+                                "product"
+                            ],
+                            [
+                                "brand",
+                                "breaking bad"
+                            ]
+                        ]
+                    }
+                },
+                "overlay": {
+                    "ac0fb32ea52f2c1228592ad6598c2cc2": {
+                        "IAB_v2_2020": [
+                            [
+                                [
+                                    647,
+                                    "Television::Drama TV"
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            },
+            "signature": {
+                "resource": "POST /categories/categories",
+                "status": "200 OK - successful",
+                "client_ip": "127.0.0.1"
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
 GET categories/tiers
 --------------------
 

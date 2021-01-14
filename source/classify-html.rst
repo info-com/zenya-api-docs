@@ -27,6 +27,9 @@ Parameters
     "sentiment (*optional*)", "boolean", "Perform sentiment analysis on the content submitted (defaults to ``false``)"
     "taxonomy_timestamp (*optional*)", "integer", "A Unix timestamp instructing the classifier to use categories from the eContext Taxonomy that existed at this point in time.  This will allow recently deleted categories to remain and hides newly created categories"
     "dataset_id (*optional*)", "string", "A :ref:`custom-taxonomies` id to use in lieu of the default eContext Taxonomy"
+    "add_last_node (*optional*)", "bool", "Include the last category node, or leave at the parent category"
+    "classify_limit (*optional*)", "integer", "Limit the number of categories that may be returned per post"
+    "classify_timeout (*optional*)", "float", "The number of seconds to spend on a classification task"
 
 Return
 ^^^^^^

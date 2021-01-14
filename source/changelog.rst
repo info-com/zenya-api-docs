@@ -1,6 +1,39 @@
 Changelog
 =========
 
+
+Version 1.2.17 - 2021-01-14
+---------------------------
+* Added a POST /categories/categories call to retrieve category and overlay information given a list of category ids
+
+
+Version 1.2.16 - 2020-08-04
+---------------------------
+* Added an `add_last_node` parameter to classification calls
+* Added a `classify_limit` parameter to classification calls to limit the number of category responses
+
+
+Version 1.2.15 - 2020-06-16
+---------------------------
+* Minor bug fixes and performance improvements
+
+
+Version 1.2.14 - 2020-03-26
+---------------------------
+* Added a `classify_timeout` parameter to classifiation calls. We can limit the amount of time we'll spend on a single call. When the timeout is reached, results computed up to that point will be returned.
+* Performance tuning
+
+
+Version 1.2.13 - 2020-02-04
+---------------------------
+* Minor bug fixes and performance improvements
+
+
+Version 1.2.12 - 2020-01-23
+---------------------------
+* Minor bug fixes and performance improvements
+
+
 Version 1.2.11 - 2019-12-12
 ---------------------------
 *  Add an ``ml_threshold`` parameter to control machine learning results during classification. Setting this value lower will result in higher recall, but lower precision.

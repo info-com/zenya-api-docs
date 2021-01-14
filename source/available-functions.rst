@@ -22,6 +22,7 @@ Classify single keywords into the eContext Taxonomy.
     :header: "Method","Resource","Description"
     :widths: 10, 30, 100
 
+    "POST","categories/categories","Retrieve a dictionary of Categories and associated Overlays given a list of category ids."
     "GET","categories/tiers","Retrieve top tier Categories from the eContext Taxonomy."
     "GET","categories/map/:keyword","Retrieve a best map Category from the provided keyword based on the eContext knowledge set."
     "GET","categories/search/:keyword","Retrieve a set of possible Categories from the provided keyword based on comparing the keyword with pre-classified keywords in the eContext Dataset."
