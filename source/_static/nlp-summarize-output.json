@@ -1,0 +1,38 @@
+{
+    "econtext": {
+        "nlp": {
+            "input_text": "Read: Liz Cheney's opening statement before the January 6 select committee - CNNPolitics.\npolitics, Read: Liz Cheney's opening statement before the January 6 select committee - CNNPolitics.\nRep. Liz Cheney, one of two Republicans on the new select committee investigating the January 6 insurrection, said Tuesday that the panel ne.\nRead: Rep. Liz Cheney's opening statement before the January 6 select committee.\nRead her opening statement, as prepared for delivery, distributed by her office:.\nThank you very much, Chairman Thompson. Thank you to all of my colleagues on this committee, and thank you to each of the witnesses appearing before us today. It is because of you -- you held the line, you defended all of us, you defended the Capitol, and you defended the Constitution and our Republic, and every American owes you our undying gratitude. Every American, I hope, will be able to hear your testimony today and will watch the videos. The videos show the unbelievable violence and the inexcusable and intolerable cruelty that you all faced, and people need to know the truth.\nI want to begin by reflecting briefly on the investigation that we are launching today. Every one of us here on the dais voted for and would have preferred that these matters be investigated by an independent non-partisan commission, composed of five prominent Americans selected by each party, and modeled on the 9/11 Commission. Although such a commission was opposed by my own leadership in the House, it overwhelmingly passed with the support of 35 Republican members, it was defeated by Republicans in the Senate. And that leaves us where we are today.\nWe cannot leave the violence of January 6th -- and its causes -- uninvestigated. The American people deserve the full and open testimony of every person with knowledge of the planning and preparation for January 6th. We must know what happened here at the Capitol. We must also know what happened every minute of that day in the White House -- every phone call, every conversation, every meeting leading up to, during, and after the attack. Honorable men and women have an obligation to step forward. If those responsible are not held accountable, and if Congress does not act responsibly, this will remain a cancer on our Constitutional Republic, undermining the peaceful transfer of power at the heart of our democratic system. We will face the threat of more violence in the months to come, and another January 6th every four years.\nI have been a conservative Republican since 1984 when I first voted for Ronald Reagan. I have disagreed sharply on policy and politics with almost every Democratic member of this committee. But, in the end, we are one nation under God. The Framers of our Constitution recognized the danger of the vicious factionalism of partisan politics -- and they knew that our daily arguments could become so fierce that we might lose track of our most important obligation -- to defend the rule of law and the freedom of all Americans. That is why our Framers compelled each of us to swear a solemn oath to preserve and protect the Constitution. When a threat to our constitutional order arises, as it has here, we are obligated to rise above politics. This investigation must be non-partisan.\nWhile we begin today by taking the public testimony of these four heroic men, we must also realize that the task of this committee will require persistence. We must issue and enforce subpoenas promptly. We must get to objective truth. We must overcome the many efforts we are already seeing to cover up and obscure the facts.\nOn January 6th and in the days thereafter, almost all members of my party recognized the events of that day for what they actually were. One Republican, for example, said: \"What is happening at the U.S. Capitol right now is unacceptable and un-American. Those participating in lawlessness and violence must be arrested and prosecuted to the fullest extent of the law.\" No Member of Congress should now attempt to defend the indefensible, obstruct this investigation, or whitewash what happened that day. We must act with honor and duty, and in the interest of our nation.\nAmerica is great because we preserve our democratic institutions at all costs. Until January 6th, we were proof positive for the world that a nation conceived in liberty could long endure. But now, January 6th threatens our most sacred legacy. The question for every one of us who serves in Congress, for every elected official across this great nation, indeed, for every American is this: Will we adhere to the rule of law? Will we respect the rulings of our courts? Will we preserve the peaceful transition of power? Or will we be so blinded by partisanship that we throw away the miracle of America? Do we hate our political adversaries more than we love our country and revere our Constitution? I pray that that is not the case. I pray that we all remember, our children are watching, as we carry out this solemn and sacred duty entrusted to us. Our children will know who stood for truth, and they will inherit the nation we hand to them -- a Republic, if we can keep it.\nThank you, Mr. Chairman. I yield back.",
+            "summary": "Rep. Liz Cheney is one of two Republicans on the new select committee investigating the January 6 insurrection. Cheney: \"If those responsible are not held accountable, this will remain a cancer on our Constitutional Republic, undermining the peaceful transfer of power at the heart of our democratic system\".",
+            "summary_ratio": 0.12259910093993,
+            "categories": {
+                "1000708": {
+                    "id": 1000708,
+                    "name": "Government",
+                    "path": [
+                        "Government"
+                    ],
+                    "idpath": [
+                        1000708
+                    ],
+                    "stats": {
+                        "social_relevance": 0.0041392803780283,
+                        "social_idf": 5.5167688445849,
+                        "commercial_score": null,
+                        "sentiment": 0.57118526544909
+                    },
+                    "facets": [
+                        [
+                            "domain",
+                            "service"
+                        ]
+                    ]
+                }
+            }
+        },
+        "signature": {
+            "resource": "POST /nlp/summarize",
+            "status": "200 OK - successful",
+            "client_ip": "127.0.0.1"
+        }
+    }
+}

@@ -1,6 +1,14 @@
 Changelog
 =========
 
+Version 1.2.19 - 2021-08-04
+---------------------------
+* Added a POST /nlp/summarize endpoint to provide NLP summarization capabilities for various input types.
+
+Version 1.2.18 - 2021-2-18
+---------------------------
+* Process Mapquest URLs with a specific parser that returns much more accurate results.
+
 
 Version 1.2.17 - 2021-01-14
 ---------------------------
