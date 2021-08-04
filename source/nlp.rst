@@ -95,15 +95,6 @@ Parameters
     "validate (*optional*)", "bool", "Perform some soft validation on summarized content. This returns high quality summarized content but often at the expense of length. Defaults to ``true``"
 
 
-Return
-^^^^^^
-
-The result set includes ``scored_categories`` and ``scored_keywords`` as well as a ``categories`` dictionary. The
-``scored_keywords`` object contains a list of high-value phrases that eContext was able to pull out of the submitted
-text as well as associated scores for each. The ``scored_categories`` object contains a list of ``category_id`` and
-``score`` objects where the ``category_id`` corresponds to an item in the ``categories`` dictionary. Higher values
-indicate a higher score.
-
 Example Request
 ^^^^^^^^^^^^^^^
 
