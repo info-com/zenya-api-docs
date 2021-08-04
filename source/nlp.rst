@@ -93,7 +93,7 @@ Parameters
     "topn (*optional*)", "int", "The number of categories to focus on when performing summarization. Defaults to ``2`` top verticals present in the input text."
     "category_ids (*optional*)", "[int]", "A list of category_ids to focus on when performing summarization. This will override ``topn``."
     "validate (*optional*)", "bool", "Perform some soft validation on summarized content. This returns high quality summarized content but often at the expense of length. Defaults to ``true``"
-
+    "summary_limit (*optional*)", "int", "A character limit that specifies a target/max summary length. There is a minimum limit of 140 characters, and a default target of 420 characters"
 
 Example Request
 ^^^^^^^^^^^^^^^
