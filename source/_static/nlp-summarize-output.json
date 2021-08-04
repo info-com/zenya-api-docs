@@ -6,13 +6,13 @@
             "summary_ratio": 0.12259910093993,
             "categories": {
                 "1000708": {
-                    "id": 1000708,
+                    "id": "f70f9bc1691a0eca821125c45907514a",
                     "name": "Government",
                     "path": [
                         "Government"
                     ],
                     "idpath": [
-                        1000708
+                        "f70f9bc1691a0eca821125c45907514a"
                     ],
                     "stats": {
                         "social_relevance": 0.0041392803780283,
